@@ -1,0 +1,453 @@
+{
+	id: "0000000000000030"
+	group: "432A898843F792EA"
+	order_index: 3
+	filename: "all_the_curios"
+	title: "Curio Vault"
+	icon: "bhc:blue_heart_canister"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: 1.0d
+			id: "0000000000000031"
+			tasks: [{
+				id: "0000000000000032"
+				type: "item"
+				title: "&eAcquire: &aRed Heart Canister"
+				item: "bhc:red_heart_canister"
+			}]
+			rewards: [
+				{
+					id: "00000000000007B1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0574121A5781EF8A"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+				{
+					id: "5A49F84412DDD816"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["0000000000000031"]
+			id: "0000000000000033"
+			tasks: [{
+				id: "0000000000000034"
+				type: "item"
+				title: "&eAcquire: &aYellow Heart Canister"
+				item: "bhc:yellow_heart_canister"
+			}]
+			rewards: [
+				{
+					id: "00000000000007B2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1DA6D459E03EB2D9"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+				{
+					id: "51E2D73C8040EA48"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			dependencies: ["0000000000000033"]
+			id: "0000000000000035"
+			tasks: [{
+				id: "0000000000000036"
+				type: "item"
+				title: "&eAcquire: &aGreen Heart Canister"
+				item: "bhc:green_heart_canister"
+			}]
+			rewards: [
+				{
+					id: "00000000000007B3"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "5D521B944400993D"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+				{
+					id: "7FD34E4802DC3B5E"
+					type: "item"
+					item: "kubejs:affixgear5"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["0000000000000035"]
+			id: "0000000000000037"
+			tasks: [{
+				id: "0000000000000038"
+				type: "item"
+				title: "&eAcquire: &aBlue Heart Canister"
+				item: "bhc:blue_heart_canister"
+			}]
+			rewards: [
+				{
+					id: "00000000000007B4"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "02B63B8EFF20B785"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+				{
+					id: "34DA1F74FE564FC4"
+					type: "item"
+					item: "kubejs:affixgear6"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Wearing Your Hearts"
+			id: "0000000000000039"
+			tasks: [{
+				id: "000000000000003A"
+				type: "item"
+				item: {
+					id: "bhc:heart_amulet"
+					Count: 1b
+					tag: {
+						heart_amount: [I;
+							0
+							0
+							0
+							0
+						]
+						bhc_itemlist: {
+							Size: 4
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000007B5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			subtitle: "+1 Life"
+			id: "0000000000000077"
+			tasks: [{
+				id: "0000000000000078"
+				type: "item"
+				title: "&eAcquire: &aTotem Of Holding"
+				item: "minecraft:totem_of_undying"
+			}]
+			rewards: [
+				{
+					id: "00000000000007B0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7BAEEBE522223E00"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			subtitle: "Smitty's Remains"
+			description: ["&o\"Deep down in the Lands of the Jellyfish, he sipped his last drink.\""]
+			id: "4C0481A708CD6977"
+			tasks: [{
+				id: "1AA427C1426B6ED7"
+				type: "item"
+				title: "&eAcquire: &aNovel Drinking Hat"
+				item: {
+					id: "artifacts:novelty_drinking_hat"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5F428CA67B4DE681"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "5912AB0C5DBEE999"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			subtitle: "One Of The Artifacts"
+			id: "35C2D260EF739762"
+			tasks: [{
+				id: "7D321C049572328E"
+				type: "item"
+				title: "&eAcquire: &aArtifact"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "itemfilters:mod"
+								Count: 1b
+								tag: {
+									value: "artifacts"
+								}
+							}
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "itemfilters:not"
+								Count: 1b
+								tag: {
+									items: [{
+										ForgeCaps: {
+											"dungeons_libraries:built_in_enchantments": {
+												BuiltInEnchantments: [ ]
+											}
+										}
+										id: "artifacts:everlasting_beef"
+										Count: 1b
+									}]
+								}
+							}
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "itemfilters:not"
+								Count: 1b
+								tag: {
+									items: [{
+										ForgeCaps: {
+											"dungeons_libraries:built_in_enchantments": {
+												BuiltInEnchantments: [ ]
+											}
+										}
+										id: "artifacts:eternal_steak"
+										Count: 1b
+									}]
+								}
+							}
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "itemfilters:not"
+								Count: 1b
+								tag: {
+									items: [{
+										ForgeCaps: {
+											"dungeons_libraries:built_in_enchantments": {
+												BuiltInEnchantments: [ ]
+											}
+										}
+										id: "artifacts:mimic_spawn_egg"
+										Count: 1b
+									}]
+								}
+							}
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "itemfilters:not"
+								Count: 1b
+								tag: {
+									items: [{
+										ForgeCaps: {
+											"dungeons_libraries:built_in_enchantments": {
+												BuiltInEnchantments: [ ]
+											}
+										}
+										id: "artifacts:novelty_drinking_hat"
+										Count: 1b
+									}]
+								}
+							}
+						]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4AEC85FC4569CB4E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "141951EE4C2A7570"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "One Of The Relics"
+			id: "3E4D0A14ADF607CB"
+			tasks: [{
+				id: "40DDA7AB61F43E29"
+				type: "item"
+				title: "&eAcquire: &aRelic"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "relics:relic"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3126B40A72C137D2"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "6E8A527BBFD38B2F"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Virtual Enchantment"
+			id: "02D05B0B48F10B1A"
+			tasks: [{
+				id: "35EF9509CEA2DDFA"
+				type: "item"
+				title: "&eAcquire: &aResplendent Prism"
+				item: {
+					id: "astralsorcery:enchantment_amulet"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "70A45A4287A9A755"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "4058644956718E03"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,317 @@
+{
+	id: "641FBD6299DE0B9A"
+	group: "432A898843F792EA"
+	order_index: 5
+	filename: "currency__bankruptcy"
+	title: "Bragging Rights"
+	icon: "calemiutils:coin_platinum"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "Bragging 'Bout Your Status"
+			id: "7FDAB03214AA7351"
+			tasks: [{
+				id: "5DA4A5794F458FDC"
+				type: "item"
+				item: {
+					id: "calemiutils:wallet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7649FB2C4640A3CB"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+					count: 4
+				}
+				{
+					id: "3374C919EA9D2AE7"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "02D36871568657CF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "2D78AC5351B81A99"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			subtitle: "Richest Entity Alive"
+			dependencies: ["5755B82C35EC4457"]
+			id: "60A2E087505ABE9E"
+			tasks: [{
+				id: "63EF41D3712F3D8D"
+				type: "item"
+				title: "Wallet (1000000 RC)"
+				icon: {
+					id: "calemiutils:wallet"
+					Count: 1b
+					tag: { }
+				}
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:weak_nbt"
+								Count: 1b
+								tag: {
+									value: {
+										balance: 1000000
+									}
+								}
+							}
+							{
+								id: "calemiutils:wallet"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "49BC2FBA8BF3843F"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+					count: 16
+				}
+				{
+					id: "360922A0157AFCDA"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "47F6672CB49A1073"
+					type: "item"
+					item: "kubejs:affixgear5"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Getting There!"
+			dependencies: ["7FDAB03214AA7351"]
+			id: "792DEB24946AE2E5"
+			tasks: [{
+				id: "756697DA8AD9B06E"
+				type: "item"
+				title: "Wallet (250000 RC)"
+				icon: {
+					id: "calemiutils:wallet"
+					Count: 1b
+					tag: { }
+				}
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:weak_nbt"
+								Count: 1b
+								tag: {
+									value: {
+										balance: 250000
+									}
+								}
+							}
+							{
+								id: "calemiutils:wallet"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4ED9BCF35A5A42BA"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+					count: 4
+				}
+				{
+					id: "1CDD1261A597A228"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+					count: 4
+				}
+				{
+					id: "4D069D7044D48B91"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "1545AB689F682705"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Half Way Done"
+			dependencies: ["792DEB24946AE2E5"]
+			id: "5755B82C35EC4457"
+			tasks: [{
+				id: "3BA96326893FBC4C"
+				type: "item"
+				title: "Wallet (500000 RC)"
+				icon: {
+					id: "calemiutils:wallet"
+					Count: 1b
+					tag: { }
+				}
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:weak_nbt"
+								Count: 1b
+								tag: {
+									value: {
+										balance: 500000
+									}
+								}
+							}
+							{
+								id: "calemiutils:wallet"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "743A55188C25A800"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+					count: 4
+				}
+				{
+					id: "2E836A2123EF8D42"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+					count: 8
+				}
+				{
+					id: "033627644B2582A4"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "592AF1A7BE671C00"
+					type: "item"
+					item: "kubejs:affixgear4"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "The Market"
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Setting Up A Banking System"
+			size: 2.0d
+			id: "76492F96ACE8C063"
+			tasks: [
+				{
+					id: "0E6D8F856669086E"
+					type: "item"
+					item: "calemiutils:bank"
+				}
+				{
+					id: "4112D254EE0A981D"
+					type: "item"
+					item: "calemiutils:security_wrench"
+				}
+				{
+					id: "1A86B6616279A642"
+					type: "item"
+					item: "calemiutils:market"
+				}
+				{
+					id: "4AEC37ED77DB57AC"
+					type: "item"
+					item: "calemiutils:trading_post"
+				}
+				{
+					id: "1D6EC4DC07431664"
+					type: "item"
+					item: "calemiutils:network_cable"
+					count: 16L
+				}
+				{
+					id: "03BCB2FC2AEE4F6E"
+					type: "item"
+					item: "calemiutils:network_gate"
+				}
+			]
+			rewards: [
+				{
+					id: "6D222EE3C2A4D410"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+					count: 4
+				}
+				{
+					id: "6C36B9D6638765AE"
+					type: "item"
+					item: "kubejs:delight_builder"
+					count: 2
+				}
+				{
+					id: "7DEF1F7DD6D2A23D"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+				{
+					id: "14CE1CA4CB2EFDCD"
+					type: "item"
+					item: "kubejs:golem_summoner"
+				}
+				{
+					id: "4E1F0FC472325E7D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "3D8F7EB672D76322"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

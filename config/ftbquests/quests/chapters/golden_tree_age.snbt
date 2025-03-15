@@ -1,0 +1,1157 @@
+{
+	id: "4CA5F36492B3B78A"
+	group: "3B063F3DD8CE7BD5"
+	order_index: 1
+	filename: "golden_tree_age"
+	title: "Golden Tree Age"
+	icon: "naturesaura:gold_leaf"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&eBeginning: &aGolden Tree Age"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "naturesaura:book"
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Life Of A Brilliant Tree"
+			size: 2.0d
+			id: "2316E32DC401459E"
+			tasks: [
+				{
+					id: "1C1B08421580E889"
+					type: "item"
+					item: "naturesaura:gold_fiber"
+					count: 4L
+				}
+				{
+					id: "629C275E8E1B3714"
+					type: "observation"
+					title: "&eInfect: &aLeaves"
+					icon: {
+						id: "naturesaura:golden_leaves"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "naturesaura:golden_leaves"
+				}
+			]
+			rewards: [
+				{
+					id: "352C953C60D8ED82"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "730D2C284EF69108"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&eChapter I: &aRitual Of The Forest"
+			icon: "naturesaura:wood_stand"
+			x: 0.0d
+			y: -3.0d
+			subtitle: "Manifesting The Power Of A Sapling"
+			dependencies: ["2316E32DC401459E"]
+			size: 2.0d
+			id: "46757DF2E85FEFB3"
+			tasks: [
+				{
+					id: "48C5033EA899AA48"
+					type: "item"
+					item: {
+						id: "naturesaura:wood_stand"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "334A3AAD1EC4BE0D"
+					type: "item"
+					item: {
+						id: "naturesaura:gold_powder"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "0224EE4B696E915E"
+					type: "item"
+					item: {
+						id: "naturesaura:token_joy"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0AE9E9F2D8980C9A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "795119783478357F"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			subtitle: "Packed With Anxiety"
+			hide_dependency_lines: true
+			dependencies: ["46757DF2E85FEFB3"]
+			id: "55A4EB17AF601ED0"
+			tasks: [{
+				id: "48ADB52F57B0C03C"
+				type: "item"
+				item: {
+					id: "naturesaura:token_fear"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2A06B54CEB09F69C"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "410A030BA999DC57"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			subtitle: "Anger Management"
+			hide_dependency_lines: true
+			dependencies: ["46757DF2E85FEFB3"]
+			id: "74F1418692E6A83B"
+			tasks: [{
+				id: "7D0B52C652348D1C"
+				type: "item"
+				item: {
+					id: "naturesaura:token_anger"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "45147BF56C578CDA"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "52257EDC22A79D88"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			subtitle: "Reminder Of Your Pain"
+			hide_dependency_lines: true
+			dependencies: ["46757DF2E85FEFB3"]
+			id: "2A18214C07FCDFEA"
+			tasks: [{
+				id: "7637481C966611E7"
+				type: "item"
+				item: {
+					id: "naturesaura:token_sorrow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "101B46D345EA6583"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "78805D67E9392204"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -12.0d
+			subtitle: "Dangerously Best Friend"
+			hide_dependency_lines: true
+			dependencies: ["474F2AB70E14CFA1"]
+			id: "60E4E3599A5123A5"
+			tasks: [{
+				id: "4D7FE4139E0A2F16"
+				type: "item"
+				item: {
+					id: "naturesaura:token_euphoria"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "57E6B1AF256D6BB8"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "0237BAB8158432F7"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -13.0d
+			subtitle: "Seeing Things"
+			hide_dependency_lines: true
+			dependencies: [
+				"55A4EB17AF601ED0"
+				"474F2AB70E14CFA1"
+			]
+			id: "537EFA332359C1E1"
+			tasks: [{
+				id: "358F65BF004D8C27"
+				type: "item"
+				item: {
+					id: "naturesaura:token_terror"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7F73610B30997182"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "0EAC229C66EB2E5B"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -13.0d
+			subtitle: "Heavy Heart"
+			hide_dependency_lines: true
+			dependencies: ["2A18214C07FCDFEA"]
+			id: "6E72FB9D11438BCB"
+			tasks: [{
+				id: "202C5F82EE851B3F"
+				type: "item"
+				item: {
+					id: "naturesaura:token_grief"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "16E2D806F5D562CA"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "693599AF8FF75D17"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -16.5d
+			subtitle: "Enlighten Darkness"
+			hide_dependency_lines: true
+			dependencies: ["474F2AB70E14CFA1"]
+			id: "7106E96CE79C6DAE"
+			tasks: [{
+				id: "3F21CE0CF339B7F5"
+				type: "item"
+				item: {
+					id: "naturesaura:cave_finder"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "03F841868CA4821A"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					id: "51CEE10A01800480"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -14.0d
+			subtitle: "Blast Furnace Enhancement"
+			hide_dependency_lines: true
+			dependencies: ["474F2AB70E14CFA1"]
+			id: "5291A7659D321F0D"
+			tasks: [{
+				id: "3B0618856B52A11C"
+				type: "item"
+				item: {
+					id: "naturesaura:blast_furnace_booster"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3B40760D45A0EEA2"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "2A4BB590D1FEB5F2"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -8.0d
+			subtitle: "Primitive Aura Containment"
+			hide_dependency_lines: true
+			dependencies: ["07A923A7FB5D900C"]
+			id: "236051ACFAD0A5AB"
+			tasks: [{
+				id: "3AFDF96194D62D50"
+				type: "item"
+				item: {
+					id: "naturesaura:aura_cache"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "67733858A219D938"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "4E1F34D25BB10356"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -15.5d
+			subtitle: "Resonant Aura Containment"
+			hide_dependency_lines: true
+			dependencies: [
+				"236051ACFAD0A5AB"
+				"474F2AB70E14CFA1"
+			]
+			id: "3AE31958EABB4F14"
+			tasks: [{
+				id: "3865E4FB25B426A6"
+				type: "item"
+				item: {
+					id: "naturesaura:aura_trove"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1113FF37E7CEEE50"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "1614E6CB7D08FF40"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -14.0d
+			subtitle: "Unordinary Transmutation"
+			hide_dependency_lines: true
+			dependencies: ["474F2AB70E14CFA1"]
+			id: "58E01753F193787B"
+			tasks: [{
+				id: "221D935846A5E80F"
+				type: "item"
+				item: {
+					id: "naturesaura:conversion_catalyst"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "68173DA931CB97D5"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "177677273A77A218"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -9.0d
+			subtitle: "Disintegration Through Nature"
+			hide_dependency_lines: true
+			dependencies: [
+				"74F1418692E6A83B"
+				"02F6A94FA1CF9244"
+			]
+			id: "4F164AE66B0E1FE5"
+			tasks: [{
+				id: "042DA43CCBCD5DF2"
+				type: "item"
+				item: {
+					id: "naturesaura:crushing_catalyst"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "285AE71A92B318E8"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "0BB80F063602772B"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&eFinale: &aOffering Table"
+			x: 0.0d
+			y: -13.0d
+			subtitle: "Blessed By Nature"
+			dependencies: ["46757DF2E85FEFB3"]
+			size: 2.0d
+			id: "474F2AB70E14CFA1"
+			tasks: [{
+				id: "16BF3D2FF423CC0C"
+				type: "item"
+				item: {
+					id: "naturesaura:offering_table"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "07E762E9763016D3"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "75D3D910EB90800B"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -9.0d
+			subtitle: "Ecological Heater"
+			hide_dependency_lines: true
+			dependencies: [
+				"55A4EB17AF601ED0"
+				"07A923A7FB5D900C"
+			]
+			id: "6D24E89D3F749004"
+			tasks: [{
+				id: "7E8E46A16A7309D2"
+				type: "item"
+				item: {
+					id: "naturesaura:furnace_heater"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1E984B185E1E7B11"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "75CD07767CBACBBC"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -17.0d
+			subtitle: "Unlock Secrets Of The Past"
+			hide_dependency_lines: true
+			dependencies: ["474F2AB70E14CFA1"]
+			id: "0D9163C4A884DD63"
+			tasks: [{
+				id: "20F4CCD88EF0DD13"
+				type: "item"
+				item: {
+					id: "naturesaura:netherite_finder"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3E8106C3142A4D56"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					id: "52244C65DE49E477"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -16.5d
+			subtitle: "Fortune Awaits"
+			hide_dependency_lines: true
+			dependencies: ["474F2AB70E14CFA1"]
+			id: "328B01307DB9AD04"
+			tasks: [{
+				id: "0DFA665DF88139F0"
+				type: "item"
+				item: {
+					id: "naturesaura:loot_finder"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "08C40E2B7E0BF6B3"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					id: "53AF65F5B25D213D"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -12.0d
+			subtitle: "Anger Management, Pt. II"
+			hide_dependency_lines: true
+			dependencies: ["74F1418692E6A83B"]
+			id: "4FFBE9199AA9E4B4"
+			tasks: [{
+				id: "1B9F3FF08141F0E9"
+				type: "item"
+				item: {
+					id: "naturesaura:token_rage"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3D8F8B7BFB6FC75B"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "3DCCAE77CD052C2E"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			title: "&eChapter II: &aThe Natural Altar"
+			icon: "naturesaura:nature_altar"
+			x: 0.0d
+			y: -8.0d
+			subtitle: "Infused By Nature"
+			dependencies: ["46757DF2E85FEFB3"]
+			size: 2.0d
+			id: "07A923A7FB5D900C"
+			tasks: [
+				{
+					id: "02F6A94FA1CF9244"
+					type: "item"
+					item: {
+						id: "naturesaura:nature_altar"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "159DD0536CAE4E19"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "03709B949BA12398"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "4101CDAFC86B14B3"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -15.5d
+			subtitle: "Playing With Time"
+			hide_dependency_lines: true
+			dependencies: ["474F2AB70E14CFA1"]
+			id: "725E668BE9D1AB7E"
+			tasks: [{
+				id: "7217652CADB31689"
+				type: "item"
+				item: {
+					id: "naturesaura:clock_hand"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "01FC001D9333D3D6"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "10A6F7D61A2B19AC"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -17.0d
+			subtitle: "Illuminate Your Path"
+			hide_dependency_lines: true
+			dependencies: ["474F2AB70E14CFA1"]
+			id: "3C12214B9F24B4C1"
+			tasks: [{
+				id: "0D7ABE86A5A10257"
+				type: "item"
+				item: {
+					id: "naturesaura:light_staff"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "497A35552BA7F0ED"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					id: "4F15C92DFF9EBFDA"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -16.0d
+			subtitle: "Dial Your Hue"
+			hide_dependency_lines: true
+			dependencies: ["474F2AB70E14CFA1"]
+			id: "5881F805AEBC8730"
+			tasks: [{
+				id: "5D04CA16F090A61C"
+				type: "item"
+				item: {
+					id: "naturesaura:color_changer"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "032DD1CD925D71F2"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "1A79C347DDD410E8"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -8.0d
+			subtitle: "Adjacent Upgrade"
+			hide_dependency_lines: true
+			dependencies: ["07A923A7FB5D900C"]
+			id: "7153AE94C9274607"
+			tasks: [{
+				id: "50C1902ED4C98710"
+				type: "item"
+				item: {
+					id: "naturesaura:hopper_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2F5AE89AEACA3DA2"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "21CDFA34A20CA9A0"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "naturesaura:animal_spawner"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: -14.5d
+			subtitle: "Give Birth, Literally"
+			dependencies: ["474F2AB70E14CFA1"]
+			id: "6C469C40AF5CFB98"
+			tasks: [
+				{
+					id: "5D951FAE092C645F"
+					type: "item"
+					item: {
+						id: "naturesaura:animal_spawner"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "472E060C6C3B7622"
+					type: "item"
+					item: {
+						id: "naturesaura:birth_spirit"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "65AD854FC112806A"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "57CA374DC4A3BFF3"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
+				}
+			]
+		}
+	]
+}

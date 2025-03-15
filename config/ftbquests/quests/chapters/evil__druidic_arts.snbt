@@ -1,0 +1,953 @@
+{
+	id: "000000000000065A"
+	group: "3B063F3DD8CE7BD5"
+	order_index: 2
+	filename: "evil__druidic_arts"
+	title: "Virulent Arts"
+	icon: "forbidden_arcanus:dark_soul"
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&eOn The Side: &aBlack Hole"
+			icon: "forbidden_arcanus:dark_matter"
+			x: 2.0d
+			y: -2.0d
+			subtitle: "Cooler Trash Can"
+			description: ["Throw both items at the ground."]
+			size: 2.0d
+			id: "49F66F380834447C"
+			tasks: [
+				{
+					id: "4C47EAF04C1C059E"
+					type: "item"
+					item: "forbidden_arcanus:corrupti_dust"
+				}
+				{
+					id: "0A96633B58ACDD34"
+					type: "item"
+					item: "forbidden_arcanus:dark_matter"
+				}
+				{
+					id: "38AE2B526D4BE87F"
+					type: "observation"
+					title: "&eObserve: &rBlack Hole"
+					icon: "forbidden_arcanus:dark_matter"
+					timer: 0L
+					observe_type: 0
+					to_observe: "forbidden_arcanus:black_hole"
+				}
+			]
+			rewards: [
+				{
+					id: "0BC417F254AD36EA"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "505C59A8E34C443F"
+					type: "item"
+					item: {
+						id: "kubejs:druidic_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&eIntroduction: &aOccultic Arts"
+			icon: {
+				id: "occultism:dictionary_of_spirits"
+				Count: 1b
+				tag: {
+					"modonomicon:book_id": "occultism:dictionary_of_spirits"
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Subservient Acquaintances"
+			size: 3.0d
+			id: "485680C175ED95AF"
+			tasks: [{
+				id: "6F6C822C2DDF87F0"
+				type: "item"
+				item: {
+					id: "occultism:datura"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2E4C2A912DC30CF4"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "&eChapter I: &aOtherworld"
+			icon: {
+				id: "occultism:spirit_fire"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: -5.0d
+			subtitle: "Otherwordly Findings"
+			dependencies: ["485680C175ED95AF"]
+			size: 2.0d
+			id: "3759ED9A7C7D9AB2"
+			tasks: [
+				{
+					id: "2E877D595377F67F"
+					type: "item"
+					item: {
+						id: "occultism:otherworld_log"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "00AEB38312695412"
+					type: "item"
+					item: {
+						id: "occultism:otherstone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "20F4CB56C6EB568B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7AA059D4CACCA88E"
+					type: "item"
+					item: {
+						id: "kubejs:druidic_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&eChapter II: &aRitual Preparation"
+			icon: {
+				id: "occultism:ritual_dummy/summon_foliot_crusher"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: -10.0d
+			subtitle: "Arranging The Ritual"
+			dependencies: ["3759ED9A7C7D9AB2"]
+			size: 2.0d
+			id: "4C569D22D6C07EBD"
+			tasks: [
+				{
+					id: "46F8AFABC7CC7C0A"
+					type: "item"
+					item: {
+						id: "occultism:sacrificial_bowl"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0448DB6D6423082B"
+					type: "item"
+					item: {
+						id: "occultism:golden_sacrificial_bowl"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3F27F44E37906C4F"
+					type: "item"
+					item: {
+						id: "occultism:chalk_white"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "56A1D1EDF35CFA97"
+					type: "item"
+					item: {
+						id: "occultism:candle_white"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7E6C58D8E1E47DF1"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "4C79F15CD74776BB"
+					type: "item"
+					item: {
+						id: "kubejs:druidic_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&eSegment: &aCrusher Spirits, Pt. I"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "occultism:foliot"
+					DisplayMobScale: 1.0d
+				}
+			}
+			x: 4.0d
+			y: -10.0d
+			subtitle: "Crunching Down Ores"
+			dependencies: ["4C569D22D6C07EBD"]
+			size: 2.0d
+			id: "6D73587BC264822D"
+			tasks: [
+				{
+					id: "2B03E2AA73A7C9F1"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_foliot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "58D0C0055854CBAD"
+					type: "observation"
+					title: "&eInteract: &rFoliot"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "occultism:foliot"
+							DisplayMobScale: 1.0d
+						}
+					}
+					timer: 0L
+					observe_type: 5
+					to_observe: "occultism:foliot"
+				}
+			]
+			rewards: [
+				{
+					id: "6D2BA1989B16422B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4B126EFAD6555F3D"
+					type: "item"
+					item: {
+						id: "kubejs:druidic_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&eOn The Side: &aThird Eye"
+			icon: "occultism:iesnium_ore"
+			x: -2.0d
+			y: -2.0d
+			subtitle: "Covert Ore"
+			dependencies: ["485680C175ED95AF"]
+			size: 2.0d
+			id: "133068A434E5C0F2"
+			tasks: [
+				{
+					id: "6A3B780F1FC5232B"
+					type: "custom"
+					title: "&eGain Effect: &rThird Eye"
+					icon: {
+						id: "citadel:effect_item"
+						Count: 1b
+						tag: {
+							DisplayEffect: "occultism:third_eye"
+						}
+					}
+				}
+				{
+					id: "247C1F8721EF9C29"
+					type: "item"
+					item: {
+						id: "occultism:iesnium_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2EC46216DC9A5B79"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "6E681078836DE9C7"
+					type: "item"
+					item: {
+						id: "kubejs:druidic_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&eOn The Side: &aDimensional Mineshaft"
+			icon: "occultism:dimensional_mineshaft"
+			x: -3.0d
+			y: -8.0d
+			subtitle: "Mining Minions"
+			dependencies: ["4C569D22D6C07EBD"]
+			size: 2.0d
+			id: "1CCB341F4EC1A406"
+			tasks: [
+				{
+					id: "0936F142459F4A76"
+					type: "item"
+					title: "Miner Foliot"
+					item: {
+						id: "occultism:miner_foliot_unspecialized"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+				}
+				{
+					id: "5EAE82B7BC5AE23F"
+					type: "item"
+					item: {
+						id: "occultism:dimensional_mineshaft"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5F2818EC6AE89DC5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "65DD8167E0BB8756"
+					type: "item"
+					item: {
+						id: "kubejs:druidic_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -11.5d
+			subtitle: "Handwoven"
+			dependencies: ["4C569D22D6C07EBD"]
+			id: "20D38ABA64BBAD82"
+			tasks: [{
+				id: "639B7332476D27AA"
+				type: "item"
+				title: "Surprisingly Substantial Satchel"
+				item: "occultism:satchel"
+				match_nbt: false
+			}]
+			rewards: [
+				{
+					id: "6608698F52626994"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7D5107FAADD22539"
+					type: "item"
+					item: {
+						id: "kubejs:druidic_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			title: "&eOn The Side: &aDimensional Storage"
+			icon: {
+				id: "citadel:fancy_item"
+				Count: 1b
+				tag: {
+					DisplaySpin: 1
+					DisplayItem: "occultism:dimensional_matrix"
+					DisplayShake: 0
+					DisplayScale: 1
+					DisplayBob: 0
+					DisplayZoom: 0
+				}
+			}
+			x: 3.0d
+			y: -8.0d
+			subtitle: "Virtual Storage Network"
+			dependencies: ["4C569D22D6C07EBD"]
+			size: 2.0d
+			id: "43A1EE22C5B7061C"
+			tasks: [
+				{
+					id: "482974F849BA1782"
+					type: "item"
+					item: {
+						id: "occultism:storage_controller"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1A8DE692C811548D"
+					type: "item"
+					item: {
+						id: "occultism:storage_remote"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "283762A586C661F7"
+					type: "item"
+					item: {
+						id: "occultism:storage_stabilizer_tier1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5E31F2F0D3620E09"
+					type: "item"
+					item: {
+						id: "occultism:storage_stabilizer_tier1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "187E58FC9862D19B"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "55276E840C81D2E7"
+					type: "item"
+					item: "kubejs:druidic_box"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			subtitle: "Archfiend's Storage Capacity"
+			dependencies: ["283762A586C661F7"]
+			secret: true
+			id: "4FC780AAEAA2FFF2"
+			tasks: [
+				{
+					id: "34A4B4B69E628754"
+					type: "item"
+					item: {
+						id: "occultism:storage_stabilizer_tier2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "31A1494AF930329F"
+					type: "item"
+					item: {
+						id: "occultism:storage_stabilizer_tier2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "791771D78150E583"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "137669371D02F852"
+					type: "item"
+					item: "kubejs:druidic_box"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -7.0d
+			subtitle: "Druid's Storage Capacity"
+			hide_dependency_lines: true
+			dependencies: ["4FC780AAEAA2FFF2"]
+			hide: true
+			id: "14258A17F881BC21"
+			tasks: [
+				{
+					id: "01DC03AC1C6E28D0"
+					type: "item"
+					item: {
+						id: "occultism:storage_stabilizer_tier3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "30C86843CA16D22F"
+					type: "item"
+					item: {
+						id: "occultism:storage_stabilizer_tier3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "30EB80C70ACBACE3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "04D76567FD55E61B"
+					type: "item"
+					item: "kubejs:druidic_box"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -8.0d
+			subtitle: "Occultic Storage Capacity"
+			hide_dependency_lines: true
+			dependencies: [
+				"14258A17F881BC21"
+				"72C2813615126EC8"
+			]
+			hide: true
+			id: "708449EE32386F59"
+			tasks: [
+				{
+					id: "23DAA63FA4615719"
+					type: "item"
+					item: {
+						id: "occultism:storage_stabilizer_tier4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "24B8E534FEA1A9E6"
+					type: "item"
+					item: {
+						id: "occultism:storage_stabilizer_tier4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "6DFE4FDA4592DA9B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7E8FDB94CC2048B5"
+					type: "item"
+					item: "kubejs:druidic_box"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "&eSegment: &aFamiliar Family"
+			icon: {
+				id: "occultism:soul_gem"
+				Count: 1b
+				tag: { }
+			}
+			x: -4.0d
+			y: -10.0d
+			subtitle: "By Your Side"
+			dependencies: ["4C569D22D6C07EBD"]
+			size: 2.0d
+			id: "14A30DC6A4BCE39C"
+			tasks: [
+				{
+					id: "054F30C210AE2233"
+					type: "item"
+					item: {
+						id: "occultism:soul_gem"
+						Count: 1b
+						tag: { }
+					}
+					match_nbt: false
+				}
+				{
+					id: "5E6520226B373F1C"
+					type: "item"
+					title: "&eCapture: &rFamiliar"
+					icon: {
+						id: "occultism:familiar_ring"
+						Count: 1b
+						tag: {
+							spiritName: "Thrrynlyr"
+							familiar: {
+								hasFamiliar: 0b
+							}
+						}
+					}
+					item: {
+						id: "itemfilters:custom"
+						Count: 1b
+						tag: {
+							value: "fam_ring"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					match_nbt: true
+				}
+			]
+			rewards: [
+				{
+					id: "428A253C4E141960"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "57F07C72CF6BD2C2"
+					type: "item"
+					item: "kubejs:druidic_box"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "&eFinale: &aEncountering Afrit"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "occultism:afrit_wild"
+					DisplayMobScale: 1.0d
+				}
+			}
+			x: 0.0d
+			y: -14.0d
+			subtitle: "Blazes Included"
+			dependencies: ["4C569D22D6C07EBD"]
+			size: 2.0d
+			id: "72C2813615126EC8"
+			tasks: [
+				{
+					id: "700B6A3D8481AE05"
+					type: "kill"
+					title: "&cSlay: &rAfrit"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "occultism:afrit_wild"
+							DisplayMobScale: 1.0d
+						}
+					}
+					entity: "occultism:afrit_wild"
+					value: 1L
+				}
+				{
+					id: "20ADF9F585435E81"
+					type: "item"
+					item: "occultism:afrit_essence"
+				}
+			]
+			rewards: [
+				{
+					id: "08B793C65062E1D7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "54E51F33A9B273D9"
+					type: "item"
+					item: "kubejs:druidic_box"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "&eSegment: &aCrusher Spirits, Pt. II"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "occultism:marid"
+					DisplayMobScale: 1.0d
+				}
+			}
+			x: 5.5d
+			y: -10.0d
+			subtitle: "Highest Cruncher"
+			hide_dependency_lines: true
+			dependencies: ["72C2813615126EC8"]
+			id: "425115096DB83211"
+			tasks: [
+				{
+					id: "00C990411484C533"
+					type: "item"
+					item: "occultism:book_of_binding_marid"
+				}
+				{
+					id: "52050B32D0D17E84"
+					type: "observation"
+					title: "&eInteract: &rMarid"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "occultism:marid"
+							DisplayMobScale: 1.0d
+						}
+					}
+					timer: 0L
+					observe_type: 5
+					to_observe: "occultism:marid"
+				}
+			]
+			rewards: [
+				{
+					id: "24CD19B6122D8FD8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "058E8A6FE4BB4F86"
+					type: "item"
+					item: "kubejs:druidic_box"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "&eOn The Side: &aUpgrading Familiars"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "occultism:blacksmith_familiar"
+					DisplayMobScale: 1.0d
+				}
+			}
+			x: -3.0d
+			y: -12.0d
+			subtitle: "Name's Hewg"
+			dependencies: ["4C569D22D6C07EBD"]
+			size: 2.0d
+			id: "1DEF0278C49903A8"
+			tasks: [
+				{
+					id: "62275DBD22D8CEBA"
+					type: "observation"
+					title: "&eSummon: &rBlacksmith Familiar"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "occultism:blacksmith_familiar"
+							DisplayMobScale: 1.0d
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					timer: 0L
+					observe_type: 5
+					to_observe: "occultism:blacksmith_familiar"
+				}
+				{
+					id: "65FB645AF7D2245C"
+					type: "advancement"
+					title: "&eUpgrade: &rFamiliar"
+					advancement: "occultism:occultism/familiar/blacksmith_upgrade"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "48A0530A6E841156"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "27A5B4B7ED507AE7"
+					type: "item"
+					item: "kubejs:druidic_box"
+					count: 5
+				}
+			]
+		}
+	]
+}

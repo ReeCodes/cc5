@@ -1,0 +1,39 @@
+
+#These options affect the gameplay while using the mod.
+[gameplay]
+	#The range (in blocks) that the launcher can suck pigs.
+	#Range: > 1
+	launcherSuckRange = 8
+
+[potionEffect]
+	#Duration of each trail mix eaten (in ticks)
+	#Range: > 0
+	potDuration = 300
+	#Walking speed of the effect
+	#Range: 0.0 ~ 1.7976931348623157E308
+	potSpeed = 0.6
+	#How much can you take before overdosing (in ticks)
+	#Set to 0 to disable
+	#Range: > 0
+	potPoisoning = 3600
+	#Dampen fall damage?
+	#Range: 0.0 ~ 1.0
+	fallDampening = 0.6
+	#The multiplier for the knockback when you punch an entity
+	#Range: 0.0 ~ 1.7976931348623157E308
+	knockbackMultiplier = 6.0
+	#Do pig explosions damage blocks?
+	#0 = No
+	#1 = Yes
+	#2 = World Game Rules
+	#Range: 0 ~ 2
+	pigExplosion = 2
+	#Do horses clear the area while running on trail mix?
+	#0 = No
+	#1 = Yes
+	#2 = World Game Rules
+	#Range: 0 ~ 2
+	horseClearZone = 1
+	#Do horses leave a trail of fire while running on trail mix?
+	horseFireTrail = true
+

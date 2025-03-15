@@ -1,0 +1,1845 @@
+{
+	id: "3582E2EE26FAEB18"
+	group: "1C0C3E7C0AAD1FC4"
+	order_index: 2
+	filename: "ice__fire__lightning"
+	title: "Terrestrial Dragons"
+	icon: {
+		id: "iceandfire:dragonbone_sword_fire"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: 0.0d
+			id: "4CEAAC4A0FED9908"
+			tasks: [{
+				id: "2DE8561F9A849295"
+				type: "item"
+				item: "iceandfire:manuscript"
+			}]
+			rewards: [{
+				id: "664F05924C82AD8E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["4CEAAC4A0FED9908"]
+			id: "2A4EE29BE198EF22"
+			tasks: [{
+				id: "67B93A488271489D"
+				type: "item"
+				item: {
+					id: "iceandfire:bestiary"
+					Count: 1b
+					tag: {
+						Pages: [I;0]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "31D84E6494671601"
+					type: "item"
+					item: "iceandfire:manuscript"
+					count: 3
+				}
+				{
+					id: "650EC37BAD8421DB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["4CEAAC4A0FED9908"]
+			id: "124C3EBFB92A20EC"
+			tasks: [{
+				id: "02D18A949E187A96"
+				type: "item"
+				item: "iceandfire:lectern"
+			}]
+			rewards: [
+				{
+					id: "590EA943DDD2C691"
+					type: "item"
+					item: "iceandfire:manuscript"
+					count: 3
+				}
+				{
+					id: "16BFE00A3017FE5F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			id: "3A4F3D0AA54503BF"
+			tasks: [{
+				id: "3B6FF6FA1B9167DB"
+				type: "item"
+				item: {
+					id: "iceandfire:siren_flute"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-1915466853
+							-1579922829
+							-1463177960
+							1825147121
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "21735A9AD7638063"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2D6E9516042C444D"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			id: "6DE8780DAF2A6855"
+			tasks: [{
+				id: "02019C227101EF4C"
+				type: "item"
+				item: {
+					id: "iceandfire:hippocampus_slapper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4639E0A437DB1EF2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "00D9403B7496BEF8"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			id: "0806208073D2009A"
+			tasks: [{
+				id: "6A779EC9F01FBDD0"
+				type: "item"
+				item: {
+					id: "iceandfire:hippogryph_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "560D963A632EF061"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "720E34C3453FCF28"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			id: "1E714F55D4A8C8BE"
+			tasks: [{
+				id: "1C4A779FF3C13BEF"
+				type: "item"
+				item: {
+					id: "iceandfire:gorgon_head"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "60BA734155B7256B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "5E3CDD229AC0916C"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			id: "27C5A4C2C0659E17"
+			tasks: [{
+				id: "1C7BACDC00F4A43A"
+				type: "item"
+				title: "Death Worm Gauntlets"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "iceandfire:deathworm_gauntlet_yellow"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "iceandfire:deathworm_gauntlet_white"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "iceandfire:deathworm_gauntlet_red"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "051522F73BAD346C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "68DEA1D44443B102"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			id: "32ECA59D584FA287"
+			tasks: [{
+				id: "33074738ECD9D61F"
+				type: "item"
+				item: {
+					id: "iceandfire:cockatrice_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7E1FA5D67C643DFD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "4BE0C996CD408FEB"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			id: "2CA923D6F45F45F4"
+			tasks: [{
+				id: "402B11FCC5188E5C"
+				type: "item"
+				item: {
+					id: "iceandfire:earplugs"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6D26811CFB19D7BB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			id: "3DC54C960F60618B"
+			tasks: [{
+				id: "37AE50FDBF76727A"
+				type: "item"
+				item: {
+					id: "iceandfire:blindfold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7CE53057B76C4E93"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			id: "1ED6FAD4C046FBAC"
+			tasks: [{
+				id: "66811845F77741B2"
+				type: "item"
+				item: "iceandfire:stymphalian_feather_bundle"
+			}]
+			rewards: [
+				{
+					id: "370D1EDE46F877BE"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "5B3AF64EF92DE15B"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			id: "0B105B1F38C5C4B6"
+			tasks: [{
+				id: "2CFF52B569621B91"
+				type: "item"
+				item: {
+					id: "iceandfire:stymphalian_bird_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3F4FFFD4FA086AEF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "4D6F21647AAE2AF4"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			id: "79B7A15EBDD9BD57"
+			tasks: [{
+				id: "3152EFE2EF6A1E23"
+				type: "item"
+				title: "Myrmex Swarms"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "iceandfire:myrmex_desert_swarm"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:myrmex_jungle_swarm"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "68ED09511E175D4C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "323A43EFFF18F5ED"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			id: "6576E217D7D083B3"
+			tasks: [{
+				id: "531B3CE8E9BA1461"
+				type: "item"
+				item: {
+					id: "iceandfire:amphithere_macuahuitl"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "75D94DD97207C468"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1279241E43474CBF"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			id: "3B7B227A60A6D640"
+			tasks: [{
+				id: "601FE5C26ADBDA12"
+				type: "item"
+				item: {
+					id: "iceandfire:tide_trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "018D6B9DC143CCD8"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "2040E48ACE0D9DFD"
+					type: "item"
+					item: "kubejs:affixgear5"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			id: "4CECD902FD9B9CD0"
+			tasks: [{
+				id: "214584A4BC685867"
+				type: "item"
+				title: "Trolls' Weapon"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "iceandfire:troll_weapon_axe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "iceandfire:troll_weapon_column"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "iceandfire:troll_weapon_column_forest"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "iceandfire:troll_weapon_column_frost"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "iceandfire:troll_weapon_hammer"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "iceandfire:troll_weapon_trunk"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "iceandfire:troll_weapon_trunk_frost"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "04C37DF2BD757D94"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "575E5C065968A747"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -7.0d
+			id: "00302AAC36A6726F"
+			tasks: [{
+				id: "300309B6D6F1C730"
+				type: "item"
+				item: {
+					id: "iceandfire:cyclops_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2095DE35527FAB53"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "12257EA1C1BD06A4"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			id: "5FFDA4BC65D3D192"
+			tasks: [{
+				id: "2C47563042F20936"
+				type: "item"
+				item: {
+					id: "iceandfire:pixie_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4594A0059122C049"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "039216186D28003C"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			id: "0E8B0256D486563F"
+			tasks: [{
+				id: "13336EC3DC257A73"
+				type: "item"
+				title: "Dragon Bone Tools"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "iceandfire:dragonbone_sword"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "iceandfire:dragonbone_pickaxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "iceandfire:dragonbone_axe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "iceandfire:dragonbone_shovel"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "iceandfire:dragonbone_hoe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "iceandfire:dragonbone_bow"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00D8C25C8598663E"
+					type: "item"
+					item: "iceandfire:manuscript"
+					count: 6
+				}
+				{
+					id: "0BC75700CCE149AB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2CF049428F315D94"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			size: 1.5d
+			id: "4A593F5E2D7A1A7D"
+			tasks: [{
+				id: "0D997EBECF8A7889"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword_fire"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "282402A7A8BB19BF"
+					type: "item"
+					item: "iceandfire:manuscript"
+					count: 6
+				}
+				{
+					id: "3748DF9D58A00A76"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "55E96388F608C930"
+					type: "item"
+					item: "kubejs:affixgear5"
+				}
+			]
+		}
+		{
+			x: 6.75d
+			y: 0.0d
+			size: 1.5d
+			id: "0452FCB212FDF7E1"
+			tasks: [{
+				id: "2E7D8AD92F682B72"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword_ice"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "55FB14334F38E811"
+					type: "item"
+					item: "iceandfire:manuscript"
+					count: 6
+				}
+				{
+					id: "03922D5A37A4B3D2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "021F30B6FB0E8CC8"
+					type: "item"
+					item: "kubejs:affixgear5"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			size: 1.5d
+			id: "660645CA426EBC19"
+			tasks: [{
+				id: "058860B3E40E3428"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword_lightning"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6327CE91C3C47DCE"
+					type: "item"
+					item: "iceandfire:manuscript"
+					count: 6
+				}
+				{
+					id: "647D1CEDA4AC8BAA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "5AE02D8048EFBC02"
+					type: "item"
+					item: "kubejs:affixgear5"
+				}
+			]
+		}
+		{
+			title: "The Full Dragon Set"
+			x: 5.5d
+			y: 0.5d
+			id: "2913FD9B8442D851"
+			tasks: [
+				{
+					id: "0811C2C9DF05E70F"
+					type: "item"
+					item: "iceandfire:dragon_stick"
+				}
+				{
+					id: "4F69E39D1ED2DC77"
+					type: "item"
+					item: "iceandfire:dragon_flute"
+				}
+				{
+					id: "6B3D00F81AC8E513"
+					type: "item"
+					item: "iceandfire:dragon_horn"
+				}
+			]
+			rewards: [
+				{
+					id: "44364C88ED5FCACE"
+					type: "item"
+					item: "iceandfire:manuscript"
+					count: 6
+				}
+				{
+					id: "476F93E6E7D972EA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "24DA4CB62D25326E"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			id: "3071EE9237C5A5EA"
+			tasks: [{
+				id: "3BA2C25A21C97FA4"
+				type: "item"
+				item: "iceandfire:summoning_crystal_fire"
+			}]
+			rewards: [
+				{
+					id: "6D833C6654B6078B"
+					type: "item"
+					item: "kubejs:golem_summoner"
+				}
+				{
+					id: "32871A4AF62914D9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "45EA84F3FB92376C"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			id: "1268B0AA6A5F704A"
+			tasks: [{
+				id: "15B726E1DE9E7BAB"
+				type: "item"
+				item: "iceandfire:summoning_crystal_ice"
+			}]
+			rewards: [
+				{
+					id: "6CA8170E0CBFCB34"
+					type: "item"
+					item: "kubejs:golem_summoner"
+				}
+				{
+					id: "44A4C8C26757E80A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1459F24D585E50CF"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			id: "150043150986B00E"
+			tasks: [{
+				id: "1CCE4BA806AB86BA"
+				type: "item"
+				item: "iceandfire:summoning_crystal_lightning"
+			}]
+			rewards: [
+				{
+					id: "5BC9F41AAE1BB80B"
+					type: "item"
+					item: "kubejs:golem_summoner"
+				}
+				{
+					id: "75AE9CC6DE7974CC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3F22A8CCAC42ECD2"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 11.25d
+			y: -0.75d
+			size: 1.5d
+			id: "3E90365462D27C49"
+			tasks: [{
+				id: "5B59BFF325D07419"
+				type: "item"
+				title: "Dragon Scale Chestplate"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "iceandfire:armor.+chestplate"
+								}
+							}
+							{
+								id: "itemfilters:not"
+								Count: 1b
+								tag: {
+									items: [{
+										id: "iceandfire:armor_copper_metal_chestplate"
+										Count: 1b
+										tag: {
+											Damage: 0
+										}
+									}]
+								}
+							}
+							{
+								id: "itemfilters:not"
+								Count: 1b
+								tag: {
+									items: [{
+										id: "iceandfire:armor_silver_metal_chestplate"
+										Count: 1b
+										tag: {
+											Damage: 0
+										}
+									}]
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0CCBF22DE0BB1772"
+					type: "item"
+					item: "iceandfire:dragonbone_arrow"
+					count: 8
+				}
+				{
+					id: "733FDDEC573C92CA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "041894FCFD6F88AC"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 11.25d
+			y: -2.25d
+			size: 1.5d
+			id: "0438EF1E839E929B"
+			tasks: [{
+				id: "7FC1AB91BC4E68E1"
+				type: "item"
+				title: "Dragon Scale Helmet"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "iceandfire:armor.+helmet"
+								}
+							}
+							{
+								id: "itemfilters:not"
+								Count: 1b
+								tag: {
+									items: [{
+										id: "iceandfire:armor_copper_metal_helmet"
+										Count: 1b
+										tag: {
+											Damage: 0
+										}
+									}]
+								}
+							}
+							{
+								id: "itemfilters:not"
+								Count: 1b
+								tag: {
+									items: [{
+										id: "iceandfire:armor_silver_metal_helmet"
+										Count: 1b
+										tag: {
+											Damage: 0
+										}
+									}]
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6EFA22D65D9FEFF1"
+					type: "item"
+					item: "iceandfire:dragonbone_arrow"
+					count: 8
+				}
+				{
+					id: "605F54C4C33DAC11"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "04A1BCF53FDC2F3C"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 11.25d
+			y: 0.75d
+			size: 1.5d
+			id: "76AB53D8C62C1EE6"
+			tasks: [{
+				id: "551FCAF9FCCA3118"
+				type: "item"
+				title: "Dragon Scale Leggings"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "iceandfire:armor.+leggings"
+								}
+							}
+							{
+								id: "itemfilters:not"
+								Count: 1b
+								tag: {
+									items: [{
+										id: "iceandfire:armor_copper_metal_leggings"
+										Count: 1b
+										tag: {
+											Damage: 0
+										}
+									}]
+								}
+							}
+							{
+								id: "itemfilters:not"
+								Count: 1b
+								tag: {
+									items: [{
+										id: "iceandfire:armor_silver_metal_leggings"
+										Count: 1b
+										tag: {
+											Damage: 0
+										}
+									}]
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5E1D33B473B6915E"
+					type: "item"
+					item: "iceandfire:dragonbone_arrow"
+					count: 8
+				}
+				{
+					id: "4A6BE2BE3285D2A3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "56D74E404BA76BED"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 11.25d
+			y: 2.25d
+			size: 1.5d
+			id: "199017AE9B6946BB"
+			tasks: [{
+				id: "7E33AA0DA9574B86"
+				type: "item"
+				title: "Dragon Scale Boots"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "iceandfire:armor.+boots"
+								}
+							}
+							{
+								id: "itemfilters:not"
+								Count: 1b
+								tag: {
+									items: [{
+										id: "iceandfire:armor_copper_metal_boots"
+										Count: 1b
+										tag: {
+											Damage: 0
+										}
+									}]
+								}
+							}
+							{
+								id: "itemfilters:not"
+								Count: 1b
+								tag: {
+									items: [{
+										id: "iceandfire:armor_silver_metal_boots"
+										Count: 1b
+										tag: {
+											Damage: 0
+										}
+									}]
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "73B77ABE305E2519"
+					type: "item"
+					item: "iceandfire:dragonbone_arrow"
+					count: 8
+				}
+				{
+					id: "0BAE6BFEEC0B855D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "46095E4FFC1CA2C6"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			id: "4B9FE676BADBDCD2"
+			tasks: [{
+				id: "40F5971B91A1D116"
+				type: "item"
+				title: "Tide Guardian Helmet"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "iceandfire:tide.+helmet"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7C70AE0D63CFEB88"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "cyclic:swimspeed"
+						}
+					}
+				}
+				{
+					id: "6235302F6069E537"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "058E142E0FD87E7B"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			id: "04F84F503D6283FA"
+			tasks: [{
+				id: "29963032C3524C30"
+				type: "item"
+				title: "Tide Guardian Chestplate"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "iceandfire:tide.+chestplate"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "14D66DF28D771858"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "cyclic:swimspeed"
+						}
+					}
+				}
+				{
+					id: "4C32192F05ED026A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "5E37792D369719ED"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 0.5d
+			id: "0DECF201A8240B27"
+			tasks: [{
+				id: "273F83C5301CF730"
+				type: "item"
+				title: "Tide Guardian Leggings"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "iceandfire:tide.+leggings"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3E50534990BF8566"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "cyclic:swimspeed"
+						}
+					}
+				}
+				{
+					id: "05BA7F8377653683"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "15D123AA05E0F04F"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			id: "69ADC86E9CC033FA"
+			tasks: [{
+				id: "41660DD7A71CF523"
+				type: "item"
+				title: "Tide Guardian Boots"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "iceandfire:tide.+boots"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "26A0DB03500833D6"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "cyclic:swimspeed"
+						}
+					}
+				}
+				{
+					id: "14ECED750B6DCF9A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3925AEF9AA0276BF"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			id: "39BF85F681742857"
+			tasks: [{
+				id: "7D86E0669C16D88F"
+				type: "item"
+				title: "Myrmex Chitin Helmet"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "iceandfire:myrmex.+helmet"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2723EFADFC2E6D58"
+					type: "item"
+					item: "iceandfire:myrmex_desert_resin_glass"
+					count: 8
+				}
+				{
+					id: "30271DBFB8281473"
+					type: "item"
+					item: "iceandfire:myrmex_jungle_resin_glass"
+					count: 8
+				}
+				{
+					id: "2453264329DF816D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0C973126F074FEC6"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: -0.5d
+			id: "6590091E34983534"
+			tasks: [{
+				id: "5BFD1C4A45E3F456"
+				type: "item"
+				title: "Myrmex Chitin Chestplate"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "iceandfire:myrmex.+chestplate"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0AEF723B80C2E0F5"
+					type: "item"
+					item: "iceandfire:myrmex_desert_resin_glass"
+					count: 8
+				}
+				{
+					id: "5A8DA8F2CB21B35A"
+					type: "item"
+					item: "iceandfire:myrmex_jungle_resin_glass"
+					count: 8
+				}
+				{
+					id: "34FA61C0CF85E816"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2526016BDE965A56"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 0.5d
+			id: "6A523C93B742214D"
+			tasks: [{
+				id: "505E691E765B3499"
+				type: "item"
+				title: "Myrmex Chitin Leggings"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "iceandfire:myrmex.+leggings"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "03A7E6C920E7A21D"
+					type: "item"
+					item: "iceandfire:myrmex_desert_resin_glass"
+					count: 8
+				}
+				{
+					id: "7DA7ABAAFD412DA6"
+					type: "item"
+					item: "iceandfire:myrmex_jungle_resin_glass"
+					count: 8
+				}
+				{
+					id: "68AACFDB37AA601C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0B8488E3AC8850EA"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 1.5d
+			id: "49333B93EB92A173"
+			tasks: [{
+				id: "5EF7B1BDBF5E8724"
+				type: "item"
+				title: "Myrmex Chitin Boots"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "iceandfire:myrmex.+boots"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6947E51FEA4068FF"
+					type: "item"
+					item: "iceandfire:myrmex_desert_resin_glass"
+					count: 8
+				}
+				{
+					id: "33D01D464B325398"
+					type: "item"
+					item: "iceandfire:myrmex_jungle_resin_glass"
+					count: 8
+				}
+				{
+					id: "7C6D67FD77843789"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "49990FE0010004A8"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			id: "40AE67251E156F81"
+			tasks: [
+				{
+					id: "359B0EAB182E6457"
+					type: "item"
+					item: "iceandfire:dragonbone_arrow"
+				}
+				{
+					id: "74A6F6A03FC42957"
+					type: "item"
+					item: "iceandfire:stymphalian_arrow"
+				}
+				{
+					id: "61988C68F8C13262"
+					type: "item"
+					item: "iceandfire:amphithere_arrow"
+				}
+				{
+					id: "52580D6AEA480361"
+					type: "item"
+					item: "iceandfire:sea_serpent_arrow"
+				}
+				{
+					id: "7541265FE79221D3"
+					type: "item"
+					item: "iceandfire:hydra_arrow"
+				}
+			]
+			rewards: [
+				{
+					id: "0339FB9AD3473E43"
+					type: "item"
+					item: "iceandfire:manuscript"
+					count: 6
+				}
+				{
+					id: "319704526EC7FE4A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3DFC174DB8D3DA77"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			title: "The Dragon Forge"
+			x: 15.0d
+			y: 0.0d
+			subtitle: "&6Forged With Rage \\& Fire"
+			size: 3.0d
+			id: "6AF881E16C302F17"
+			tasks: [
+				{
+					id: "732EA66A0CCB33B3"
+					type: "item"
+					title: "Dragonforge Brick"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "iceandfire:dragonforge_fire_brick"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonforge_ice_brick"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonforge_lightning_brick"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "14BF0D3F7A6173A1"
+					type: "item"
+					title: "Dragonforge Aperture"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "iceandfire:dragonforge_fire_input"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonforge_ice_input"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonforge_lightning_input"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "47B6E3A8D1DC9350"
+					type: "item"
+					title: "Dragonforge Core"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "iceandfire:dragonforge_fire_core_disabled"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonforge_ice_core_disabled"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonforge_lightning_core_disabled"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "0405FAC1C7E19843"
+					type: "item"
+					item: "iceandfire:dragon_bone_block"
+					count: 8L
+				}
+				{
+					id: "33267C0B965784FC"
+					type: "advancement"
+					title: "&6Make: Dragonsteel"
+					icon: "iceandfire:dragonsteel_fire_ingot"
+					advancement: "iceandfire:iceandfire/dragonsteel"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "553D004EE8B14EF1"
+					type: "item"
+					item: "kubejs:golem_summoner"
+				}
+				{
+					id: "096975DBB17089CC"
+					type: "item"
+					item: "kubejs:delight_builder"
+					count: 4
+				}
+				{
+					id: "76BE986A82C526D8"
+					type: "item"
+					item: {
+						id: "apotheosis:potion_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Potion: "upgrade_aquatic:vibing_strong"
+						}
+					}
+				}
+				{
+					id: "1F6DFC97A6971F95"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "3A1810FEAB2BC04F"
+					type: "item"
+					item: "kubejs:affixgear6"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Full Set Of Tide Guardian Armor"
+			icon: "iceandfire:shiny_scales"
+			x: 10.0d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4B9FE676BADBDCD2"
+				"04F84F503D6283FA"
+				"0DECF201A8240B27"
+				"69ADC86E9CC033FA"
+			]
+			id: "7C1AF1236D66BE54"
+			tasks: [{
+				id: "3D1048B294B3B6EA"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "78594331DD5DAC18"
+					type: "item"
+					item: {
+						id: "apotheosis:potion_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Potion: "cyclic:swimspeed"
+						}
+					}
+				}
+				{
+					id: "662337018AA06900"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "3E4B6F3EBBFD481C"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			title: "Full Set Of Dragon Scale Armor"
+			icon: "iceandfire:dragonscales_copper"
+			x: 11.25d
+			y: -3.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"0438EF1E839E929B"
+				"3E90365462D27C49"
+				"76AB53D8C62C1EE6"
+				"199017AE9B6946BB"
+			]
+			size: 1.5d
+			id: "26ADB2D253A33118"
+			tasks: [{
+				id: "3FBB6C25344A922C"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "13F248C6A96725B3"
+					type: "item"
+					item: "iceandfire:fire_stew"
+				}
+				{
+					id: "15561E85157BA09A"
+					type: "item"
+					item: "iceandfire:frost_stew"
+				}
+				{
+					id: "506936AC960941FF"
+					type: "item"
+					item: "iceandfire:lightning_stew"
+				}
+				{
+					id: "224AA92D82EB8B78"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "4F5B6BAF8C852544"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			title: "Full Set Of Myrmex Chitin Armor"
+			icon: "iceandfire:myrmex_desert_chitin"
+			x: 12.5d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"39BF85F681742857"
+				"6590091E34983534"
+				"6A523C93B742214D"
+				"49333B93EB92A173"
+			]
+			id: "66F934BBCA46D293"
+			tasks: [{
+				id: "4C5872422DE2270C"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "3B37683D5EAC070E"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_desert_egg"
+						Count: 1b
+						tag: {
+							EggOrdinal: 0
+						}
+					}
+				}
+				{
+					id: "63A4DAC80C432C35"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_jungle_egg"
+						Count: 1b
+						tag: {
+							EggOrdinal: 0
+						}
+					}
+				}
+				{
+					id: "0EA5DD9B2DC4206C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "2F1303FCD0984270"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+
+#Client side changes.
+[common]
+	#Distance the health indicator will detect entities.
+	indicatorDistance = 64.0
+	#Max amount of health indicators that will be displayed.
+	maxIndicatorsDisplayed = 5
+	#Determines weather or not only player health indicators should show.
+	onlyPlayerIndicators = true
+	#Determines weather or not only team health indicators should show.
+	enableTeamIndicators = true
+	#Max amount of team health indicators that will be displayed.
+	maxTeamIndicatorsDisplayed = 5
+	#Enables the numerical indicators alongside the mob name.
+	enableNumericalIndicator = true
+	#Determines if you will see the health of your wolves, as if they were on your team. (Requires team indicators to be on.)
+	enableOwnWolves = true
+	#The starting point for the left indicator on the x axis. (normal indicator by default)
+	leftIndicatorX = 0
+	#The starting point for the left indicator on the y axis.
+	leftIndicatorY = 130
+	#The starting point for the right indicator on the x axis. (team indicator by default)
+	rightIndicatorX = 95
+	#The starting point for the right indicator on the y axis.
+	rightIndicatorY = 150
+	#Swaps the sides the indicators are on, team indicator moves to the left, while the normal one moves right.
+	swapIndicatorSides = false
+

@@ -1,0 +1,1848 @@
+{
+	id: "0000000000000111"
+	group: "432A898843F792EA"
+	order_index: 6
+	filename: "farmers_life"
+	title: "Husbandry"
+	icon: {
+		id: "minecraft:netherite_hoe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -8.0d
+			subtitle: "Tackle, Tackle"
+			id: "0000000000000119"
+			tasks: [{
+				id: "000000000000011A"
+				type: "item"
+				item: "aquaculture:tackle_box"
+			}]
+			rewards: [
+				{
+					id: "0000000000000359"
+					type: "item"
+					item: {
+						id: "botania:brew_vial"
+						Count: 1b
+						tag: {
+							brewKey: "botania:allure"
+						}
+					}
+				}
+				{
+					id: "000000000000035A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "304B096228E88E0F"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -8.5d
+			subtitle: "Really Dirty"
+			id: "000000000000011B"
+			tasks: [{
+				id: "000000000000011C"
+				type: "item"
+				item: "aquaculture:worm_farm"
+			}]
+			rewards: [{
+				id: "0000000000000357"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: -10.5d
+			subtitle: "Resistent Fishing"
+			size: 1.5d
+			id: "00000000000001A0"
+			tasks: [{
+				id: "00000000000001A1"
+				type: "item"
+				item: "aquaculture:iron_hook"
+			}]
+			rewards: [
+				{
+					id: "0000000000000668"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "218265FDF1D220AD"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -9.5d
+			subtitle: "Fishing With Luck"
+			id: "00000000000001A2"
+			tasks: [{
+				id: "00000000000001A3"
+				type: "item"
+				item: "aquaculture:gold_hook"
+			}]
+			rewards: [
+				{
+					id: "00000000000003A3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "112EE1C0C4EF29A4"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -12.0d
+			subtitle: "More Resistent Fishing"
+			dependencies: ["00000000000001A0"]
+			id: "00000000000001A4"
+			tasks: [{
+				id: "00000000000001A5"
+				type: "item"
+				item: "aquaculture:diamond_hook"
+			}]
+			rewards: [{
+				id: "000000000000039F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: -9.5d
+			subtitle: "Double Fishing"
+			id: "00000000000001A6"
+			tasks: [{
+				id: "00000000000001A7"
+				type: "item"
+				item: "aquaculture:double_hook"
+			}]
+			rewards: [
+				{
+					id: "000000000000039D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1C685FA82319AA55"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -13.0d
+			subtitle: "Lucky Fishing \\& Durability"
+			dependencies: ["00000000000001A4"]
+			id: "00000000000001A8"
+			tasks: [{
+				id: "00000000000001A9"
+				type: "item"
+				item: "aquaculture:nether_star_hook"
+			}]
+			rewards: [
+				{
+					id: "00000000000003A0"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "0CE2227EE89704CE"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear5"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			subtitle: "Crop Speedup"
+			id: "0000000000000251"
+			tasks: [{
+				id: "0000000000000252"
+				type: "item"
+				item: "cyclic:terra_preta"
+			}]
+			rewards: [
+				{
+					id: "0000000000000664"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "02E6958DEDAD5DD3"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Magical Farmland"
+			icon: "forbidden_arcanus:magical_farmland"
+			x: -1.0d
+			y: 1.0d
+			subtitle: "Crop Multiplier"
+			id: "0000000000000253"
+			tasks: [
+				{
+					id: "00766238332DE2FC"
+					type: "item"
+					item: "forbidden_arcanus:arcane_bone_meal"
+				}
+				{
+					id: "12B8D46F82943D43"
+					type: "observation"
+					title: "&eObserve: &aMagical Farmland"
+					icon: "forbidden_arcanus:magical_farmland"
+					timer: 0L
+					observe_type: 0
+					to_observe: "forbidden_arcanus:magical_farmland"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000663"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "48CFFB8A1D66DA1D"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			subtitle: "Makes Animals And Plants Grow Faster (5x5)"
+			id: "0000000000000259"
+			tasks: [{
+				id: "000000000000025A"
+				type: "item"
+				item: "druidcraft:growth_lamp"
+			}]
+			rewards: [
+				{
+					id: "00000000000003A4"
+					type: "item"
+					item: "farmingforblockheads:red_fertilizer"
+					count: 4
+				}
+				{
+					id: "00000000000003A5"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			subtitle: "Makes Plants Grow Faster (9x9)"
+			id: "000000000000025B"
+			tasks: [{
+				id: "000000000000025C"
+				type: "item"
+				item: "xreliquary:fertile_lily_pad"
+			}]
+			rewards: [
+				{
+					id: "00000000000003A6"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "5B5BFD4E2CF0E706"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Fertilizahs"
+			x: 0.0d
+			y: -0.5d
+			subtitle: "Apply To Farmland To \"Upgrade\" It"
+			id: "000000000000035C"
+			tasks: [
+				{
+					id: "000000000000035D"
+					type: "item"
+					item: "farmingforblockheads:green_fertilizer"
+					count: 4L
+				}
+				{
+					id: "000000000000035E"
+					type: "item"
+					item: "farmingforblockheads:red_fertilizer"
+					count: 4L
+				}
+				{
+					id: "000000000000035F"
+					type: "item"
+					item: "farmingforblockheads:yellow_fertilizer"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000362"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0DBA8BA7ED9D1D4F"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "Farmer's Drum (Milks Cows/Shears Sheep)"
+			dependencies: ["0000000000000176"]
+			id: "0000000000000554"
+			tasks: [{
+				id: "0000000000000555"
+				type: "item"
+				item: "botania:drum_gathering"
+			}]
+			rewards: [
+				{
+					id: "0000000000000666"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "11D7A23C61EBB41E"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			subtitle: "Simulated Growth"
+			hide: true
+			size: 2.0d
+			id: "0000000000000565"
+			tasks: [{
+				id: "0000000000000566"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [
+				{
+					id: "000000000000057A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "0B7675960D4F5138"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			subtitle: "Cheaty Ways"
+			size: 2.0d
+			id: "0000000000000567"
+			tasks: [{
+				id: "0000000000000568"
+				type: "item"
+				title: "Botany Pots"
+				item: {
+					id: "itemfilters:xor"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "botanypots:botany_pots"
+								}
+							}
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "botanypots:hopper_botany_pots"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "000000000000056B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6D01CBD2D7ACEB77"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Straw Golem"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "strawgolem:strawgolem"
+					DisplayMobScale: 1.25d
+				}
+			}
+			x: -4.0d
+			y: -4.0d
+			subtitle: "Cute Little Helper"
+			size: 2.0d
+			id: "000000000000060C"
+			tasks: [
+				{
+					id: "000000000000060D"
+					type: "item"
+					item: "minecraft:hay_block"
+				}
+				{
+					id: "000000000000060E"
+					type: "item"
+					item: "minecraft:carved_pumpkin"
+				}
+				{
+					id: "1E2474F32583FFC7"
+					type: "observation"
+					title: "&eObserve: &aStraw Golem"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "strawgolem:strawgolem"
+							DisplayMobScale: 1.25d
+						}
+					}
+					timer: 0L
+					observe_type: 5
+					to_observe: "strawgolem:strawgolem"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000060F"
+					type: "item"
+					item: "minecraft:carved_pumpkin"
+				}
+				{
+					id: "0000000000000610"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 4
+				}
+				{
+					id: "0000000000000611"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -8.5d
+			subtitle: "Auto-Fisher"
+			id: "000000000000076F"
+			tasks: [{
+				id: "0000000000000770"
+				type: "item"
+				item: "cyclic:fisher"
+			}]
+			rewards: [
+				{
+					id: "0000000000000773"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "40C131EFC3DCB58C"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			subtitle: "Make Use Of Your Insect Friend"
+			id: "10F3B9B4E70AEAA5"
+			tasks: [{
+				id: "700F992B4A7CE680"
+				type: "item"
+				item: {
+					id: "mysticalworld:spindle"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-1915466853
+							-1579922829
+							-1463177960
+							1825147121
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0FA4D6A396A9AA58"
+					type: "item"
+					item: "mysticalworld:silkworm_egg"
+					count: 4
+				}
+				{
+					id: "63812460B4320594"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Build Your Kitchen!"
+			x: 0.0d
+			y: 12.0d
+			subtitle: "Cuisine Connoisseur"
+			size: 2.0d
+			id: "454D2E0FA36BE79C"
+			tasks: [{
+				id: "64E2888591DCA740"
+				type: "item"
+				title: "Kitchen Floor"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "cookingforblockheads:.+_floor"
+					}
+				}
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "256802111B14EFA8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7A57571E6CBB7F2F"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 14.0d
+			subtitle: "Cooking Made Easy"
+			id: "22838732745199E7"
+			tasks: [{
+				id: "419CED6E34B67A72"
+				type: "item"
+				item: "cookingforblockheads:oven"
+			}]
+			rewards: [
+				{
+					id: "035A14A2B1093101"
+					type: "item"
+					item: "pamhc2foodextended:hamandpineapplepizzaitem"
+				}
+				{
+					id: "75501766376BA5C0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 12.5d
+			subtitle: "Food Preparations"
+			id: "2B3A169329791720"
+			tasks: [{
+				id: "7D0AB14B6A62E0E7"
+				type: "item"
+				item: "cookingforblockheads:cooking_table"
+			}]
+			rewards: [
+				{
+					id: "71BE71E927EF2355"
+					type: "item"
+					item: "minecraft:terracotta"
+					count: 16
+				}
+				{
+					id: "476FE4831E9B016C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 12.5d
+			subtitle: "Free Tap Water"
+			id: "48E61C36D440A342"
+			tasks: [{
+				id: "61385BB7C5CF42D8"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+			rewards: [
+				{
+					id: "38C63E57CE124DCE"
+					type: "item"
+					item: "minecraft:terracotta"
+					count: 16
+				}
+				{
+					id: "279FAEC175F8832A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			subtitle: "Food Magazine - Standard Edition"
+			id: "47D214D677E8D505"
+			tasks: [{
+				id: "20F123DD425BE77E"
+				type: "item"
+				item: "cookingforblockheads:no_filter_edition"
+			}]
+			rewards: [{
+				id: "38E6B18FF90E9BC5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			subtitle: "Food Magazine - Recipe Book Edition"
+			dependencies: ["47D214D677E8D505"]
+			id: "52046854CE874CF2"
+			tasks: [{
+				id: "0723AF13377DD933"
+				type: "item"
+				item: "cookingforblockheads:recipe_book"
+			}]
+			rewards: [{
+				id: "5FA75EDB8E64058D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			subtitle: "Food Magazine - Auto Crafting Edition"
+			dependencies: ["52046854CE874CF2"]
+			id: "65B9D5069ACE45F5"
+			tasks: [{
+				id: "06008028EE954BCC"
+				type: "item"
+				item: "cookingforblockheads:crafting_book"
+			}]
+			rewards: [
+				{
+					id: "425C18175EA88761"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "762E715A1ED442A7"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 13.5d
+			subtitle: "Fancy Storage For Spices"
+			id: "0C5E2D59EEFEDD5A"
+			tasks: [{
+				id: "440F48F5CFE76AEF"
+				type: "item"
+				item: "cookingforblockheads:spice_rack"
+			}]
+			rewards: [
+				{
+					id: "02FCA4D5B408D112"
+					type: "item"
+					item: "pamhc2foodextended:candiedlemonitem"
+					count: 4
+				}
+				{
+					id: "3B575A1B76E822A5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			icon: "cookingforblockheads:toaster"
+			x: -1.5d
+			y: 10.5d
+			subtitle: "Powered By Lava"
+			id: "0F1356F0D34EFCA9"
+			tasks: [
+				{
+					id: "7E04B1601EE99015"
+					type: "item"
+					item: "cookingforblockheads:toaster"
+				}
+				{
+					id: "5C3C830258EE0D53"
+					type: "item"
+					item: "pamhc2foodcore:toastitem"
+				}
+			]
+			rewards: [
+				{
+					id: "7B318BD3567577EA"
+					type: "item"
+					item: "minecraft:bread"
+					count: 4
+				}
+				{
+					id: "15649B8DB0EB0DB9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			subtitle: "Auto-Feeder"
+			id: "6F05493F43FECF23"
+			tasks: [{
+				id: "3FC5468ACCEFEB96"
+				type: "item"
+				item: "farmingforblockheads:feeding_trough"
+			}]
+			rewards: [
+				{
+					id: "03F26C4CD9184A38"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "52BA32527875B60F"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			subtitle: "Auto-Egg-Vacuum"
+			id: "66782312B1E3E81F"
+			tasks: [{
+				id: "1F665696AD8B2B8F"
+				type: "item"
+				item: "farmingforblockheads:chicken_nest"
+			}]
+			rewards: [{
+				id: "7D58D7A8517AAE00"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			subtitle: "Your Local Food Villager, Falling From The Sky"
+			id: "63A7F8383BBCD260"
+			tasks: [{
+				id: "5D744996F391C26B"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [
+				{
+					id: "4D250B0B735BFC69"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "0CE5898F859D79A9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "676A9B7EA01E3A72"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 13.5d
+			subtitle: "Fancy Storage For Fruits"
+			id: "595560F47CDF364B"
+			tasks: [{
+				id: "77079A7F17DB84DD"
+				type: "item"
+				item: "cookingforblockheads:fruit_basket"
+			}]
+			rewards: [
+				{
+					id: "7AC34F237B7F2FBB"
+					type: "item"
+					item: "pamhc2foodextended:candiedgingeritem"
+					count: 4
+				}
+				{
+					id: "2CBB9BF7ADFAEC10"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 14.0d
+			subtitle: "Free Ice Cream"
+			id: "14EE79E427CD523D"
+			tasks: [{
+				id: "570DE1AA557A0F76"
+				type: "item"
+				item: "cookingforblockheads:fridge"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "3E2356B0461CE67F"
+					type: "item"
+					item: "pamhc2foodextended:blueberrysmoothieitem"
+					count: 4
+				}
+				{
+					id: "25EE0B22B596A39E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 11.5d
+			subtitle: "Kitchen Storage"
+			description: [""]
+			id: "71D047CF06A9EC68"
+			tasks: [{
+				id: "517B1AA01A1A1757"
+				type: "item"
+				title: "Counter Or Cabinet"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "cookingforblockheads:cabinet"
+								Count: 1b
+							}
+							{
+								id: "cookingforblockheads:counter"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2B82E6F334D39783"
+					type: "item"
+					item: "minecraft:terracotta"
+					count: 16
+				}
+				{
+					id: "7452C175B99A9483"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 11.5d
+			subtitle: "Fancy Corners"
+			id: "14A2318A231C1D17"
+			tasks: [{
+				id: "348C21CDCE756880"
+				type: "item"
+				title: "Kitchen Corner"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "cookingforblockheads:hanging_corner"
+								Count: 1b
+							}
+							{
+								id: "cookingforblockheads:corner"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "04382AADA1AA47AD"
+					type: "item"
+					item: "minecraft:terracotta"
+					count: 16
+				}
+				{
+					id: "5495CFA5A0BF36B9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 15.0d
+			subtitle: "Cooling Fluid"
+			id: "2081BCC9C61543C5"
+			tasks: [{
+				id: "6FE97E1260E58A5D"
+				type: "item"
+				item: "cookingforblockheads:ice_unit"
+			}]
+			rewards: [
+				{
+					id: "503931644269747D"
+					type: "item"
+					item: "pamhc2foodcore:melonsmoothieitem"
+					count: 4
+				}
+				{
+					id: "779AC283B308807B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 15.0d
+			subtitle: "Energy-Fueled"
+			id: "2BC1417327FEED3A"
+			tasks: [{
+				id: "6DD7F95A6EF06681"
+				type: "item"
+				item: "cookingforblockheads:heating_unit"
+			}]
+			rewards: [{
+				id: "1A77B6C5E1D75FD5"
+				type: "item"
+				item: "pamhc2foodextended:garlicchickenitem"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			subtitle: "Preserves Items"
+			optional: true
+			id: "138BFED8336C58E8"
+			tasks: [{
+				id: "12864CA0DBD14079"
+				type: "item"
+				item: "cookingforblockheads:preservation_chamber"
+			}]
+			rewards: [
+				{
+					id: "2E77A3F8D8C72C21"
+					type: "item"
+					item: "pamhc2foodcore:icecreamitem"
+				}
+				{
+					id: "7265D6725B2F3F0A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			title: "Food Utensils"
+			x: 0.0d
+			y: 9.0d
+			subtitle: "For The Kitchen"
+			id: "7B6FDB6F9A5E44C4"
+			tasks: [
+				{
+					id: "7B205D6CD82B855A"
+					type: "item"
+					item: "pamhc2foodcore:bakewareitem"
+				}
+				{
+					id: "4969327980B6C2C8"
+					type: "item"
+					item: "pamhc2foodcore:cuttingboarditem"
+				}
+				{
+					id: "0D4E6D45FD9EFD32"
+					type: "item"
+					item: "pamhc2foodcore:juiceritem"
+				}
+				{
+					id: "7B8FB9309289C6FE"
+					type: "item"
+					item: "pamhc2foodcore:grinderitem"
+				}
+				{
+					id: "2C55CF46E8B46A88"
+					type: "item"
+					item: "pamhc2foodcore:mixingbowlitem"
+				}
+				{
+					id: "48ED50CD27680310"
+					type: "item"
+					item: "pamhc2foodcore:potitem"
+				}
+				{
+					id: "5B4FE3C155394603"
+					type: "item"
+					item: "pamhc2foodcore:rolleritem"
+				}
+				{
+					id: "0ECD2533432D7B87"
+					type: "item"
+					item: "pamhc2foodcore:saucepanitem"
+				}
+				{
+					id: "02142E613BA21FC2"
+					type: "item"
+					item: "pamhc2foodcore:skilletitem"
+				}
+			]
+			rewards: [
+				{
+					id: "1E59CE910AFCC34D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "61304A42169D1AB4"
+					type: "item"
+					item: {
+						id: "kubejs:box_of_food"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 15.0d
+			subtitle: "No More Manual Tool Usage"
+			id: "679AEBA3C918E82E"
+			tasks: [{
+				id: "2F479D53FD25E4E4"
+				type: "item"
+				item: "cookingforblockheads:tool_rack"
+			}]
+			rewards: [
+				{
+					id: "5FD5955394BA8292"
+					type: "item"
+					item: "pamhc2foodextended:candiedsweetpotatoesitem"
+					count: 4
+				}
+				{
+					id: "3F51A4D1FAC6B8F1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 10.5d
+			subtitle: "Infinite Milk"
+			id: "6A6E9BFDA4ACAE91"
+			tasks: [{
+				id: "64DFCCB2327BD7AD"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
+			rewards: [
+				{
+					id: "7641420E93EB1DDE"
+					type: "item"
+					item: "pamhc2foodcore:cookiesandmilkitem"
+					count: 4
+				}
+				{
+					id: "79506AE6664A163D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			id: "7ED6C190E355B4CA"
+			tasks: [{
+				id: "42E67C951EF59CD8"
+				type: "item"
+				item: {
+					id: "watercan:watercan_wood"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2481904834B7489B"
+					type: "item"
+					item: "xreliquary:fertile_potion"
+				}
+				{
+					id: "609A63DFD2D1CA72"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			dependencies: ["7ED6C190E355B4CA"]
+			id: "210A264C1EC402D7"
+			tasks: [{
+				id: "520F2B2CFC0A6E73"
+				type: "item"
+				item: {
+					id: "watercan:watercan_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "66DE289BE82B2C88"
+					type: "item"
+					item: "xreliquary:fertile_potion"
+					count: 2
+				}
+				{
+					id: "1A6A390A98BF6C14"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["210A264C1EC402D7"]
+			id: "2E574E866EB7A4E7"
+			tasks: [{
+				id: "7F13F5B0D7EF235D"
+				type: "item"
+				item: {
+					id: "watercan:watercan_iron"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "170BB660CEC1AB65"
+					type: "item"
+					item: "xreliquary:fertile_potion"
+					count: 4
+				}
+				{
+					id: "23D155A8F866422B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["2E574E866EB7A4E7"]
+			id: "70A3DD361850F462"
+			tasks: [{
+				id: "518542126AE4CC68"
+				type: "item"
+				item: {
+					id: "watercan:watercan_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2A12139DA1A4E819"
+					type: "item"
+					item: "xreliquary:fertile_potion"
+					count: 8
+				}
+				{
+					id: "6B566C3009274924"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["70A3DD361850F462"]
+			id: "2E4EC8C5369AAA14"
+			tasks: [{
+				id: "3312BB3E6393E21A"
+				type: "item"
+				item: "watercan:watercan_diamond"
+			}]
+			rewards: [
+				{
+					id: "7928C56E72F8B7E7"
+					type: "item"
+					item: "xreliquary:fertile_potion"
+					count: 16
+				}
+				{
+					id: "4CDDA41047B5E1F5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1516E838C06FB927"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			subtitle: "Getting B-High"
+			id: "65E46DB300007819"
+			tasks: [{
+				id: "3D1121CB88B1E803"
+				type: "item"
+				item: {
+					id: "resourcefulbees:smoker"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-1915466853
+							-1579922829
+							-1463177960
+							1825147121
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3018593E67DA1508"
+					type: "item"
+					item: "cyclic:apple_honey"
+				}
+				{
+					id: "29CD85975D282DB0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Not Just Lime Grass"
+			description: ["Sheep are more likely to eat from it and it doesn't turn into dirt when eaten."]
+			id: "662E2F737A8F5460"
+			tasks: [{
+				id: "69FDBCF5F3D31901"
+				type: "item"
+				item: "supplementaries:fodder"
+			}]
+			rewards: [
+				{
+					id: "7982CCF96828093F"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 4
+				}
+				{
+					id: "21B6D79C2FFDA98B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			subtitle: "The Better Pot"
+			dependencies: ["0000000000000567"]
+			id: "5087ED4B19156D80"
+			tasks: [{
+				id: "5B446E484C13F229"
+				type: "item"
+				title: "Hopper Botany Pots"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botanypots:hopper_botany_pots"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3B7C6FE139F7719B"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "2AEA14AC8ADD1187"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			subtitle: "Greenhouse Effect"
+			id: "55232DC65CB625F6"
+			tasks: [{
+				id: "4784B087A8F39C3D"
+				type: "item"
+				item: "cyclic:terra_glass"
+			}]
+			rewards: [
+				{
+					id: "6B5388E07460FB22"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "487D32C0DE5E4F43"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			subtitle: "Ultimate Growth Amplifier"
+			size: 2.0d
+			id: "75586DFB1EDAE5D8"
+			tasks: [{
+				id: "71BF4DDE42F0D0D4"
+				type: "item"
+				item: "kubejs:evershifting_soil"
+			}]
+			rewards: [
+				{
+					id: "11BEBD8CC7ABF4AD"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "690A4761D4788684"
+					type: "item"
+					item: "kubejs:affixgear4"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			dependencies: ["00000000000001A0"]
+			id: "7B907E134B645FC4"
+			tasks: [{
+				id: "17CF3BAA5719665D"
+				type: "item"
+				item: "buddycards:buddycard_hook"
+			}]
+			rewards: [
+				{
+					id: "362638423C48C31D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "559616CB7C5C719B"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -11.5d
+			id: "00849FF4070F5175"
+			tasks: [{
+				id: "4E4BA964505338E1"
+				type: "item"
+				item: "aquaculture:light_hook"
+			}]
+			rewards: [
+				{
+					id: "5326FE4F6909764C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "60711436051BA5F0"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -11.5d
+			id: "436482FF5F954389"
+			tasks: [{
+				id: "236279603F9EF042"
+				type: "item"
+				item: "aquaculture:heavy_hook"
+			}]
+			rewards: [
+				{
+					id: "541CE8B3774F521A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "770B6544F99D227B"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -10.5d
+			id: "4A2046E1D00CCE1D"
+			tasks: [{
+				id: "118F4FEA3E4EC7D0"
+				type: "item"
+				item: "aquaculture:redstone_hook"
+			}]
+			rewards: [
+				{
+					id: "39BD2FBF263D2FF2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "34A5601920CE0038"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -10.5d
+			id: "23E28E83D5D5BD29"
+			tasks: [{
+				id: "5685815B1EA46A33"
+				type: "item"
+				item: "aquaculture:note_hook"
+			}]
+			rewards: [
+				{
+					id: "745E7B58A1BCA15D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6AC8ECC4DF3659A8"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			subtitle: "Microbiome Soil"
+			id: "4EC13F217938BC7C"
+			tasks: [{
+				id: "6ABAE5F60D15A2FD"
+				type: "item"
+				item: "farmersdelight:rich_soil"
+			}]
+			rewards: [
+				{
+					id: "0EEF822E38DBBC7C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1044B4ECFC2F10C9"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Extracting Sap"
+			icon: {
+				id: "myrtrees:rubberwood_sapling"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -4.0d
+			y: -2.0d
+			subtitle: "Myrtrees"
+			size: 2.0d
+			id: "70E68390E7B35398"
+			tasks: [
+				{
+					id: "1D8CB3B74A5BE414"
+					type: "item"
+					item: {
+						id: "myrtrees:tree_tap"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3370D2191D828883"
+					type: "item"
+					item: {
+						id: "myrtrees:wooden_bucket"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3CAB59D9395279CA"
+					type: "item"
+					item: {
+						id: "myrtrees:latex"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6FD7163DBEF17570"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1A24D4B6755D9F3A"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			subtitle: "Infini-Meal"
+			size: 2.0d
+			id: "0C9B8D95F15B1596"
+			tasks: [{
+				id: "72F0FF50D3717253"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:infinimeal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3AAAC00397FFC3D6"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "39605DE159842638"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

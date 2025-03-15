@@ -1,0 +1,51 @@
+
+[General]
+
+	[General."Villager Professions"]
+		#Enable the Engineer?
+		engineer = true
+		#Enable the Lumberjack?
+		lumberjack = true
+		#Enable the Contractor?
+		contractor = true
+		#Enable the Disc Jockey?
+		disc_jockey = true
+
+	[General.Ores]
+		#Enable Flint Ore?
+		flint_ore = true
+		#Enable Sulfur Ore?
+		sulfur_ore = true
+
+	[General.Worldgen]
+		#Enable Prismarine spawning in Ocean biomes?
+		prismarine_oceans = true
+
+	[General."Blocks and Items"]
+		#Enable Biome-Based Discs?
+		biome_discs = true
+		#Enable Charcoal Blocks?
+		charcoal_block = true
+		#Enable Coal Chunks?
+		coal_chunks = true
+		#Enable Chainmail?
+		chainmail = true
+		#Enable Disco Tiles?
+		disco_tiles = true
+		#Enable the Cosmetic Hats sold by the Disc Jockey??
+		cosmetic_hats = true
+
+	[General.Miscellaneous]
+		#Enable special Holiday Features?
+		holiday_features = true
+		#Enable Cave Spider Jockeys in caves?
+		cave_jockey = true
+
+		[General.Miscellaneous."Villager Breeding Foods"]
+			#Enable Villagers eating Apples and Melons?
+			villager_produce = true
+			#Enable Villagers eating Baked Goods?
+			villager_baked_goods = true
+			#Enable Villagers being able to instantly breed when fed a golden food item?
+			villager_golden_food = true
+

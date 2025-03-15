@@ -1,0 +1,133 @@
+{
+	"weight": 1,
+	"mainhands": [
+		{
+			"weight": 4,
+			"stack": {
+				"item": "minecraft:netherite_sword"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "minecraft:netherite_pickaxe"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "minecraft:netherite_axe"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "wyrmroost:purple_geode_sword"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "wyrmroost:purple_geode_pickaxe"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "wyrmroost:purple_geode_axe"
+			}
+		}
+	],
+	"offhands": [
+		{
+			"weight": 3,
+			"stack": {
+				"item": "minecraft:shield"
+			}
+		}
+	],
+	"boots": [
+		{
+			"weight": 1,
+			"stack": {
+				"item": "minecraft:netherite_boots"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "wyrmroost:purple_geode_boots"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "byg:ametrine_boots"
+			}
+		}
+	],
+	"leggings": [
+		{
+			"weight": 1,
+			"stack": {
+				"item": "minecraft:netherite_leggings"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "wyrmroost:purple_geode_leggings"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "byg:ametrine_leggings"
+			}
+		}
+	],
+	"chestplates": [
+		{
+			"weight": 1,
+			"stack": {
+				"item": "minecraft:netherite_chestplate"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "wyrmroost:purple_geode_chestplate"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "byg:ametrine_chestplate"
+			}
+		}
+	],
+	"helmets": [
+		{
+			"weight": 1,
+			"stack": {
+				"item": "minecraft:netherite_helmet"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "wyrmroost:purple_geode_helmet"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "byg:ametrine_helmet"
+			}
+		}
+	],
+	"tags": [
+		"enderman",
+		"standard"
+	]
+}

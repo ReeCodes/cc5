@@ -1,0 +1,13 @@
+{
+  "requirements": {
+    "present": ["create"]
+  },
+  "default": [
+    {"key": "dungeoncrawl:create/andesite", "weight": 2},
+    {"key": "dungeoncrawl:create/crumbled_andesite", "weight": 1},
+    {"key": "dungeoncrawl:create/mossy_andesite", "weight": 1},
+    {"key": "dungeoncrawl:create/overgrown_andesite", "weight": 2}
+  ],
+  "mapping": {
+  }
+}

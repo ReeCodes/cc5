@@ -1,0 +1,1356 @@
+{
+	id: "0000000000000002"
+	group: ""
+	order_index: 0
+	filename: "start"
+	title: "Interlude"
+	icon: "minecraft:grass_block"
+	disable_toast: true
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Find Me"
+			icon: "quark:oak_chest"
+			disable_toast: true
+			x: -3.0d
+			y: -1.5d
+			subtitle: "Item Finder"
+			description: ["Press (Default) \"Z\" to search for items in a container."]
+			id: "0000000000000003"
+			tasks: [{
+				id: "0000000000000021"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "000000000000053B"
+				type: "xp_levels"
+				auto: "enabled"
+				xp_levels: 1
+			}]
+		}
+		{
+			icon: "tetra:rack"
+			disable_toast: true
+			x: -2.0d
+			y: 3.5d
+			subtitle: "Item Placer"
+			description: [
+				"Press (Default) \"P\" to place an Item onto a Wall instead of using Racks or Glass Frames."
+				""
+				""
+				""
+			]
+			id: "0000000000000023"
+			tasks: [{
+				id: "0000000000000024"
+				type: "checkmark"
+				title: "Plonk!"
+			}]
+			rewards: [{
+				id: "0000000000000025"
+				type: "xp_levels"
+				auto: "enabled"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Ready, Geared, Go!"
+			icon: {
+				id: "citadel:fancy_item"
+				Count: 1b
+				tag: {
+					DisplaySpin: 1
+					DisplayItem: "sophisticatedbackpacks:backpack"
+					DisplayShake: 0
+					DisplayScale: 1
+					DisplayBob: 0
+					DisplayZoom: 1
+				}
+			}
+			disable_toast: true
+			x: 0.0d
+			y: -0.5d
+			subtitle: "Get A Free Backpack!"
+			id: "000000000000019D"
+			tasks: [{
+				id: "000000000000019E"
+				type: "checkmark"
+				icon: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "613D0F770DE13D6E"
+					type: "item"
+					item: {
+						id: "sophisticatedbackpacks:backpack"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "370C65AFE154B3CF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2F914A24B11128C3"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+			]
+		}
+		{
+			title: "Rare Ice"
+			icon: "minecraft:ice"
+			disable_toast: true
+			x: 2.0d
+			y: 3.5d
+			subtitle: "Arctic Gifts"
+			description: ["Some ice may hold some frozen gifts."]
+			id: "00000000000001C5"
+			tasks: [{
+				id: "000000000000024C"
+				type: "checkmark"
+				icon: "minecraft:ice"
+			}]
+			rewards: [{
+				id: "000000000000025D"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "FTB Chunks"
+			icon: "statues:player_statue"
+			disable_toast: true
+			x: -3.0d
+			y: 2.5d
+			subtitle: "Claim Your Land"
+			description: ["By clicking the map in the top left in your inventory, you are able to claim your chunks. Unwelcome players will be unable to break or use any blocks in those claimed chunks."]
+			id: "0000000000000272"
+			tasks: [{
+				id: "0000000000000274"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0000000000000275"
+				type: "xp_levels"
+				auto: "enabled"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Getting XP"
+			disable_toast: true
+			x: 3.0d
+			y: -1.5d
+			subtitle: "Almost every Quest grants XP."
+			id: "00000000000003A7"
+			tasks: [{
+				id: "00000000000003A8"
+				type: "checkmark"
+				icon: "forbidden_arcanus:xpetrified_orb"
+			}]
+			rewards: [{
+				id: "00000000000003A9"
+				type: "xp_levels"
+				auto: "enabled"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Adaptive Mobs"
+			icon: {
+				id: "citadel:effect_item"
+				Count: 1b
+				tag: {
+					DisplayEffect: "minecraft:health_boost"
+				}
+			}
+			disable_toast: true
+			x: 1.0d
+			y: 4.5d
+			subtitle: "Equality Matters"
+			description: ["Mobs no longer adapt, they stay as is, due to obsolete scripts."]
+			id: "0000000000000603"
+			tasks: [{
+				id: "0000000000000605"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0000000000000606"
+				type: "xp_levels"
+				auto: "enabled"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Waystones"
+			icon: "waystones:waystone"
+			disable_toast: true
+			x: 1.0d
+			y: -3.5d
+			subtitle: "Pillars Of Travel"
+			id: "0000000000000619"
+			tasks: [{
+				id: "000000000000061A"
+				type: "stat"
+				title: "&eActivate: &aWaystone"
+				icon: "waystones:waystone"
+				stat: "waystones:waystone_activated"
+				value: 1
+			}]
+			rewards: [{
+				id: "000000000000061B"
+				type: "xp_levels"
+				auto: "enabled"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Just Enough Items (JEI)"
+			icon: "pneumaticcraft:tag_filter"
+			disable_toast: true
+			x: -2.0d
+			y: -2.5d
+			subtitle: "Informations About JEI"
+			description: [
+				"While Hovering Over An Item, Press \"R\" To View Recipes."
+				""
+				"Click The Search Bar Twice To Search For Items In A Container."
+				""
+				"While Hovering Over An Item, Press \"U\" To See The Usage Of The Item."
+				""
+				"Search For Items With The Search Bar At The Bottom In Your Inventory."
+				""
+				"Search Options:"
+				"@<modid> To Search For Mods"
+				"#<tooltip> To Search Tagged Item (Like Enchanted Books)"
+				""
+				"More Information About Search Options Can Be Found When Clicking The Wrench Besides The Search Bar."
+			]
+			id: "000000000000061F"
+			tasks: [{
+				id: "0000000000000621"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0000000000000622"
+				type: "xp_levels"
+				auto: "enabled"
+				xp_levels: 1
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "quark:totem"
+					DisplayMobScale: 1.5d
+				}
+			}
+			disable_toast: true
+			x: 3.0d
+			y: 2.5d
+			subtitle: "Totemic Helper"
+			description: [
+				"If you die a Totem will spawn."
+				"Punch it to get your items back."
+			]
+			id: "0000000000000763"
+			tasks: [{
+				id: "0000000000000764"
+				type: "checkmark"
+				title: "Totem Of Holding"
+				icon: "losttrinkets:broken_totem"
+			}]
+			rewards: [{
+				id: "0000000000000765"
+				type: "xp_levels"
+				auto: "enabled"
+				xp_levels: 1
+			}]
+		}
+		{
+			disable_toast: true
+			x: -3.0d
+			y: 0.5d
+			subtitle: "Better Curios"
+			description: [
+				"Whenever you mine, kill or build something you eventually obtain a Lost Trinket."
+				""
+				"Press (Default) \"-\" to open the Trinket Menu."
+			]
+			id: "0000000000000776"
+			tasks: [{
+				id: "0000000000000777"
+				type: "checkmark"
+				title: "Trinkets"
+				icon: "losttrinkets:broken_totem"
+			}]
+			rewards: [{
+				id: "0000000000000778"
+				type: "xp_levels"
+				auto: "enabled"
+				xp_levels: 1
+			}]
+		}
+		{
+			disable_toast: true
+			x: -1.0d
+			y: -3.5d
+			subtitle: "\"Vein Miner\""
+			description: ["Hold (Default) \"Shift+Tab\" to enable Ultimine while looking at a block."]
+			id: "000000000000078E"
+			tasks: [{
+				id: "000000000000078F"
+				type: "checkmark"
+				title: "Ultimine"
+				icon: {
+					id: "mythicbotany:alfsteel_pick"
+					Count: 1b
+					tag: {
+						tipped: 1b
+						mana: 999999
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000790"
+				type: "xp_levels"
+				auto: "enabled"
+				xp_levels: 1
+			}]
+		}
+		{
+			icon: "minecraft:flower_banner_pattern"
+			x: 2.0d
+			y: -2.5d
+			subtitle: "Changing Your Stats"
+			description: [
+				"The Parchment in the top right corner of your inventory allows you to change your stats."
+				""
+				"The more XP you gain, the more Skill Points you can invest into your Stats."
+				""
+				"If you die all your Stats are reset!"
+			]
+			id: "3F426EE8D5EAB994"
+			tasks: [{
+				id: "310322AA58F0ADB9"
+				type: "checkmark"
+				title: "Player Stats"
+			}]
+			rewards: [{
+				id: "3B6300047C4DBD99"
+				type: "xp_levels"
+				auto: "enabled"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Morphing"
+			icon: {
+				id: "citadel:fancy_item"
+				Count: 1b
+				tag: {
+					DisplaySpin: 0
+					DisplayItem: "minecraft:black_dye"
+					DisplayShake: 1
+					DisplayScale: 1
+					DisplayBob: 0
+					DisplayZoom: 0
+				}
+			}
+			x: 3.0d
+			y: 0.5d
+			subtitle: "Gaining Biomass"
+			description: [
+				"By killing an enemy, you will receive \"Biomass\"."
+				"This allows you to morph into other mobs."
+			]
+			id: "525218A30D73B729"
+			tasks: [{
+				id: "7A176EF2C863A05F"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4AFA0F27F88D9FEB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Additional Books"
+			icon: {
+				id: "tconstruct:encyclopedia"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Tinkers Books"
+			dependencies: ["29F429323114110B"]
+			id: "516F52C1A39B8B79"
+			tasks: [{
+				id: "5D3197757E15034A"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "74D734E0F0758FED"
+					type: "item"
+					item: {
+						id: "tconstruct:materials_and_you"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7CD2AD888D26E8AF"
+					type: "item"
+					item: {
+						id: "tconstruct:fantastic_foundry"
+						Count: 1b
+						tag: {
+							mantle: {
+								book: {
+									current_page: "foundry.index"
+								}
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "544FD944C4474DCB"
+					type: "item"
+					item: {
+						id: "tconstruct:mighty_smelting"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "271419A90168DF13"
+					type: "item"
+					item: {
+						id: "tconstruct:puny_smelting"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "27C6D2878ECAF635"
+					type: "item"
+					item: {
+						id: "tconstruct:tinkers_gadgetry"
+						Count: 1b
+						tag: {
+							mantle: {
+								book: {
+									current_page: ""
+								}
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "20E9F30BA2EBEFF7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Compact Library: The Akashic Tome"
+			icon: {
+				id: "akashictome:tome"
+				Count: 1b
+				tag: {
+					"akashictome:data": {
+						industrialforegoing: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "industrialforegoing:industrial_foregoing"
+							}
+						}
+						resourcefulbees: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+							}
+						}
+						astralsorcery: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "astralsorcery:tome"
+							Count: 1b
+						}
+						rootsclassic: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "rootsclassic:runic_tablet"
+							Count: 1b
+						}
+						immersiveengineering: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "immersiveengineering:manual"
+							Count: 1b
+						}
+						psi: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "psi:encyclopaedia_psionica"
+							}
+						}
+						alexsmobs: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "alexsmobs:animal_dictionary"
+							Count: 1b
+						}
+						woot: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "woot:wootguide"
+							}
+						}
+						eidolon: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "eidolon:codex"
+							Count: 1b
+						}
+						turtlemancy: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "turtlemancy:turtlenomicon"
+							}
+						}
+						botania: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "botania:lexicon"
+							Count: 1b
+							tag: { }
+						}
+						feywild: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "feywild:feywild_lexicon"
+							}
+						}
+						draconicevolution: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "draconicevolution:info_tablet"
+							Count: 1b
+						}
+						obscure_api: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "obscure_api:obscure_book"
+							Count: 1b
+						}
+						golems: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "golems:info_book"
+							Count: 1b
+						}
+						dimdungeons: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "dimdungeons:guide_book"
+							}
+						}
+						rftoolsbase: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "rftoolsbase:manual"
+							Count: 1b
+						}
+						securitycraft: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "securitycraft:sc_manual"
+							Count: 1b
+							tag: {
+								pages: [ ]
+								title: "SecurityCraft"
+								author: "Geforce"
+							}
+						}
+						integratedtunnels: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "integrateddynamics:on_the_dynamics_of_integration"
+							Count: 1b
+						}
+						powah: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "powah:book"
+							Count: 1b
+						}
+						pneumaticcraft: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "pneumaticcraft:book"
+							}
+						}
+						advancementbook: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "advancementbook:advancement_book"
+							Count: 1b
+						}
+						naturesaura: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "naturesaura:book"
+							}
+						}
+						apotheosis: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "apotheosis:apoth_chronicle"
+							}
+						}
+						forcecraft: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "forcecraft:force_and_you"
+							}
+						}
+						engineersdecor: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "engineersdecor:engineersdecor_manual"
+							}
+						}
+						outvoted: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "outvoted:book"
+							}
+						}
+						occultism: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "occultism:dictionary_of_spirits"
+							Count: 1b
+						}
+						solcarrot: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "solcarrot:food_book"
+							Count: 1b
+						}
+						ars_nouveau: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "ars_nouveau:worn_notebook"
+							Count: 1b
+						}
+						mysticalworld: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "mysticalworld:encyclopedia"
+							Count: 1b
+						}
+						bloodmagic: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "bloodmagic:guide"
+							}
+						}
+						twilightforest: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "twilightforest:guide"
+							}
+						}
+						buddycards: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "buddycards:buddycard_guidebook"
+							}
+						}
+						supplementaries: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "supplementaries:supplementaries_guide"
+							}
+						}
+						cyclic: {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "cyclic:cyclic_guide_book"
+							}
+						}
+					}
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 0.5d
+			subtitle: "Sorted By Category"
+			dependencies: ["000000000000019D"]
+			id: "29F429323114110B"
+			tasks: [{
+				id: "17E72B9F94BDE6B2"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "170D910753CC8FAA"
+					type: "item"
+					item: {
+						id: "akashictome:tome"
+						Count: 1b
+						tag: {
+							"akashictome:data": {
+								industrialforegoing: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "industrialforegoing:industrial_foregoing"
+									}
+								}
+								resourcefulbees: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+									}
+								}
+								astralsorcery: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "astralsorcery:tome"
+									Count: 1b
+								}
+								rootsclassic: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "rootsclassic:runic_tablet"
+									Count: 1b
+								}
+								immersiveengineering: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "immersiveengineering:manual"
+									Count: 1b
+								}
+								psi: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "psi:encyclopaedia_psionica"
+									}
+								}
+								alexsmobs: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "alexsmobs:animal_dictionary"
+									Count: 1b
+								}
+								woot: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "woot:wootguide"
+									}
+								}
+								eidolon: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "eidolon:codex"
+									Count: 1b
+								}
+								turtlemancy: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "turtlemancy:turtlenomicon"
+									}
+								}
+								botania: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "botania:lexicon"
+									Count: 1b
+									tag: { }
+								}
+								feywild: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "feywild:feywild_lexicon"
+									}
+								}
+								draconicevolution: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "draconicevolution:info_tablet"
+									Count: 1b
+								}
+								obscure_api: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "obscure_api:obscure_book"
+									Count: 1b
+								}
+								golems: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "golems:info_book"
+									Count: 1b
+								}
+								dimdungeons: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "dimdungeons:guide_book"
+									}
+								}
+								rftoolsbase: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "rftoolsbase:manual"
+									Count: 1b
+								}
+								securitycraft: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "securitycraft:sc_manual"
+									Count: 1b
+									tag: {
+										pages: [ ]
+										title: "SecurityCraft"
+										author: "Geforce"
+									}
+								}
+								integratedtunnels: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "integrateddynamics:on_the_dynamics_of_integration"
+									Count: 1b
+								}
+								powah: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "powah:book"
+									Count: 1b
+								}
+								pneumaticcraft: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "pneumaticcraft:book"
+									}
+								}
+								advancementbook: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "advancementbook:advancement_book"
+									Count: 1b
+								}
+								naturesaura: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "naturesaura:book"
+									}
+								}
+								apotheosis: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "apotheosis:apoth_chronicle"
+									}
+								}
+								forcecraft: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "forcecraft:force_and_you"
+									}
+								}
+								engineersdecor: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "engineersdecor:engineersdecor_manual"
+									}
+								}
+								outvoted: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "outvoted:book"
+									}
+								}
+								occultism: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "occultism:dictionary_of_spirits"
+									Count: 1b
+								}
+								solcarrot: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "solcarrot:food_book"
+									Count: 1b
+								}
+								ars_nouveau: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "ars_nouveau:worn_notebook"
+									Count: 1b
+								}
+								mysticalworld: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "mysticalworld:encyclopedia"
+									Count: 1b
+								}
+								bloodmagic: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "bloodmagic:guide"
+									}
+								}
+								twilightforest: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "twilightforest:guide"
+									}
+								}
+								buddycards: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "buddycards:buddycard_guidebook"
+									}
+								}
+								supplementaries: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "supplementaries:supplementaries_guide"
+									}
+								}
+								cyclic: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "cyclic:cyclic_guide_book"
+									}
+								}
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6413FD2036019D76"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			icon: {
+				id: "gobber2:gobber2_chestplate_end"
+				Count: 1b
+				tag: {
+					Damage: 0
+					AS_Amulet_Holder: [I;
+						-1915466853
+						-1579922829
+						-1463177960
+						1825147121
+					]
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.0d
+			y: 4.5d
+			subtitle: "Full Armor Payout"
+			description: ["Many types of armor, if worn as a set, grant effects for the wearer."]
+			id: "5E009D38A24DF87B"
+			tasks: [{
+				id: "47011E65F62E606C"
+				type: "checkmark"
+				title: "Armor Set Effects"
+			}]
+			rewards: [{
+				id: "41C5D7867B8F7DCC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+	]
+}

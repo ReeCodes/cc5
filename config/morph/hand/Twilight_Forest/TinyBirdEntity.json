@@ -1,0 +1,23 @@
+{
+  "author": "WenXin2",
+  "forClass": "twilightforest.entity.passive.TinyBirdEntity",
+  "modelFieldName": "head",
+  "eyeOffset": [
+    0.0,
+    0.03125,
+    0.125
+  ],
+  "pupilColour": [
+    0.29411766,
+    0.31764707,
+    0.49803922
+  ],
+  "halfInterpupillaryDistance": 0.0625,
+  "eyeScale": 0.45,
+  "headTopCenter": [
+    0.0,
+    0.0625,
+    0.03125
+  ],
+  "headScale": 0.4
+}

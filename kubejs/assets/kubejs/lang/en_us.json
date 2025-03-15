@@ -1,0 +1,6 @@
+{
+	"item.kubejs.craft_infusion_pedestal": "Ritual: Craft Infusion Pedestal",
+	"item.kubejs.craft_infusion_pedestal.tooltip": "The Pedestal allows for more complicated crafting rituals.",
+	"item.kubejs.craft_location_link_book": "Ritual: Craft Location Link Book",
+	"item.kubejs.craft_location_link_book.tooltip": "Allows you to teleport to an assigned location set by the book."
+}

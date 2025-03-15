@@ -1,0 +1,11 @@
+{
+  "forEntity": "specialmobs:spider",
+  "traits": [
+    {
+      "type": "traitHostile"
+    },
+    {
+      "type": "abilityClimb"
+    }
+  ]
+}

@@ -1,0 +1,740 @@
+{
+  "_schemaVersion": 6,
+  "_lastMCVersionId": 754,
+  "generalSettings": {
+    "detectATLauncherInstance": true,
+    "detectCurseManifest": true,
+    "detectMultiMCManifest": true,
+    "detectMCUpdaterInstance": true,
+    "detectTechnicPack": true,
+    "detectModrinthPack": true,
+    "detectBiomeData": false,
+    "detectDimensionData": true,
+    "detectWorldData": true,
+    "clientId": "799181413743984650",
+    "defaultIcon": "cc5_logo_raw",
+    "enableJoinRequests": true,
+    "preferredClientLevel": 3,
+    "resetTimeOnInit": false,
+    "autoRegister": false
+  },
+  "biomeSettings": {
+    "fallbackBiomeIcon": "unknown",
+    "biomeData": {
+      "default": {
+        "textOverride": "Playing in {biome.name}",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
+      }
+    }
+  },
+  "dimensionSettings": {
+    "fallbackDimensionIcon": "cc5_logo_raw",
+    "dimensionData": {
+      "void": {
+        "textOverride": "In the {dimension.name}",
+        "iconOverride": "void",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
+      },
+      "dungeon_dimension": {
+        "textOverride": "In the {dimension.name}",
+        "iconOverride": "dim_dungeon",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
+      },
+      "atum": {
+        "textOverride": "In the {dimension.name}",
+        "iconOverride": "atum",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
+      },
+      "alfheim": {
+        "textOverride": "In {dimension.name}",
+        "iconOverride": "alfheim",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
+      },
+      "overworld": {
+        "textOverride": "In the {dimension.name}",
+        "iconOverride": "overworld",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
+      },
+      "the_end": {
+        "textOverride": "In {dimension.name}",
+        "iconOverride": "the_end",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
+      },
+      "everbright": {
+        "textOverride": "In the {dimension.name}",
+        "iconOverride": "everbright",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
+      },
+      "undergarden": {
+        "textOverride": "In the {dimension.name}",
+        "iconOverride": "undergarden",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
+      },
+      "default": {
+        "textOverride": "In the {dimension.name}",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
+      },
+      "the_bumblezone": {
+        "textOverride": "In {dimension.name}",
+        "iconOverride": "the_bumblezone",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
+      },
+      "the_nether": {
+        "textOverride": "In {dimension.name}",
+        "iconOverride": "the_nether",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
+      },
+      "tropics": {
+        "textOverride": "In the {dimension.name}",
+        "iconOverride": "tropics",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
+      },
+      "everdawn": {
+        "textOverride": "In the {dimension.name}",
+        "iconOverride": "everdawn",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
+      },
+      "the_afterlight": {
+        "textOverride": "In {dimension.name}",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
+      },
+      "twilightforest": {
+        "textOverride": "In the Twilight Forest",
+        "iconOverride": "twilight_forest",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
+      },
+      "ratlantis": {
+        "textOverride": "In {dimension.name}",
+        "iconOverride": "ratlantis",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
+      }
+    }
+  },
+  "serverSettings": {
+    "fallbackServerIcon": "cc5_logo_raw",
+    "fallbackServerName": "Server",
+    "fallbackServerMotd": "Server",
+    "serverData": {
+      "default": {
+        "textOverride": "Playing on {server.motd.raw}",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Example Text",
+              "url": "https://google.com"
+            }
+          }
+        }
+      }
+    },
+    "pingRateInterval": 5,
+    "pingRateUnit": "minutes"
+  },
+  "statusMessages": {
+    "mainMenuData": {
+      "textOverride": "In the Main Menu",
+      "data": {
+        "enabled": true,
+        "useAsMain": false,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
+        "details": "",
+        "gameState": "",
+        "largeImageKey": "",
+        "largeImageText": "",
+        "smallImageKey": "",
+        "smallImageText": "",
+        "startTimestamp": "",
+        "endTimestamp": "",
+        "buttons": {
+          "default": {
+            "label": "Example Text",
+            "url": "https://google.com"
+          }
+        }
+      }
+    },
+    "loadingData": {
+      "textOverride": "Loading...",
+      "data": {
+        "enabled": true,
+        "useAsMain": false,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
+        "details": "",
+        "gameState": "",
+        "largeImageKey": "",
+        "largeImageText": "",
+        "smallImageKey": "",
+        "smallImageText": "",
+        "startTimestamp": "",
+        "endTimestamp": "",
+        "buttons": {
+          "default": {
+            "label": "Example Text",
+            "url": "https://google.com"
+          }
+        }
+      }
+    },
+    "lanData": {
+      "textOverride": "Playing on a LAN Server",
+      "data": {
+        "enabled": true,
+        "useAsMain": false,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
+        "details": "",
+        "gameState": "",
+        "largeImageKey": "",
+        "largeImageText": "",
+        "smallImageKey": "",
+        "smallImageText": "",
+        "startTimestamp": "",
+        "endTimestamp": "",
+        "buttons": {
+          "default": {
+            "label": "Example Text",
+            "url": "https://google.com"
+          }
+        }
+      }
+    },
+    "singleplayerData": {
+      "textOverride": "Playing Singleplayer",
+      "data": {
+        "enabled": true,
+        "useAsMain": false,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
+        "details": "",
+        "gameState": "",
+        "largeImageKey": "",
+        "largeImageText": "",
+        "smallImageKey": "",
+        "smallImageText": "",
+        "startTimestamp": "",
+        "endTimestamp": "",
+        "buttons": {
+          "default": {
+            "label": "Example Text",
+            "url": "https://google.com"
+          }
+        }
+      }
+    },
+    "realmData": {
+      "textOverride": "Playing on {server.motd.raw}"
+    }
+  },
+  "advancedSettings": {
+    "enablePerGui": false,
+    "enablePerItem": false,
+    "enablePerEntity": false,
+    "formatWords": true,
+    "debugMode": false,
+    "verboseMode": false,
+    "refreshRate": 2,
+    "allowPlaceholderPreviews": false,
+    "guiSettings": {
+      "fallbackGuiIcon": "unknown",
+      "guiData": {
+        "default": {
+          "textOverride": "In {screen.name}",
+          "data": {
+            "enabled": true,
+            "useAsMain": false,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
+            "details": "",
+            "gameState": "",
+            "largeImageKey": "",
+            "largeImageText": "",
+            "smallImageKey": "",
+            "smallImageText": "",
+            "startTimestamp": "",
+            "endTimestamp": "",
+            "buttons": {
+              "default": {
+                "label": "Example Text",
+                "url": "https://google.com"
+              }
+            }
+          }
+        }
+      }
+    },
+    "itemMessages": {
+      "default": "Holding {item.message.holding}"
+    },
+    "entitySettings": {
+      "fallbackEntityIcon": "unknown",
+      "targetData": {
+        "default": {
+          "textOverride": "Targeting {entity.target.name}",
+          "data": {
+            "enabled": true,
+            "useAsMain": false,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
+            "details": "",
+            "gameState": "",
+            "largeImageKey": "",
+            "largeImageText": "",
+            "smallImageKey": "",
+            "smallImageText": "",
+            "startTimestamp": "",
+            "endTimestamp": "",
+            "buttons": {
+              "default": {
+                "label": "Example Text",
+                "url": "https://google.com"
+              }
+            }
+          }
+        }
+      },
+      "ridingData": {
+        "default": {
+          "textOverride": "Riding {entity.riding.name}",
+          "data": {
+            "enabled": true,
+            "useAsMain": false,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
+            "details": "",
+            "gameState": "",
+            "largeImageKey": "",
+            "largeImageText": "",
+            "smallImageKey": "",
+            "smallImageText": "",
+            "startTimestamp": "",
+            "endTimestamp": "",
+            "buttons": {
+              "default": {
+                "label": "Example Text",
+                "url": "https://google.com"
+              }
+            }
+          }
+        }
+      }
+    },
+    "allowEndpointIcons": true,
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
+    "playerSkinEndpoint": "https://crafatar.com/avatars/%1$s",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10,
+    "enableClassGraph": false,
+    "useClassLoader": true
+  },
+  "accessibilitySettings": {
+    "languageId": "en_us",
+    "stripTranslationColors": false,
+    "stripTranslationFormatting": false,
+    "stripExtraGuiElements": false,
+    "configKeyCode": 335
+  },
+  "displaySettings": {
+    "presenceData": {
+      "enabled": true,
+      "useAsMain": false,
+      "isInstance": false,
+      "activityType": 0,
+      "partyPrivacy": 1,
+      "details": "{menu.message}{dimension.message}",
+      "gameState": "{server.message}",
+      "largeImageKey": "{menu.icon}{dimension.icon}",
+      "largeImageText": "{menu.message}{dimension.message}",
+      "smallImageKey": "{server.icon}",
+      "smallImageText": "{server.message}",
+      "startTimestamp": "{data.general.time}",
+      "endTimestamp": "",
+      "buttons": {
+        "default": {
+          "label": "Example Text",
+          "url": "https://google.com"
+        }
+      }
+    },
+    "dynamicIcons": {
+      "default": "https://via.placeholder.com/256.png",
+      "ReeReeQ": "https://crafatar.com/avatars/8dd44b9ba1d44a73a8c9ad186cc988f1",
+      "reereeq.modded.fun": "https://api.mcsrvstat.us/icon/reereeq.modded.fun",
+      "54.37.195.81": "https://api.mcsrvstat.us/icon/54.37.195.81",
+      "localhost": "https://api.mcsrvstat.us/icon/localhost"
+    },
+    "dynamicVariables": {
+      "default": "Example Text",
+      "mods": "{general.mods} Mod(s)",
+      "player_info_coordinate": "At {player.position.x}, {player.position.z}",
+      "players": "{server.players.current} / {server.players.max} Players",
+      "player_info_in": "({custom.player_info_health})",
+      "player_info_items": "Items: {item.main_hand.message}",
+      "player_info_out": "As {player.name}",
+      "player_info_health": "Health: {player.health.current}/{player.health.max}",
+      "world_info": "On {world.name}",
+      "pack": "{pack.name}"
+    }
+  }
+}

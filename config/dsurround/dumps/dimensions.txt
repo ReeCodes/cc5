@@ -1,0 +1,4 @@
+dimensionId: minecraft:overworld hasAurora: true hasHaze: true hasFog: true 
+dimensionId: minecraft:the_end seaLevel: 0 cloudHeight: 128 
+dimensionId: minecraft:the_nether seaLevel: 0 
+dimensionId: twilightforest:twilightforest hasAurora: false hasHaze: true hasFog: true 

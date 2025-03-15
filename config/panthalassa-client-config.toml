@@ -1,0 +1,23 @@
+
+#Panthalassa Client Config - Values changed in this document will only affect the client.
+["Creature Size Multiplier"]
+	#Word of Warning: Larger creatures will possess less smooth animations and may cause visual clipping issues.
+	#Range: 0.5 ~ 3.0
+	archelon_size_multiplier = 1.0
+	#Range: 0.5 ~ 3.0
+	coealacanth_size_multiplier = 1.0
+	#Range: 0.5 ~ 3.0
+	dunkleosteus_size_multiplier = 1.0
+	#Range: 0.5 ~ 3.0
+	kronosaurus_size_multiplier = 1.0
+	#Range: 0.5 ~ 3.0
+	leedsichthys_size_multiplier = 1.0
+	#Range: 0.5 ~ 3.0
+	megalodon_size_multiplier = 1.0
+	#Range: 0.5 ~ 3.0
+	mosasaurus_size_multiplier = 1.0
+
+["Vehicle Overlay"]
+	#This will determine whether the vehicle overlays are enabled or not.
+	vehicle-overlay-enabled = true
+

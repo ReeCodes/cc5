@@ -1,0 +1,432 @@
+{
+	"weight": 15,
+	"mainhands": [
+		{
+			"weight": 40,
+			"stack": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "mysticalworld:copper_axe"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "mysticalworld:copper_pickaxe"
+			}
+		},
+		{
+			"weight": 40,
+			"stack": {
+				"item": "mysticalworld:copper_sword"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "mysticalworld:tin_axe"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "mysticalworld:tin_pickaxe"
+			}
+		},
+		{
+			"weight": 40,
+			"stack": {
+				"item": "mysticalworld:tin_sword"
+			}
+		},
+		{
+			"weight": 40,
+			"stack": {
+				"item": "wyrmroost:platinum_sword"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "wyrmroost:platinum_pickaxe"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "wyrmroost:platinum_axe"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "mysticalworld:quicksilver_axe"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "mysticalworld:quicksilver_pickaxe"
+			}
+		},
+		{
+			"weight": 32,
+			"stack": {
+				"item": "mysticalworld:quicksilver_sword"
+			}
+		},
+		{
+			"weight": 7,
+			"stack": {
+				"item": "mysticalworld:silver_axe"
+			}
+		},
+		{
+			"weight": 7,
+			"stack": {
+				"item": "mysticalworld:silver_pickaxe"
+			}
+		},
+		{
+			"weight": 28,
+			"stack": {
+				"item": "mysticalworld:silver_sword"
+			}
+		},
+		{
+			"weight": 7,
+			"stack": {
+				"item": "mysticalworld:lead_axe"
+			}
+		},
+		{
+			"weight": 7,
+			"stack": {
+				"item": "mysticalworld:lead_pickaxe"
+			}
+		},
+		{
+			"weight": 28,
+			"stack": {
+				"item": "mysticalworld:lead_sword"
+			}
+		},
+		{
+			"weight": 6,
+			"stack": {
+				"item": "botania:manasteel_axe"
+			}
+		},
+		{
+			"weight": 24,
+			"stack": {
+				"item": "botania:manasteel_sword"
+			}
+		},
+		{
+			"weight": 32,
+			"stack": {
+				"item": "forbidden_arcanus:obsidian_sword"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "forbidden_arcanus:obsidian_pickaxe"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "forbidden_arcanus:obsidian_axe"
+			}
+		},
+		{
+			"weight": 20,
+			"stack": {
+				"item": "wyrmroost:blue_geode_sword"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "wyrmroost:blue_geode_pickaxe"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "wyrmroost:blue_geode_axe"
+			}
+		}
+	],
+	"offhands": [
+		{
+			"weight": 8,
+			"stack": {
+				"item": "minecraft:shield"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "forbidden_arcanus:obsidian_skull_shield"
+			}
+		}
+	],
+	"boots": [
+		{
+			"weight": 10,
+			"stack": {
+				"item": "minecraft:iron_boots"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "mysticalworld:copper_boots"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "mysticalworld:tin_boots"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "wyrmroost:platinum_boots"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "mysticalworld:quicksilver_boots"
+			}
+		},
+		{
+			"weight": 7,
+			"stack": {
+				"item": "mysticalworld:silver_boots"
+			}
+		},
+		{
+			"weight": 7,
+			"stack": {
+				"item": "mysticalworld:lead_boots"
+			}
+		},
+		{
+			"weight": 6,
+			"stack": {
+				"item": "botania:manasteel_boots"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "forbidden_arcanus:obsidian_boots"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "wyrmroost:blue_geode_boots"
+			}
+		}
+	],
+	"leggings": [
+		{
+			"weight": 10,
+			"stack": {
+				"item": "minecraft:iron_leggings"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "mysticalworld:copper_leggings"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "mysticalworld:tin_leggings"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "wyrmroost:platinum_leggings"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "mysticalworld:quicksilver_leggings"
+			}
+		},
+		{
+			"weight": 7,
+			"stack": {
+				"item": "mysticalworld:silver_leggings"
+			}
+		},
+		{
+			"weight": 7,
+			"stack": {
+				"item": "mysticalworld:lead_leggings"
+			}
+		},
+		{
+			"weight": 6,
+			"stack": {
+				"item": "botania:manasteel_leggings"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "wyrmroost:blue_geode_leggings"
+			}
+		}
+	],
+	"chestplates": [
+		{
+			"weight": 10,
+			"stack": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "mysticalworld:copper_chestplate"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "mysticalworld:tin_chestplate"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "wyrmroost:platinum_chestplate"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "mysticalworld:quicksilver_chestplate"
+			}
+		},
+		{
+			"weight": 7,
+			"stack": {
+				"item": "mysticalworld:silver_chestplate"
+			}
+		},
+		{
+			"weight": 7,
+			"stack": {
+				"item": "mysticalworld:lead_chestplate"
+			}
+		},
+		{
+			"weight": 6,
+			"stack": {
+				"item": "botania:manasteel_chestplate"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "wyrmroost:blue_geode_chestplate"
+			}
+		}
+	],
+	"helmets": [
+		{
+			"weight": 10,
+			"stack": {
+				"item": "minecraft:iron_helmet"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "mysticalworld:copper_helmet"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "mysticalworld:tin_helmet"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "wyrmroost:platinum_helmet"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "mysticalworld:quicksilver_helmet"
+			}
+		},
+		{
+			"weight": 7,
+			"stack": {
+				"item": "mysticalworld:silver_helmet"
+			}
+		},
+		{
+			"weight": 7,
+			"stack": {
+				"item": "mysticalworld:lead_helmet"
+			}
+		},
+		{
+			"weight": 6,
+			"stack": {
+				"item": "botania:manasteel_helmet"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "forbidden_arcanus:obsidian_helmet"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "wyrmroost:blue_geode_helmet"
+			}
+		}
+	],
+	"tags": [
+		"standard"
+	]
+}

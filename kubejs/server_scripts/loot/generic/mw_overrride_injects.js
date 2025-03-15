@@ -1,0 +1,10 @@
+onEvent('chest.loot_tables', event => {
+	event.addChest('mysticalworld:inject', table => {
+		table.addPool(pool => {
+			pool.rolls = 1;
+			pool.addEntry({
+				"type": "empty"
+			})
+		})
+	})
+})

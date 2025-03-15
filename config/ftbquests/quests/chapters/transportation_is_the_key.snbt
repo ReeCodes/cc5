@@ -1,0 +1,942 @@
+{
+	id: "000000000000015B"
+	group: "796F01D2DC56C7C2"
+	order_index: 1
+	filename: "transportation_is_the_key"
+	title: "Lucrative Logistics"
+	icon: "immersiveengineering:fluid_pipe"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 4.0d
+			y: 2.0d
+			shape: "rsquare"
+			subtitle: "Vanilla Transportation"
+			size: 2.0d
+			id: "0000000000000160"
+			tasks: [{
+				id: "0000000000000161"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
+			rewards: [{
+				id: "000000000000036A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			shape: "rsquare"
+			subtitle: "Directional Hopper"
+			id: "0000000000000162"
+			tasks: [{
+				id: "0000000000000163"
+				type: "item"
+				item: "pneumaticcraft:omnidirectional_hopper"
+			}]
+			rewards: [{
+				id: "0000000000000366"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "Filtered Hopper (Max Filters: 4)"
+			id: "0000000000000164"
+			tasks: [{
+				id: "0000000000000165"
+				type: "item"
+				item: "naturesaura:grated_chute"
+			}]
+			rewards: [{
+				id: "0000000000000367"
+				type: "item"
+				item: "naturesaura:infused_iron"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "Made For Factories (9x9)"
+			id: "0000000000000166"
+			tasks: [{
+				id: "0000000000000167"
+				type: "item"
+				item: "engineersdecor:factory_hopper"
+			}]
+			rewards: [
+				{
+					id: "0000000000000337"
+					type: "item"
+					item: "engineersdecor:metal_bar"
+					count: 6
+				}
+				{
+					id: "0000000000000338"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			subtitle: "Simple Yet Effective"
+			hide_dependency_lines: true
+			id: "0000000000000168"
+			tasks: [{
+				id: "0000000000000169"
+				type: "item"
+				item: "minecraft:hopper_minecart"
+			}]
+			rewards: [
+				{
+					id: "0000000000000369"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "2A6FD2FEA149E255"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			title: "Pipes"
+			x: 4.0d
+			y: 3.5d
+			shape: "rsquare"
+			subtitle: "Hopper Attachment"
+			description: ["A more economical hopper that only outputs items; does not pull from inventories."]
+			id: "000000000000016C"
+			tasks: [{
+				id: "000000000000016D"
+				type: "item"
+				item: "inspirations:pipe"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000335"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			shape: "rsquare"
+			subtitle: "Item-Auto Dispenser"
+			id: "00000000000001DF"
+			tasks: [{
+				id: "00000000000001E0"
+				type: "item"
+				item: "quark:chute"
+			}]
+			rewards: [{
+				id: "00000000000005A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Rain Gutter"
+			x: 4.0d
+			y: -3.0d
+			shape: "rsquare"
+			subtitle: "Fancy Rain Water Transportation"
+			id: "000000000000028A"
+			tasks: [
+				{
+					id: "15533C4F68E02CE6"
+					type: "item"
+					title: "Rain Gutters"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "mcwroofs:gutter_base_.+"
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "1D6EFDE8B62F5754"
+					type: "item"
+					title: "Rain Gutter Downspouts"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "mcwroofs:gutter_middle_.+"
+						}
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000324"
+					type: "item"
+					item: "mcwroofs:rain_gutter"
+					count: 16
+				}
+				{
+					id: "0000000000000325"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2CD0AA04144CFD33"
+					type: "item"
+					item: {
+						id: "kubejs:delight_builder"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Conveyor Belts (Leathery)"
+			x: 3.0d
+			y: -2.0d
+			subtitle: "Fancy Item Transport (Variant: One)"
+			id: "00000000000007C7"
+			tasks: [
+				{
+					id: "00000000000007C8"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+				}
+				{
+					id: "00000000000007C9"
+					type: "item"
+					item: "immersiveengineering:conveyor_redstone"
+				}
+				{
+					id: "00000000000007CA"
+					type: "item"
+					item: "immersiveengineering:conveyor_dropper"
+				}
+				{
+					id: "00000000000007CB"
+					type: "item"
+					item: "immersiveengineering:conveyor_vertical"
+				}
+				{
+					id: "00000000000007CC"
+					type: "item"
+					item: "immersiveengineering:conveyor_splitter"
+				}
+				{
+					id: "00000000000007CD"
+					type: "item"
+					item: "immersiveengineering:conveyor_extract"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000007D8"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 16
+				}
+				{
+					id: "00000000000007D9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7C712ED4128B4448"
+					type: "item"
+					item: {
+						id: "kubejs:delight_builder"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Conveyor Belts (Plastic)"
+			x: 5.0d
+			y: -2.0d
+			subtitle: "Fancy Item Transport (Variant: Two)"
+			id: "00000000000007CE"
+			tasks: [
+				{
+					id: "00000000000007CF"
+					type: "item"
+					item: "industrialforegoing:conveyor"
+				}
+				{
+					id: "00000000000007D0"
+					type: "item"
+					item: "industrialforegoing:conveyor_extraction_upgrade"
+				}
+				{
+					id: "00000000000007D1"
+					type: "item"
+					item: "industrialforegoing:conveyor_insertion_upgrade"
+				}
+				{
+					id: "00000000000007D2"
+					type: "item"
+					item: "industrialforegoing:conveyor_detection_upgrade"
+				}
+				{
+					id: "00000000000007D3"
+					type: "item"
+					item: "industrialforegoing:conveyor_bouncing_upgrade"
+				}
+				{
+					id: "00000000000007D4"
+					type: "item"
+					item: "industrialforegoing:conveyor_blinking_upgrade"
+				}
+				{
+					id: "00000000000007D5"
+					type: "item"
+					item: "industrialforegoing:conveyor_splitting_upgrade"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000007D6"
+					type: "item"
+					item: "industrialforegoing:conveyor"
+					count: 16
+				}
+				{
+					id: "00000000000007D7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2D5C1A27E1ADB0E3"
+					type: "item"
+					item: {
+						id: "kubejs:delight_builder"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Item Transport"
+			x: 4.0d
+			y: -1.0d
+			subtitle: "Item Transport Using Cables"
+			description: [
+				"The Importer Imports Items."
+				"The Exporter Exports Items."
+				""
+				"The Interface Is The Receiving Face Or The Sending Face."
+				""
+				"Put One Variable Card Inside Them."
+				""
+				""
+			]
+			id: "59A085CDF25AC5B4"
+			tasks: [
+				{
+					id: "1B37E84F3B8A7834"
+					type: "item"
+					item: "integrateddynamics:cable"
+					count: 3L
+				}
+				{
+					id: "4AD911C536BBFA71"
+					type: "item"
+					item: "integratedtunnels:part_interface_item"
+				}
+				{
+					id: "28CA82FDE4F72E1F"
+					type: "item"
+					item: "integratedtunnels:part_importer_item"
+				}
+				{
+					id: "391A07B7AE22BDD2"
+					type: "item"
+					item: "integratedtunnels:part_exporter_item"
+				}
+				{
+					id: "1734829E0D64FD2B"
+					type: "item"
+					item: "integrateddynamics:variable"
+				}
+			]
+			rewards: [
+				{
+					id: "4DA7B0A9A1B39DB4"
+					type: "item"
+					item: "integrateddynamics:menril_berries"
+				}
+				{
+					id: "238A68D4F9F3E669"
+					type: "item"
+					item: "integrateddynamics:crystalized_menril_chunk"
+					count: 4
+				}
+				{
+					id: "5646C2316BACD477"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "354AAE70547CD065"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			subtitle: "Disappear, Appear"
+			id: "279F5997EB624C42"
+			tasks: [{
+				id: "0324A61F23DC5C6A"
+				type: "item"
+				item: "botania:ghost_rail"
+			}]
+			rewards: [
+				{
+					id: "3A99E9C850DFC393"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "2DC990C02314B8CB"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -6.0d
+			subtitle: "Environmental Travel"
+			id: "7C697128649143F1"
+			tasks: [{
+				id: "130F3A29C10FCEA2"
+				type: "item"
+				title: "Wooden Rails"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "moreminecarts:wooden_rail"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:wooden_rail_turn"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:wooden_parallel_rail"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:wooden_cross_rail"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:wooden_projector_rail"
+								Count: 1b
+							}
+						]
+					}
+				}
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "5DC72EA7CD5CBD75"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "20351E00AA8478BE"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -7.0d
+			subtitle: "Ordinary Travel"
+			id: "7192F6B8FBD517B0"
+			tasks: [{
+				id: "6A752DAD19EE12F6"
+				type: "item"
+				title: "Ordinary Rails"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:rail"
+								Count: 1b
+							}
+							{
+								id: "minecraft:powered_rail"
+								Count: 1b
+							}
+							{
+								id: "minecraft:detector_rail"
+								Count: 1b
+							}
+							{
+								id: "securitycraft:track_mine"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:rail_turn"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:parallel_rail"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:cross_rail"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:projector_rail"
+								Count: 1b
+							}
+						]
+					}
+				}
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "5ED80C732291DE19"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5670F59677CE1B37"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -9.0d
+			subtitle: "Maglev's Invention"
+			id: "1257C39FA23C8766"
+			tasks: [{
+				id: "57157C97411C7EA0"
+				type: "item"
+				title: "Maglev's Rails"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "moreminecarts:maglev_rail"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:maglev_rail_turn"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:maglev_parallel_rail"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:maglev_cross_rail"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:maglev_projector_rail"
+								Count: 1b
+							}
+						]
+					}
+				}
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "39EA53DF53CDF26C"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "1309DA14AF883851"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -10.0d
+			subtitle: "Lightspeed"
+			dependencies: ["1257C39FA23C8766"]
+			id: "71D22BC2B63FCD57"
+			tasks: [{
+				id: "2BDA7A3BA55B6931"
+				type: "item"
+				title: "Lightspeed Rails"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "moreminecarts:lightspeed_rail"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:lightspeed_cross_rail"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:lightspeed_powered_rail"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5D9E82AD3CE79E9C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "06DD7522DFBED932"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -8.0d
+			subtitle: "Misc Rails"
+			id: "6519D0F93655D874"
+			tasks: [{
+				id: "32D7C67D114CF448"
+				type: "item"
+				title: "Special Rails"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "moreminecarts:bioluminescent_rail"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:locking_rail"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:powered_locking_rail"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "55CB50BEF55ECCE5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0E62277035C5BB4A"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -7.5d
+			subtitle: "Planned Teleport"
+			id: "2115BD8FE4CCCBEF"
+			tasks: [{
+				id: "6B6F47635D1A3AA7"
+				type: "item"
+				item: "moreminecarts:pearl_stasis_minecart"
+			}]
+			rewards: [
+				{
+					id: "4FFA219E8A0868CE"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "744EAEB198377EA9"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -8.5d
+			subtitle: "Boom and Slow"
+			id: "42F1AD0C6A9B7DD7"
+			tasks: [{
+				id: "14A62EA631147B41"
+				type: "item"
+				title: "Misc Carts"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "moreminecarts:minecart_with_net"
+								Count: 1b
+							}
+							{
+								id: "minecraft:tnt_minecart"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "333A0EF3B257D5F5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "490967704CC8D9AB"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -7.5d
+			subtitle: "Grab and Pull"
+			id: "061A189F861E2A61"
+			tasks: [{
+				id: "37407E6594CA8E18"
+				type: "item"
+				title: "Push/Grab Carts"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "moreminecarts:piston_pushcart"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:sticky_piston_pushcart"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "006D2519F99ED6FE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "230B3D9C01A62F81"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -6.5d
+			subtitle: "Holding Stuff"
+			id: "51116C2140ED200D"
+			tasks: [{
+				id: "2A57014C1903E387"
+				type: "item"
+				title: "Container Carts"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:chest_minecart"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:tank_cart"
+								Count: 1b
+							}
+							{
+								id: "moreminecarts:battery_cart"
+								Count: 1b
+							}
+							{
+								id: "minecraft:furnace_minecart"
+								Count: 1b
+							}
+							{
+								id: "botania:pool_minecart"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4535B170450E3669"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "73A44A1EB0D4FCB6"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			icon: "moreminecarts:flag_cart"
+			x: 5.0d
+			y: -8.5d
+			subtitle: "Colored Signaler"
+			id: "5B42598FCF59CFB5"
+			tasks: [
+				{
+					id: "6A9220EEB49BA4DC"
+					type: "item"
+					title: "Color Detector Rails"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "moreminecarts:color_detector.+"
+						}
+					}
+				}
+				{
+					id: "4B5E22B50F9B723F"
+					type: "item"
+					title: "Rail Signals"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "moreminecarts:rail_signal.+"
+						}
+					}
+				}
+				{
+					id: "0FD13E782594CA29"
+					type: "item"
+					item: "moreminecarts:flag_cart"
+				}
+			]
+			rewards: [
+				{
+					id: "4A9BB05DA20C633F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "78D43C33FCD96604"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			subtitle: "Transparent Reverse Hopper"
+			id: "64ED9A06ECBB1E07"
+			tasks: [{
+				id: "20E51F29CEF325DC"
+				type: "item"
+				item: {
+					id: "alexsmobs:capsid"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3F38078DB26DC7BF"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "73C61009F353FC87"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Extra Meteors",
+    "description": "List of added Meteors.$(p)This list replaces the usual list in $(l:bloodmagic:rituals/ritual_list/ritual_meteor)Mark of the Falling Tower$(0)$(/l).",
+    "icon": "minecraft:magma_block",
+    "sortnum": 999
+}

@@ -1,0 +1,11 @@
+{
+  "forEntity": "specialmobs:enderman",
+  "traits": [
+    {
+      "type": "traitHostile"
+    },
+    {
+      "type": "traitWaterSensitivity"
+    }
+  ]
+}

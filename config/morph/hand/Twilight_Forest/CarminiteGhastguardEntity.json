@@ -1,0 +1,19 @@
+{
+  "author": "WenXin2",
+  "forClass": "twilightforest.entity.CarminiteGhastguardEntity",
+  "customClass": "me.ichun.mods.ichunutil.api.common.head.entity.HeadGhast",
+  "modelFieldName": "body",
+  "eyeOffset": [
+    0.0,
+    0.125,
+    0.5
+  ],
+  "irisColour": [
+    0.7294118,
+    0.93333334,
+    0.007843138
+  ],
+  "halfInterpupillaryDistance": 0.21875,
+  "eyeScale": 1.5,
+  "headScale": 2.0
+}

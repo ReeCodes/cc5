@@ -1,0 +1,28 @@
+{
+  "author": "WenXin2",
+  "forClass": "twilightforest.entity.TowerwoodBorerEntity",
+  "modelFieldName": "field_78171_a[0]",
+  "eyeOffset": [
+    0.0,
+    -0.03125,
+    0.0625
+  ],
+  "irisColour": [
+    0.90588236,
+    0.12156863,
+    0.12156863
+  ],
+  "pupilColour": [
+    0.4509804,
+    0.0,
+    0.0
+  ],
+  "halfInterpupillaryDistance": 0.0625,
+  "eyeScale": 0.5,
+  "headTopCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "headScale": 0.38
+}

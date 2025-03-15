@@ -1,0 +1,34 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "/ores/custom/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#B3CFB8",
+    "primaryColor": "#ffffff",
+    "primaryLayerTexture":"/ores/custom/custom_bee_primary",
+    "secondaryLayerTexture":"/ores/custom/custom_bee_secondary",
+    "secondaryColor": "#B3CFB8",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:stone",
+    "mutationOutput": "emendatusenigmatica:zinc_ore",
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "emendatusenigmatica:zinc_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

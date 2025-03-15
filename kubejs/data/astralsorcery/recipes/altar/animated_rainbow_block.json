@@ -1,0 +1,69 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 3,
+  "duration": 600,
+  "starlight": 3200,
+  "pattern": [
+    "_AAA_",
+    "ABCBA",
+    "ACDCA",
+    "ABCBA",
+    "_AAA_"
+  ],
+  "key": {
+    "A": {
+      "item": "resourcefulbees:rgbee_honeycomb_block"
+    },
+    "B": {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    "C": {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    "D": {
+      "item": "kubejs:uninspiring_rainbow_block"
+    }
+  },
+  "output": [
+    {
+      "item": "kubejs:reanimated_rainbow_block",
+      "count": 1
+    }
+  ],
+  "focus_constellation": "astralsorcery:horologium",
+  "relay_inputs": [
+    {
+      "tag": "forge:storage_blocks/arcane"
+    },
+    {
+      "item": "mythicbotany:alfsteel_block"
+    },
+    {
+      "item": "botania:elementium_block"
+    },
+    {
+      "tag": "forge:storage_blocks/starmetal"
+    },
+    {
+      "item": "undergarden:forgotten_block"
+    },
+    {
+      "tag": "forge:storage_blocks/netherite"
+    },
+    {
+      "item": "rats:oratchalcum_block"
+    },
+    {
+      "item": "botania:dragonstone_block"
+    }
+  ],
+  "effects": [
+    "astralsorcery:built_in_effect_constellation_finish",
+    "astralsorcery:built_in_effect_trait_relay_highlight",
+    "astralsorcery:built_in_effect_discovery_central_beam",
+    "astralsorcery:built_in_effect_trait_focus_circle",
+    "astralsorcery:altar_default_sparkle",
+    "astralsorcery:built_in_effect_constellation_lines",
+    "astralsorcery:built_in_effect_attunement_sparkle"
+  ]
+}

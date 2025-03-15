@@ -1,0 +1,8 @@
+{
+  "forEntity": "specialmobs:witch",
+  "traits": [
+    {
+      "type": "traitHostile"
+    }
+  ]
+}

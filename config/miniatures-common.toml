@@ -1,0 +1,37 @@
+
+#options relating to miniatures
+[miniatures]
+	#the maximum health of a miniature
+	#Range: 0.0 ~ 1.7976931348623157E308
+	max_health = 16.0
+	#the base movement speed of a miniature
+	#Range: 0.0 ~ 1.7976931348623157E308
+	movement_speed = 0.3
+	#if hostile, the amount of damage an attack from a miniature does [1 = 1 full heart, 0.5 = half a heart]
+	#Range: 0.0 ~ 1.7976931348623157E308
+	attack_damage = 2.0
+	#how much armor miniatures should have
+	#Range: 0.0 ~ 1.7976931348623157E308
+	armor_value = 0.0
+	#whether or not miniatures are hostile to players
+	hostile = false
+	#whether or not miniatures are immune to damage that does not originate from a player
+	non_player_immune = true
+	#whether or not the miniatures will break blocks in the default tag (miniatures:break_blocks)
+	breaks_blocks = true
+	#the percentage chance per tick that a miniature will get distracted from breaking a block (0 for no distraction)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	distraction_chance = 0.05
+	#the minimum delay in ticks before a miniature begins running to a block (200)
+	#Range: > 0
+	base_run_delay = 200
+	#the maximum value (0 to value-1) added to the run delay (200)
+	#Range: > 0
+	random_run_delay = 200
+	#whether blocks in the default tag (miniatures:break_blocks) will be destroyed (true) or instead dropped when broken (false)
+	destroys_blocks = false
+	#whether or not non-hostile miniatures will try to pick up players
+	pickup_goal = true
+	#whether or not only the owner entity of the miniature will attempt to pick up a player, or whether it will pick up any player
+	owner_rider = false
+

@@ -1,0 +1,22 @@
+[[curiosSettings]]
+  identifier = "head"
+  override = false
+  hasCosmetic = true
+[[curiosSettings]]
+  identifier = "necklace"
+  override = false
+  hasCosmetic = true
+[[curiosSettings]]
+  identifier = "body"
+  override = false
+  hasCosmetic = true
+[[curiosSettings]]
+  identifier = "hands"
+  size = 2
+  override = false
+  hasCosmetic = true
+[[curiosSettings]]
+  identifier = "ring"
+  size = 3
+  override = false
+  hasCosmetic = true

@@ -1,0 +1,1466 @@
+{
+	id: "0000000000000120"
+	group: "1FA1FD24A4A44A92"
+	order_index: 1
+	filename: "redstoners_dream"
+	title: "Redstoner's Dream"
+	icon: "supplementaries:cog_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: -6.0d
+			subtitle: "Poor Man's Block Placer"
+			hide_dependency_lines: true
+			dependencies: ["000000000000012D"]
+			id: "0000000000000121"
+			tasks: [{
+				id: "0000000000000122"
+				type: "item"
+				item: "minecraft:dispenser"
+			}]
+			rewards: [
+				{
+					id: "000000000000069F"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "00000000000006AF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			subtitle: "Happy little dropper"
+			dependencies: ["000000000000012D"]
+			id: "0000000000000123"
+			tasks: [{
+				id: "0000000000000124"
+				type: "item"
+				item: "minecraft:dropper"
+			}]
+			rewards: [
+				{
+					id: "00000000000006A0"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "00000000000006AE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			subtitle: "Pulse-Hopper"
+			dependencies: ["000000000000012D"]
+			id: "0000000000000125"
+			tasks: [{
+				id: "0000000000000126"
+				type: "item"
+				item: "inspirations:collector"
+			}]
+			rewards: [
+				{
+					id: "00000000000006A1"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "00000000000006B0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "A Creative Mind's Powder"
+			size: 2.0d
+			id: "000000000000012D"
+			tasks: [{
+				id: "000000000000012E"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+			rewards: [
+				{
+					id: "000000000000069D"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "00000000000006AC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			subtitle: "\"Dim Light Emitter\""
+			dependencies: ["000000000000012D"]
+			id: "000000000000012F"
+			tasks: [{
+				id: "0000000000000130"
+				type: "item"
+				item: "minecraft:redstone_torch"
+			}]
+			rewards: [
+				{
+					id: "00000000000006BC"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "7676767B03D1B523"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			subtitle: "Repeats Values"
+			dependencies: ["000000000000012F"]
+			id: "0000000000000131"
+			tasks: [{
+				id: "0000000000000132"
+				type: "item"
+				item: "minecraft:repeater"
+			}]
+			rewards: [
+				{
+					id: "00000000000006BF"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "624CEAC4276E2B76"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			subtitle: "Compares Values"
+			dependencies: ["000000000000012F"]
+			id: "0000000000000133"
+			tasks: [{
+				id: "0000000000000134"
+				type: "item"
+				item: "minecraft:comparator"
+			}]
+			rewards: [
+				{
+					id: "00000000000006BE"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "3D608E3988F4B4DA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			subtitle: "Random Pulse"
+			dependencies: ["000000000000012D"]
+			id: "0000000000000135"
+			tasks: [{
+				id: "0000000000000136"
+				type: "item"
+				item: "darkutils:redstone_randomizer"
+			}]
+			rewards: [
+				{
+					id: "00000000000006A4"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "1C66DA6941733593"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			subtitle: "Only this side"
+			hide_dependency_lines: false
+			dependencies: ["000000000000012D"]
+			id: "0000000000000137"
+			tasks: [{
+				id: "0000000000000138"
+				type: "item"
+				item: "darkutils:shielded_redstone"
+			}]
+			rewards: [
+				{
+					id: "000000000000069E"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "00000000000006AD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			subtitle: "Output = ( Input + Input + Input )"
+			dependencies: ["000000000000012D"]
+			id: "0000000000000139"
+			tasks: [{
+				id: "000000000000013A"
+				type: "item"
+				item: "quark:redstone_inductor"
+			}]
+			rewards: [
+				{
+					id: "00000000000006C1"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "35F10A1BCB01898E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			subtitle: "Random Outputs"
+			dependencies: ["000000000000012D"]
+			id: "000000000000013B"
+			tasks: [{
+				id: "000000000000013C"
+				type: "item"
+				item: "quark:redstone_randomizer"
+			}]
+			rewards: [
+				{
+					id: "00000000000006BD"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "56CC4A5F0E0E56B8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			subtitle: "Don't you change on me, block!"
+			dependencies: ["000000000000012D"]
+			id: "000000000000013D"
+			tasks: [{
+				id: "000000000000013E"
+				type: "item"
+				item: "minecraft:observer"
+			}]
+			rewards: [
+				{
+					id: "00000000000006A3"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "00000000000006B2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			subtitle: "Crank it!"
+			id: "000000000000013F"
+			tasks: [{
+				id: "0000000000000140"
+				type: "item"
+				item: "supplementaries:crank"
+			}]
+			rewards: [{
+				id: "00000000000006A8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -4.5d
+			y: -6.0d
+			shape: "hexagon"
+			subtitle: "Tracing Detector"
+			hide_dependency_lines: true
+			dependencies: [
+				"000000000000012D"
+				"000000000000010B"
+			]
+			id: "0000000000000141"
+			tasks: [{
+				id: "0000000000000142"
+				type: "item"
+				item: "quark:ender_watcher"
+			}]
+			rewards: [
+				{
+					id: "0000000000000592"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7F6FAB91DCF436AE"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			subtitle: "Storm Detector"
+			hide_dependency_lines: true
+			dependencies: ["000000000000012D"]
+			id: "0000000000000143"
+			tasks: [{
+				id: "0000000000000144"
+				type: "item"
+				item: "supplementaries:wind_vane"
+			}]
+			rewards: [{
+				id: "00000000000006C7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			shape: "hexagon"
+			subtitle: "I Will Tell If Someone's Online"
+			hide_dependency_lines: true
+			dependencies: ["000000000000012D"]
+			id: "0000000000000145"
+			tasks: [{
+				id: "0000000000000146"
+				type: "item"
+				item: "clockout:clockout_block"
+			}]
+			rewards: [{
+				id: "0000000000000593"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Redstone Wires"
+			x: 4.0d
+			y: 1.5d
+			subtitle: "Wired Redstone"
+			dependencies: ["000000000000012D"]
+			id: "0000000000000147"
+			tasks: [
+				{
+					id: "0000000000000148"
+					type: "item"
+					item: "immersiveengineering:connector_redstone"
+					count: 4L
+				}
+				{
+					id: "0000000000000284"
+					type: "item"
+					item: "immersiveengineering:wirecoil_redstone"
+					count: 4L
+				}
+				{
+					id: "00000000000006CD"
+					type: "item"
+					item: "immersiveengineering:screwdriver"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000006CC"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "00000000000006CE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			subtitle: "Pulsates Once"
+			hide_dependency_lines: true
+			dependencies: ["000000000000012D"]
+			id: "000000000000014B"
+			tasks: [{
+				id: "000000000000014C"
+				type: "item"
+				item: "create:pulse_repeater"
+			}]
+			rewards: [
+				{
+					id: "00000000000006C3"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "46443E811928B4F4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			subtitle: "Precise Repeater"
+			dependencies: ["000000000000012F"]
+			id: "000000000000014D"
+			tasks: [{
+				id: "000000000000014E"
+				type: "item"
+				item: "create:adjustable_repeater"
+			}]
+			rewards: [
+				{
+					id: "00000000000006C4"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "521317E03051FD49"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			subtitle: "Sided Toggle-Pulse"
+			dependencies: ["000000000000012F"]
+			id: "000000000000014F"
+			tasks: [{
+				id: "0000000000000150"
+				type: "item"
+				item: "create:powered_latch"
+			}]
+			rewards: [
+				{
+					id: "00000000000006C0"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "7A41E371D8E7E920"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			subtitle: "Pulse-Toggle"
+			hide_dependency_lines: true
+			dependencies: ["000000000000012F"]
+			id: "0000000000000151"
+			tasks: [{
+				id: "0000000000000152"
+				type: "item"
+				item: "create:powered_toggle_latch"
+			}]
+			rewards: [
+				{
+					id: "00000000000006C2"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "0BC49DBAD455B85A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			subtitle: "Precise Repeater That Pulsates Once"
+			dependencies: [
+				"000000000000014D"
+				"000000000000014B"
+			]
+			id: "0000000000000153"
+			tasks: [{
+				id: "0000000000000154"
+				type: "item"
+				item: "create:adjustable_pulse_repeater"
+			}]
+			rewards: [
+				{
+					id: "00000000000006C5"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "59A922D7FDBBD3AA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -6.0d
+			shape: "hexagon"
+			subtitle: "GraviRedstone"
+			hide_dependency_lines: true
+			dependencies: ["000000000000012D"]
+			id: "0000000000000155"
+			tasks: [{
+				id: "0000000000000156"
+				type: "item"
+				item: "charm:redstone_sand"
+			}]
+			rewards: [{
+				id: "0000000000000597"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			subtitle: "Wireless Redstone"
+			dependencies: ["000000000000012D"]
+			id: "0000000000000159"
+			tasks: [{
+				id: "000000000000015A"
+				type: "item"
+				item: "create:redstone_link"
+			}]
+			rewards: [
+				{
+					id: "00000000000006CB"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "00000000000006CF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Directional Torch"
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000001E9"
+				"000000000000012F"
+			]
+			id: "00000000000001EC"
+			tasks: [{
+				id: "00000000000001ED"
+				type: "item"
+				item: "botania:animated_torch"
+			}]
+			rewards: [
+				{
+					id: "00000000000006A5"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "3CB5B2D5601CBF7D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			subtitle: "Don't you change on me, mob!"
+			hide_dependency_lines: true
+			dependencies: ["000000000000012D"]
+			id: "00000000000001F4"
+			tasks: [{
+				id: "00000000000001F5"
+				type: "item"
+				item: "buildersaddition:entity_detector"
+			}]
+			rewards: [
+				{
+					id: "00000000000006A2"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "00000000000006B1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			shape: "hexagon"
+			subtitle: "Redstone Clock"
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000001E3"
+				"000000000000012D"
+			]
+			id: "000000000000024D"
+			tasks: [{
+				id: "000000000000024E"
+				type: "item"
+				item: "botania:hourglass"
+			}]
+			rewards: [
+				{
+					id: "0000000000000596"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "21199B50D1976A88"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			subtitle: "Precise Lever"
+			id: "0000000000000276"
+			tasks: [{
+				id: "0000000000000277"
+				type: "item"
+				item: "create:analog_lever"
+			}]
+			rewards: [{
+				id: "00000000000006A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			subtitle: "Classic. Doesn't even use redstone"
+			id: "0000000000000278"
+			tasks: [{
+				id: "0000000000000279"
+				type: "item"
+				item: "minecraft:lever"
+			}]
+			rewards: [{
+				id: "00000000000006A6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			subtitle: "Hidden Function"
+			id: "000000000000027A"
+			tasks: [{
+				id: "000000000000027B"
+				type: "item"
+				item: "inspirations:torch_lever"
+			}]
+			rewards: [{
+				id: "00000000000006A9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			subtitle: "Medieval Mechanics"
+			hide_dependency_lines: true
+			dependencies: ["000000000000012D"]
+			id: "000000000000027C"
+			tasks: [{
+				id: "000000000000027D"
+				type: "item"
+				item: "supplementaries:sconce_lever"
+			}]
+			rewards: [{
+				id: "00000000000006AA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			subtitle: "Modern Lever"
+			hide_dependency_lines: true
+			dependencies: ["000000000000012D"]
+			id: "000000000000027E"
+			tasks: [{
+				id: "000000000000027F"
+				type: "item"
+				item: "rsgauges:industrial_small_lever"
+			}]
+			rewards: [{
+				id: "00000000000006AB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			subtitle: "Day N' Nite"
+			id: "0000000000000280"
+			tasks: [{
+				id: "0000000000000281"
+				type: "item"
+				item: "minecraft:daylight_detector"
+			}]
+			rewards: [{
+				id: "00000000000006B3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			subtitle: "Rain N' Thunder"
+			description: ["Wind Vane's enemy"]
+			dependencies: ["000000000000010B"]
+			id: "0000000000000282"
+			tasks: [{
+				id: "0000000000000283"
+				type: "item"
+				item: "quark:weather_sensor"
+			}]
+			rewards: [{
+				id: "00000000000006C8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			shape: "hexagon"
+			subtitle: "Redstone Dust, But As A Block"
+			hide_dependency_lines: true
+			dependencies: ["000000000000012D"]
+			id: "0000000000000285"
+			tasks: [{
+				id: "0000000000000286"
+				type: "item"
+				item: "supplementaries:cog_block"
+			}]
+			rewards: [{
+				id: "0000000000000594"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -6.0d
+			y: -7.0d
+			shape: "hexagon"
+			subtitle: "AntiSand"
+			id: "000000000000058F"
+			tasks: [{
+				id: "0000000000000590"
+				type: "item"
+				item: "quark:gravisand"
+			}]
+			rewards: [{
+				id: "0000000000000598"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			subtitle: "Ranged Activation"
+			dependencies: ["000000000000012D"]
+			id: "0000000000000654"
+			tasks: [{
+				id: "0000000000000655"
+				type: "item"
+				item: "inspirations:charged_arrow"
+			}]
+			rewards: [
+				{
+					id: "00000000000006CA"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "00000000000006D0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			subtitle: "Powers By Touch"
+			dependencies: ["000000000000012D"]
+			id: "0000000000000656"
+			tasks: [{
+				id: "0000000000000657"
+				type: "item"
+				item: {
+					id: "inspirations:redstone_charger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000006C9"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "00000000000006D1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -7.0d
+			shape: "hexagon"
+			subtitle: "Training Your Aim"
+			hide_dependency_lines: true
+			dependencies: ["000000000000012D"]
+			id: "0000000000000692"
+			tasks: [{
+				id: "0000000000000693"
+				type: "item"
+				item: "minecraft:target"
+			}]
+			rewards: [
+				{
+					id: "0000000000000694"
+					type: "item"
+					item: "archers_paradox:training_arrow"
+					count: 8
+				}
+				{
+					id: "0000000000000695"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			subtitle: "Can See Mobs Even Further Away"
+			dependencies: ["00000000000006D2"]
+			id: "00000000000006B4"
+			tasks: [{
+				id: "00000000000006B5"
+				type: "item"
+				item: "upgrade_aquatic:elder_eye"
+			}]
+			rewards: [{
+				id: "000000000000077F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			subtitle: "6 x 6 Detector"
+			dependencies: ["00000000000006B4"]
+			id: "00000000000006B6"
+			tasks: [{
+				id: "00000000000006B7"
+				type: "item"
+				item: "botania:forest_eye"
+			}]
+			rewards: [{
+				id: "0000000000000780"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -5.0d
+			y: -7.0d
+			shape: "hexagon"
+			subtitle: "Iron Block Push \\& Puller"
+			hide_dependency_lines: true
+			dependencies: ["000000000000012D"]
+			id: "61C942D9268C1009"
+			tasks: [{
+				id: "79B192D621C7C62D"
+				type: "item"
+				item: "quark:magnet"
+			}]
+			rewards: [
+				{
+					id: "313354EE18E66280"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "01D410FFBC5AEBB7"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "Redstone But Tiny"
+			description: [""]
+			dependencies: ["494EA3EFD85C50C1"]
+			size: 2.0d
+			id: "74E1C7A0C82F6F34"
+			tasks: [{
+				id: "0BE7D32145CF17C3"
+				type: "item"
+				item: "tinyredstone:tiny_redstone"
+			}]
+			rewards: [{
+				id: "169E69B78C9DEBF0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 11.0d
+			y: -2.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["494EA3EFD85C50C1"]
+			id: "294C9432BAB8BF3D"
+			tasks: [{
+				id: "2D35579138274379"
+				type: "item"
+				item: "tinyredstone:tiny_redstone_torch"
+			}]
+			rewards: [
+				{
+					id: "26E96C1923B00B1E"
+					type: "item"
+					item: "tinyredstone:tiny_redstone"
+					count: 4
+				}
+				{
+					id: "04057D3306AB3FD4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: -2.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["74E1C7A0C82F6F34"]
+			id: "2E58C704E71235B7"
+			tasks: [{
+				id: "7B80D811260C5E9B"
+				type: "item"
+				item: "tinyredstone:tiny_repeater"
+			}]
+			rewards: [
+				{
+					id: "2BCA75842D65DC28"
+					type: "item"
+					item: "tinyredstone:tiny_redstone"
+					count: 4
+				}
+				{
+					id: "4987FD3503D586DE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: -2.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["494EA3EFD85C50C1"]
+			id: "6EBBB039DD646566"
+			tasks: [{
+				id: "563FF19CBB556F9D"
+				type: "item"
+				item: "tinyredstone:tiny_redstone_block"
+			}]
+			rewards: [
+				{
+					id: "3EF139D74928B700"
+					type: "item"
+					item: "tinyredstone:tiny_redstone"
+					count: 4
+				}
+				{
+					id: "62708C8D381A3E8B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: -1.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["494EA3EFD85C50C1"]
+			id: "566779B56BF8B213"
+			tasks: [{
+				id: "421C44B0345D64CF"
+				type: "item"
+				item: "tinyredstone:tiny_comparator"
+			}]
+			rewards: [
+				{
+					id: "7BE45AF97A9985FE"
+					type: "item"
+					item: "tinyredstone:tiny_redstone"
+					count: 4
+				}
+				{
+					id: "52FA81F5DEC5ED83"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 0.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["494EA3EFD85C50C1"]
+			id: "60AEB01D822880BD"
+			tasks: [{
+				id: "44F668CBF9BEDDE3"
+				type: "item"
+				item: "tinyredstone:tiny_solid_block"
+			}]
+			rewards: [
+				{
+					id: "2C91C9231E356F4B"
+					type: "item"
+					item: {
+						id: "emendatusenigmatica:silicon_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "4891E8483E0EA011"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 1.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["494EA3EFD85C50C1"]
+			id: "234D872374501F0E"
+			tasks: [{
+				id: "4D62AA56D6E69669"
+				type: "item"
+				item: "tinyredstone:tiny_piston"
+			}]
+			rewards: [
+				{
+					id: "47A5065443209BD6"
+					type: "item"
+					item: "tinyredstone:tiny_redstone"
+					count: 4
+				}
+				{
+					id: "595089E8049DCCA9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["494EA3EFD85C50C1"]
+			id: "7C930CBEB69AD013"
+			tasks: [{
+				id: "5B4D805B6795C669"
+				type: "item"
+				item: "tinyredstone:redstone_panel"
+			}]
+			rewards: [
+				{
+					id: "64761730B763052F"
+					type: "item"
+					item: "tinyredstone:blueprint"
+				}
+				{
+					id: "7E0B02BB25382F44"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 2.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["494EA3EFD85C50C1"]
+			id: "2F3C59F7BF87B0A1"
+			tasks: [{
+				id: "270FBD80431CF43D"
+				type: "item"
+				item: "tinyredstone:tiny_sticky_piston"
+			}]
+			rewards: [
+				{
+					id: "399C946B39ACD169"
+					type: "item"
+					item: "tinyredstone:tiny_redstone"
+					count: 4
+				}
+				{
+					id: "505725404021770F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 2.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["494EA3EFD85C50C1"]
+			id: "4F5CFCB37F9D8A40"
+			tasks: [{
+				id: "4F185F129EA3568C"
+				type: "item"
+				item: "tinyredstone:tiny_redstone_lamp"
+			}]
+			rewards: [
+				{
+					id: "1AEBA86ADA06B01F"
+					type: "item"
+					item: "tinyredstone:tiny_redstone"
+					count: 4
+				}
+				{
+					id: "7348A39C0C750BCF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 2.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["494EA3EFD85C50C1"]
+			id: "0F933F233F44C7CC"
+			tasks: [{
+				id: "1B6E0F722C94FDC6"
+				type: "item"
+				item: "tinyredstone:tiny_transparent_block"
+			}]
+			rewards: [
+				{
+					id: "24B7B58D72A9AA76"
+					type: "item"
+					item: {
+						id: "emendatusenigmatica:silicon_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "1280C18C3458E72E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 2.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["494EA3EFD85C50C1"]
+			id: "1D14BCF7F9DEF965"
+			tasks: [{
+				id: "7701AFB9D4709DBF"
+				type: "item"
+				item: "tinyredstone:tiny_button"
+			}]
+			rewards: [
+				{
+					id: "6ADEF96F02083594"
+					type: "item"
+					item: {
+						id: "emendatusenigmatica:silicon_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "0A7119325FC39570"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["494EA3EFD85C50C1"]
+			id: "2B68D59CFB44B453"
+			tasks: [{
+				id: "3E8F54DDF95D29FD"
+				type: "item"
+				item: "tinyredstone:tiny_stone_button"
+			}]
+			rewards: [
+				{
+					id: "0B4B38B4AD73A379"
+					type: "item"
+					item: {
+						id: "emendatusenigmatica:silicon_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "3E79153F53EDB701"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 1.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["494EA3EFD85C50C1"]
+			id: "2FDFCB4D444474AD"
+			tasks: [{
+				id: "24802889EDDBB1E7"
+				type: "item"
+				item: "tinyredstone:tiny_observer"
+			}]
+			rewards: [
+				{
+					id: "308BA00A49241CD4"
+					type: "item"
+					item: "tinyredstone:tiny_redstone"
+					count: 4
+				}
+				{
+					id: "53652EA62EA313D4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["494EA3EFD85C50C1"]
+			id: "693FE21AB762A35E"
+			tasks: [{
+				id: "6E17D9473404BBCD"
+				type: "item"
+				item: "tinyredstone:tiny_super_repeater"
+			}]
+			rewards: [
+				{
+					id: "39DA3BC37C86DD6B"
+					type: "item"
+					item: "tinyredstone:tiny_redstone"
+					count: 4
+				}
+				{
+					id: "7090AA86C0B81730"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["494EA3EFD85C50C1"]
+			id: "0342B618CEFD2EB6"
+			tasks: [{
+				id: "247366E7A33FE2ED"
+				type: "item"
+				item: "tinyredstone:tiny_lever"
+			}]
+			rewards: [
+				{
+					id: "5C9438210A1B44A0"
+					type: "item"
+					item: {
+						id: "emendatusenigmatica:silicon_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "7BC3D5589ECBDE83"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -2.5d
+			shape: "square"
+			id: "494EA3EFD85C50C1"
+			tasks: [{
+				id: "38CD113DEB132D32"
+				type: "item"
+				item: {
+					id: "emendatusenigmatica:silicon_gem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "24AF3A4DEA016057"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+	]
+}

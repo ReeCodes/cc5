@@ -1,0 +1,2422 @@
+{
+	id: "0000000000000088"
+	group: "1FA1FD24A4A44A92"
+	order_index: 0
+	filename: "builders_dream"
+	title: "Builder's Dream"
+	icon: "portable_stonecutter:portable_stonecutter"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.5d
+			subtitle: "Portable Sawing \\& Safety"
+			dependencies: ["000000000000008B"]
+			id: "0000000000000089"
+			tasks: [{
+				id: "000000000000008A"
+				type: "item"
+				item: "portable_stonecutter:portable_stonecutter"
+			}]
+			rewards: [
+				{
+					id: "000000000000057F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "05475CFFC17E86E7"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Careful! They are sharp."
+			size: 2.0d
+			id: "000000000000008B"
+			tasks: [{
+				id: "000000000000008C"
+				type: "item"
+				item: "minecraft:stonecutter"
+			}]
+			rewards: [{
+				id: "000000000000057E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Pavement"
+			x: 1.5d
+			y: -10.5d
+			subtitle: "Roadworks"
+			size: 1.5d
+			id: "000000000000008D"
+			tasks: [
+				{
+					id: "000000000000008E"
+					type: "item"
+					item: "botania:white_pavement"
+					count: 3L
+				}
+				{
+					id: "00000000000000CA"
+					type: "item"
+					item: "botania:black_pavement"
+					count: 3L
+				}
+				{
+					id: "00000000000000CB"
+					type: "item"
+					item: "botania:blue_pavement"
+					count: 3L
+				}
+				{
+					id: "00000000000000CC"
+					type: "item"
+					item: "botania:yellow_pavement"
+					count: 3L
+				}
+				{
+					id: "00000000000000CD"
+					type: "item"
+					item: "botania:red_pavement"
+					count: 3L
+				}
+				{
+					id: "00000000000000CE"
+					type: "item"
+					item: "botania:green_pavement"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000003AE"
+					type: "item"
+					item: "immersiveengineering:concrete"
+					count: 16
+				}
+				{
+					id: "00000000000003AF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "38376E4E2E43B153"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			title: "Natural Occurences"
+			x: 1.5d
+			y: -7.5d
+			subtitle: "Classic Stones"
+			size: 1.5d
+			id: "0000000000000096"
+			tasks: [
+				{
+					id: "0000000000000097"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 16L
+				}
+				{
+					id: "0000000000000099"
+					type: "item"
+					item: "minecraft:granite"
+					count: 16L
+				}
+				{
+					id: "000000000000009A"
+					type: "item"
+					item: "minecraft:diorite"
+					count: 16L
+				}
+				{
+					id: "000000000000009B"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 16L
+				}
+				{
+					id: "000000000000009C"
+					type: "item"
+					item: "create:limestone"
+					count: 16L
+				}
+				{
+					id: "000000000000009D"
+					type: "item"
+					item: "create:weathered_limestone"
+					count: 16L
+				}
+				{
+					id: "000000000000009E"
+					type: "item"
+					item: "create:gabbro"
+					count: 16L
+				}
+				{
+					id: "000000000000009F"
+					type: "item"
+					item: "create:scoria"
+					count: 16L
+				}
+				{
+					id: "00000000000001AA"
+					type: "item"
+					item: "create:dolomite"
+					count: 16L
+				}
+				{
+					id: "00000000000001AB"
+					type: "item"
+					item: "quark:jasper"
+					count: 16L
+				}
+				{
+					id: "00000000000001AC"
+					type: "item"
+					item: "quark:slate"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000002F1"
+					type: "item"
+					item: "engineersdecor:small_block_breaker"
+				}
+				{
+					id: "00000000000002F2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0C440528336D7BDE"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			subtitle: "Builder's Meta-Flower"
+			hide_dependency_lines: true
+			dependencies: ["00000000000000D4"]
+			hide_text_until_complete: true
+			size: 1.5d
+			id: "00000000000000EC"
+			tasks: [
+				{
+					id: "00000000000000ED"
+					type: "item"
+					item: "botania:metamorphic_forest_stone"
+				}
+				{
+					id: "00000000000000EE"
+					type: "item"
+					item: "botania:metamorphic_plains_stone"
+				}
+				{
+					id: "00000000000000EF"
+					type: "item"
+					item: "botania:metamorphic_mountain_stone"
+				}
+				{
+					id: "00000000000000F0"
+					type: "item"
+					item: "botania:metamorphic_fungal_stone"
+				}
+				{
+					id: "00000000000000F2"
+					type: "item"
+					item: "botania:metamorphic_swamp_stone"
+				}
+				{
+					id: "00000000000000F3"
+					type: "item"
+					item: "botania:metamorphic_desert_stone"
+				}
+				{
+					id: "00000000000000F4"
+					type: "item"
+					item: "botania:metamorphic_taiga_stone"
+				}
+				{
+					id: "00000000000000F5"
+					type: "item"
+					item: "botania:metamorphic_mesa_stone"
+				}
+				{
+					id: "00000000000000F6"
+					type: "item"
+					item: "botania:marimorphosis"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000040A"
+					type: "item"
+					item: "quark:rainbow_rune"
+				}
+				{
+					id: "000000000000040B"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "3DB07E6716C2A1CA"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			title: "Masonry"
+			icon: "masonry:prismarinetiled"
+			x: 0.0d
+			y: -4.5d
+			subtitle: "Mason-Designed"
+			hide_dependency_lines: true
+			dependencies: ["000000000000008B"]
+			size: 1.5d
+			id: "000000000000010F"
+			tasks: [{
+				id: "000000000000066C"
+				type: "item"
+				title: "Any Masonry Block"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "masonry"
+					}
+				}
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "000000000000066D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "5F08128687F1F0C2"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			title: "Exotic Blocks"
+			x: 0.75d
+			y: -9.0d
+			subtitle: "Exotic Rareness"
+			size: 1.5d
+			id: "00000000000001B0"
+			tasks: [
+				{
+					id: "00000000000001B2"
+					type: "item"
+					item: "quark:permafrost"
+					count: 64L
+				}
+				{
+					id: "00000000000001B3"
+					type: "item"
+					item: "quark:brimstone"
+					count: 64L
+				}
+				{
+					id: "00000000000001B4"
+					type: "item"
+					item: "quark:myalite"
+					count: 64L
+				}
+				{
+					id: "00000000000001BA"
+					type: "item"
+					item: "quark:basalt"
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000002BC"
+					type: "item"
+					item: "quark:rainbow_rune"
+				}
+				{
+					id: "00000000000005CE"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "7FBA9AC801A4193C"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			title: "Miscellaneous Blocks"
+			x: -1.5d
+			y: -6.0d
+			subtitle: "Not Quite Known Blocks"
+			size: 1.5d
+			id: "00000000000001B5"
+			tasks: [
+				{
+					id: "00000000000001B6"
+					type: "item"
+					item: "quark:midori_block"
+					count: 16L
+				}
+				{
+					id: "00000000000001BB"
+					type: "item"
+					item: "quark:biotite_block"
+					count: 16L
+				}
+				{
+					id: "00000000000001BF"
+					type: "item"
+					item: "quark:duskbound_block"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000002EE"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "74126130A187EE5A"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			title: "Rarer Natural Occurences"
+			x: -1.5d
+			y: -7.5d
+			subtitle: "Rare But Beautiful"
+			size: 1.5d
+			id: "00000000000001B8"
+			tasks: [
+				{
+					id: "00000000000001B9"
+					type: "item"
+					item: "quark:elder_prismarine"
+					count: 16L
+				}
+				{
+					id: "00000000000001BE"
+					type: "item"
+					item: "quark:cobbedstone"
+					count: 16L
+				}
+				{
+					id: "00000000000005CF"
+					type: "item"
+					item: "quark:red_crystal"
+					count: 16L
+				}
+				{
+					id: "00000000000005D0"
+					type: "item"
+					item: "quark:orange_crystal"
+					count: 16L
+				}
+				{
+					id: "00000000000005D1"
+					type: "item"
+					item: "quark:yellow_crystal"
+					count: 16L
+				}
+				{
+					id: "00000000000005D2"
+					type: "item"
+					item: "quark:green_crystal"
+					count: 16L
+				}
+				{
+					id: "00000000000005D3"
+					type: "item"
+					item: "quark:blue_crystal"
+					count: 16L
+				}
+				{
+					id: "00000000000005D4"
+					type: "item"
+					item: "quark:indigo_crystal"
+					count: 16L
+				}
+				{
+					id: "00000000000005D5"
+					type: "item"
+					item: "quark:violet_crystal"
+					count: 16L
+				}
+				{
+					id: "00000000000005D6"
+					type: "item"
+					item: "quark:white_crystal"
+					count: 16L
+				}
+				{
+					id: "00000000000005D7"
+					type: "item"
+					item: "quark:black_crystal"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000003AA"
+					type: "item"
+					item: "minecraft:cobweb"
+					count: 16
+				}
+				{
+					id: "00000000000003AC"
+					type: "item"
+					item: "minecraft:prismarine"
+					count: 16
+				}
+				{
+					id: "00000000000005D9"
+					type: "item"
+					item: "quark:rainbow_rune"
+					count: 4
+				}
+				{
+					id: "00000000000005DA"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "64B21BE1F19A0AFB"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			title: "Glassy"
+			x: -0.75d
+			y: -9.0d
+			subtitle: "Don't Cut Yourself"
+			size: 1.5d
+			id: "00000000000001BC"
+			tasks: [
+				{
+					id: "00000000000005A9"
+					type: "item"
+					item: "minecraft:glass"
+					count: 8L
+				}
+				{
+					id: "00000000000005AA"
+					type: "item"
+					title: "Stained Glass"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:stained_glass"
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "00000000000005AB"
+					type: "item"
+					title: "Glass Panes"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:stained_glass_panes"
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "00000000000005AC"
+					type: "item"
+					item: "botania:mana_glass"
+					count: 8L
+				}
+				{
+					id: "00000000000005AD"
+					type: "item"
+					item: "botania:elf_glass"
+					count: 8L
+				}
+				{
+					id: "00000000000005AE"
+					type: "item"
+					item: "connectedglass:borderless_glass"
+					count: 8L
+				}
+				{
+					id: "00000000000005AF"
+					type: "item"
+					item: "connectedglass:clear_glass"
+					count: 8L
+				}
+				{
+					id: "00000000000005B0"
+					type: "item"
+					item: "connectedglass:scratched_glass"
+					count: 8L
+				}
+				{
+					id: "00000000000005B1"
+					type: "item"
+					item: "create:tiled_glass"
+					count: 8L
+				}
+				{
+					id: "00000000000005B2"
+					type: "item"
+					item: "create:framed_glass"
+					count: 8L
+				}
+				{
+					id: "00000000000005B4"
+					type: "item"
+					item: "engineersdecor:panzerglass_block"
+					count: 8L
+				}
+				{
+					id: "00000000000005B5"
+					type: "item"
+					item: "rsgauges:sensitive_glass_block"
+					count: 8L
+				}
+				{
+					id: "00000000000005B6"
+					type: "item"
+					item: "rsgauges:stained_sensitiveglass"
+					count: 8L
+				}
+				{
+					id: "00000000000005B7"
+					type: "item"
+					item: "immersiveengineering:insulating_glass"
+					count: 8L
+				}
+				{
+					id: "00000000000005B8"
+					type: "item"
+					item: "industrialforegoing:dark_glass"
+					count: 8L
+				}
+				{
+					id: "00000000000005B9"
+					type: "item"
+					item: "pitg:glasspane"
+					count: 8L
+				}
+				{
+					id: "00000000000005BA"
+					type: "item"
+					item: "pitg:dualglasspane"
+					count: 8L
+				}
+				{
+					id: "00000000000005BB"
+					type: "item"
+					item: "quark:framed_glass"
+					count: 8L
+				}
+				{
+					id: "00000000000005BC"
+					type: "item"
+					item: "quark:glass_item_frame"
+				}
+				{
+					id: "00000000000005BD"
+					type: "item"
+					item: "quark:glowing_glass_item_frame"
+				}
+				{
+					id: "00000000000005BE"
+					type: "item"
+					item: "quark:dirty_glass"
+					count: 8L
+				}
+				{
+					id: "00000000000005BF"
+					type: "item"
+					item: "inspirations:glass_door"
+				}
+				{
+					id: "00000000000005C0"
+					type: "item"
+					item: "inspirations:glass_trapdoor"
+				}
+				{
+					id: "00000000000005C1"
+					type: "item"
+					item: "cyclic:dark_glass"
+					count: 8L
+				}
+				{
+					id: "00000000000005C2"
+					type: "item"
+					item: "forbidden_arcanus:arcane_glass"
+					count: 8L
+				}
+				{
+					id: "00000000000005C3"
+					type: "item"
+					item: "forbidden_arcanus:runic_glass"
+					count: 8L
+				}
+				{
+					id: "00000000000005C4"
+					type: "item"
+					item: "forbidden_arcanus:dark_runic_glass"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000004AC"
+					type: "item"
+					item: "minecraft:sand"
+					count: 64
+				}
+				{
+					id: "00000000000004AD"
+					type: "item"
+					item: "minecraft:red_sand"
+					count: 64
+				}
+				{
+					id: "00000000000005C5"
+					type: "item"
+					item: "quark:rainbow_rune"
+				}
+				{
+					id: "4ABAA9B3D90C2F73"
+					type: "item"
+					item: "kubejs:delight_builder"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "All The Bricks"
+			x: 7.0d
+			y: 6.5d
+			subtitle: "Clay's Real Use"
+			dependencies: [
+				"000000000000053E"
+				"000000000000010B"
+			]
+			dependency_requirement: "one_completed"
+			id: "00000000000001C3"
+			tasks: [
+				{
+					id: "00000000000001C4"
+					type: "item"
+					item: "quark:sandy_bricks"
+					count: 4L
+				}
+				{
+					id: "00000000000001C7"
+					type: "item"
+					item: "quark:snow_bricks"
+					count: 4L
+				}
+				{
+					id: "00000000000001C8"
+					type: "item"
+					item: "quark:charred_nether_bricks"
+					count: 4L
+				}
+				{
+					id: "00000000000001C9"
+					type: "item"
+					item: "quark:blue_nether_bricks"
+					count: 4L
+				}
+				{
+					id: "00000000000001CA"
+					type: "item"
+					item: "quark:sandstone_bricks"
+					count: 4L
+				}
+				{
+					id: "00000000000001CB"
+					type: "item"
+					item: "quark:red_sandstone_bricks"
+					count: 4L
+				}
+				{
+					id: "00000000000001CC"
+					type: "item"
+					item: "quark:soul_sandstone_bricks"
+					count: 4L
+				}
+				{
+					id: "00000000000001CD"
+					type: "item"
+					item: "quark:twisted_blackstone_bricks"
+					count: 4L
+				}
+				{
+					id: "00000000000001CE"
+					type: "item"
+					item: "minecraft:bricks"
+					count: 4L
+				}
+				{
+					id: "0000000000000299"
+					type: "item"
+					item: "ceramics:dark_bricks"
+					count: 4L
+				}
+				{
+					id: "000000000000029A"
+					type: "item"
+					item: "ceramics:dragon_bricks"
+					count: 4L
+				}
+				{
+					id: "000000000000029B"
+					type: "item"
+					item: "ceramics:porcelain_bricks"
+					count: 4L
+				}
+				{
+					id: "000000000000029C"
+					type: "item"
+					item: "ceramics:golden_bricks"
+					count: 4L
+				}
+				{
+					id: "000000000000029D"
+					type: "item"
+					item: "ceramics:marine_bricks"
+					count: 4L
+				}
+				{
+					id: "000000000000029E"
+					type: "item"
+					item: "ceramics:rainbow_bricks"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000029F"
+					type: "item"
+					item: "ceramics:terracotta_gauge"
+					count: 4
+				}
+				{
+					id: "00000000000002A0"
+					type: "item"
+					item: "ceramics:terracotta_cistern"
+				}
+				{
+					id: "00000000000002A1"
+					type: "item"
+					item: "ceramics:clay_bucket"
+					count: 4
+				}
+				{
+					id: "00000000000002A4"
+					type: "item"
+					item: "quark:rainbow_rune"
+				}
+				{
+					id: "00000000000002A5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0F849D0F2255A797"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			title: "All The Azulejos"
+			x: -1.5d
+			y: -10.5d
+			subtitle: "Azule-Joe"
+			size: 1.5d
+			id: "00000000000001F2"
+			tasks: [
+				{
+					id: "00000000000001F3"
+					type: "item"
+					item: "botania:azulejo_0"
+					count: 16L
+				}
+				{
+					id: "00000000000002AC"
+					type: "item"
+					item: "botania:azulejo_1"
+					count: 16L
+				}
+				{
+					id: "00000000000002AD"
+					type: "item"
+					item: "botania:azulejo_2"
+					count: 16L
+				}
+				{
+					id: "00000000000002AE"
+					type: "item"
+					item: "botania:azulejo_3"
+					count: 16L
+				}
+				{
+					id: "00000000000002AF"
+					type: "item"
+					item: "botania:azulejo_4"
+					count: 16L
+				}
+				{
+					id: "00000000000002B0"
+					type: "item"
+					item: "botania:azulejo_5"
+					count: 16L
+				}
+				{
+					id: "00000000000002B1"
+					type: "item"
+					item: "botania:azulejo_6"
+					count: 16L
+				}
+				{
+					id: "00000000000002B2"
+					type: "item"
+					item: "botania:azulejo_7"
+					count: 16L
+				}
+				{
+					id: "00000000000002B3"
+					type: "item"
+					item: "botania:azulejo_8"
+					count: 16L
+				}
+				{
+					id: "00000000000002B4"
+					type: "item"
+					item: "botania:azulejo_9"
+					count: 16L
+				}
+				{
+					id: "00000000000002B5"
+					type: "item"
+					item: "botania:azulejo_10"
+					count: 16L
+				}
+				{
+					id: "00000000000002B6"
+					type: "item"
+					item: "botania:azulejo_11"
+					count: 16L
+				}
+				{
+					id: "00000000000002B7"
+					type: "item"
+					item: "botania:azulejo_12"
+					count: 16L
+				}
+				{
+					id: "00000000000002B8"
+					type: "item"
+					item: "botania:azulejo_13"
+					count: 16L
+				}
+				{
+					id: "00000000000002B9"
+					type: "item"
+					item: "botania:azulejo_14"
+					count: 16L
+				}
+				{
+					id: "00000000000002BA"
+					type: "item"
+					item: "botania:azulejo_15"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000002A6"
+					type: "item"
+					item: "tetra:pristine_lapis"
+				}
+				{
+					id: "00000000000002A7"
+					type: "item"
+					item: "minecraft:lapis_ore"
+					count: 16
+				}
+				{
+					id: "00000000000002A8"
+					type: "item"
+					item: "minecraft:blue_dye"
+					count: 16
+				}
+				{
+					id: "00000000000002A9"
+					type: "item"
+					item: "quark:rainbow_rune"
+				}
+				{
+					id: "00000000000002AA"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "6254E905F82F93D5"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			title: "Shimmering"
+			x: 0.0d
+			y: -11.0d
+			subtitle: "Pretty But Expensive"
+			dependencies: ["0000000000000176"]
+			size: 1.5d
+			id: "0000000000000222"
+			tasks: [
+				{
+					id: "0000000000000223"
+					type: "item"
+					item: "botania:shimmerrock"
+					count: 4L
+				}
+				{
+					id: "0000000000000224"
+					type: "item"
+					item: "botania:shimmerwood_planks"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000002AB"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "00000000000002BB"
+					type: "item"
+					item: "quark:rainbow_rune"
+				}
+				{
+					id: "30EDB732B0C9628D"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			title: "The Cutest Tree"
+			x: 0.0d
+			y: -7.5d
+			subtitle: "Flashy Colors"
+			size: 1.5d
+			id: "00000000000002BD"
+			tasks: [
+				{
+					id: "00000000000002C1"
+					type: "item"
+					item: "biomesoplenty:rainbow_birch_sapling"
+					count: 2L
+				}
+				{
+					id: "00000000000002C2"
+					type: "item"
+					item: "biomesoplenty:rainbow_birch_leaves"
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000002C3"
+					type: "item"
+					item: {
+						id: "quark:rainbow_rune"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "00000000000002C4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0EA6321E460CD0ED"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "Hold Shift + Y to take a closer look at blocks!"
+			id: "00000000000002D1"
+			tasks: [{
+				id: "00000000000002D2"
+				type: "checkmark"
+				title: "Item ZOOM!"
+				icon: "chiselsandbits:magnifying_glass"
+			}]
+			rewards: [{
+				id: "00000000000002FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Makes Wood Cutting Cheaper"
+			size: 2.0d
+			id: "00000000000002D7"
+			tasks: [{
+				id: "00000000000002D8"
+				type: "item"
+				item: {
+					id: "environmental:sawmill"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "000000000000057D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Chisels \\& Bits!"
+			x: 7.0d
+			y: 0.0d
+			subtitle: "Can chisel almost any solid block"
+			size: 2.0d
+			id: "00000000000002D9"
+			tasks: [{
+				id: "0ED6C97712F5B6C6"
+				type: "item"
+				title: "Chisel"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "chiselsandbits:chisel_diamond"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "chiselsandbits:chisel_netherite"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000587"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "2F3A4B5B29FB4853"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			title: "Modifying Designs"
+			x: 7.0d
+			y: -1.5d
+			subtitle: "Copy what you already made"
+			id: "00000000000002DD"
+			tasks: [
+				{
+					id: "5C34A04CA41C3539"
+					type: "item"
+					item: {
+						id: "chiselsandbits:quill"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "255D3862DBBF482A"
+					type: "item"
+					item: {
+						id: "chiselsandbits:sealant"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "2E9DEA4D9A89D21F"
+					type: "item"
+					item: "chiselsandbits:modification_table"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000580"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "69C1BA28E63AD0B6"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			subtitle: "There's no alternative"
+			id: "00000000000002E3"
+			tasks: [{
+				id: "00000000000002E4"
+				type: "item"
+				item: {
+					id: "chiselsandbits:bit_bag"
+					Count: 1b
+					tag: {
+						contents: [I;
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000581"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			subtitle: "Yes, Chiseled Liquids"
+			id: "00000000000002E5"
+			tasks: [{
+				id: "00000000000002E6"
+				type: "item"
+				item: "chiselsandbits:bit_storage"
+			}]
+			rewards: [{
+				id: "0000000000000584"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			subtitle: "Measured in blocks, not inches"
+			id: "00000000000002E9"
+			tasks: [{
+				id: "00000000000002EA"
+				type: "item"
+				item: {
+					id: "chiselsandbits:measuring_tape"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0000000000000585"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			subtitle: "Know what your working with"
+			id: "00000000000002EB"
+			tasks: [{
+				id: "00000000000002EC"
+				type: "item"
+				item: "chiselsandbits:magnifying_glass"
+			}]
+			rewards: [{
+				id: "000000000000066E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			subtitle: "Show-Off Lights"
+			size: 1.5d
+			id: "0000000000000401"
+			tasks: [
+				{
+					id: "0000000000000402"
+					type: "item"
+					item: "charm:tube_sea_lantern"
+				}
+				{
+					id: "0000000000000403"
+					type: "item"
+					item: "charm:brain_sea_lantern"
+				}
+				{
+					id: "0000000000000404"
+					type: "item"
+					item: "charm:bubble_sea_lantern"
+				}
+				{
+					id: "0000000000000405"
+					type: "item"
+					item: "charm:fire_sea_lantern"
+				}
+				{
+					id: "0000000000000406"
+					type: "item"
+					item: "charm:horn_sea_lantern"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000005CD"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "2ED7492ADDCE575A"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			title: "Scaffolding"
+			x: -7.0d
+			y: -2.0d
+			subtitle: "Builder's Helper"
+			size: 2.0d
+			id: "000000000000048D"
+			tasks: [{
+				id: "000000000000048E"
+				type: "item"
+				item: "minecraft:scaffolding"
+				count: 6L
+			}]
+			rewards: [
+				{
+					id: "000000000000048F"
+					type: "item"
+					item: "minecraft:bamboo"
+					count: 12
+				}
+				{
+					id: "0000000000000490"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Frames"
+			x: -7.0d
+			y: 0.0d
+			subtitle: "The Block That Does It All"
+			dependencies: ["000000000000048D"]
+			size: 2.0d
+			id: "0000000000000491"
+			tasks: [{
+				id: "0000000000000492"
+				type: "item"
+				item: {
+					id: "framedblocks:framed_cube"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "00000000000004B0"
+					type: "item"
+					item: {
+						id: "framedblocks:framed_cube"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "00000000000004B1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -1.0d
+			subtitle: "Block-Copier"
+			dependencies: ["0000000000000491"]
+			dependency_requirement: "one_started"
+			id: "0000000000000493"
+			tasks: [{
+				id: "0000000000000494"
+				type: "item"
+				item: {
+					id: "framedblocks:framed_blueprint"
+					Count: 1b
+					tag: {
+						blueprint_data: { }
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000004B8"
+					type: "item"
+					item: {
+						id: "framedblocks:framed_cube"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "00000000000004B9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			title: "Block Enlighteners"
+			x: -7.0d
+			y: 1.5d
+			subtitle: "Enlighten Your Blocks"
+			dependencies: ["0000000000000491"]
+			id: "0000000000000495"
+			tasks: [{
+				id: "0000000000000497"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+			}]
+			rewards: [
+				{
+					id: "0000000000000499"
+					type: "item"
+					item: "minecraft:glowstone"
+				}
+				{
+					id: "000000000000049B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			subtitle: "Specifying The Angle"
+			dependencies: ["0000000000000491"]
+			dependency_requirement: "one_started"
+			id: "000000000000049E"
+			tasks: [{
+				id: "000000000000049F"
+				type: "item"
+				item: {
+					id: "framedblocks:framed_wrench"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000004B6"
+					type: "item"
+					item: {
+						id: "framedblocks:framed_cube"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "00000000000004B7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			subtitle: "Block-Undo-er"
+			dependencies: ["0000000000000491"]
+			id: "00000000000004A0"
+			tasks: [{
+				id: "00000000000004A1"
+				type: "item"
+				item: {
+					id: "framedblocks:framed_hammer"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000004B4"
+					type: "item"
+					item: {
+						id: "framedblocks:framed_cube"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "00000000000004B5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 5.0d
+			subtitle: "Used For Making Ceramics' Blocks \\& Items"
+			size: 2.0d
+			id: "000000000000053E"
+			tasks: [{
+				id: "000000000000053F"
+				type: "item"
+				item: "ceramics:kiln"
+			}]
+			rewards: [
+				{
+					id: "000000000000057B"
+					type: "item"
+					item: "minecraft:bricks"
+					count: 4
+				}
+				{
+					id: "000000000000057C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Bedspreads"
+			x: -7.0d
+			y: 5.0d
+			subtitle: "You Can Add Banner Patterns To Your Bed!"
+			size: 2.0d
+			id: "0000000000000599"
+			tasks: [
+				{
+					id: "000000000000059A"
+					type: "item"
+					item: "minecraft:loom"
+				}
+				{
+					id: "000000000000059B"
+					type: "item"
+					title: "Bed"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:beds"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000059F"
+					type: "item"
+					item: "minecraft:white_banner"
+				}
+				{
+					id: "00000000000005A0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			title: "Additional Lights"
+			x: 7.0d
+			y: -6.0d
+			subtitle: "Fire Place, Place For Fire"
+			size: 2.0d
+			id: "00000000000005A2"
+			tasks: [
+				{
+					id: "00000000000005A3"
+					type: "item"
+					title: "Fire Pit"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "additional_lights:fire_for_standing_torch_s"
+									Count: 1b
+								}
+								{
+									id: "additional_lights:fire_for_standing_torch_l"
+									Count: 1b
+								}
+								{
+									id: "additional_lights:fire_for_fire_pit_s"
+									Count: 1b
+								}
+								{
+									id: "additional_lights:fire_for_fire_pit_l"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "00000000000005A4"
+					type: "item"
+					title: "Soul Fire Pit"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "additional_lights:soul_fire_for_standing_torch_s"
+									Count: 1b
+								}
+								{
+									id: "additional_lights:soul_fire_for_standing_torch_l"
+									Count: 1b
+								}
+								{
+									id: "additional_lights:soul_fire_for_fire_pit_s"
+									Count: 1b
+								}
+								{
+									id: "additional_lights:soul_fire_for_fire_pit_l"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000005A5"
+					type: "item"
+					item: "minecraft:coal"
+					count: 4
+				}
+				{
+					id: "00000000000005A6"
+					type: "item"
+					item: "minecraft:charcoal"
+					count: 4
+				}
+				{
+					id: "00000000000005A7"
+					type: "item"
+					item: "minecraft:fire_charge"
+					count: 4
+				}
+				{
+					id: "00000000000005A8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "statues:player_statue"
+					DisplayMobScale: 1.5d
+				}
+			}
+			x: -7.0d
+			y: -6.0d
+			subtitle: "Build Yourself!"
+			description: [""]
+			id: "0000000000000751"
+			tasks: [{
+				id: "0000000000000752"
+				type: "item"
+				item: {
+					id: "statues:player_statue"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000753"
+					type: "item"
+					item: "statues:statue_core"
+				}
+				{
+					id: "0000000000000754"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			title: "Advanced Chimneys"
+			icon: "adchimneys:stone_pump"
+			x: -13.0d
+			y: -6.0d
+			subtitle: "Smokey Flavour"
+			size: 2.0d
+			id: "0000000000000787"
+			tasks: [
+				{
+					id: "0000000000000788"
+					type: "item"
+					title: "Pump"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "adchimneys:.+_pump"
+						}
+					}
+				}
+				{
+					id: "0000000000000789"
+					type: "item"
+					title: "Vent"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "adchimneys:.+_vent"
+						}
+					}
+				}
+				{
+					id: "000000000000078A"
+					type: "item"
+					title: "Chimney"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "adchimneys:.+_chimney"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000078B"
+					type: "item"
+					item: "minecraft:campfire"
+				}
+				{
+					id: "000000000000078C"
+					type: "item"
+					item: "minecraft:soul_campfire"
+				}
+				{
+					id: "000000000000078D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Macaw's "
+			x: 13.0d
+			y: 0.0d
+			subtitle: "Macaw Has It All"
+			size: 2.0d
+			id: "00000000000007B6"
+			tasks: [
+				{
+					id: "00000000000007B7"
+					type: "item"
+					title: "Bridges"
+					item: {
+						id: "itemfilters:mod"
+						Count: 1b
+						tag: {
+							value: "mcwbridges"
+						}
+					}
+				}
+				{
+					id: "00000000000007B8"
+					type: "item"
+					title: "Doors"
+					item: {
+						id: "itemfilters:mod"
+						Count: 1b
+						tag: {
+							value: "mcwdoors"
+						}
+					}
+				}
+				{
+					id: "00000000000007BD"
+					type: "item"
+					title: "Roofs"
+					item: {
+						id: "itemfilters:mod"
+						Count: 1b
+						tag: {
+							value: "mcwroofs"
+						}
+					}
+				}
+				{
+					id: "00000000000007BE"
+					type: "item"
+					title: "Trapdoors"
+					item: {
+						id: "itemfilters:mod"
+						Count: 1b
+						tag: {
+							value: "mcwtrpdoors"
+						}
+					}
+				}
+				{
+					id: "00000000000007BF"
+					type: "item"
+					title: "Windows"
+					item: {
+						id: "itemfilters:mod"
+						Count: 1b
+						tag: {
+							value: "mcwwindows"
+						}
+					}
+				}
+				{
+					id: "58179E2B0999A56A"
+					type: "item"
+					title: "Lights \\& Lamps"
+					item: {
+						id: "itemfilters:mod"
+						Count: 1b
+						tag: {
+							value: "mcwlights"
+						}
+					}
+				}
+				{
+					id: "3F0C71D5F511BDF3"
+					type: "item"
+					title: "Fences \\& Walls"
+					item: {
+						id: "itemfilters:mod"
+						Count: 1b
+						tag: {
+							value: "mcwfences"
+						}
+					}
+				}
+				{
+					id: "05B85DEBE87015D7"
+					type: "item"
+					title: "Furniture"
+					item: {
+						id: "itemfilters:mod"
+						Count: 1b
+						tag: {
+							value: "mcwfurnitures"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000007C2"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "456D29E42FDC8D72"
+					type: "item"
+					item: "kubejs:delight_builder"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 1.0d
+			subtitle: "Better Roof Variants"
+			id: "00000000000007B9"
+			tasks: [{
+				id: "00000000000007BA"
+				type: "item"
+				item: "mcwroofs:roofing_hammer"
+			}]
+			rewards: [{
+				id: "00000000000007C4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 14.0d
+			y: -1.0d
+			subtitle: "Better Window Variants"
+			id: "00000000000007BB"
+			tasks: [{
+				id: "00000000000007BC"
+				type: "item"
+				item: "mcwwindows:hammer"
+			}]
+			rewards: [{
+				id: "00000000000007C3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			title: "Fancy Neon Signs"
+			icon: "neoncraft:wallneon_color_flamingo"
+			x: -13.0d
+			y: 5.0d
+			subtitle: "Come Visit Us"
+			size: 2.0d
+			id: "75EF3A1C9EDFD95A"
+			tasks: [
+				{
+					id: "49D62990C147237F"
+					type: "item"
+					title: "Neon Letters"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "neoncraft:.+_lette.+"
+						}
+					}
+				}
+				{
+					id: "37EDE6C164B8D394"
+					type: "item"
+					title: "Neon Numbers"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "neoncraft:.+_numbe.+"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "481125BA5950C99A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5E83FD1AA1B73CF4"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			icon: "chineseworkshop:black_tile_roof_ridge_top"
+			x: -13.0d
+			y: 0.0d
+			subtitle: "Chinese Architecture"
+			size: 2.0d
+			id: "2BE5124793D4A7DB"
+			tasks: [{
+				id: "1F0693A3BF4A255D"
+				type: "item"
+				title: "Chinese Workshop"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "chineseworkshop"
+					}
+				}
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "0B4FEF028EBF9C49"
+					type: "item"
+					item: "chineseworkshop:black_clay"
+					count: 16
+				}
+				{
+					id: "2415D0015B00E3B6"
+					type: "item"
+					item: "chineseworkshop:yellow_clay"
+					count: 16
+				}
+				{
+					id: "26E5AB89636051F3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "2B8AFA088D70FE59"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			title: "Calemi's Builder Utils"
+			x: 13.0d
+			y: -6.0d
+			subtitle: "Absolute Professional"
+			size: 2.0d
+			id: "057185740C8E26F4"
+			tasks: [
+				{
+					id: "37B100A175B1137D"
+					type: "item"
+					item: {
+						id: "calemiutils:pencil"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "349F9DE4A1A8DA8C"
+					type: "item"
+					item: "calemiutils:brush"
+				}
+				{
+					id: "4E01BD3351CDBBF6"
+					type: "item"
+					item: "calemiutils:eraser"
+				}
+				{
+					id: "3A30BB91AAA5DDA9"
+					type: "item"
+					item: "calemiutils:iron_scaffold"
+					count: 16L
+				}
+				{
+					id: "7591F8AF1C50D5AF"
+					type: "item"
+					item: "calemiutils:blueprint_filler"
+				}
+			]
+			rewards: [
+				{
+					id: "45FB05BAA2FF9B79"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "2A33248304BC3836"
+					type: "item"
+					item: "kubejs:delight_builder"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			subtitle: "Beauty Requires Pain"
+			id: "486495C97F30B7DE"
+			tasks: [{
+				id: "045C27F8A75EE2D3"
+				type: "item"
+				title: "Chisel Types"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "chisel:diamond_chisel"
+								Count: 1b
+								tag: {
+									Damage: 0
+									chiseldata: {
+										target: {
+											id: "minecraft:air"
+											Count: 1b
+											tag: {
+												spell: { }
+											}
+										}
+									}
+								}
+							}
+							{
+								id: "chisel:hitech_chisel"
+								Count: 1b
+								tag: {
+									Damage: 0
+									chiseldata: {
+										selectslot: 93
+										target: {
+											id: "minecraft:air"
+											Count: 1b
+											tag: {
+												spell: { }
+											}
+										}
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "156F796C354655AD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "22D1410DF4C9CB4D"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			title: "Intentional Randomization"
+			x: 13.0d
+			y: 5.0d
+			subtitle: "Mathematically Correct Placements"
+			description: [
+				"The Trowel randomizes block placements."
+				"In order for blocks to be placed, blocks have to be present in your hotbar."
+			]
+			size: 2.0d
+			id: "26DD882881D6508A"
+			tasks: [
+				{
+					id: "5BC5F746A529B79B"
+					type: "item"
+					item: {
+						id: "quark:trowel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "68319141DB69F5D3"
+					type: "item"
+					item: {
+						id: "quark:abacus"
+						Count: 1b
+						tag: {
+							boundPosX: 198
+							boundPosY: -1
+							boundPosZ: 227
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4D7B5649ACF4597F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "1632D9D426D282FF"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			title: "Chipped' Benches"
+			x: 0.0d
+			y: 5.0d
+			subtitle: "Creator's Benches"
+			size: 2.0d
+			id: "3922099622945761"
+			tasks: [
+				{
+					id: "66E25A52D80C1923"
+					type: "item"
+					item: "chipped:botanist_workbench"
+				}
+				{
+					id: "4EEE7EA688B1996E"
+					type: "item"
+					item: "chipped:glassblower"
+				}
+				{
+					id: "2B2D65E455B744E3"
+					type: "item"
+					item: "chipped:carpenters_table"
+				}
+				{
+					id: "48E0AC60A82E9D8F"
+					type: "item"
+					item: "chipped:loom_table"
+				}
+				{
+					id: "50AF02321068DAA2"
+					type: "item"
+					item: "chipped:mason_table"
+				}
+				{
+					id: "68FFFFC6899D84CF"
+					type: "item"
+					item: "chipped:alchemy_bench"
+				}
+				{
+					id: "06E250CE29900E5F"
+					type: "item"
+					item: "chipped:mechanist_workbench"
+				}
+			]
+			rewards: [
+				{
+					id: "0F9625A3F817A28E"
+					type: "item"
+					item: "kubejs:delight_builder"
+					count: 3
+				}
+				{
+					id: "3889B1F95C9A817A"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+			]
+		}
+	]
+}

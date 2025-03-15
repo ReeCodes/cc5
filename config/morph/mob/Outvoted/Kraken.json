@@ -1,0 +1,18 @@
+{
+  "author": "natedogwooof",
+  "forEntity": "outvoted:kraken",
+  "traits": [
+    {
+      "type": "traitHostile"
+    },
+    {
+      "swimMultiplier": 2.5,
+      "landMultiplier": 0.1,
+      "type": "traitSwimmer"
+    },
+    {
+      "suffocatesOnLand": true,
+      "type": "traitWaterBreather"
+    }
+  ]
+}

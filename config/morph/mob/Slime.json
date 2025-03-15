@@ -1,0 +1,11 @@
+{
+  "forEntity": "specialmobs:slime",
+  "traits": [
+    {
+      "type": "traitFloat"
+    },
+    {
+      "type": "traitHostile"
+    }
+  ]
+}

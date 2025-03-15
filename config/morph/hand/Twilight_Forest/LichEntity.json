@@ -1,0 +1,25 @@
+{
+  "author": "WenXin2",
+  "forClass": "twilightforest.entity.boss.LichEntity",
+  "modelFieldName": "field_78116_c",
+  "eyeOffset": [
+    0.0,
+    0.0,
+    0.25
+  ],
+  "irisColour": [
+    0.7176471,
+    0.08627451,
+    0.08627451
+  ],
+  "pupilColour": [
+    0.40784314,
+    0.05882353,
+    0.043137256
+  ],
+  "headTopCenter": [
+    0.0,
+    0.25,
+    0.0
+  ]
+}

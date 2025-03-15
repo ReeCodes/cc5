@@ -1,0 +1,32 @@
+type = menu
+
+customization-meta {
+  identifier = com.fuzs.consoleexperience.client.gui.screen.FancyDirtMessageScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = panorama
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  x = 196
+  action = addtext
+  actionid = 7620ecbe-e938-4e5c-918b-f401788ae2ea1639573872298
+  y = 148
+  scale = 0.8
+  alignment = centered
+  value = Loading into Worlds may take a while. Be patient!
+}
+

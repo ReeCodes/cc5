@@ -1,0 +1,36 @@
+{
+  "author": "WenXin2",
+  "forClass": "twilightforest.entity.MosquitoSwarmEntity",
+  "modelFieldName": "core.node1",
+  "eyeOffset": [
+    -0.03125,
+    -0.03125,
+    0.6875
+  ],
+  "halfInterpupillaryDistance": 0.01875,
+  "eyeScale": 0.15,
+  "headTopCenter": [
+    -0.03125,
+    0.0,
+    0.65625
+  ],
+  "headScale": 0.12,
+  "additionalHeads": [
+    {
+      "modelFieldName": "core.node2",
+      "eyeOffset": [
+        -0.03125,
+        0.65625,
+        0.0
+      ],
+      "halfInterpupillaryDistance": 0.01875,
+      "eyeScale": 0.15,
+      "headTopCenter": [
+        -0.03125,
+        0.6875,
+        -0.03125
+      ],
+      "headScale": 0.12
+    }
+  ]
+}

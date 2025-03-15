@@ -1,0 +1,24 @@
+{
+  "author": "WenXin2",
+  "forClass": "twilightforest.entity.passive.RavenEntity",
+  "modelFieldName": "head",
+  "eyeOffset": [
+    0.0,
+    -0.03125,
+    0.09375
+  ],
+  "irisColour": [
+    0.80784315,
+    0.8117647,
+    0.4745098
+  ],
+  "halfInterpupillaryDistance": 0.09375,
+  "eyeScale": 0.35,
+  "sideEyed": true,
+  "headTopCenter": [
+    0.0,
+    0.0625,
+    0.03125
+  ],
+  "headScale": 0.4
+}

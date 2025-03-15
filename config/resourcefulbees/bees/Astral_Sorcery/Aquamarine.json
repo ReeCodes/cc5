@@ -1,0 +1,33 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#00BDE0",
+    "primaryColor": "#E0DABC",
+    "primaryLayerTexture":"stones/custom/custom_bee_sand_primary",
+    "secondaryLayerTexture":"ores/gem/custom/custom_gem_bee_secondary",
+    "secondaryColor": "#00BDE0",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:sand",
+    "mutationOutput": "astralsorcery:aquamarine_sand_ore",
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "astralsorcery:aquamarine"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

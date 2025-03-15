@@ -1,0 +1,22 @@
+{
+	default: {
+		name: "Default"
+		power: 1
+		condition: "always_active"
+		command.rtp: false
+		command.back: false
+		command.spawn: false
+		command.warp: false
+		command.warp.name: false
+		command.setwarp: false
+		command.setwarp.name: false
+		command.home: false
+		command.home.name: false
+		command.delhome: false
+		command.delhome.name: false
+		command.listhomes: false
+		command.sethome: false
+		command.sethome.name: false
+		ftbchunks.max_force_loaded: 0
+	}
+}

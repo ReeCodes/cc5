@@ -1,0 +1,60 @@
+{
+	id: "22C83A9B38914F68"
+	group: "3B063F3DD8CE7BD5"
+	order_index: 3
+	filename: "astral_sightings"
+	title: "Astral Sightings"
+	always_invisible: true
+	default_quest_shape: "diamond"
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "&eBeginning: &aJoining The Astral Academy"
+		icon: "astralsorcery:tome"
+		x: 0.0d
+		y: 0.0d
+		subtitle: "Astral Academy"
+		id: "71C9D10353543794"
+		tasks: [
+			{
+				id: "412705438A3C3835"
+				type: "item"
+				item: "astralsorcery:wand"
+			}
+			{
+				id: "67FCEBF490B8F5D9"
+				type: "observation"
+				title: "&eCreate: &aLuminous Crafting Table"
+				icon: "astralsorcery:altar_discovery"
+				timer: 0L
+				observe_type: 0
+				to_observe: "astralsorcery:altar_discovery"
+			}
+			{
+				id: "25F3B5F420B11DD7"
+				type: "checkmark"
+				title: "WIP"
+			}
+		]
+		rewards: [
+			{
+				id: "05003DA71D62C63A"
+				type: "xp_levels"
+				xp_levels: 5
+			}
+			{
+				id: "5431BB13C007C46A"
+				type: "item"
+				item: {
+					id: "kubejs:affixgear2"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}
+		]
+	}]
+}

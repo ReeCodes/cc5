@@ -1,0 +1,564 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  smallerthanwidth = 1239
+}
+
+customization {
+  name = panorama
+  action = setbackgroundpanorama
+}
+
+customization {
+  action = setscale
+  scale = 1
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -150
+  action = movebutton
+  y = -55
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 91
+  action = resizebutton
+  height = 94
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymain\CommonButtons\hover\h_mp_button.png
+  backgroundnormal = fancymain\CommonButtons\mp_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = sethoverlabel
+  label = Play Together
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = -15
+  action = movebutton
+  y = -90
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  width = 30
+  action = resizebutton
+  height = 31
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymain\CommonButtons\hover\h_access_button.png
+  backgroundnormal = fancymain\CommonButtons\access_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttondescription
+  description = Accessibility
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = 165
+  action = movebutton
+  y = -70
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 91
+  action = resizebutton
+  height = 94
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymain\CommonButtons\hover\h_settings_button.png
+  backgroundnormal = fancymain\CommonButtons\settings_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = sethoverlabel
+  label = Configuration
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = -255
+  action = movebutton
+  y = 44
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 30
+  action = resizebutton
+  height = 31
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymain\CommonButtons\hover\h_q_button.png
+  backgroundnormal = fancymain\CommonButtons\q_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = sethoverlabel
+  label = :(
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttondescription
+  description = Quit Game
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = 166
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 30
+  action = resizebutton
+  height = 31
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymain\CommonButtons\hover\h_lang_button.png
+  backgroundnormal = fancymain\CommonButtons\lang_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttondescription
+  description = Change Language
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -45
+  action = movebutton
+  y = -47
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 91
+  action = resizebutton
+  height = 94
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymain\CommonButtons\hover\h_sp_button.png
+  backgroundnormal = fancymain\CommonButtons\sp_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = sethoverlabel
+  label = By Yourself
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = 60
+  action = movebutton
+  y = -55
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 91
+  action = resizebutton
+  height = 94
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymain\CommonButtons\hover\h_mods_button.png
+  backgroundnormal = fancymain\CommonButtons\mods_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = sethoverlabel
+  label = Look Up Mods
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 393
+  width = 238
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 0e757df0-5498-4b96-81d6-e2b57645a2bd1656691814921
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 103
+  action = deep_customization_element:title_screen_branding
+  actionid = 333b7762-d334-4f68-a263-6f890543be7c1656691814921
+  y = 726
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2331
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 0d9e3da3-89c7-4e0f-b00c-55880b509fe71656691814921
+  y = 1386
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 1383
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = be78d709-244d-4789-8548-6db43e7655261656691814921
+  y = 451
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 375
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = c535d716-08e3-4fe8-8173-90408eb5b22f1656691814921
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = a42da190-48b3-4d29-b497-8e3a585afa061656691814921
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-right
+  shadow = false
+  x = 3
+  action = addtext
+  actionid = ca1c1c3d-1eda-4883-a793-8b2f363608051626638793408
+  y = 3
+  scale = 0.75
+  alignment = left
+  value = §e§l!§f Loading into worlds/servers may take awhile. Be patient! You'll get in eventually.
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/qCVHGdEKMU%btnaction_splitter_fm%
+  backgroundhovered = fancymain\CommonButtons\hover\h_discord_button.png
+  description = Discord
+  label = 
+  loopbackgroundanimations = true
+  x = 227
+  width = 30
+  action = addbutton
+  actionid = 15f7b36c-a714-497f-ab7e-d500704a34de1632155769867
+  y = 48
+  backgroundnormal = fancymain\CommonButtons\discord_button.png
+  height = 31
+}
+
+customization {
+  path = fancymain/CommonButtons/blackbar.png
+  orientation = mid-centered
+  x = -255
+  width = 91
+  action = addtexture
+  actionid = 31551b2d-e65d-4f83-8006-49cd6c7907101631392305305
+  y = 25
+  height = 13
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -242
+  action = addtext
+  actionid = e582f595-1d03-458c-a922-e819058d277a1631392506462
+  y = 26
+  scale = 1.0
+  alignment = left
+  value = §6Official Server
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = joinserver;reereeq.modded.fun%btnaction_splitter_fm%
+  backgroundhovered = fancymain\CommonButtons\hover\h_euserver_button.png
+  description = &cDeprecated
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = Players: &e%serverplayercount:reereeq.modded.fun%
+  x = -255
+  width = 91
+  action = addbutton
+  actionid = 214a36f9-a159-497d-a8c4-c0f5c70f45bb1632155769898
+  y = -70
+  backgroundnormal = fancymain\CommonButtons\euserver_button.png
+  height = 94
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.bisecthosting.com/crazycrave%btnaction_splitter_fm%
+  backgroundhovered = fancymain\CommonButtons\hover\h_bisect_button.png
+  description = Bisect Hosting
+  label = 
+  loopbackgroundanimations = true
+  x = -195
+  width = 30
+  action = addbutton
+  actionid = 601138c9-0366-4a0c-adae-4b6a5e971fb71632155769913
+  y = 45
+  backgroundnormal = fancymain\CommonButtons\bisect_button.png
+  height = 31
+}
+
+customization {
+  path = fancymain/CommonButtons/blackbar.png
+  orientation = mid-centered
+  x = 165
+  width = 91
+  action = addtexture
+  actionid = 31551b2d-e65d-4f83-8006-49cd6c7907101631392305305
+  y = 25
+  height = 13
+}
+
+customization {
+  path = fancymain/CommonButtons/blackbar.png
+  orientation = mid-centered
+  x = -150
+  width = 91
+  action = addtexture
+  actionid = 31551b2d-e65d-4f83-8006-49cd6c7907101631392305305
+  y = 40
+  height = 13
+}
+
+customization {
+  path = fancymain/CommonButtons/blackbar.png
+  orientation = mid-centered
+  x = -45
+  width = 91
+  action = addtexture
+  actionid = 31551b2d-e65d-4f83-8006-49cd6c7907101631392305305
+  y = 48
+  height = 13
+}
+
+customization {
+  path = fancymain/CommonButtons/blackbar.png
+  orientation = mid-centered
+  x = 60
+  width = 91
+  action = addtexture
+  actionid = 31551b2d-e65d-4f83-8006-49cd6c7907101631392305305
+  y = 40
+  height = 13
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -132
+  action = addtext
+  actionid = 2ecb1072-906d-4206-b907-019c45775bc61631392522223
+  y = 41
+  scale = 1.0
+  alignment = left
+  value = Multiplayer
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -28
+  action = addtext
+  actionid = f20fa366-42a4-4b48-9d6a-4ce7175513471631392564130
+  y = 49
+  scale = 1.0
+  alignment = left
+  value = Singleplayer
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 94
+  action = addtext
+  actionid = 71f81e1e-c43e-4038-bfb3-00a1413276a81631392579252
+  y = 42
+  scale = 1.0
+  alignment = left
+  value = Mods
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 192
+  action = addtext
+  actionid = e4fec074-65e9-4ba7-a65c-dd51740fb5a01631392603840
+  y = 27
+  scale = 1.0
+  alignment = left
+  value = Options
+}
+
+customization {
+  path = fancymain/cc5_logo.png
+  orientation = mid-centered
+  x = -148
+  width = 296
+  action = addtexture
+  actionid = 8a9a48a4-76e3-4f43-8ac7-2933536c23cf1631484939296
+  y = -240
+  height = 118
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 66
+  action = addtext
+  actionid = 36e3b088-39c6-420b-8a85-344a15d3fb2f1635775206430
+  y = -15
+  scale = 1.5
+  alignment = centered
+  value = Mods loaded: %totalmods%
+}
+

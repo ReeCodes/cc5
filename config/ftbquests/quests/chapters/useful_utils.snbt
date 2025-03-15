@@ -1,0 +1,2217 @@
+{
+	id: "000000000000001E"
+	group: "432A898843F792EA"
+	order_index: 1
+	filename: "useful_utils"
+	title: "Practicalities"
+	icon: {
+		id: "quark:backpack"
+		Count: 1b
+		tag: {
+			Inventory: [
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+			]
+		}
+	}
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Seed Pouch"
+			icon: {
+				id: "quark:seed_pouch"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.5d
+			y: -8.5d
+			subtitle: "Handy Pouch Of Non-Annoyance"
+			id: "0000000000000026"
+			tasks: [{
+				id: "0000000000000774"
+				type: "item"
+				item: {
+					id: "quark:seed_pouch"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003B1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "16E5CB17D09B0FF0"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -8.5d
+			subtitle: "More Inventory Space"
+			id: "0000000000000028"
+			tasks: [{
+				id: "0000000000000029"
+				type: "item"
+				item: {
+					id: "quark:backpack"
+					Count: 1b
+					tag: {
+						Inventory: [
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000004AE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5B830A34B0D2D970"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: -12.5d
+			subtitle: "Spot Your Death"
+			id: "000000000000002E"
+			tasks: [{
+				id: "000000000000002F"
+				type: "item"
+				item: "quark:soul_compass"
+			}]
+			rewards: [
+				{
+					id: "00000000000003B0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7785518EADAD06E0"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -9.0d
+			subtitle: "Better Space"
+			id: "00000000000000A2"
+			tasks: [{
+				id: "00000000000000A3"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:iron_backpack"
+					Count: 1b
+					tag: {
+						inventory: {
+							Size: 54
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003F5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "41421539087AC9C1"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -9.0d
+			subtitle: "Even More Space"
+			dependencies: ["00000000000000A2"]
+			id: "00000000000000A4"
+			tasks: [{
+				id: "00000000000000A5"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [
+				{
+					id: "00000000000003F6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "7E93B50199046E87"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -9.0d
+			subtitle: "Extreme Space"
+			dependencies: ["00000000000000A4"]
+			id: "00000000000000A6"
+			tasks: [{
+				id: "00000000000000A7"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:diamond_backpack"
+					Count: 1b
+					tag: {
+						inventory: {
+							Size: 108
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003F7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "44B89F3B4AABD421"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -16.0d
+			subtitle: "I Don't Need Your Deals, There!"
+			id: "000000000000022B"
+			tasks: [{
+				id: "000000000000022C"
+				type: "item"
+				item: "nomowanderer:no_soliciting_sign"
+			}]
+			rewards: [
+				{
+					id: "0000000000000407"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "16A41F789256D1B9"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -17.0d
+			subtitle: "I Don't Need Your Deals Here!"
+			id: "000000000000022D"
+			tasks: [{
+				id: "000000000000022E"
+				type: "item"
+				item: "nomowanderer:no_mo_wanderer_totem"
+			}]
+			rewards: [
+				{
+					id: "0000000000000408"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7C9A10A5653FB0B1"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -11.0d
+			subtitle: "Copy Any Sound"
+			id: "000000000000024A"
+			tasks: [{
+				id: "000000000000024B"
+				type: "item"
+				item: {
+					id: "botania:cacophonium"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003B5"
+					type: "item"
+					item: "minecraft:note_block"
+				}
+				{
+					id: "00000000000003B6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -7.0d
+			subtitle: "Makes Building Easier"
+			id: "0000000000000266"
+			tasks: [{
+				id: "0000000000000267"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003BB"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "ensorcellation:reach"
+							}]
+						}
+					}
+				}
+				{
+					id: "00000000000003BF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -7.0d
+			subtitle: "From This To The Other Block"
+			id: "0000000000000268"
+			tasks: [{
+				id: "0000000000000269"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_exchanging"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003BC"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "ensorcellation:reach"
+							}]
+						}
+					}
+				}
+				{
+					id: "00000000000003C0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -7.0d
+			subtitle: "Copy-Pasta"
+			id: "000000000000026A"
+			tasks: [{
+				id: "000000000000026B"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_copy_paste"
+					Count: 1b
+					tag: {
+						mode: 0b
+						template_id: [I;
+							567800706
+							-27833421
+							-1466340254
+							-487946900
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003BD"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "ensorcellation:reach"
+							}]
+						}
+					}
+				}
+				{
+					id: "00000000000003C1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -7.0d
+			subtitle: "Block-Voider"
+			id: "000000000000026C"
+			tasks: [{
+				id: "000000000000026D"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_destruction"
+					Count: 1b
+					tag: {
+						overlay: 1b
+						fuzzy: 1b
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003BE"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "ensorcellation:reach"
+							}]
+						}
+					}
+				}
+				{
+					id: "00000000000003C2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -13.0d
+			subtitle: "Caged XP Container"
+			size: 2.0d
+			id: "000000000000026E"
+			tasks: [{
+				id: "000000000000026F"
+				type: "item"
+				item: "globalxp:xp_block"
+			}]
+			rewards: [
+				{
+					id: "00000000000003C5"
+					type: "item"
+					item: "minecraft:experience_bottle"
+				}
+				{
+					id: "5947783C4B8FB16D"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -17.0d
+			subtitle: "All In One Tool (Combine With Tool In Crafting Grid)"
+			size: 2.0d
+			id: "0000000000000270"
+			tasks: [{
+				id: "0000000000000271"
+				type: "item"
+				item: "morphtool:tool"
+			}]
+			rewards: [
+				{
+					id: "00000000000003B9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "23CF707FCF8B2C68"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -6.0d
+			subtitle: "Upgrading With Lumps"
+			size: 2.0d
+			id: "00000000000003C6"
+			tasks: [{
+				id: "00000000000003C7"
+				type: "item"
+				item: "sophisticatedbackpacks:upgrade_base"
+			}]
+			rewards: [{
+				id: "0000000000000476"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["00000000000003C6"]
+			id: "00000000000003C8"
+			tasks: [{
+				id: "00000000000003C9"
+				type: "item"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000460"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "0000000000000475"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["00000000000003C8"]
+			id: "00000000000003CA"
+			tasks: [{
+				id: "00000000000003CB"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000461"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "0000000000000477"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			dependencies: ["00000000000003C6"]
+			id: "00000000000003CC"
+			tasks: [{
+				id: "00000000000003CD"
+				type: "item"
+				item: "sophisticatedbackpacks:filter_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000462"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "0000000000000478"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			dependencies: ["00000000000003CC"]
+			id: "00000000000003CE"
+			tasks: [{
+				id: "00000000000003CF"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000463"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "0000000000000479"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["00000000000003C6"]
+			id: "00000000000003D0"
+			tasks: [{
+				id: "00000000000003D1"
+				type: "item"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000464"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "000000000000047A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["00000000000003D0"]
+			id: "00000000000003D2"
+			tasks: [{
+				id: "00000000000003D3"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000465"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "000000000000047B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -4.0d
+			shape: "rsquare"
+			dependencies: ["00000000000003C6"]
+			id: "00000000000003D4"
+			tasks: [{
+				id: "00000000000003D5"
+				type: "item"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000466"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "000000000000047C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -2.5d
+			dependencies: ["00000000000003C6"]
+			id: "00000000000003D6"
+			tasks: [{
+				id: "00000000000003D7"
+				type: "item"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000468"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "000000000000047D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			dependencies: ["00000000000003D6"]
+			id: "00000000000003D8"
+			tasks: [{
+				id: "00000000000003D9"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000467"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "000000000000047E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			dependencies: ["00000000000003C6"]
+			id: "00000000000003DA"
+			tasks: [{
+				id: "00000000000003DB"
+				type: "item"
+				item: "sophisticatedbackpacks:void_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000469"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "000000000000047F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["00000000000003DA"]
+			id: "00000000000003DC"
+			tasks: [{
+				id: "00000000000003DD"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+			}]
+			rewards: [
+				{
+					id: "000000000000046A"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "0000000000000480"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			dependencies: ["00000000000003C6"]
+			id: "00000000000003DE"
+			tasks: [{
+				id: "00000000000003DF"
+				type: "item"
+				item: "sophisticatedbackpacks:restock_upgrade"
+			}]
+			rewards: [
+				{
+					id: "000000000000046C"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "0000000000000484"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			dependencies: ["00000000000003DE"]
+			id: "00000000000003E0"
+			tasks: [{
+				id: "00000000000003E1"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+			}]
+			rewards: [
+				{
+					id: "000000000000046B"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "0000000000000481"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			dependencies: ["00000000000003C6"]
+			id: "00000000000003E2"
+			tasks: [{
+				id: "00000000000003E3"
+				type: "item"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+			}]
+			rewards: [
+				{
+					id: "000000000000046D"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "0000000000000482"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["00000000000003E2"]
+			id: "00000000000003E4"
+			tasks: [{
+				id: "00000000000003E5"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+			}]
+			rewards: [
+				{
+					id: "000000000000046E"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "0000000000000483"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -8.0d
+			shape: "rsquare"
+			dependencies: ["00000000000003C6"]
+			id: "00000000000003E6"
+			tasks: [{
+				id: "00000000000003E7"
+				type: "item"
+				item: "sophisticatedbackpacks:refill_upgrade"
+			}]
+			rewards: [
+				{
+					id: "000000000000046F"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "0000000000000485"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -5.0d
+			shape: "rsquare"
+			dependencies: ["00000000000003C6"]
+			id: "00000000000003E8"
+			tasks: [{
+				id: "00000000000003E9"
+				type: "item"
+				item: "sophisticatedbackpacks:inception_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000470"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "0000000000000486"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "3413E54678E20CB5"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -6.0d
+			shape: "rsquare"
+			dependencies: ["00000000000003C6"]
+			id: "00000000000003EA"
+			tasks: [{
+				id: "00000000000003EB"
+				type: "item"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000471"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "0000000000000487"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "189E51DA497DAFBE"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -2.5d
+			dependencies: ["00000000000003C6"]
+			id: "00000000000003EC"
+			tasks: [{
+				id: "00000000000003ED"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:smelting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000472"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "0000000000000488"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			dependencies: ["00000000000003EC"]
+			id: "00000000000003EE"
+			tasks: [{
+				id: "00000000000003EF"
+				type: "item"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000473"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "0000000000000489"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -7.0d
+			shape: "rsquare"
+			dependencies: ["00000000000003C6"]
+			id: "00000000000003F0"
+			tasks: [{
+				id: "00000000000003F1"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:crafting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000474"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "000000000000048A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -15.5d
+			subtitle: "Put The Puzzle Together"
+			id: "00000000000003F9"
+			tasks: [{
+				id: "00000000000003FA"
+				type: "item"
+				item: "charm:atlas"
+			}]
+			rewards: [
+				{
+					id: "00000000000004F9"
+					type: "item"
+					item: "minecraft:map"
+				}
+				{
+					id: "00000000000004FA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6A197FCD53AFD136"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -11.0d
+			subtitle: "Will Not Attract Anyone Though"
+			id: "00000000000003FB"
+			tasks: [{
+				id: "00000000000003FC"
+				type: "item"
+				item: {
+					id: "charm:raid_horn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000004AF"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 8.5d
+			y: -12.5d
+			subtitle: "For Quick Naps"
+			id: "00000000000004C0"
+			tasks: [{
+				id: "0000000000000607"
+				type: "item"
+				title: "Bedrolls"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "upgrade_aquatic:bedrolls"
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000004C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 4.0d
+			y: -11.5d
+			subtitle: "Encapture Small Creatures"
+			id: "00000000000004D5"
+			tasks: [{
+				id: "00000000000004D6"
+				type: "item"
+				item: "supplementaries:cage"
+			}]
+			rewards: [{
+				id: "00000000000004F8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 8.0d
+			y: -11.0d
+			subtitle: "Pet-Summoner"
+			description: ["One can right or left click a pet with a flute to bind the item to a pet. A bound flute will then only summon that one pet, regardless if it's sitting or not."]
+			id: "00000000000004F2"
+			tasks: [{
+				id: "00000000000004F3"
+				type: "item"
+				item: {
+					id: "supplementaries:flute"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-1915466853
+							-1579922829
+							-1463177960
+							1825147121
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000646"
+					type: "item"
+					item: "minecraft:note_block"
+				}
+				{
+					id: "0000000000000647"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -13.0d
+			subtitle: "Gulliver's Soup"
+			size: 2.0d
+			id: "0000000000000588"
+			tasks: [
+				{
+					id: "0000000000000589"
+					type: "item"
+					item: {
+						id: "kubejs:dust_size_down"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3E22CB993B1075B2"
+					type: "item"
+					item: {
+						id: "kubejs:dust_size_up"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000058C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "7327BEE0204F64EE"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Ender Mailing"
+			x: 4.5d
+			y: -14.0d
+			subtitle: "Send Items To Players - With Help Of A Ender Mailman (Multiplayer Only)"
+			optional: true
+			id: "00000000000005DB"
+			tasks: [
+				{
+					id: "00000000000005DC"
+					type: "item"
+					item: "endermail:package"
+				}
+				{
+					id: "00000000000005DD"
+					type: "item"
+					item: {
+						id: "endermail:package_controller"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "00000000000005DE"
+					type: "item"
+					item: "endermail:stamp"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000648"
+					type: "item"
+					item: "endermail:packing_tape"
+					count: 2
+				}
+				{
+					id: "0000000000000649"
+					type: "item"
+					item: "endermail:package"
+					count: 2
+				}
+				{
+					id: "000000000000064A"
+					type: "item"
+					item: "endermail:stamp"
+					count: 4
+				}
+				{
+					id: "000000000000064B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "09FDBF9ACB1D9AAE"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			title: "Snail Mailing"
+			x: 4.5d
+			y: -13.0d
+			subtitle: "Send Items To Players - With Help Of A Snail (Multiplayer Only)"
+			optional: true
+			id: "00000000000005DF"
+			tasks: [
+				{
+					id: "00000000000005E0"
+					type: "item"
+					item: "snailmail:snail_box"
+				}
+				{
+					id: "00000000000005E1"
+					type: "item"
+					item: {
+						id: "snailmail:envelope_open"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 28
+								Items: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "00000000000005E2"
+					type: "item"
+					item: "snailmail:stamp"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000063C"
+					type: "item"
+					item: "autumnity:snail_shell_piece"
+					count: 4
+				}
+				{
+					id: "000000000000063D"
+					type: "item"
+					item: "minecraft:nautilus_shell"
+				}
+				{
+					id: "000000000000063E"
+					type: "item"
+					item: {
+						id: "snailmail:envelope_open"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 28
+								Items: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000640"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6715BF977A030CC1"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -15.0d
+			subtitle: "Inclusive Mobility"
+			size: 2.0d
+			id: "000000000000061C"
+			tasks: [{
+				id: "000000000000061D"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-1915466853
+							-1579922829
+							-1463177960
+							1825147121
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000689"
+					type: "item"
+					item: "kubejs:unstable_endershard"
+				}
+				{
+					id: "000000000000068A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6D2AC05749A2CC8B"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			subtitle: "Great Swimming Accessoire (Makes You Swim Faster)"
+			id: "0000000000000641"
+			tasks: [{
+				id: "0000000000000642"
+				type: "item"
+				item: {
+					id: "mysticalworld:nautilus_horn"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-1915466853
+							-1579922829
+							-1463177960
+							1825147121
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000645"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 8.0d
+			y: -16.0d
+			subtitle: "Only The North"
+			id: "0000000000000674"
+			tasks: [{
+				id: "0000000000000675"
+				type: "item"
+				item: "inspirations:north_compass"
+			}]
+			rewards: [
+				{
+					id: "000000000000067E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0456B45C7BBB6A1D"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -16.5d
+			subtitle: "Underground Manager"
+			id: "0000000000000676"
+			tasks: [{
+				id: "0000000000000677"
+				type: "item"
+				item: "inspirations:barometer"
+			}]
+			rewards: [
+				{
+					id: "000000000000067F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "50057401D1A4FDDC"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -16.0d
+			subtitle: "Light-Level Sensor"
+			id: "0000000000000678"
+			tasks: [{
+				id: "0000000000000679"
+				type: "item"
+				item: "inspirations:photometer"
+			}]
+			rewards: [
+				{
+					id: "0000000000000680"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3FFFA9B22A5BBE30"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -9.0d
+			subtitle: "Privacy Reasons"
+			id: "000000000000067A"
+			tasks: [
+				{
+					id: "000000000000067B"
+					type: "item"
+					item: "inspirations:lock"
+				}
+				{
+					id: "000000000000067C"
+					type: "item"
+					item: "inspirations:key"
+				}
+			]
+			rewards: [{
+				id: "000000000000067D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			subtitle: "Destructive Sting"
+			id: "00000000000006D4"
+			tasks: [{
+				id: "00000000000006D5"
+				type: "item"
+				item: {
+					id: "mutantbeasts:creeper_shard"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000006E0"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "29F2F425497E86BA"
+					type: "item"
+					item: "kubejs:golem_summoner"
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -4.0d
+			subtitle: "Shattering Grounds"
+			id: "00000000000006D6"
+			tasks: [{
+				id: "00000000000006D7"
+				type: "item"
+				item: {
+					id: "mutantbeasts:hulk_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000006E4"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "422BC8020FE3CDBC"
+					type: "item"
+					item: "kubejs:golem_summoner"
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -4.0d
+			subtitle: "Enderman's Handy Hand"
+			description: [
+				"While the mutant enderman is dying, you can actually collect endersoul fragments by right-clicking them before they explode. Right-click again while sneaking if you want to drop an endersoul fragment."
+				""
+				"Now with some endersoul fragments following you, all you have to do is drop (not right-click) an eye of ender."
+			]
+			id: "00000000000006D8"
+			tasks: [{
+				id: "00000000000006D9"
+				type: "item"
+				item: {
+					id: "mutantbeasts:endersoul_hand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000006E5"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "38ADE023E1FD2471"
+					type: "item"
+					item: "kubejs:golem_summoner"
+				}
+			]
+		}
+		{
+			title: "Mutant Skeleton's Armor"
+			x: 8.5d
+			y: -4.0d
+			subtitle: "Wearing Their Bones"
+			id: "00000000000006DA"
+			tasks: [
+				{
+					id: "00000000000006DB"
+					type: "item"
+					item: {
+						id: "mutantbeasts:mutant_skeleton_skull"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000006DC"
+					type: "item"
+					item: {
+						id: "mutantbeasts:mutant_skeleton_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000006DD"
+					type: "item"
+					item: {
+						id: "mutantbeasts:mutant_skeleton_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000006DE"
+					type: "item"
+					item: {
+						id: "mutantbeasts:mutant_skeleton_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000006E6"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "4EFF85DBBE63019C"
+					type: "item"
+					item: "kubejs:golem_summoner"
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: -11.5d
+			subtitle: "Finding Your Dream Biome"
+			id: "0000000000000742"
+			tasks: [{
+				id: "0000000000000743"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000744"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2511F632492AF902"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			subtitle: "Enhanced Swimming Tool"
+			dependencies: ["0000000000000641"]
+			id: "53599DC40EAD010A"
+			tasks: [{
+				id: "2224FE2C3834A77F"
+				type: "item"
+				item: {
+					id: "mysticalworld:glistering_horn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3D9858F476578133"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6822328FA4103604"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -15.0d
+			size: 2.0d
+			id: "6C0A58B6DE626FC7"
+			tasks: [{
+				id: "444FCE7E224F5B2D"
+				type: "item"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3421180CE1D8A89D"
+					type: "xp_levels"
+					xp_levels: 75
+				}
+				{
+					id: "0120C5D65F5AE0D0"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+				{
+					id: "2078298660CD54A0"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear5"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			subtitle: "Ultimate Upgrade"
+			dependencies: ["00000000000000A6"]
+			size: 2.0d
+			id: "191FA6BB6510D6B4"
+			tasks: [{
+				id: "23781F2B82481AF2"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:netherite_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 120
+						upgradeSlots: 7
+						contentsUuid: [I;
+							-139235885
+							-1420538402
+							-1800509438
+							1011597506
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "39D6877EDD852DF3"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "333BF390B9731A4B"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+				{
+					id: "53B6B1C0839E3075"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -17.0d
+			subtitle: "Does Not Show It's Emotions"
+			description: [""]
+			size: 2.0d
+			id: "6C22D4C78062FB8A"
+			tasks: [{
+				id: "6A742D763A869DC9"
+				type: "item"
+				item: "dummmmmmy:target_dummy_placer"
+			}]
+			rewards: [
+				{
+					id: "65E8991D519A696D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "2C3E351D33972DA6"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+				{
+					id: "40578CB1E016D636"
+					type: "item"
+					item: "kubejs:golem_summoner"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -12.0d
+			subtitle: "Ultimate X-Ray"
+			size: 2.0d
+			id: "384AE3E48A72AB48"
+			tasks: [{
+				id: "301FB97B8F2BE0A7"
+				type: "item"
+				item: "scannable:scanner"
+			}]
+			rewards: [
+				{
+					id: "0D2A42B9D9BA9A6C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "1B2B46B3CA33832C"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+				{
+					id: "147A507C217423C3"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -9.0d
+			subtitle: "Many Tools, One Belt"
+			id: "0696863F11322F9B"
+			tasks: [
+				{
+					id: "2C80CB25A5FCE2C6"
+					type: "item"
+					item: {
+						id: "toolbelt:belt"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "2926FE17C6B6B793"
+					type: "item"
+					item: "toolbelt:pouch"
+				}
+			]
+			rewards: [{
+				id: "363E5E5CB219E0B8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 4.5d
+			y: -10.0d
+			subtitle: "Multi-Tasking Tools"
+			dependencies: ["0696863F11322F9B"]
+			id: "4C64801DE94C7B5B"
+			tasks: [{
+				id: "56F732B9A597275B"
+				type: "item"
+				title: "Maximum Tool Belt"
+				icon: {
+					id: "toolbelt:belt"
+					Count: 1b
+					tag: { }
+				}
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "toolbelt:belt"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "itemfilters:weak_nbt"
+								Count: 1b
+								tag: {
+									value: {
+										Size: 9
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "36239DD6DFB187C0"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "4E3EBB3E733932A7"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -9.0d
+			subtitle: "Lock You Up"
+			id: "11420FE9ED1A04E8"
+			tasks: [
+				{
+					id: "7DCED8C78A6B5FD5"
+					type: "item"
+					item: "supplementaries:lock_block"
+				}
+				{
+					id: "60524BCC0EA892A9"
+					type: "item"
+					item: "supplementaries:key"
+				}
+			]
+			rewards: [{
+				id: "64A43BCB3679AFCD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 5.0d
+			y: -11.5d
+			subtitle: "Hop On, Little One!"
+			id: "4B7BB3CF876130D2"
+			tasks: [{
+				id: "1BCB28CC854CFC49"
+				type: "item"
+				item: "tconstruct:piggy_backpack"
+			}]
+			rewards: [{
+				id: "0973677F06386086"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 9.5d
+			y: -12.5d
+			subtitle: "Simple Auto-Lighter"
+			id: "5A63C789DD65099F"
+			tasks: [{
+				id: "77FE133F01DFFF6B"
+				type: "item"
+				title: "Torch Placers"
+				icon: {
+					id: "calemiutils:torch_belt"
+					Count: 1b
+					tag: { }
+				}
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "calemiutils:torch_belt"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "calemiutils:torch_placer"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2A2241048359C291"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+				{
+					id: "67780857863957FB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "649FE53256A34BC2"
+					type: "item"
+					item: "minecraft:torch"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: -10.5d
+			subtitle: "Clairvoyent Exploring"
+			id: "4CB67469A7527A79"
+			tasks: [{
+				id: "25FB3B8308A15B4D"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7091C7A24507AE23"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "25C8724F359E0D63"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -8.0d
+			subtitle: "Designer Metal Purse"
+			id: "02DA311DEEE0B33A"
+			tasks: [{
+				id: "2F5C483E911818F9"
+				type: "item"
+				item: "engineerstools:material_box"
+			}]
+			rewards: [
+				{
+					id: "21F2E94B79B629DB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "23896D7BFFA33D1B"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			id: "5444CDB578776852"
+			tasks: [{
+				id: "7C0A9D87570DF5DA"
+				type: "item"
+				item: "demagnetize:demagnetizer"
+			}]
+			rewards: [
+				{
+					id: "2D92153F6F58646D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6D78DC91570E92E6"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			dependencies: ["5444CDB578776852"]
+			id: "304317555EE72363"
+			tasks: [{
+				id: "60C83A16CD716335"
+				type: "item"
+				item: "demagnetize:demagnetizer_advanced"
+			}]
+			rewards: [
+				{
+					id: "66420D7C6358A56D"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "684D849E6A0E90A0"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -14.0d
+			subtitle: "Copy-Paste Signs"
+			id: "5BD6A1AF8887D932"
+			tasks: [{
+				id: "6A2AC06F43C40731"
+				type: "item"
+				item: "cyclic:carbon_paper"
+			}]
+			rewards: [
+				{
+					id: "0856A901B219FF18"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "10FDDCE67692E26B"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -18.0d
+			subtitle: "Anti-Spawn-Block"
+			size: 2.0d
+			id: "497089F7EFBA0868"
+			tasks: [{
+				id: "016FA947AACE6848"
+				type: "item"
+				item: "calemiutils:mob_beacon"
+			}]
+			rewards: [
+				{
+					id: "048C96BEB9E368A0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "50B637B3EE41E1EA"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+  "author": "WenXin2",
+  "forClass": "twilightforest.entity.DeathTomeEntity",
+  "modelFieldName": "book.book[2]",
+  "noFaceInfo": true,
+  "headTopCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "headScale": 1.25,
+  "hatTiltPitch": -90.0,
+  "hatTiltYaw": 180.0,
+  "additionalHeads": [
+    {
+      "modelFieldName": "book.pagesRight",
+      "eyeOffset": [
+        -0.15625,
+        0.0,
+        0.0
+      ],
+      "halfInterpupillaryDistance": 0.0,
+      "eyeYRotation": 180.0,
+      "eyeCount": 1,
+      "noTopInfo": true
+    },
+    {
+      "modelFieldName": "book.pagesLeft",
+      "eyeOffset": [
+        -0.15625,
+        0.0,
+        0.0
+      ],
+      "halfInterpupillaryDistance": 0.0,
+      "eyeCount": 1,
+      "noTopInfo": true
+    }
+  ]
+}

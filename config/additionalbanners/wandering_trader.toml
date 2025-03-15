@@ -1,0 +1,343 @@
+#Should pattern stencils be added to the wandering trader pool?
+enable_stencil_trades = true
+
+#Wandering Trader trade for squares.
+[squares]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for dragon.
+[dragon]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for clubs.
+[clubs]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for spades.
+[spades]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for mushroom.
+[mushroom]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for pumpkin.
+[pumpkin]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for frame.
+[frame]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for heart.
+[heart]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for shield.
+[shield]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for diamond.
+[diamond]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for moon.
+[moon]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for anchor.
+[anchor]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for grass.
+[grass]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for squid.
+[squid]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for kelp.
+[kelp]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for trident.
+[trident]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for snowflake.
+[snowflake]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for sword.
+[sword]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for phantom.
+[phantom]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+
+#Wandering Trader trade for balance.
+[balance]
+	#Should the stencil item for this pattern show up in wandering trader's trades?
+	enabled = true
+	#What is the base emerald cost for the stencil item?
+	#Range: > 1
+	emerald_cost = 12
+	#How many trades can the player make before this trade becomes unavailable?
+	#Range: > 1
+	max_trades = 1
+	#How much XP should the player get from this trade?
+	#Range: > 0
+	reward_xp = 16
+	#The price multiplier for the trade.
+	#Range: 0.0 ~ 1.0
+	price_multiplier = 1.0
+

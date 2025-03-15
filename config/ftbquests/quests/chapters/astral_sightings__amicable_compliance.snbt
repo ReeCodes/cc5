@@ -1,0 +1,51 @@
+{
+	id: "6D98940BF24D2842"
+	group: "3B063F3DD8CE7BD5"
+	order_index: 4
+	filename: "astral_sightings__amicable_compliance"
+	title: "Amicable Wizardry"
+	icon: "ars_nouveau:spell_turret"
+	always_invisible: true
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [{
+		icon: {
+			id: "mana-and-artifice:guide_book"
+			Count: 1b
+			ForgeCaps: {
+				"dungeons_libraries:built_in_enchantments": {
+					BuiltInEnchantments: [ ]
+				}
+			}
+		}
+		x: 3.0d
+		y: 0.0d
+		subtitle: "Artificed Magic"
+		size: 2.0d
+		id: "025B600161D0ED74"
+		tasks: [
+			{
+				id: "1701A64192767AE1"
+				type: "item"
+				item: "mana-and-artifice:guide_book"
+			}
+			{
+				id: "048E2D47F88E52B4"
+				type: "checkmark"
+				title: "WIP"
+			}
+		]
+		rewards: [
+			{
+				id: "6EF0BF5432DB2E89"
+				type: "xp_levels"
+				xp_levels: 5
+			}
+			{
+				id: "0CC9E10A9D906DCB"
+				type: "item"
+				item: "kubejs:affixgear1"
+			}
+		]
+	}]
+}

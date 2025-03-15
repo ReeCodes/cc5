@@ -1,0 +1,8 @@
+{
+  "forEntity": "specialmobs:creeper",
+  "traits": [
+    {
+      "type": "traitHostile"
+    }
+  ]
+}

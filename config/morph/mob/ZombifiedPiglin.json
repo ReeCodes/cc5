@@ -1,0 +1,14 @@
+{
+  "forEntity": "specialmobs:zombifiedpiglin",
+  "traits": [
+    {
+      "type": "traitHostile"
+    },
+    {
+      "type": "traitImmunityFire"
+    },
+    {
+      "type": "traitUndead"
+    }
+  ]
+}

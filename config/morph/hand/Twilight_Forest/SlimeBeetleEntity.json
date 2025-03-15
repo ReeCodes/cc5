@@ -1,0 +1,23 @@
+{
+  "author": "WenXin2",
+  "forClass": "twilightforest.entity.SlimeBeetleEntity",
+  "modelFieldName": "head",
+  "eyeOffset": [
+    0.0,
+    0.03125,
+    0.40625
+  ],
+  "pupilColour": [
+    0.023529412,
+    0.050980393,
+    0.003921569
+  ],
+  "halfInterpupillaryDistance": 0.1875,
+  "eyeScale": 0.85,
+  "headTopCenter": [
+    0.0,
+    0.1875,
+    0.1875
+  ],
+  "headScale": 0.95
+}

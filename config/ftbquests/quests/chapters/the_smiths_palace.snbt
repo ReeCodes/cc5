@@ -1,0 +1,2032 @@
+{
+	id: "00000000000007F2"
+	group: "6DD815E21449A7B2"
+	order_index: 0
+	filename: "the_smiths_palace"
+	title: "Mallables"
+	icon: {
+		id: "tetra:modular_double"
+		Count: 1b
+		tag: {
+			"double/handle": "double/basic_handle"
+			"double/head_left": "double/basic_hammer_left"
+			"double/head_right": "double/basic_hammer_right"
+			Damage: 0
+			"double/basic_hammer_right_material": "basic_hammer/netherite"
+			"double/basic_handle_material": "basic_handle/forged_beam"
+			"double/basic_hammer_left_material": "basic_hammer/netherite"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Forging Without Liquifying Metal"
+			icon: {
+				id: "tetra:modular_double"
+				Count: 1b
+				tag: {
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "8020795b-a601-46f6-9d95-abb0a59b8358"
+					"double/basic_hammer_right_material": "basic_hammer/oak"
+					Damage: 0
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/basic_hammer_left_material": "basic_hammer/oak"
+				}
+			}
+			x: 3.0d
+			y: -6.0d
+			subtitle: "Not Your Average Hammer"
+			description: [
+				"Allows you to upgrade any tool made by the vanilla crafting methods."
+				""
+				"Use Tetra's advancement tab for a better understanding of the mod!"
+			]
+			size: 3.0d
+			id: "00000000000007F7"
+			tasks: [
+				{
+					id: "645F653D21D286C2"
+					type: "advancement"
+					title: "Workbench"
+					icon: "tetra:basic_workbench"
+					advancement: "tetra:recipes/workbench"
+					criterion: ""
+				}
+				{
+					id: "36AADECF59506666"
+					type: "advancement"
+					title: "Wooden Hammer"
+					icon: {
+						id: "tetra:modular_double"
+						Count: 1b
+						tag: {
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "6626a1da-8407-4c6a-8165-479639e9fac3"
+							"double/basic_hammer_right_material": "basic_hammer/oak"
+							Damage: 0
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/basic_hammer_left_material": "basic_hammer/oak"
+						}
+					}
+					advancement: "tetra:story/more_upgrades"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "04D76B7F0E993982"
+					type: "item"
+					item: "tetra:rack"
+				}
+				{
+					id: "6A4A306350612A13"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "The Smeltery: A Smith's Favourite"
+			x: -1.5d
+			y: -6.0d
+			subtitle: "Melting, Smelting"
+			size: 3.0d
+			id: "0A8D7D071D4A9326"
+			tasks: [
+				{
+					id: "54BE39A3AD81FA89"
+					type: "item"
+					title: "Seared Stones"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_stone"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_glass"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_cobble"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_paver"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_bricks"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_cracked_bricks"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_fancy_bricks"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_triangle_bricks"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "743C882884CF3DB3"
+					type: "item"
+					title: "Casting Blocks"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_table"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_basin"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "1E76F2E350676F1A"
+					type: "item"
+					title: "Faucet Types"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_faucet"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_faucet"
+									Count: 1b
+								}
+								{
+									id: "ceramics:terracotta_faucet"
+									Count: 1b
+								}
+								{
+									id: "ceramics:porcelain_faucet"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:faucet"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "22DCAA569CEBE968"
+					type: "item"
+					title: "Drains"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_drain"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_duct"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "7EC80D5DDCEB9B37"
+					type: "item"
+					title: "Fuel Storages"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_fuel_tank"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_fuel_tank"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_heater"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "302E6D0DCA653F70"
+					type: "item"
+					item: "tconstruct:copper_can"
+					count: 4
+				}
+				{
+					id: "67EE6B50F945D7AD"
+					type: "item"
+					item: "ceramics:terracotta_gauge"
+				}
+				{
+					id: "024D7054042F1A11"
+					type: "item"
+					item: "ceramics:porcelain_gauge"
+				}
+				{
+					id: "35E626451F73162C"
+					type: "item"
+					item: "tconstruct:seared_glass_pane"
+					count: 12
+				}
+				{
+					id: "5104F122EE6BD36C"
+					type: "item"
+					item: "tconstruct:sky_slime_ball"
+					count: 2
+				}
+				{
+					id: "226863AB266597C4"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "7A23A738C8AD7D00"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Smeltery Upgrades"
+			x: -1.5d
+			y: -4.0d
+			subtitle: "A True Smelter"
+			dependencies: ["0A8D7D071D4A9326"]
+			id: "64209F189A654A46"
+			tasks: [
+				{
+					id: "3E18FE104EA4BFF1"
+					type: "item"
+					title: "Channel Upgrade"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_channel"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_channel"
+									Count: 1b
+								}
+								{
+									id: "ceramics:terracotta_channel"
+									Count: 1b
+								}
+								{
+									id: "ceramics:porcelain_channel"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "6F076E08AFEE670E"
+					type: "item"
+					item: "tconstruct:seared_ladder"
+					count: 4L
+				}
+				{
+					id: "1C047487E4E2C823"
+					type: "item"
+					item: "tconstruct:cast_chest"
+				}
+			]
+			rewards: [
+				{
+					id: "6F37B33AD3301E59"
+					type: "item"
+					item: "tconstruct:copper_can"
+					count: 4
+				}
+				{
+					id: "1E91EB9C187269FF"
+					type: "item"
+					item: "ceramics:terracotta_gauge"
+					count: 2
+				}
+				{
+					id: "3AD285F42B014FC2"
+					type: "item"
+					item: "ceramics:porcelain_gauge"
+					count: 2
+				}
+				{
+					id: "535E3CEB46527A88"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "5BEC188F7CEA75A6"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Tinkerer's Tables"
+			x: -1.5d
+			y: -8.25d
+			subtitle: "A Smith's Table"
+			size: 1.5d
+			id: "1C9B8CFA813DC189"
+			tasks: [
+				{
+					id: "3DCE60AB2DA9042C"
+					type: "item"
+					title: "Tinker Station's"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "tconstruct:tinker_statio.+"
+						}
+					}
+				}
+				{
+					id: "4E8EC4822F9B3BED"
+					type: "item"
+					title: "Part Builders"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "tconstruct:part_builde.+"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2AF03AD047AB27DA"
+					type: "item"
+					item: "tconstruct:glow_ball"
+					count: 8
+				}
+				{
+					id: "6E3868A1792C0673"
+					type: "item"
+					item: "tconstruct:flint_shuriken"
+					count: 4
+				}
+				{
+					id: "737918E2AD6205BE"
+					type: "item"
+					item: "minecraft:slime_ball"
+					count: 2
+				}
+				{
+					id: "6D719EB4DDBEC154"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "2F79494FC931D5EB"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Tinkerers' Other Tables"
+			x: -1.5d
+			y: -9.5d
+			subtitle: "Tinker's Tables"
+			id: "74DA2A6C55B1B665"
+			tasks: [
+				{
+					id: "040D414B7D20D04B"
+					type: "item"
+					item: "tconstruct:tinkers_chest"
+				}
+				{
+					id: "554CD9EAFAC4C90E"
+					type: "item"
+					item: "tconstruct:part_chest"
+				}
+				{
+					id: "4E5378C0DF792547"
+					type: "item"
+					item: "tconstruct:crafting_station"
+				}
+			]
+			rewards: [
+				{
+					id: "1300F40AB0451645"
+					type: "item"
+					item: "tconstruct:glow_ball"
+					count: 8
+				}
+				{
+					id: "6E47D4AABFF1B322"
+					type: "item"
+					item: "tconstruct:quartz_shuriken"
+					count: 4
+				}
+				{
+					id: "47F41E6424EB3B4B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "1A3E57D08E946A76"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			subtitle: "Amateur Blacksmith"
+			dependencies: ["00000000000007F7"]
+			id: "679AED2017B314CD"
+			tasks: [{
+				id: "19ECB9D60C06B1BC"
+				type: "advancement"
+				title: "Hammer: Tier II"
+				icon: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						honing_progress: 290
+						"double/head_left": "double/basic_hammer_left"
+						HideFlags: 1
+						"double/head_right": "double/basic_hammer_right"
+						id: "dead615a-b505-441a-94df-0e0b1f92fe79"
+						Damage: 0
+						"double/basic_hammer_right_material": "basic_hammer/stone"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_hammer_left_material": "basic_hammer/stone"
+					}
+				}
+				advancement: "tetra:upgrades/hammer_2"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "236564B4DBDF7A63"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6B3858EE1107578C"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			subtitle: "Moderate Blacksmith"
+			dependencies: ["679AED2017B314CD"]
+			id: "6A5827BBDB1C9481"
+			tasks: [{
+				id: "3C3481608ABF1239"
+				type: "advancement"
+				title: "Hammer: Tier III"
+				icon: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						honing_progress: 440
+						HideFlags: 1
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "5cd964ec-6f6d-4c8b-a83d-2377a1a60211"
+						Damage: 0
+						"double/basic_hammer_right_material": "basic_hammer/iron"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_hammer_left_material": "basic_hammer/iron"
+					}
+				}
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3C5AF8A404EAC990"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7B5B89B0B7134960"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			subtitle: "Advanced Blacksmith"
+			dependencies: ["6A5827BBDB1C9481"]
+			id: "32B04E674BFEA758"
+			tasks: [{
+				id: "0DDA68C4E537F07A"
+				type: "advancement"
+				title: "Hammer: Tier IV"
+				icon: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						honing_progress: 440
+						HideFlags: 1
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "9efdf1e8-8c1a-4b68-a2ee-935665bb709b"
+						Damage: 0
+						"double/basic_hammer_right_material": "basic_hammer/blackstone"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_hammer_left_material": "basic_hammer/blackstone"
+					}
+				}
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3C7C3EF9F6B0AA52"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "78DF6C60541358D9"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Upgraded Holosphere"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Seeking The Forge"
+			description: [
+				"Upgrade your Holosphere with an ender eye to find forges."
+				""
+				"Tip: Forges are commonly found in mountainous biomes."
+			]
+			optional: true
+			id: "5569494DCEB88C02"
+			tasks: [{
+				id: "4DC4018426A6309A"
+				type: "advancement"
+				title: "Upgrade Holosphere"
+				advancement: "tetra:spelunking/scanner"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "315FC7516E41C0FA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			subtitle: "Dismembering Of Objects"
+			description: [
+				"Create a claw to dismember Forge crates and remove Forge hammer upgrades."
+				""
+				"Claws can be made by attaching a claw head onto any pickaxe."
+			]
+			id: "27485B0AB10712F5"
+			tasks: [{
+				id: "019F5FE3A5486CEC"
+				type: "item"
+				title: "Claws"
+				icon: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/claw_right_material": "claw/oak"
+						"double/handle": "double/basic_handle"
+						honing_progress: 290
+						"double/head_left": "double/basic_pickaxe_left"
+						HideFlags: 1
+						"double/head_right": "double/claw_right"
+						id: "62f9be58-6d02-4dec-b8c0-768ce00ef5e7"
+						"double/basic_pickaxe_left_material": "basic_pickaxe/oak"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
+					}
+				}
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:weak_nbt"
+								Count: 1b
+								tag: {
+									value: {
+										"double/head_right": "double/claw_right"
+									}
+								}
+							}
+							{
+								id: "itemfilters:weak_nbt"
+								Count: 1b
+								tag: {
+									value: {
+										"double/head_left": "double/claw_left"
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "116CC75A611D9CBA"
+					type: "item"
+					item: "tetra:geode"
+				}
+				{
+					id: "1B187BD72B9B561A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			subtitle: "Buffing The Forge"
+			description: ["Use a combustion chamber on a forge hammer to upgrade it."]
+			id: "4879350256E1B616"
+			tasks: [{
+				id: "6764BAB48E2D4245"
+				type: "item"
+				item: "tetra:combustion_chamber"
+			}]
+			rewards: [
+				{
+					id: "60446BB1D86B62F5"
+					type: "item"
+					item: "tetra:geode"
+					count: 3
+				}
+				{
+					id: "4645D3677443FF2A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			subtitle: "Expert Blacksmith"
+			description: [
+				"To upgrade you hammer, place two full thermal cells into the Forge Hammer."
+				""
+				"The other two upgrades should have at least one combustion chamber."
+				""
+				"If your hammer still can't be upgraded, buff the integrity of the handle."
+				""
+				"It is required to use a Forged Workbench under the Forge Hammer."
+			]
+			dependencies: ["32B04E674BFEA758"]
+			id: "1CC4CB2564445CC0"
+			tasks: [{
+				id: "6DE8FDC310224051"
+				type: "advancement"
+				title: "Hammer: Tier V"
+				icon: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/basic_handle_material": "basic_handle/iron"
+						honing_progress: 590
+						"double/handle": "double/basic_handle"
+						HideFlags: 1
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						"double/head_left:arrested": 0
+						id: "34be7489-8056-4de5-b3b4-0f28b844b477"
+						Damage: 0
+						"double/basic_hammer_right_material": "basic_hammer/obsidian"
+						"double/head_right:arrested": 0
+						"double/basic_hammer_left_material": "basic_hammer/obsidian"
+					}
+				}
+				advancement: "tetra:upgrades/hammer_5"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7E07DB5183D49BAB"
+					type: "item"
+					item: "tetra:geode"
+					count: 3
+				}
+				{
+					id: "6AD3A801B4E1489A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "2F1FBF6BE83DC92F"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			subtitle: "Use Your Hammer To Unjam The Used Forge."
+			id: "07CC677A540DE911"
+			tasks: [{
+				id: "02224AC83B522B5D"
+				type: "advancement"
+				title: "Unjamming The Forge"
+				icon: "tetra:hammer_base"
+				advancement: "tetra:spelunking/hammer_unjam"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "69D34A72444B516C"
+					type: "item"
+					item: "tetra:geode"
+				}
+				{
+					id: "477EC025A78ABBD4"
+					type: "item"
+					item: "tetra:planar_stabilizer"
+				}
+				{
+					id: "206BB0FA2BF7D624"
+					type: "item"
+					item: "tetra:pristine_diamond"
+				}
+				{
+					id: "02E9B5FB23ED4A1C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			subtitle: "Now You Are A True Blacksmith"
+			dependencies: ["1CC4CB2564445CC0"]
+			id: "134803474299E6E8"
+			tasks: [{
+				id: "4A768CB8E618C70B"
+				type: "advancement"
+				title: "Hammer: Tier VI"
+				icon: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						honing_progress: 590
+						"double/handle": "double/basic_handle"
+						HideFlags: 1
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "e67e06ba-431b-46d0-8249-d26b9a1d2d30"
+						Damage: 0
+						"double/basic_hammer_right_material": "basic_hammer/netherite"
+						"double/basic_handle_material": "basic_handle/iron"
+						"double/basic_hammer_left_material": "basic_hammer/netherite"
+					}
+				}
+				advancement: "tetra:upgrades/hammer_6"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "49FE50AB826CC5BB"
+					type: "item"
+					item: "tetra:geode"
+					count: 3
+				}
+				{
+					id: "2A63F841B00B3BFD"
+					type: "item"
+					item: "tetra:pristine_diamond"
+				}
+				{
+					id: "7C18F2E5BBB5F732"
+					type: "item"
+					item: "tetra:pristine_emerald"
+				}
+				{
+					id: "1616EF0B503D3661"
+					type: "item"
+					item: "tetra:pristine_lapis"
+				}
+				{
+					id: "6AF6F8D5DBF4650E"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "50563102EA076C50"
+					type: "item"
+					item: "kubejs:affixgear5"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -8.0d
+			subtitle: "Pieces of Rope?"
+			id: "6C4C3EDF78C934FB"
+			tasks: [{
+				id: "4B5A93565ABB2225"
+				type: "item"
+				item: {
+					id: "tetra:modular_toolbelt"
+					Count: 1b
+					tag: {
+						"toolbelt/belt_material": "belt/rope"
+						"toolbelt/belt": "toolbelt/belt"
+						"toolbelt/slot1": "toolbelt/strap_slot1"
+						"toolbelt/strap_slot1_material": "strap1/leather"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F63271262F1F8D6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 3.0d
+			y: -9.0d
+			subtitle: "Quiver, Potion Bag, Storage Pouch, Whatever..."
+			description: ["To see how to upgrade the belt, look into your holosphere."]
+			dependencies: ["6C4C3EDF78C934FB"]
+			id: "0B01E88F764E11D8"
+			tasks: [{
+				id: "085691468591BE49"
+				type: "advancement"
+				title: "Fully Upgraded Belt"
+				icon: {
+					id: "tetra:modular_toolbelt"
+					Count: 1b
+					tag: {
+						potionsInventory: [
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 0b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 1b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 2b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 3b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 4b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 5b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 6b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 7b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 8b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 9b
+							}
+						]
+						quickShadows: [
+							{
+								slot: 0
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+							}
+							{
+								slot: 1
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+							}
+							{
+								slot: 2
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+							}
+							{
+								slot: 3
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+							}
+							{
+								slot: 4
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+							}
+							{
+								slot: 5
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+							}
+							{
+								slot: 6
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+							}
+							{
+								slot: 7
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+							}
+							{
+								slot: 8
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+							}
+							{
+								slot: 9
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+							}
+							{
+								slot: 10
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+							}
+							{
+								slot: 11
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+							}
+						]
+						storageInventory: [
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 0b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 1b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 2b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 3b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 4b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 5b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 6b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 7b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 8b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 9b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 10b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 11b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 12b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 13b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 14b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 15b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 16b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 17b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 18b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 19b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 20b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 21b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 22b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 23b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 24b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 25b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 26b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 27b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 28b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 29b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 30b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 31b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 32b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 33b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 34b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 35b
+							}
+						]
+						quickInventory: [
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 0b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 1b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 2b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 3b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 4b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 5b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 6b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 7b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 8b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 9b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 10b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 11b
+							}
+						]
+						"toolbelt/slot3": "toolbelt/strap_slot3"
+						"toolbelt/belt_material": "belt/inlaid"
+						honing_progress: 850
+						HideFlags: 1
+						quiverInventory: [
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 0b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 1b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 2b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 3b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 4b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 5b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 6b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 7b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 8b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 9b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 10b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 11b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 12b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 13b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 14b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 15b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 16b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 17b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 18b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 19b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 20b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 21b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 22b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 23b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 24b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 25b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 26b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 27b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 28b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									spell: { }
+								}
+								slot: 29b
+							}
+						]
+						"toolbelt/quiver_slot1_material": "quiver/forged_mesh"
+						id: "978806fd-38bf-41de-a735-ab4a6a06f263"
+						"toolbelt/slot1": "toolbelt/quiver_slot1"
+						"toolbelt/belt": "toolbelt/belt"
+						"toolbelt/strap_slot3_material": "strap1/iron"
+					}
+				}
+				advancement: "tetra:upgrades/toolbelt_upgraded"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "333D81C6FF42C5DC"
+					type: "item"
+					item: "tetra:forged_mesh"
+					count: 2
+				}
+				{
+					id: "44DAF56949B4828C"
+					type: "item"
+					item: "minecraft:leather"
+					count: 4
+				}
+				{
+					id: "55583109349AC388"
+					type: "item"
+					item: "tetra:geode"
+					count: 3
+				}
+				{
+					id: "36947F448254F5B9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "3C5A3D65C6556B53"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear5"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			subtitle: "Cutting Through Silk"
+			description: [
+				"Shortblades are used to cut things."
+				""
+				"Very useful when upgrading a belt."
+				""
+				"Shortblades are made by upgrading the blade of any sword to a shortblade."
+			]
+			id: "6B49B430DD90864C"
+			tasks: [{
+				id: "5FB8D96DFC3CAFC7"
+				type: "item"
+				title: "Shortblades"
+				icon: {
+					id: "tetra:modular_sword"
+					Count: 1b
+					tag: {
+						"sword/guard": "sword/makeshift_guard"
+						"sword/short_blade_material": "short_blade/oak"
+						"sword/blade": "sword/short_blade"
+						"sword/pommel": "sword/decorative_pommel"
+						honing_progress: 175
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						HideFlags: 1
+						"sword/hilt": "sword/basic_hilt"
+						"sword/makeshift_guard_material": "makeshift_guard/oak"
+						id: "b4dbbe25-1d2a-490e-bb89-c2302db31cc8"
+						Damage: 0
+						"sword/decorative_pommel_material": "decorative_pommel/oak"
+					}
+				}
+				item: {
+					id: "itemfilters:weak_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							"sword/blade": "sword/short_blade"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "11F33DD91AC93F2A"
+					type: "item"
+					item: "tetra:geode"
+				}
+				{
+					id: "4E72B374C18EFB14"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -6.0d
+			subtitle: "Big Tool Upgrade"
+			dependencies: ["0A8D7D071D4A9326"]
+			size: 1.5d
+			id: "1286B3D89B62E453"
+			tasks: [{
+				id: "3372116B42F07534"
+				type: "item"
+				title: "Tinkers' Anvil"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "tconstruct:tinkers_anvi.+"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "28D0567AEA5715C2"
+					type: "item"
+					item: "tconstruct:copper_can"
+					count: 4
+				}
+				{
+					id: "7035644BB760C65A"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "7E90B02CAA99908E"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			title: "The Melter: A Poor Man's Alloying Option"
+			x: -3.0d
+			y: -7.5d
+			subtitle: "Poor Man's Smeltery"
+			size: 1.5d
+			optional: true
+			id: "21812E02BC05ABA0"
+			tasks: [
+				{
+					id: "5C127FAB11915E61"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "6AA7B8A676A2AB8D"
+					type: "item"
+					title: "Fuel Storages"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_fuel_tank"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_fuel_tank"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_heater"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5DE3D840BF8C8E1F"
+					type: "item"
+					item: "tconstruct:copper_can"
+					count: 2
+				}
+				{
+					id: "1798BAF6D13AEF51"
+					type: "item"
+					item: "ceramics:terracotta_gauge"
+				}
+				{
+					id: "4DA91271551A573B"
+					type: "item"
+					item: "ceramics:porcelain_gauge"
+				}
+				{
+					id: "4D4FFA8088D3E1D3"
+					type: "item"
+					item: "minecraft:slime_ball"
+					count: 2
+				}
+				{
+					id: "29DC89A249B0F098"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "39704E3AB03D8C32"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1104 @@
+{
+	id: "000000000000010A"
+	group: "2E16213398C36977"
+	order_index: 0
+	filename: "finalization"
+	title: "Terminus"
+	icon: {
+		id: "forbidden_arcanus:eternal_stella"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:end_portal_frame"
+			x: 6.0d
+			y: 6.0d
+			subtitle: "Steps Ahead"
+			size: 2.0d
+			id: "000000000000010B"
+			tasks: [{
+				id: "0000000000000118"
+				type: "dimension"
+				icon: "minecraft:ender_eye"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [
+				{
+					id: "0000000000000339"
+					type: "item"
+					item: "minecraft:end_stone_bricks"
+					count: 32
+				}
+				{
+					id: "0000000000000388"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "39C92C5CA0341261"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			subtitle: "Adaptive Dragon"
+			dependencies: ["000000000000010B"]
+			size: 3.0d
+			id: "000000000000011E"
+			tasks: [{
+				id: "000000000000011F"
+				type: "kill"
+				title: "&cKill:&e The Ender Dragon"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "minecraft:ender_dragon"
+						DisplayMobScale: 0.5d
+					}
+				}
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0000000000000387"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "2FA0EAEC7AF8BBF0"
+					type: "item"
+					item: "kubejs:affixgear5"
+				}
+			]
+		}
+		{
+			title: "The Legacy"
+			x: -11.0d
+			y: -2.0d
+			subtitle: "Generate Randomite Ore"
+			size: 2.0d
+			id: "00000000000002F3"
+			tasks: [
+				{
+					id: "000000000000051D"
+					type: "item"
+					item: "kubejs:rainbow_gem"
+					count: 8L
+				}
+				{
+					id: "000000000000051E"
+					type: "item"
+					item: "kubejs:uninspiring_rainbow_block"
+				}
+				{
+					id: "000000000000051F"
+					type: "item"
+					item: "kubejs:reanimated_rainbow_block"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000033A"
+					type: "item"
+					item: "randomite:randomite_ore"
+					count: 32
+				}
+				{
+					id: "0000000000000389"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "766F10CA3DA4668A"
+					type: "item"
+					item: "kubejs:affixgear6"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			subtitle: "Beacon Effects, Ahoy!"
+			dependencies: ["00000000000006B9"]
+			size: 2.0d
+			id: "0000000000000384"
+			tasks: [{
+				id: "0000000000000385"
+				type: "item"
+				item: "minecraft:beacon"
+			}]
+			rewards: [
+				{
+					id: "0000000000000386"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "1C0EB81496503B75"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			subtitle: "Next Steps"
+			size: 1.5d
+			id: "00000000000004A2"
+			tasks: [{
+				id: "00000000000004A3"
+				type: "dimension"
+				title: "Visit: &aThe Nether"
+				icon: "minecraft:crying_obsidian"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [
+				{
+					id: "00000000000004A9"
+					type: "item"
+					item: "minecraft:glowstone"
+				}
+				{
+					id: "00000000000004AB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3F2697E9AAA765D8"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			title: "Visit: &aRatlantis"
+			icon: {
+				id: "rats:idol_of_ratlantis"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -5.0d
+			y: 10.0d
+			subtitle: "Cheesy Dimension"
+			size: 2.0d
+			id: "00000000000004CD"
+			tasks: [
+				{
+					id: "00000000000004D0"
+					type: "item"
+					item: "rats:chunky_cheese_token"
+				}
+				{
+					id: "00000000000004D1"
+					type: "dimension"
+					title: "Visit: &aRatlantis"
+					icon: "rats:marbled_cheese_raw"
+					dimension: "rats:ratlantis"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000004CF"
+					type: "item"
+					item: "rats:block_of_cheese"
+					count: 4
+				}
+				{
+					id: "00000000000004D2"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "1EA9E87A4B14AF86"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			title: "Visit: &aThe Undergarden"
+			x: 5.0d
+			y: 10.0d
+			subtitle: "Below The Void"
+			description: [
+				"All you need is 10 Stone Bricks... just like a Nether Portal."
+				""
+				""
+			]
+			size: 2.0d
+			id: "0000000000000518"
+			tasks: [
+				{
+					id: "0000000000000519"
+					type: "item"
+					item: {
+						id: "undergarden:catalyst"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000051A"
+					type: "dimension"
+					title: "Visit: &aThe Undergarden"
+					icon: "undergarden:depthrock_bricks"
+					dimension: "undergarden:undergarden"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000051C"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "0C4167445D1562C8"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -7.5d
+			subtitle: "Pretty Good Material"
+			dependencies: ["00000000000004A2"]
+			id: "0000000000000612"
+			tasks: [{
+				id: "0000000000000613"
+				type: "item"
+				item: "minecraft:ancient_debris"
+			}]
+			rewards: [
+				{
+					id: "0000000000000614"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 4
+				}
+				{
+					id: "0000000000000615"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+		}
+		{
+			title: "End City"
+			x: 6.0d
+			y: -2.5d
+			subtitle: "End Of The City"
+			dependencies: ["000000000000011E"]
+			id: "0000000000000616"
+			tasks: [
+				{
+					id: "0000000000000639"
+					type: "advancement"
+					title: "Use The Remote Gateway"
+					icon: "minecraft:ender_pearl"
+					advancement: "minecraft:end/enter_end_gateway"
+					criterion: ""
+				}
+				{
+					id: "000000000000063A"
+					type: "advancement"
+					title: "Find The End City"
+					icon: "minecraft:purpur_block"
+					advancement: "minecraft:end/find_end_city"
+					criterion: ""
+				}
+				{
+					id: "000000000000063B"
+					type: "item"
+					item: {
+						id: "minecraft:elytra"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000636"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "7C3A76CFE82DB239"
+					type: "item"
+					item: "kubejs:affixgear5"
+				}
+			]
+		}
+		{
+			title: "Legendary Enchanter"
+			x: 0.0d
+			y: -9.0d
+			subtitle: "Reach 100 XP Levels \\& Make Every Special Bookshelf"
+			size: 2.0d
+			id: "000000000000062B"
+			tasks: [
+				{
+					id: "000000000000062C"
+					type: "xp"
+					value: 100L
+					points: false
+				}
+				{
+					id: "000000000000062D"
+					type: "item"
+					item: "apotheosis:blazing_hellshelf"
+				}
+				{
+					id: "000000000000062E"
+					type: "item"
+					item: "apotheosis:glowing_hellshelf"
+				}
+				{
+					id: "000000000000062F"
+					type: "item"
+					item: "apotheosis:crystal_seashelf"
+				}
+				{
+					id: "0000000000000630"
+					type: "item"
+					item: "apotheosis:heart_seashelf"
+				}
+				{
+					id: "0000000000000631"
+					type: "item"
+					item: "apotheosis:draconic_endshelf"
+				}
+				{
+					id: "0000000000000632"
+					type: "item"
+					item: "apotheosis:pearl_endshelf"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000634"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "apotheosis:knowledge"
+							}]
+						}
+					}
+				}
+				{
+					id: "0000000000000635"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "6B80D7407018D6CE"
+					type: "item"
+					item: "kubejs:affixgear6"
+				}
+			]
+		}
+		{
+			title: "Visit: &aThe Void"
+			icon: {
+				id: "tinyredstone:tiny_transparent_block"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.0d
+			y: 12.0d
+			subtitle: "Beautiful Emptiness"
+			size: 2.0d
+			id: "000000000000065E"
+			tasks: [
+				{
+					id: "000000000000066B"
+					type: "item"
+					item: "javd:portal_block"
+				}
+				{
+					id: "066DE8508472CA90"
+					type: "dimension"
+					title: "Visit: &aThe Void"
+					icon: {
+						id: "tinyredstone:tiny_transparent_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					dimension: "javd:void"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000066A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7C8B18D79BC74E70"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			subtitle: "Unbreakable"
+			description: ["An Eternal Stella can be either found inside The End or obtained by trading with a wanderer."]
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			id: "000000000000068D"
+			tasks: [{
+				id: "000000000000068E"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000691"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "06F906A0FFBA9374"
+					type: "item"
+					item: "kubejs:affixgear6"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			subtitle: "Adaptive Wither"
+			size: 3.0d
+			id: "00000000000006B9"
+			tasks: [{
+				id: "00000000000006BA"
+				type: "kill"
+				title: "&cKill:&e The Wither"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "minecraft:wither"
+						DisplayMobScale: 0.75d
+					}
+				}
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "00000000000006BB"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "6427BE83930F6BE1"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Boss Of The Guardians"
+			size: 2.0d
+			id: "00000000000006D2"
+			tasks: [{
+				id: "00000000000006D3"
+				type: "kill"
+				title: "&cKill:&e The Elder Guardian"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "minecraft:elder_guardian"
+						DisplayMobScale: 0.75d
+					}
+				}
+				entity: "minecraft:elder_guardian"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "00000000000006EF"
+					type: "item"
+					item: "quark:elder_sea_lantern"
+					count: 4
+				}
+				{
+					id: "00000000000006F1"
+					type: "item"
+					item: "aquaculture:neptunium_ingot"
+				}
+				{
+					id: "00000000000006F2"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "132B39755C481ED6"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -2.0d
+			subtitle: "Unlimited Speed!"
+			dependencies: ["00000000000002F3"]
+			dependency_requirement: "all_started"
+			id: "10A847DDCBC424C2"
+			tasks: [{
+				id: "630F93262BD18879"
+				type: "item"
+				item: "ironfurnaces:million_furnace"
+			}]
+			rewards: [
+				{
+					id: "59F86BB646F7E08B"
+					type: "item"
+					item: "quark:rainbow_rune"
+				}
+				{
+					id: "291559F024E43134"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					id: "6DBF2BA2E69CAF7C"
+					type: "item"
+					item: "kubejs:affixgear6"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			subtitle: "Slightly OP"
+			hide_dependency_lines: true
+			dependencies: ["0000000000000616"]
+			id: "2D432DD2AC6384A5"
+			tasks: [{
+				id: "171ED0FDD281CB9A"
+				type: "item"
+				item: "magicfeather:magicfeather"
+			}]
+			rewards: [
+				{
+					id: "7F662F352E877D63"
+					type: "item"
+					item: "minecraft:feather"
+				}
+				{
+					id: "4A0B1BD63C94EDEF"
+					type: "item"
+					item: "forbidden_arcanus:golden_feather"
+				}
+				{
+					id: "3568E2E63DB72780"
+					type: "item"
+					item: {
+						id: "botania:brew_vial"
+						Count: 1b
+						tag: {
+							brewKey: "botania:feather_feet"
+						}
+					}
+				}
+				{
+					id: "398A7E3C1D044824"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "50862A309CF1A656"
+					type: "item"
+					item: "kubejs:affixgear5"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -8.0d
+			subtitle: "This Is It."
+			hide_dependency_lines: true
+			dependencies: ["2D432DD2AC6384A5"]
+			size: 4.0d
+			id: "288D7A0BA9F6B6DE"
+			tasks: [{
+				id: "07C746DF3917BD1C"
+				type: "item"
+				item: "losttrinkets:magical_feathers"
+			}]
+			rewards: [
+				{
+					id: "419F26496A7B718C"
+					type: "item"
+					item: "randomite:randomite_ore"
+					count: 64
+				}
+				{
+					id: "235BFF8610CA5840"
+					type: "xp_levels"
+					xp_levels: 500
+				}
+				{
+					id: "4F117B29E01F4855"
+					type: "item"
+					item: "kubejs:affixgear6"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -2.0d
+			subtitle: "Everlasting Burn"
+			dependencies: ["00000000000002F3"]
+			dependency_requirement: "all_started"
+			id: "5AF670C59D68C585"
+			tasks: [{
+				id: "4A22659F70695271"
+				type: "item"
+				item: {
+					id: "ironfurnaces:rainbow_coal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3F5DF988CF62C0DD"
+					type: "item"
+					item: "quark:rainbow_rune"
+				}
+				{
+					id: "2494139FE8E35206"
+					type: "xp_levels"
+					xp_levels: 75
+				}
+				{
+					id: "59F03721674B694B"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			title: "Visit: &aDungeon Dimension"
+			icon: "dimdungeons:block_portal_keyhole"
+			x: -3.0d
+			y: 10.0d
+			subtitle: "Generating Dungeons..."
+			description: ["Make sure to look at your info book."]
+			size: 2.0d
+			id: "083B15650CA3033A"
+			tasks: [
+				{
+					id: "1A77D8F2E033D93A"
+					type: "item"
+					item: "dimdungeons:block_portal_keyhole"
+				}
+				{
+					id: "4F53444E5557C035"
+					type: "item"
+					item: "dimdungeons:block_gilded_portal"
+					count: 2L
+				}
+				{
+					id: "5AE1A175A119C764"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 9L
+				}
+				{
+					id: "22989285383741E7"
+					type: "item"
+					item: "dimdungeons:item_portal_key"
+				}
+				{
+					id: "0D8DC12BB9EAAF91"
+					type: "dimension"
+					title: "Visit: &aDungeon Dimension"
+					icon: "minecraft:chiseled_stone_bricks"
+					dimension: "dimdungeons:dungeon_dimension"
+				}
+			]
+			rewards: [
+				{
+					id: "6064748F757A3151"
+					type: "item"
+					item: "minecraft:name_tag"
+				}
+				{
+					id: "5FA69BABCB98861B"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "3B1ECC905C32E0BA"
+					type: "item"
+					item: "kubejs:affixgear5"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -7.5d
+			subtitle: "Blue Debris"
+			dependencies: ["00000000000004A2"]
+			id: "4469A517A561DB6B"
+			tasks: [{
+				id: "7615C7956F158EC5"
+				type: "item"
+				item: "tconstruct:cobalt_ore"
+			}]
+			rewards: [
+				{
+					id: "10DCED62940AEB20"
+					type: "item"
+					item: "tconstruct:ichor_slime_ball"
+					count: 4
+				}
+				{
+					id: "0AF5114E46EE3571"
+					type: "item"
+					item: "tconstruct:efln_ball"
+					count: 2
+				}
+				{
+					id: "673CD46E8F7BE89E"
+					type: "item"
+					item: "tconstruct:bacon"
+					count: 2
+				}
+				{
+					id: "646E34BF32E17CC6"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+		}
+		{
+			title: "Visit: &aThe Twilight Forest"
+			x: 1.0d
+			y: 10.0d
+			subtitle: "Enter The Twilight Zone"
+			size: 2.0d
+			id: "45B45D5D10575EB8"
+			tasks: [{
+				id: "1E05E6918EBB4B69"
+				type: "dimension"
+				title: "Visit: &aTwilight Forest"
+				icon: "twilightforest:carminite"
+				dimension: "twilightforest:twilightforest"
+			}]
+			rewards: [
+				{
+					id: "3F53BF164ABAA02E"
+					type: "item"
+					item: "twilightforest:charm_of_keeping_1"
+				}
+				{
+					id: "0355CBF7C4AF9064"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7C30C0F8C8A74E86"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			title: "Visit: &aThe Blue Skies"
+			x: -1.0d
+			y: 10.0d
+			subtitle: "Ever-dawn, Ever-bright"
+			description: [
+				"An item obtained by a Special Villager, living by Himself."
+				"Maybe he has a device to get there..."
+			]
+			size: 2.0d
+			id: "758E0678940F3CBD"
+			tasks: [
+				{
+					id: "1053F02AC31509A0"
+					type: "item"
+					item: {
+						id: "blue_skies:zeal_lighter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A06B2CC9CEA3D8B"
+					type: "dimension"
+					title: "Visit: &aEverbright"
+					icon: "blue_skies:turquoise_stonebrick"
+					dimension: "blue_skies:everbright"
+				}
+				{
+					id: "07BBF98D965D2D39"
+					type: "dimension"
+					title: "Visit: &aEverdawn"
+					icon: "blue_skies:lunar_stonebrick"
+					dimension: "blue_skies:everdawn"
+				}
+			]
+			rewards: [
+				{
+					id: "31E1E0B46F06F3ED"
+					type: "item"
+					item: "kubejs:anointed_contract"
+				}
+				{
+					id: "23F4CFBA3421C8A8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3ED21245A8489B37"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			title: "Visit: &aThe Tropics"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "tropicraft:tropibee"
+					DisplayMobScale: 1.5d
+				}
+			}
+			x: 3.0d
+			y: 10.0d
+			subtitle: "Tropical Vacation"
+			size: 2.0d
+			id: "2F3E759CC4223835"
+			tasks: [
+				{
+					id: "6A6555F293174EA9"
+					type: "item"
+					item: "tropicraft:pina_colada"
+				}
+				{
+					id: "61AEE9FBA4028615"
+					type: "item"
+					title: "Chairs"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "tropicraft:.+chair"
+						}
+					}
+				}
+				{
+					id: "4CF0FAAA146120DF"
+					type: "dimension"
+					title: "Visit: &aThe Tropics"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "tropicraft:tropibee"
+							DisplayMobScale: 1.5d
+						}
+					}
+					dimension: "tropicraft:tropics"
+				}
+			]
+			rewards: [
+				{
+					id: "2B54583E59BAE732"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "0DC627C8A7BFF13E"
+					type: "item"
+					item: "kubejs:affixgear3"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Visit: &aDwarven Market Place"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "feywild:autumn_pixie"
+					DisplayMobScale: 1.5d
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.0d
+			y: 12.0d
+			subtitle: "Unlike Most Villages"
+			size: 2.0d
+			id: "2A7D56713E98858F"
+			tasks: [
+				{
+					id: "030F245AE25A7B95"
+					type: "item"
+					item: {
+						id: "feywild:market_rune_stone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "300C6478CC15BCC6"
+					type: "dimension"
+					title: "Visit: &aDwarven Market Place"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "feywild:autumn_pixie"
+							DisplayMobScale: 1.0d
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					dimension: "feywild:market_place_dimension"
+				}
+			]
+			rewards: [
+				{
+					id: "0752B74DA3B07068"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "6F5A624B1DCEB5C6"
+					type: "item"
+					item: {
+						id: "kubejs:floral_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0F42D57D122F7830"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 12.0d
+			subtitle: "Looks Bigger From The Inside"
+			description: ["Throw an ender pearl at a Hive or Bee Nest to enter."]
+			size: 2.0d
+			id: "6EE5DDAB58BC2F58"
+			tasks: [{
+				id: "52698B5C2C5C47EC"
+				type: "dimension"
+				title: "Visit: &aThe Bumblezone"
+				icon: {
+					id: "minecraft:bee_nest"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				dimension: "the_bumblezone:the_bumblezone"
+			}]
+			rewards: [
+				{
+					id: "7E476FF32D7E5882"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "68804BBEE799513A"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

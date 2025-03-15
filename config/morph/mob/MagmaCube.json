@@ -1,0 +1,17 @@
+{
+  "forEntity": "specialmobs:magmacube",
+  "traits": [
+    {
+      "type": "traitFloat"
+    },
+    {
+      "type": "traitFallNegate"
+    },
+    {
+      "type": "traitHostile"
+    },
+    {
+      "type": "traitImmunityFire"
+    }
+  ]
+}

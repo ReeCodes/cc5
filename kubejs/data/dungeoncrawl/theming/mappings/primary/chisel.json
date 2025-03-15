@@ -1,0 +1,10 @@
+{
+  "requirements": {
+    "present": ["chisel", "masonry", "dustrial_decor"]
+  },
+  "default": [
+    {"key": "dungeoncrawl:chisel/stone", "weight": 2}
+  ],
+  "mapping": {
+  }
+}

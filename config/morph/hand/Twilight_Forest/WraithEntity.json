@@ -1,0 +1,11 @@
+{
+  "author": "WenXin2",
+  "forClass": "twilightforest.entity.WraithEntity",
+  "modelFieldName": "field_78116_c",
+  "irisColour": [
+    0.29411766,
+    0.9372549,
+    0.14509805
+  ],
+  "doesEyeGlow": true
+}

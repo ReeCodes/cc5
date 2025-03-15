@@ -1,0 +1,18 @@
+{
+	#MISSING ITEM NAMES
+	"item.druidcraft.blazing_steel": "Blazing Steel Ingot",
+	"enchantment.adventureapparatus.sinking.desc": "Prevents the wearer from swimming, sinking you to bottom",
+	#RENAMING
+	"block.forbidden_arcanus.arcane_gold_block": "Refined Arcane Gold Block",
+    "block.forbidden_arcanus.arcane_gold_pressure_plate": "Refined Arcane Gold Pressure Plate",
+    "block.forbidden_arcanus.arcane_gold_door": "Refined Arcane Gold Door",
+	"block.forbidden_arcanus.arcane_golden_candelabra": "Refined Arcane Golden Candelabra",
+	"block.forbidden_arcanus.arcane_golden_chain": "Refined Arcane Golden Chain",
+	"item.forbidden_arcanus.arcane_gold_ingot": "Refined Arcane Gold Ingot",
+    "item.forbidden_arcanus.arcane_gold_nugget": "Refined Arcane Gold Nugget",
+  
+	"effect.undergarden.featherweight.description": "Enduring knockback upon getting hit is much stronger",
+	"effect.undergarden.brittleness.description": "You take more damage based on how much armor you have",
+	"effect.desolation.potion_of_cinder_soul.description": "Grants you Speed, Strength, Resistance and Fire Resistance",
+	"effect.mysticalworld.serendipity.description": "While active, gain bonuses to your total Fortune and Luck, regardless of enchantments"
+}

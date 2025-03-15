@@ -1,0 +1,40 @@
+{
+  "author": "WenXin2",
+  "forClass": "twilightforest.entity.BlockChainGoblinEntity",
+  "modelFieldName": "field_178720_f.helmet",
+  "noFaceInfo": true,
+  "headTopCenter": [
+    0.0,
+    0.4375,
+    0.0
+  ],
+  "headScale": 0.8,
+  "hatTiltYaw": -45.0,
+  "additionalHeads": [
+    {
+      "modelFieldName": "field_178720_f.helmet",
+      "eyeOffset": [
+        -0.03125,
+        0.21875,
+        0.15625
+      ],
+      "halfInterpupillaryDistance": 0.0,
+      "eyeScale": 0.65,
+      "eyeCount": 1,
+      "noTopInfo": true
+    },
+    {
+      "modelFieldName": "field_178720_f.helmet",
+      "eyeOffset": [
+        -0.15625,
+        0.21875,
+        0.03125
+      ],
+      "halfInterpupillaryDistance": 0.0,
+      "eyeScale": 0.65,
+      "eyeYRotation": -90.0,
+      "eyeCount": 1,
+      "noTopInfo": true
+    }
+  ]
+}

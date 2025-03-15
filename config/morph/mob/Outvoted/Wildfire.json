@@ -1,0 +1,15 @@
+{
+  "author": "natedogwooof",
+  "forEntity": "outvoted:wildfire",
+  "traits": [
+    {
+      "type": "traitHostile"
+    },
+    {
+      "type": "traitImmunityFire"
+    },
+    {
+      "type": "abilityFlight"
+    }
+  ]
+}

@@ -1,0 +1,1696 @@
+{
+	id: "12665D87629A9F2A"
+	group: "6DD815E21449A7B2"
+	order_index: 1
+	filename: "essential_apparatus"
+	title: "Essential Apparatus"
+	icon: {
+		id: "druidcraft:wooden_sickle"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "relics:bloody_lectern"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Privacy Reasons"
+			description: [
+				"Inscribe Coal Parchment using the Bloody Feather."
+				""
+				"Then apply Contract to any tool."
+			]
+			size: 2.0d
+			id: "5CD6D694A870FC41"
+			tasks: [
+				{
+					id: "66FA7278E3AA4BE9"
+					type: "item"
+					item: {
+						id: "relics:bloody_lectern"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3387D7D319CB8FF2"
+					type: "item"
+					item: {
+						id: "relics:bloody_feather"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "469EA8476ED9882D"
+					type: "item"
+					item: {
+						id: "relics:coal_parchment"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "75D3205FA24D4E8C"
+					type: "item"
+					title: "&eApply: &aContract"
+					icon: {
+						id: "relics:relic_contract"
+						Count: 1b
+						tag: {
+							relics_owner: "8dd44b9b-a1d4-4a73-a8c9-ad186cc988f1"
+							blood: 4
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					item: {
+						id: "itemfilters:weak_nbt"
+						Count: 1b
+						tag: {
+							value: {
+								date: 0L
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7CEA949CE2FA4783"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "73AF6B3327594DED"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			subtitle: "Bouncy Bunny"
+			id: "1030D3AF5E9A8A61"
+			tasks: [{
+				id: "2084BE32001AFF7D"
+				type: "item"
+				item: {
+					id: "tconstruct:slime_boots"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 546.0f
+							"tconstruct:armor": 0.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:bouncy"
+								level: 1s
+							}
+							{
+								name: "tconstruct:leaping"
+								level: 1s
+							}
+						]
+						HideFlags: 3
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4FC72F290B1EB97B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "30E905BB5F3DBC15"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 6.5d
+			subtitle: "Glassential Silk"
+			id: "3D5F2A7F936F28DA"
+			tasks: [{
+				id: "6E69088DC4FD4762"
+				type: "item"
+				item: {
+					id: "botania:glass_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2CA1D326095C438B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "26A0715EB91A31CE"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			subtitle: "FurnacePick"
+			id: "69479A6EFB6CFC56"
+			tasks: [{
+				id: "66076965BC1E7253"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:infernum_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "45A77F794365C964"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2E4781E174D6DD0B"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			subtitle: "Quite The Silk Touch"
+			id: "6C36241735E31AFE"
+			tasks: [{
+				id: "108F883A7F786701"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:slimec_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 1s
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "211AA6B1832DDF6D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "022A42E49C8B6984"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			subtitle: "A Fortunate Pickaxe"
+			id: "3713501A39E57982"
+			tasks: [{
+				id: "5E1F6586096D4A8B"
+				type: "item"
+				item: {
+					id: "evilcraft:vengeance_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 5s
+								id: "minecraft:fortune"
+							}
+							{
+								lvl: 3s
+								id: "evilcraft:vengeance"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6C18870C409035A9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2F18563A0D0C5C3D"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 6.5d
+			subtitle: "Hard = Faster"
+			id: "18E3BAD64DFD9B49"
+			tasks: [{
+				id: "02C7DDB27BA4629E"
+				type: "item"
+				item: {
+					id: "eidolon:reversal_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2EE446119343184B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1039EBC6413B0EAD"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 7.5d
+			subtitle: "Distant-Miner"
+			id: "04DFFDB91AE5B62E"
+			tasks: [{
+				id: "1A92429C55A215AF"
+				type: "item"
+				item: {
+					id: "quark:pickarang"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6236BB1133A640A9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7434BCB58C0F3BFF"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 8.5d
+			subtitle: "Fire-Resistant Distant-Miner"
+			dependencies: [
+				"04DFFDB91AE5B62E"
+				"0000000000000612"
+			]
+			id: "60B1E2A20B44634E"
+			tasks: [{
+				id: "56DD289C91F17CF7"
+				type: "item"
+				item: {
+					id: "quark:flamerang"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2FD3943C2E42E156"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "3FF2A295AA44AE48"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			subtitle: "Mining Hammer (Mines 3x3)"
+			id: "18C3131C001CE9BF"
+			tasks: [{
+				id: "4843C337FADEB437"
+				type: "item"
+				item: {
+					id: "pandoras_creatures:arachnon_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "15BE0CD9A3E7E666"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "511826B53FE6F468"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			subtitle: "Better Than Paxels (Can Tear Down Trees)"
+			id: "05A64BD87710327F"
+			tasks: [{
+				id: "76678A23F1BEBDEF"
+				type: "item"
+				item: {
+					id: "engineerstools:redia_tool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "738CEDDB0272DD9F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "66FE85FA90684FD5"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -10.5d
+			subtitle: "Slightly More Piercing"
+			id: "00000000000007FF"
+			tasks: [{
+				id: "0000000000000800"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_trident"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Riptide: 0
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Loyalty: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3C5FAB63E990A191"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "74305833BD0BD0EE"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear6"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -10.5d
+			subtitle: "Slightly More Hammering"
+			id: "0000000000000801"
+			tasks: [{
+				id: "0000000000000802"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_drill"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6A11B750153FDE81"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "73FABE2C972FC7EA"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear6"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -11.5d
+			subtitle: "Slightly More Violent"
+			id: "0000000000000803"
+			tasks: [{
+				id: "0000000000000804"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_saw"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6EA7514E5FE947F8"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "6F14E0E656550B7B"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear6"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -12.0d
+			subtitle: "Uber-Backpack"
+			id: "0000000000000805"
+			tasks: [{
+				id: "0000000000000806"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_backpack"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "COMMON"
+						Energy: 4000000L
+						Tanks: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "000E600D029C5AE8"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "4F7A2295C2257221"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear6"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -11.5d
+			subtitle: "Slightly More Hurtful"
+			id: "0000000000000807"
+			tasks: [{
+				id: "0000000000000808"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_hammer"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Beheading: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0AAE05C076E86065"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "46C4494B32E43318"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear6"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -10.0d
+			subtitle: "Charging Infini-Items"
+			size: 2.0d
+			id: "0000000000000809"
+			tasks: [{
+				id: "000000000000080A"
+				type: "item"
+				item: "industrialforegoing:infinity_charger"
+			}]
+			rewards: [
+				{
+					id: "1518982C3ACFEBD5"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "79C52205899B57A4"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear5"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 7.5d
+			subtitle: "Ore Grabber"
+			id: "6C9CEA1263457F7D"
+			tasks: [{
+				id: "044A25809182DA1F"
+				type: "item"
+				item: {
+					id: "adventureapparatus:pick_on_a_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3943B83F9515A585"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+				{
+					id: "3936AC54CD319789"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 8.5d
+			subtitle: "Weaker Grappling Hook"
+			dependencies: ["6C9CEA1263457F7D"]
+			id: "4A5E68212B1890CD"
+			tasks: [{
+				id: "7A3002A080D49012"
+				type: "item"
+				item: {
+					id: "adventureapparatus:sticky_pick_on_a_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7E9DB1FDA468F86F"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+				{
+					id: "3269235B4B159B4D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			subtitle: "Immersive Cowboy"
+			id: "61C8646AEBEBBEC3"
+			tasks: [{
+				id: "1BF9BB01C6C855AD"
+				type: "item"
+				item: {
+					id: "immersiveengineering:revolver"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 21
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "79C0453B54A1B6D2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "62C09FD6934A0A64"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			subtitle: "I got Witches to kill..."
+			id: "1FE814D312205208"
+			tasks: [{
+				id: "40D5748A3AABADA7"
+				type: "item"
+				item: "xreliquary:handgun"
+			}]
+			rewards: [
+				{
+					id: "45F2F6F8F53BA27E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "722C86167D2E5A5E"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			subtitle: "Pressure-Filled Gatling Gun"
+			id: "09091D5520477D2B"
+			tasks: [{
+				id: "1D15B7DB91D78799"
+				type: "item"
+				item: "pneumaticcraft:minigun"
+			}]
+			rewards: [
+				{
+					id: "20BCC3D87B05B2D4"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "3F8C67D4CA72D415"
+					type: "item"
+					item: "kubejs:affixgear4"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 6.5d
+			subtitle: "Breaking Matter..."
+			id: "6CE2636B2B395858"
+			tasks: [{
+				id: "4E953856C0746C96"
+				type: "item"
+				item: {
+					id: "alexsmobs:dimensional_carver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0FCD9FA4B863D755"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "7AA4BCAEBF7CF518"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			subtitle: "Base Gun"
+			id: "310963E5CC2CC781"
+			tasks: [{
+				id: "62D736822345824A"
+				type: "item"
+				item: {
+					id: "gunswithoutroses:iron_gun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "776F9A9FAA9F9213"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "68E5CF24B6DCF203"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			subtitle: "Close Ranged"
+			id: "7B242A1D5C3917D3"
+			tasks: [{
+				id: "09FBAD0D5E23814F"
+				type: "item"
+				item: {
+					id: "gunswithoutroses:diamond_shotgun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7A10C27C59B6EA33"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "0C7B01ABBB5E0E09"
+					type: "item"
+					item: "kubejs:affixgear4"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			subtitle: "Stand Still for Me"
+			id: "13A69EE20437B2B9"
+			tasks: [{
+				id: "68BD14B2FAAA5980"
+				type: "item"
+				item: {
+					id: "gunswithoutroses:diamond_sniper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3758748D7A55BA84"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "6FE0D26937577801"
+					type: "item"
+					item: "kubejs:affixgear4"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			subtitle: "Bullet-Spam"
+			id: "6E9A224B4F6359D8"
+			tasks: [{
+				id: "55D3237643AC552A"
+				type: "item"
+				item: {
+					id: "gunswithoutroses:diamond_gatling"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6C64322A3F247998"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "088F2FC6B6E44BAE"
+					type: "item"
+					item: "kubejs:affixgear4"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			subtitle: "Alternatives Stilts"
+			id: "0869F7ED529EED5D"
+			tasks: [{
+				id: "2CB4EF109CC41E07"
+				type: "item"
+				item: {
+					id: "adventureapparatus:shuttle_shoes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6DE9FD60C9729276"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "00709F9BEF8A2489"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 5.5d
+			subtitle: "Hard To Obtain"
+			dependencies: ["49A729B12CF1292C"]
+			id: "552EF75C6E340E95"
+			tasks: [{
+				id: "46588F3ACE6E7F6A"
+				type: "item"
+				item: {
+					id: "mutantmore:withered_claymore"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-1915466853
+							-1579922829
+							-1463177960
+							1825147121
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0BCF14A026515500"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "6810301A4F096A54"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			subtitle: "Biting Wand"
+			id: "42E51636809A0F77"
+			tasks: [{
+				id: "774114D88E4CC13E"
+				type: "item"
+				item: {
+					id: "cyclic:evoker_fang"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "39464B96BE9B71E3"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "3F93738DA415686C"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			subtitle: "Kills Equal Power"
+			id: "22D43DDF4E1CD1B4"
+			tasks: [
+				{
+					id: "16B4222591EB9268"
+					type: "item"
+					item: {
+						id: "environmental:thief_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "27DD9C06B71F782B"
+					type: "advancement"
+					title: "&eMax Out: &aThief's Hood"
+					advancement: "environmental:adventure/upgrade_thief_hood"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "5E1B2113F3F9959C"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "543E2F2B4ACA4DAC"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			subtitle: "Healing Equals Power"
+			id: "0BF937802CE6C73B"
+			tasks: [
+				{
+					id: "23A178CF428766AA"
+					type: "item"
+					item: {
+						id: "environmental:healer_pouch"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "23534E57AD9CB87F"
+					type: "advancement"
+					title: "&eMax Out: &aHealer's Pouch"
+					advancement: "environmental:adventure/upgrade_healer_pouch"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "2D837F74006C2F18"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "2EAA66734E11E0B8"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			subtitle: "Building Equals Power"
+			id: "33A0BDD3352BCE1F"
+			tasks: [
+				{
+					id: "71E4EEED6BDCFBF3"
+					type: "item"
+					item: {
+						id: "environmental:architect_belt"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "33810F9218789927"
+					type: "advancement"
+					title: "&eMax Out: &aArchitect's Belt"
+					advancement: "environmental:adventure/upgrade_architect_belt"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "0D75A22B7DEB6EE2"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "1E194C4FCEF608AD"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			subtitle: "Walking Equals Power"
+			id: "2D58DB8D252CF106"
+			tasks: [
+				{
+					id: "5EA25EF92BA5F4ED"
+					type: "item"
+					item: {
+						id: "environmental:wanderer_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6647EEFF060D1832"
+					type: "advancement"
+					title: "&eMax Out: &aWanderer's Boots"
+					advancement: "environmental:adventure/upgrade_wanderer_boots"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "048EC8B3185BCDC9"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "0BC85C938266DE98"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			subtitle: "Amphibian Abilities"
+			id: "7C107F225A7A4E00"
+			tasks: [{
+				id: "0FF026F83C85A20B"
+				type: "item"
+				item: {
+					id: "alexsmobs:crocodile_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "37A531BCB521ED09"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "601404795585F24B"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			subtitle: "Blessed Natural Armor Set"
+			dependencies: ["474F2AB70E14CFA1"]
+			size: 2.0d
+			id: "2F0C565F3969FAC7"
+			tasks: [
+				{
+					id: "5B7383F1B5A8DCF6"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7D7CA2EA4AEF3F33"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6BF5622B8C41F285"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "690E755BBF76B9DB"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_shoes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6618A251383BBED0"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "64B766C9DA0F3D50"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear5"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			subtitle: "Ritualistic Natural Armor Set"
+			dependencies: ["07A923A7FB5D900C"]
+			size: 2.0d
+			id: "6141042A789F9482"
+			tasks: [
+				{
+					id: "0C3820A4051E5798"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "627E09E3B744F233"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "58998BFEA6B732C9"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "143BF5753AE74E78"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_shoes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0418C46DAF95828A"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "6CAD537367FEA8CD"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			subtitle: "Amicable Armor Set"
+			size: 2.0d
+			id: "68CD60F48757B855"
+			tasks: [
+				{
+					id: "29ECAC9F0CEB09A6"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "20FB10F5035224D3"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0123E7B58A874844"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "255AFF76826A0140"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3FE6CAABA9C7D995"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "4A8C808AD3A28605"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+	]
+}

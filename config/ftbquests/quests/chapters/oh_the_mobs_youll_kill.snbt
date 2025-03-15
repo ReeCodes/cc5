@@ -1,0 +1,1075 @@
+{
+	id: "00000000000001CF"
+	group: "1C0C3E7C0AAD1FC4"
+	order_index: 3
+	filename: "oh_the_mobs_youll_kill"
+	title: "Oh The Mobs You'll Kill!"
+	icon: "rats:dutchrat_wheel"
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: 65.25d
+			size: 1.5d
+			id: "00000000000001D0"
+			tasks: [{
+				id: "00000000000001D1"
+				type: "kill"
+				title: "&cKill:&e Mutant Zombie"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "mutantbeasts:mutant_zombie"
+						DisplayMobScale: 2
+					}
+				}
+				entity: "mutantbeasts:mutant_zombie"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0000000000000295"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "6AA78D0581A14F6D"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 25.5d
+			y: 65.25d
+			size: 1.5d
+			id: "00000000000001D2"
+			tasks: [{
+				id: "00000000000001D3"
+				type: "kill"
+				title: "&cKill:&e Mutant Skeleton"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "mutantbeasts:mutant_skeleton"
+						DisplayMobScale: 2
+					}
+				}
+				entity: "mutantbeasts:mutant_skeleton"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0000000000000294"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "28F74051E9AA90F8"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 47.25d
+			size: 1.5d
+			id: "00000000000001D6"
+			tasks: [{
+				id: "00000000000001D7"
+				type: "kill"
+				title: "&cKill:&e Mutant Creeper"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "mutantbeasts:mutant_creeper"
+						DisplayMobScale: 2
+					}
+				}
+				entity: "mutantbeasts:mutant_creeper"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0000000000000293"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "5F86B9D5956EFFC6"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 56.25d
+			size: 1.5d
+			id: "00000000000001D8"
+			tasks: [{
+				id: "00000000000001D9"
+				type: "kill"
+				title: "&cKill:&e Mutant Enderman"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "mutantbeasts:mutant_enderman"
+						DisplayMobScale: 2
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "mutantbeasts:mutant_enderman"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0000000000000296"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "38BF7866E6A2F6A7"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 47.25d
+			size: 1.5d
+			id: "00000000000001DA"
+			tasks: [{
+				id: "00000000000001DB"
+				type: "kill"
+				title: "&cKill:&e Mutant Spider Pig"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "mutantbeasts:spider_pig"
+						DisplayMobScale: 2
+					}
+				}
+				entity: "mutantbeasts:spider_pig"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0000000000000297"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "7092E34AAB89471A"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 56.25d
+			size: 1.5d
+			id: "00000000000001DC"
+			tasks: [{
+				id: "00000000000001DE"
+				type: "advancement"
+				title: "Summon a Mutant Snow Golem"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "mutantbeasts:mutant_snow_golem"
+						DisplayMobScale: 2
+					}
+				}
+				advancement: "mutantbeasts:frosty_the_snow_golem"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0000000000000292"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "0000000000000298"
+					type: "item"
+					item: "omgourd:jack_o_lantern_8"
+				}
+				{
+					id: "6494E3A629558734"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: -39.0d
+			y: 13.0d
+			size: 2.0d
+			id: "000000000000038A"
+			tasks: [{
+				id: "000000000000038B"
+				type: "kill"
+				title: "&cKill:&e Flying Dutchrat"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "rats:dutchrat"
+						DisplayMobScale: 2
+					}
+				}
+				entity: "rats:dutchrat"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0000000000000393"
+					type: "item"
+					item: "pamhc2foodcore:pumpkincheesecakeitem"
+					count: 32
+				}
+				{
+					id: "0000000000000394"
+					type: "item"
+					item: "pamhc2foodcore:baconcheeseburgeritem"
+					count: 16
+				}
+				{
+					id: "0000000000000395"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "56A13FC5AFEB7115"
+					type: "item"
+					item: "kubejs:affixgear5"
+				}
+			]
+		}
+		{
+			x: -45.0d
+			y: 13.0d
+			size: 2.0d
+			id: "000000000000038C"
+			tasks: [{
+				id: "000000000000038D"
+				type: "kill"
+				title: "&cKill:&e Rat Baron"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "rats:rat_baron_plane"
+						DisplayMobScale: 1.5d
+					}
+				}
+				entity: "rats:rat_baron"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "000000000000038F"
+					type: "item"
+					item: "pamhc2foodcore:cheesecakeitem"
+					count: 16
+				}
+				{
+					id: "0000000000000390"
+					type: "item"
+					item: "rats:cheese"
+					count: 8
+				}
+				{
+					id: "0000000000000391"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "5C14E57ED220A340"
+					type: "item"
+					item: "kubejs:affixgear5"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 9.5d
+			id: "000000000000068B"
+			tasks: [{
+				id: "000000000000068C"
+				type: "kill"
+				title: "&cKill:&e The Forgotten"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "quark:forgotten"
+						DisplayMobScale: 2
+					}
+				}
+				entity: "quark:forgotten"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "00000000000006EE"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "5554FF0AA2BB23BB"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			title: "&cKill:&e The Bellringer"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "meetyourfight:bellringer"
+					DisplayMobScale: 2
+				}
+			}
+			x: 48.0d
+			y: 9.75d
+			size: 1.5d
+			id: "0000000000000766"
+			tasks: [
+				{
+					id: "0000000000000767"
+					type: "item"
+					item: "meetyourfight:haunted_bell"
+				}
+				{
+					id: "000000000000076C"
+					type: "kill"
+					title: "&cKill:&e The Bellringer"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "meetyourfight:bellringer"
+							DisplayMobScale: 2
+						}
+					}
+					entity: "meetyourfight:bellringer"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000779"
+					type: "item"
+					item: "naturesaura:token_terror"
+				}
+				{
+					id: "000000000000077A"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "3B26E04A5352D0D0"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			title: "&cKill:&e Dame Fortuna"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "meetyourfight:dame_fortuna"
+					DisplayMobScale: 2
+				}
+			}
+			x: 42.0d
+			y: 9.75d
+			size: 1.5d
+			id: "0000000000000768"
+			tasks: [
+				{
+					id: "0000000000000769"
+					type: "item"
+					item: "meetyourfight:devils_ante"
+				}
+				{
+					id: "000000000000076D"
+					type: "kill"
+					title: "&cKill:&e Dame Fortuna"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "meetyourfight:dame_fortuna"
+							DisplayMobScale: 2
+						}
+					}
+					entity: "meetyourfight:dame_fortuna"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000077B"
+					type: "item"
+					item: "naturesaura:token_terror"
+				}
+				{
+					id: "000000000000077C"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "773BEF7B1AD37CE2"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			title: "&cKill:&e Swampjaw"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "meetyourfight:swampjaw"
+					DisplayMobScale: 1.0d
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 45.0d
+			y: 9.75d
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "000000000000076A"
+			tasks: [
+				{
+					id: "000000000000076B"
+					type: "item"
+					item: "meetyourfight:fossil_bait"
+				}
+				{
+					id: "000000000000076E"
+					type: "kill"
+					title: "&cKill:&e Swamp Jaw"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "meetyourfight:swampjaw"
+							DisplayMobScale: 0.75d
+						}
+					}
+					entity: "meetyourfight:swampjaw"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000077D"
+					type: "item"
+					item: "naturesaura:token_terror"
+				}
+				{
+					id: "000000000000077E"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "4BD5F37A945D935F"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			title: "&cKill:&e The Hirschgeist"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "whisperwoods:hirschgeist"
+					DisplayMobScale: 1
+				}
+			}
+			x: 32.25d
+			y: 9.75d
+			size: 1.5d
+			id: "0000000000000781"
+			tasks: [
+				{
+					id: "0000000000000784"
+					type: "item"
+					title: "Ghost Light"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "whisperwoods:ghost_light"
+						}
+					}
+				}
+				{
+					id: "0000000000000785"
+					type: "item"
+					item: "whisperwoods:hand_of_fate"
+				}
+				{
+					id: "0000000000000786"
+					type: "kill"
+					title: "&cKill:&e The Hirschgeist"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "whisperwoods:hirschgeist"
+							DisplayMobScale: 1
+						}
+					}
+					entity: "whisperwoods:hirschgeist"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000783"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "2FB7A584A67612EF"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 9.5d
+			id: "6E0478E99B11A076"
+			tasks: [{
+				id: "64A82D9416ABC172"
+				type: "kill"
+				title: "&cKill:&e Wrapped"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "quark:wrapped"
+						DisplayMobScale: 2
+					}
+				}
+				entity: "quark:wrapped"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2021FF580C2856C7"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "176F677558580767"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 65.25d
+			size: 1.5d
+			id: "4D5EF87FDDCD03A8"
+			tasks: [{
+				id: "753BA30BBDD1F0EA"
+				type: "kill"
+				title: "&cKill:&e Mutant Blaze"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "mutantmore:mutant_blaze"
+						DisplayMobScale: 2
+					}
+				}
+				entity: "mutantmore:mutant_blaze"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "43E39011F07274B1"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "3E19E2372443E130"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 25.5d
+			y: 56.25d
+			size: 1.5d
+			id: "2EE91EA9CEA328D9"
+			tasks: [{
+				id: "79766E26EA9C290C"
+				type: "kill"
+				title: "&cKill:&e Mutant Hoglin"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "mutantmore:mutant_hoglin"
+						DisplayMobScale: 2
+					}
+				}
+				entity: "mutantmore:mutant_hoglin"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "12C0B51CBE440435"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "17E24206562DBCC7"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 25.5d
+			y: 47.25d
+			size: 1.5d
+			id: "181C43CED1D5BFD9"
+			tasks: [{
+				id: "0CF217D3AD8D97C9"
+				type: "kill"
+				title: "&cKill:&e Mutant Husk"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "mutantmore:mutant_husk"
+						DisplayMobScale: 2
+					}
+				}
+				entity: "mutantmore:mutant_husk"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "01DF3D2426D2BD06"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "0805CD4EF9959756"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 19.5d
+			y: 74.25d
+			size: 1.5d
+			id: "2D416E057AA99760"
+			tasks: [{
+				id: "584E10F628E86371"
+				type: "kill"
+				title: "&cKill:&e Mutant Shulker"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "mutantmore:mutant_shulker"
+						DisplayMobScale: 2
+					}
+				}
+				entity: "mutantmore:mutant_shulker"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7701DBA9C67D5A68"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "6205A9CEF838FB19"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear5"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 74.25d
+			size: 1.5d
+			id: "49A729B12CF1292C"
+			tasks: [{
+				id: "374A599AD34D1D4F"
+				type: "kill"
+				title: "&cKill:&e Mutant Wither Skeleton"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "mutantmore:mutant_wither_skeleton"
+						DisplayMobScale: 2
+					}
+				}
+				entity: "mutantmore:mutant_wither_skeleton"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7CD044AE4C21E0DC"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "2C84269AD7C40F85"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: -43.0d
+			y: 34.0d
+			size: 2.0d
+			id: "14B0FA96894F5E70"
+			tasks: [{
+				id: "209F3631453CDFE3"
+				type: "kill"
+				title: "&cKill:&e The Great Thrasher"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "upgrade_aquatic:great_thrasher"
+						DisplayMobScale: 2
+					}
+				}
+				entity: "upgrade_aquatic:great_thrasher"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "1D2551D620361C12"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "5F0E804AD3AEA5B7"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -26.0d
+			y: 60.0d
+			subtitle: "The Real Dragon Of The End"
+			size: 2.0d
+			id: "5F67CE31CA5B3253"
+			tasks: [{
+				id: "521A49F7F8B034AC"
+				type: "kill"
+				title: "&cKill:&e Chaos Guardian"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "draconicevolution:draconic_guardian"
+						DisplayMobScale: 1.5d
+					}
+				}
+				entity: "draconicevolution:draconic_guardian"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3BFFEC2FD63615F9"
+					type: "xp_levels"
+					xp_levels: 200
+				}
+				{
+					id: "724E83C3DD9B804E"
+					type: "item"
+					item: "kubejs:affixgear6"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 12.75d
+			y: 9.75d
+			size: 1.5d
+			id: "5FA9701A090722F8"
+			tasks: [{
+				id: "54E416F977EE7C67"
+				type: "kill"
+				title: "&cKill:&e The Conjurer"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "conjurer_illager:conjurer"
+						DisplayMobScale: 2
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "conjurer_illager:conjurer"
+				value: 1L
+			}]
+		}
+		{
+			x: 14.25d
+			y: 9.75d
+			size: 1.5d
+			id: "49804DB6B12F6C9E"
+			tasks: [{
+				id: "0CB632BA525767B2"
+				type: "kill"
+				title: "&cKill:&e The Evoker"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "minecraft:evoker"
+						DisplayMobScale: 2
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "minecraft:evoker"
+				value: 1L
+			}]
+		}
+		{
+			title: "&cKill:&e The Hostile Band"
+			x: 13.5d
+			y: 18.0d
+			subtitle: "Hostile Band"
+			size: 3.0d
+			id: "6AB8D7E8A8D39B10"
+			tasks: [
+				{
+					id: "3393011E738A505B"
+					type: "kill"
+					title: "&cKill:&e Cymbal Husk"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "instrumentalmobs:cymbal_husk"
+							DisplayMobScale: 1.25d
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					entity: "instrumentalmobs:cymbal_husk"
+					value: 1L
+				}
+				{
+					id: "32D9983794A0DE00"
+					type: "kill"
+					title: "&cKill:&e Drum Zombie"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "instrumentalmobs:drum_zombie"
+							DisplayMobScale: 1.25d
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					entity: "instrumentalmobs:drum_zombie"
+					value: 1L
+				}
+				{
+					id: "3F132AE3E679BF88"
+					type: "kill"
+					title: "&cKill:&e French Horn Creeper"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "instrumentalmobs:french_horn_creeper"
+							DisplayMobScale: 1.25d
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					entity: "instrumentalmobs:french_horn_creeper"
+					value: 1L
+				}
+				{
+					id: "06D5FB2F1ECFCF73"
+					type: "kill"
+					title: "&cKill:&e Maraca Spider"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "instrumentalmobs:maraca_spider"
+							DisplayMobScale: 1.25d
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					entity: "instrumentalmobs:maraca_spider"
+					value: 1L
+				}
+				{
+					id: "32D4815BB3690A3E"
+					type: "kill"
+					title: "&cKill:&e Microphone Ghast"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "instrumentalmobs:microphone_ghast"
+							DisplayMobScale: 0.25d
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					entity: "instrumentalmobs:microphone_ghast"
+					value: 1L
+				}
+				{
+					id: "5BCD2960B9551092"
+					type: "kill"
+					title: "&cKill:&e Tuba Enderman"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "instrumentalmobs:tuba_enderman"
+							DisplayMobScale: 0.75d
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					entity: "instrumentalmobs:tuba_enderman"
+					value: 1L
+				}
+				{
+					id: "48C63124344AAED8"
+					type: "kill"
+					title: "&cKill:&e Xylophone Skeleton"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "instrumentalmobs:xylophone_skeleton"
+							DisplayMobScale: 0.75d
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					entity: "instrumentalmobs:xylophone_skeleton"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "3C3A04E9CF17D2CB"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "5AF9C9CDDC44BEA6"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+			]
+		}
+	]
+}

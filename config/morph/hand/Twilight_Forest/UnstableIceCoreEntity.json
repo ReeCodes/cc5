@@ -1,0 +1,44 @@
+{
+  "author": "WenXin2",
+  "forClass": "twilightforest.entity.UnstableIceCoreEntity",
+  "modelFieldName": "field_78116_c",
+  "eyeOffset": [
+    0.125,
+    -0.3125,
+    0.25
+  ],
+  "pupilColour": [
+    0.65882355,
+    0.45490196,
+    0.88235295
+  ],
+  "halfInterpupillaryDistance": 0.0,
+  "eyeCount": 1,
+  "headTopCenter": [
+    0.0,
+    -0.0625,
+    0.0
+  ],
+  "additionalHeads": [
+    {
+      "modelFieldName": "field_78116_c",
+      "eyeOffset": [
+        -0.25,
+        -0.3125,
+        0.25
+      ],
+      "irisColour": [
+        0.79607844,
+        0.03529412,
+        0.7529412
+      ],
+      "pupilColour": [
+        0.4392157,
+        0.0,
+        0.972549
+      ],
+      "eyeCount": 1,
+      "noTopInfo": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+
+#Gooper Spawn Settings
+["Gooper Spawn Settings"]
+	#Gooper Spawn Group Minimum Size
+	#Range: > 1
+	gooper_min_spawn_size = 1
+	#Gooper Spawn Group Maximum Size
+	#Range: > 1
+	gooper_max_spawn_size = 3
+	#Gooper Spawn Chance Probability
+	#Range: > 1
+	gooper_chance = 10
+	#Gooper Spawn Dimension Blacklist
+	gooper_dimensions = ["the_bumblezone:the_bumblezone", "minecraft:the_end", "minecraft:the_nether", "undergarden:undergarden", "javd:void"]
+	#Charged Gooper Spawn in World
+	charged_gooper_spawn_in_world = true
+	#Charged Gooper Spawn Blocks
+	charged_gooper_spawn_blocks = []
+
+#Gooper Attack Settings
+["Gooper Attack Settings"]
+	#Explosion Size
+	#Range: 1 ~ 32
+	explosion_size = 1
+	#Charged Explosion Size
+	#Range: 1 ~ 32
+	explosion_size_charged = 2
+	#Gooper Blocks Placed
+	gooper_blocks_placed = ["jellyfishing:bubble_block"]
+	#Charged Gooper Blocks Placed
+	charged_gooper_blocks_placed = ["jellyfishing:bubble_block"]
+

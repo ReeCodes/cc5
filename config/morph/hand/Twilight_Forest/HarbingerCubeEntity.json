@@ -1,0 +1,22 @@
+{
+  "author": "WenXin2",
+  "forClass": "twilightforest.entity.HarbingerCubeEntity",
+  "modelFieldName": "field_78148_b",
+  "eyeOffset": [
+    0.0,
+    0.0625,
+    1.0
+  ],
+  "irisColour": [
+    0.54509807,
+    0.0,
+    0.0
+  ],
+  "eyeScale": 4.75,
+  "headTopCenter": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "headScale": 4.0
+}

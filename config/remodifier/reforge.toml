@@ -1,0 +1,5 @@
+
+[Remodifier]
+	UniversalReforgeItem = "kubejs:purifying_rune"
+	DisableRepairingReforging = false
+

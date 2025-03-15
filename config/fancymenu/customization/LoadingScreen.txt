@@ -1,0 +1,32 @@
+type = menu
+
+customization-meta {
+  identifier = com.fuzs.consoleexperience.client.gui.screen.FancyWorldLoadProgressScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = panorama
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  x = 195
+  action = addtext
+  actionid = af18b769-5c85-41fa-8553-c647637363551635774812265
+  y = 148
+  scale = 0.8
+  alignment = centered
+  value = Loading into Worlds may take a while. Be patient!
+}
+

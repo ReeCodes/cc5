@@ -1,0 +1,15 @@
+#Range: 1 ~ 20
+scrollZoomSpeed = 8
+#Allowed Values: NONE, SCROLL, TOGGLE, BOTH
+smoothType = "BOTH"
+#Range: 1 ~ 100
+maxZoom = 70
+#Range: 0 ~ 10
+mouseSensitvityReduction = 5
+scrollWhenToggled = false
+sartAtMaxZoom = false
+#Allowed Values: DOUBLE_TAP_ON, DOUBLE_TAP_OFF, DOUBLE_TAP_ON_OFF, TAP_ON_OFF, DISABLE
+toggleType = "TAP_ON_OFF"
+#Allowed Values: NONE, SCALED, SET
+mouseSensitivityMod = "NONE"
+

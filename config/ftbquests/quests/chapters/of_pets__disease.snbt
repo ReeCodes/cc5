@@ -1,0 +1,2047 @@
+{
+	id: "59C007A1D028284F"
+	group: "1C0C3E7C0AAD1FC4"
+	order_index: 1
+	filename: "of_pets__disease"
+	title: "Of Pets \\& Disease"
+	icon: "rats:idol_of_ratlantis"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Rule Your Rat"
+			dependencies: ["13682DDB491526B4"]
+			id: "61DF150895C34B5E"
+			tasks: [{
+				id: "6B4CAB23CE64407D"
+				type: "item"
+				item: {
+					id: "rats:cheese_stick"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "045612362AB2E66B"
+					type: "item"
+					item: "rats:cheese"
+					count: 4
+				}
+				{
+					id: "7E0EF4E779EFACFD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			subtitle: "Distance The Rat"
+			id: "7596817C5C5C0E0D"
+			tasks: [{
+				id: "243F22267EDC19FB"
+				type: "item"
+				item: {
+					id: "rats:radius_stick"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0DFF77749FA9D039"
+					type: "item"
+					item: "rats:cheese"
+					count: 4
+				}
+				{
+					id: "6FED78BA9EACF268"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			subtitle: "Come Back, Now!"
+			id: "134B5E93569A2FA8"
+			tasks: [{
+				id: "2E7146DD3102EF20"
+				type: "item"
+				item: {
+					id: "rats:rat_whistle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7A9E37B172EC22D2"
+					type: "item"
+					item: "rats:cheese"
+					count: 4
+				}
+				{
+					id: "77B728BBBB557445"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			subtitle: "Pied Piper's Technique"
+			id: "6BC081A9AEB96C63"
+			tasks: [{
+				id: "216646ABFD556B0C"
+				type: "item"
+				item: {
+					id: "rats:rat_flute"
+					Count: 1b
+					tag: {
+						Command: 1
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0E65A3403301AC5A"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 4
+				}
+				{
+					id: "5E74C013647CBFA6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			subtitle: "Handy Bag O' Rats"
+			id: "1AB9093E9F5C4B11"
+			tasks: [{
+				id: "67A6D196F87CF718"
+				type: "item"
+				item: {
+					id: "rats:rat_sack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7EA9AA0073534439"
+					type: "item"
+					item: "rats:cheese"
+					count: 4
+				}
+				{
+					id: "3B0B3A29B560C69E"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 4
+				}
+				{
+					id: "4DC875C25819AF4F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			title: "Making Cheese"
+			x: -1.0d
+			y: 0.0d
+			subtitle: "Natural Fermentation"
+			id: "13682DDB491526B4"
+			tasks: [
+				{
+					id: "71C9F592BD4FFAD2"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "11723C05F1DF8653"
+					type: "item"
+					item: "rats:block_of_cheese"
+				}
+			]
+			rewards: [
+				{
+					id: "05DD6CBFE8DF9D6A"
+					type: "item"
+					item: "pamhc2foodcore:cookiesandmilkitem"
+					count: 4
+				}
+				{
+					id: "63579AAB7AAF9EC2"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "23BEA21292CFD797"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			subtitle: "Rat Walkways"
+			optional: true
+			id: "66E5849DD515DF0B"
+			tasks: [{
+				id: "52E758B689912D98"
+				type: "item"
+				title: "Rat Tubes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "rats:rat_tube"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0ED75C79258293CD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3ABDE47644AD703C"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			subtitle: "Rat Catcher"
+			dependencies: ["1AB9093E9F5C4B11"]
+			optional: true
+			id: "4479FF2C1D253B24"
+			tasks: [{
+				id: "3F013B465A359AC5"
+				type: "item"
+				item: "rats:rat_capture_net"
+			}]
+			rewards: [
+				{
+					id: "6CA1564A97ED9DDD"
+					type: "item"
+					item: "rats:cheese"
+					count: 4
+				}
+				{
+					id: "029251693076F7B1"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 4
+				}
+				{
+					id: "50921EF226D8616E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "75E3FF160CC5F8B9"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			subtitle: "Poke-Rats"
+			dependencies: ["6BC081A9AEB96C63"]
+			id: "7AB0AD123C07949B"
+			tasks: [{
+				id: "6F8B62A1DFAF2922"
+				type: "item"
+				item: {
+					id: "rats:gilded_rat_flute"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "14FD0F2BDB211F03"
+					type: "item"
+					item: "rats:cheese"
+					count: 4
+				}
+				{
+					id: "55BF3948BE6AC2FB"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "394DA1CFA8DAF810"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			subtitle: "Evilish Converter"
+			optional: true
+			id: "02338E7ABB85B754"
+			tasks: [{
+				id: "1C4E647C16D8BF4B"
+				type: "item"
+				item: "rats:plague_doctorate"
+			}]
+			rewards: [
+				{
+					id: "080559FACF9B01BF"
+					type: "item"
+					item: "rats:plague_stew"
+				}
+				{
+					id: "15EE3CE5CB3EA6CA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1C0146C3DB582D59"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			icon: "rats:chunky_cheese_token"
+			x: 0.0d
+			y: -4.0d
+			shape: "octagon"
+			subtitle: "The Rattery"
+			size: 2.0d
+			id: "7AA0E1389C6381C2"
+			tasks: [
+				{
+					id: "193D81CD84DAB26D"
+					type: "item"
+					title: "The Lottery"
+					item: "rats:tiny_coin"
+				}
+				{
+					id: "541FC6B5098D0074"
+					type: "item"
+					item: "rats:chunky_cheese_token"
+				}
+			]
+			rewards: [
+				{
+					id: "794CAC3EB77308C7"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 32
+				}
+				{
+					id: "16993295F7BEDA67"
+					type: "item"
+					item: "rats:cheese"
+					count: 4
+				}
+				{
+					id: "6E42583B3211A929"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "16FEED7E4E78C028"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			title: "Rat King"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "rats:rat_king"
+					DisplayMobScale: 2
+				}
+			}
+			x: 8.0d
+			y: 0.0d
+			subtitle: "King Of Rats"
+			dependencies: ["7B7E2046A59A528B"]
+			size: 2.0d
+			id: "1B7ED3248EEE9134"
+			tasks: [
+				{
+					id: "30CFBDD70EA5499B"
+					type: "item"
+					item: "rats:filth_corruption"
+				}
+				{
+					id: "1013DC501A334D9D"
+					type: "kill"
+					title: "&cKill:&e Rat King"
+					entity: "rats:rat_king"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "6E04DABECE8846B3"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 32
+				}
+				{
+					id: "1C25ED1468CE39D8"
+					type: "item"
+					item: "rats:cheese"
+					count: 4
+				}
+				{
+					id: "62B3C1911F720D32"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2CC829A6B9302696"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			subtitle: "Don't Throw Away Important Stuff"
+			id: "4006DDB39354E786"
+			tasks: [{
+				id: "607D8708D53863B2"
+				type: "item"
+				item: "rats:trash_can"
+			}]
+			rewards: [
+				{
+					id: "53B098DFEED07777"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "242BCE5C726014DE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Waste Block"
+			dependencies: ["4006DDB39354E786"]
+			id: "3DA371E12EBFB840"
+			tasks: [{
+				id: "2B4C95BB0E8E2913"
+				type: "item"
+				item: "rats:garbage_pile"
+			}]
+			rewards: [
+				{
+					id: "74EEC7DFD4A4040C"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 8
+				}
+				{
+					id: "21D2665E1B7A83F8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Double The Trash"
+			id: "7B7E2046A59A528B"
+			tasks: [{
+				id: "251BF1533308E2FC"
+				type: "item"
+				item: "rats:compressed_garbage"
+			}]
+			rewards: [
+				{
+					id: "6B40D4AAF8DD9DEB"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "3CFF491E381354FE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "32FB47159AB02D0D"
+					type: "item"
+					item: "rats:cheese"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			subtitle: "Warning: May Have Rabies!"
+			optional: true
+			id: "42F700077EFF3C57"
+			tasks: [{
+				id: "7A6FB019FFC95D53"
+				type: "item"
+				item: "rats:cursed_garbage"
+			}]
+			rewards: [
+				{
+					id: "2EB617BEFEFF776F"
+					type: "item"
+					item: "rats:plague_essence"
+				}
+				{
+					id: "55B746C955E2E03C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "44EB0E4DCED4C066"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			subtitle: "Soaped Before Summoned"
+			optional: true
+			id: "4183123C64F420F0"
+			tasks: [{
+				id: "4E1B2CA8587210FD"
+				type: "item"
+				item: "rats:purified_garbage"
+			}]
+			rewards: [
+				{
+					id: "1109AF50D38D4A74"
+					type: "item"
+					item: "rats:purifying_liquid"
+				}
+				{
+					id: "492A62F649D433D1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0ED902336785D268"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			subtitle: "Flute-Lessoned Before Summoned"
+			optional: true
+			id: "5F878E54ED7C512D"
+			tasks: [{
+				id: "5C886CDE58385450"
+				type: "item"
+				item: "rats:pied_garbage"
+			}]
+			rewards: [
+				{
+					id: "042955FD825057F7"
+					type: "item"
+					item: "rats:pied_wool"
+				}
+				{
+					id: "56398B8A3796ADA8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "2F29CECB65A2D1F3"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			subtitle: "Rat's Visible Home"
+			id: "4B01B3A396D576FF"
+			tasks: [{
+				id: "751FC5C0EBFEA2D1"
+				type: "item"
+				item: "rats:rat_cage"
+			}]
+			rewards: [
+				{
+					id: "783393F2496CC831"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 8
+				}
+				{
+					id: "7C53D9A46B313AC4"
+					type: "item"
+					item: "rats:cheese"
+					count: 4
+				}
+				{
+					id: "67FFCBC9C4825F6C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "28973C5E86079AE4"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			subtitle: "I Got One"
+			optional: true
+			id: "07194AE15DF612CD"
+			tasks: [{
+				id: "6FF4AFD9F8175B5D"
+				type: "item"
+				item: "rats:rat_trap"
+			}]
+			rewards: [
+				{
+					id: "4C406F698E46B0DD"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 4
+				}
+				{
+					id: "14EA613FCC4CBD7F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			subtitle: "Automated Fermenter"
+			dependencies: ["13682DDB491526B4"]
+			id: "0E8F77A87200CFF9"
+			tasks: [{
+				id: "6F22F13585C7F027"
+				type: "item"
+				item: "rats:auto_curdler"
+			}]
+			rewards: [
+				{
+					id: "49EF602FC83ECFC5"
+					type: "item"
+					item: "rats:cheese"
+					count: 4
+				}
+				{
+					id: "2985F47FD71B3F0A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4DFEA0F632745D48"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+				{
+					id: "75696200A4D5E99C"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			subtitle: "Food 4 Life"
+			id: "52589E35A8E97155"
+			tasks: [{
+				id: "21EC0FB9D7C5B200"
+				type: "item"
+				item: "rats:rat_seed_bowl"
+			}]
+			rewards: [
+				{
+					id: "6404FFB7AB4DD66A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "04B331D58391F136"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			subtitle: "Small Little Home"
+			optional: true
+			id: "28379E8BFDE86F2B"
+			tasks: [{
+				id: "016C624F05E5D54C"
+				type: "item"
+				title: "Rat Iglos"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "rats:rat_igloo"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6FE1AD3CA9ACE224"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "15B2C9D7D9575625"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			subtitle: "For Quick Naps"
+			optional: true
+			id: "1170FD3557492686"
+			tasks: [{
+				id: "3CFE3342B6CF0E7C"
+				type: "item"
+				title: "Rat Hammocks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "rats:rat_hammock"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "56C9A29D6287DD7A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "37BDC9C2C2D060AD"
+					type: "item"
+					item: "kubejs:delight_builder"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			subtitle: "Make Use Of Your Rat"
+			id: "37D87F44365DF541"
+			tasks: [{
+				id: "38BEE86FD9EC015A"
+				type: "item"
+				item: "rats:rat_wheel"
+			}]
+			rewards: [
+				{
+					id: "36FF9002EBD8A9A2"
+					type: "item"
+					item: "powah:energy_cell_starter"
+				}
+				{
+					id: "3B20D1C6B2CE6EB1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			subtitle: "Love Is In The Air, Dangling"
+			id: "6F4D527FB20B186B"
+			tasks: [{
+				id: "007C099D2644D1A5"
+				type: "item"
+				item: "rats:rat_breeding_lantern"
+			}]
+			rewards: [
+				{
+					id: "03B822491658C8C9"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 4
+				}
+				{
+					id: "60372E39B68B2B8B"
+					type: "item"
+					item: "minecraft:golden_carrot"
+					count: 8
+				}
+				{
+					id: "55AA2E45D1DBF2BA"
+					type: "item"
+					item: "botania:golden_seeds"
+				}
+				{
+					id: "519D6067FE2B522B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 7.0d
+			id: "7D7AB70C18F350E1"
+			tasks: [{
+				id: "203DAF6674D1DF8E"
+				type: "item"
+				item: "rats:rat_upgrade_crafting"
+			}]
+			rewards: [
+				{
+					id: "60110067A1DE2A1D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7694CFD3A2EE89D9"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 7.5d
+			id: "104EAD2D60EF6FE8"
+			tasks: [{
+				id: "719B0AC73D70F679"
+				type: "item"
+				item: "rats:rat_upgrade_replanter"
+			}]
+			rewards: [
+				{
+					id: "41EC52C9D3637E95"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "546FCD851153F344"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+				{
+					id: "01BA97E7CAAAA660"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 7.5d
+			id: "3BC8F7556DD5E748"
+			tasks: [{
+				id: "69C2FB54EA2A8450"
+				type: "item"
+				item: "rats:rat_upgrade_lumberjack"
+			}]
+			rewards: [
+				{
+					id: "7182AE74AF86BF7F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "15A254D6EFE5EE15"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 7.5d
+			id: "42D694E6FD8F6BA7"
+			tasks: [{
+				id: "050FFE100A5DABD3"
+				type: "item"
+				item: "rats:rat_upgrade_miner_ore"
+			}]
+			rewards: [
+				{
+					id: "6DE3C5561697B3B9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "25614C8803330B14"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 8.5d
+			dependencies: ["42D694E6FD8F6BA7"]
+			id: "704E4490D0EC913D"
+			tasks: [{
+				id: "221C1EB09207F79A"
+				type: "item"
+				item: {
+					id: "rats:rat_upgrade_miner"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "5B521A36977E3675"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "2095D2EEA4D25824"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 9.5d
+			dependencies: ["704E4490D0EC913D"]
+			id: "1F05C92990BCBB94"
+			tasks: [{
+				id: "1BDD4DCA0C6CD83C"
+				type: "item"
+				item: "rats:rat_upgrade_quarry"
+			}]
+			rewards: [
+				{
+					id: "175406AD8310C959"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "30A21178C47411DE"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			id: "063E651FD119B640"
+			tasks: [{
+				id: "0007F8CDF80D5E89"
+				type: "item"
+				item: "rats:rat_upgrade_farmer"
+			}]
+			rewards: [
+				{
+					id: "7DCD1C22E8C5A8F5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3868BF5CE2839C5C"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+				{
+					id: "59A9728E7658814A"
+					type: "item"
+					item: "kubejs:box_of_food"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 7.5d
+			id: "3182C7A23289A5D4"
+			tasks: [{
+				id: "061470AA76F5EBCA"
+				type: "item"
+				item: "rats:rat_upgrade_breeder"
+			}]
+			rewards: [
+				{
+					id: "3FB2BE2EE16DD36F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "291432EC44A91BD3"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 7.5d
+			id: "483D742AE084B8F9"
+			tasks: [{
+				id: "3FCA8D586D090163"
+				type: "item"
+				item: "rats:rat_upgrade_fisherman"
+			}]
+			rewards: [
+				{
+					id: "3D32612C92ED2ECF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1665CAA107445060"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			id: "31B1FA3D15501670"
+			tasks: [{
+				id: "1800F4BE78EFCF77"
+				type: "item"
+				item: "rats:rat_upgrade_tick_accelerator"
+			}]
+			rewards: [
+				{
+					id: "5C1793A5D24718D6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "63C0CEA48971CF51"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 7.5d
+			id: "260E362FAF9CA40E"
+			tasks: [{
+				id: "6AB2B3D8E08D051F"
+				type: "item"
+				item: "rats:rat_upgrade_ore_doubling"
+			}]
+			rewards: [
+				{
+					id: "7240F6CD00AA4870"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "67114F71B2F20A8E"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 7.5d
+			id: "496DFBA78FF01DBC"
+			tasks: [{
+				id: "0922BBD53D8AD10F"
+				type: "item"
+				item: "rats:rat_upgrade_basic_energy"
+			}]
+			rewards: [
+				{
+					id: "2089EAFFD3E9CFB8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0B3DC145D9676EDD"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 8.5d
+			dependencies: ["496DFBA78FF01DBC"]
+			id: "12E923B6D9B9A483"
+			tasks: [{
+				id: "0B29C8C7E7AA2B24"
+				type: "item"
+				item: "rats:rat_upgrade_advanced_energy"
+			}]
+			rewards: [
+				{
+					id: "39CCEDE9E7D1237C"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "727B98F1A93070F9"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 9.5d
+			dependencies: ["12E923B6D9B9A483"]
+			id: "6E6E4D1523522AB8"
+			tasks: [{
+				id: "7C49178DB0116971"
+				type: "item"
+				item: "rats:rat_upgrade_elite_energy"
+			}]
+			rewards: [
+				{
+					id: "31C5D41B0FDC829C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7861D1BC9E6EB869"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 10.5d
+			dependencies: ["6E6E4D1523522AB8"]
+			id: "00E7DA4CC12F68B7"
+			tasks: [{
+				id: "776265362F843B66"
+				type: "item"
+				item: "rats:rat_upgrade_extreme_energy"
+			}]
+			rewards: [
+				{
+					id: "1D3637190CC1835F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "032A6B5926A78B86"
+					type: "item"
+					item: "kubejs:affixgear5"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			id: "5021714ECD593A16"
+			tasks: [{
+				id: "700B2D19B26B503C"
+				type: "item"
+				item: "rats:rat_upgrade_bucket"
+			}]
+			rewards: [
+				{
+					id: "3BD55147521A6D5F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "482CBA9055045005"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 8.5d
+			dependencies: ["5021714ECD593A16"]
+			id: "6C684170BAC988F6"
+			tasks: [{
+				id: "7B9F0DF142712CB6"
+				type: "item"
+				item: "rats:rat_upgrade_big_bucket"
+			}]
+			rewards: [
+				{
+					id: "66C6258654905CDA"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "4774FFAF3C4631C9"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 7.5d
+			id: "17D0EF56C8AD1076"
+			tasks: [{
+				id: "259E0E18333D22CD"
+				type: "item"
+				item: "rats:rat_upgrade_milker"
+			}]
+			rewards: [
+				{
+					id: "163530DA922DDC56"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "54F26675E457CF75"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 7.5d
+			id: "1797ACC22584C654"
+			tasks: [{
+				id: "0F7E0C9E415EC08F"
+				type: "item"
+				item: "rats:rat_upgrade_shears"
+			}]
+			rewards: [
+				{
+					id: "195559C1FFD5E887"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0B634DE1F4E9913B"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 7.5d
+			id: "2EEEE695C04A1CFD"
+			tasks: [{
+				id: "0DE4AD6B7A754201"
+				type: "item"
+				item: "rats:rat_upgrade_placer"
+			}]
+			rewards: [
+				{
+					id: "7A8F3717622A5CEC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7353046EA15EFD06"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 7.5d
+			id: "22B1DA7A95472EE3"
+			tasks: [{
+				id: "7D8F571F06E2299A"
+				type: "item"
+				item: "rats:rat_upgrade_aristocrat"
+			}]
+			rewards: [
+				{
+					id: "57651986B9CBF681"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 16
+				}
+				{
+					id: "06045083E6C4FCC6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "630069D70E104B99"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 7.0d
+			id: "34FF477FFD32A30B"
+			tasks: [{
+				id: "467A8A0D0981A9E9"
+				type: "item"
+				item: "rats:rat_upgrade_enchanter"
+			}]
+			rewards: [
+				{
+					id: "679F85572BD7F601"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "04201C47092AB4B5"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 6.0d
+			id: "053096F5A26E5756"
+			tasks: [{
+				id: "228EE29E7039FA13"
+				type: "item"
+				item: "rats:rat_upgrade_disenchanter"
+			}]
+			rewards: [
+				{
+					id: "605D5ACCA2F4EE61"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "48BB21F2DD219B8C"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 12.5d
+			dependencies: ["0B6805DDCC80B95D"]
+			id: "097D58313D852AF1"
+			tasks: [{
+				id: "3B905573B947DD5C"
+				type: "item"
+				item: "rats:rat_upgrade_chicken_mount"
+			}]
+			rewards: [
+				{
+					id: "30B909056B27F0BF"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "6DF12C6D590C8868"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 13.5d
+			dependencies: ["0B6805DDCC80B95D"]
+			id: "508BCB6F806983EE"
+			tasks: [{
+				id: "18B735287888E21F"
+				type: "item"
+				item: "rats:rat_upgrade_golem_mount"
+			}]
+			rewards: [
+				{
+					id: "4E49ED6852C1F8F7"
+					type: "item"
+					item: "kubejs:golem_summoner"
+				}
+				{
+					id: "28052D47A7BD0DB4"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "11D8D1DB2DF580F2"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 14.5d
+			dependencies: ["0B6805DDCC80B95D"]
+			id: "33409FB8CE0F4CE0"
+			tasks: [{
+				id: "7662F4A302E6019E"
+				type: "item"
+				item: "rats:rat_upgrade_strider_mount"
+			}]
+			rewards: [
+				{
+					id: "0490D376E98E3E0A"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "5F89BBF4EC6D5611"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 14.5d
+			dependencies: ["0B6805DDCC80B95D"]
+			id: "509B37D6CB63BC4E"
+			tasks: [{
+				id: "00FC44E8078C2EDF"
+				type: "item"
+				item: "rats:rat_upgrade_beast_mount"
+			}]
+			rewards: [
+				{
+					id: "42D836B3A3A86E95"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "17AE08D2A637D7D7"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 13.5d
+			dependencies: ["0B6805DDCC80B95D"]
+			id: "24FC741486C10584"
+			tasks: [{
+				id: "346FF757DD6BC7EA"
+				type: "item"
+				item: "rats:rat_upgrade_automaton_mount"
+			}]
+			rewards: [
+				{
+					id: "21879E4772CB1238"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "3AB5243D17856480"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 12.5d
+			dependencies: ["0B6805DDCC80B95D"]
+			id: "4C4E75A6EE245185"
+			tasks: [{
+				id: "135065A3D95FD2D3"
+				type: "item"
+				item: "rats:rat_upgrade_biplane_mount"
+			}]
+			rewards: [
+				{
+					id: "139EC16C5DA13688"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "05AF672761DDB128"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 13.5d
+			id: "0B6805DDCC80B95D"
+			tasks: [{
+				id: "1F97F03890244115"
+				type: "item"
+				item: "rats:rat_upgrade_basic_mount"
+			}]
+			rewards: [
+				{
+					id: "03B6E4DB071A15AE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2A5EB97B62E6D4CD"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 15.5d
+			id: "7FB5338CE16D57F2"
+			tasks: [{
+				id: "09B1A9FF5169AC28"
+				type: "item"
+				item: "rats:rat_upgrade_angel"
+			}]
+			rewards: [
+				{
+					id: "48D28B0E48028C4D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "13A7412829B92348"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 15.5d
+			id: "3FB5E9947BC5526F"
+			tasks: [{
+				id: "6AA6D8DF42334EB0"
+				type: "item"
+				item: "rats:rat_upgrade_voodoo"
+			}]
+			rewards: [
+				{
+					id: "49C34430792537DF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "55C7B9F24AB07ACC"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 16.5d
+			id: "6DC933F9209BDB83"
+			tasks: [{
+				id: "19079D0ACF2D31CB"
+				type: "item"
+				item: "rats:rat_upgrade_strength"
+			}]
+			rewards: [
+				{
+					id: "16A66269C889E256"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3087790826016D98"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 17.5d
+			dependencies: ["6DC933F9209BDB83"]
+			id: "7B129AB6672E7418"
+			tasks: [{
+				id: "6F7A7AEC33537BE2"
+				type: "item"
+				item: "rats:rat_upgrade_warrior"
+			}]
+			rewards: [
+				{
+					id: "14014E4E988EF21D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "06E87496A1E94CD3"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 18.5d
+			hide_dependency_lines: false
+			dependencies: [
+				"00000000000006B9"
+				"7B129AB6672E7418"
+			]
+			id: "7008682D26DA144F"
+			tasks: [{
+				id: "39D9F09E6FAF8500"
+				type: "item"
+				item: "rats:rat_upgrade_god"
+			}]
+			rewards: [
+				{
+					id: "61506B45DACD2D61"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "63F0062CCC76C201"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 19.5d
+			dependencies: ["7008682D26DA144F"]
+			id: "55FC089E694BCD67"
+			tasks: [{
+				id: "035E437953DA3794"
+				type: "item"
+				item: "rats:rat_upgrade_nonbeliever"
+			}]
+			rewards: [
+				{
+					id: "7982D8AD14E60316"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "54DC693F043EFBBC"
+					type: "item"
+					item: "kubejs:affixgear5"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 16.5d
+			id: "2D930600870FE191"
+			tasks: [{
+				id: "482D44858A7D3347"
+				type: "item"
+				item: "rats:rat_upgrade_bow"
+			}]
+			rewards: [
+				{
+					id: "5EE4AB68BD73A9FD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0225E284EE047799"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 16.5d
+			id: "1C7B434B253E17E6"
+			tasks: [{
+				id: "5D1FEB6292F46524"
+				type: "item"
+				item: "rats:rat_upgrade_crossbow"
+			}]
+			rewards: [
+				{
+					id: "7B06510A3B2E2EC5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "21907F7E05E4751C"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 16.5d
+			id: "241127EFDB02DB9B"
+			tasks: [{
+				id: "76E92FB02110F0C4"
+				type: "item"
+				item: "rats:rat_upgrade_tnt"
+			}]
+			rewards: [
+				{
+					id: "02E1DC32D2DAB372"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5D5C99FFE92DADC8"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 17.5d
+			dependencies: ["241127EFDB02DB9B"]
+			id: "3CC1805764C1658E"
+			tasks: [{
+				id: "3CC423CFE040A34E"
+				type: "item"
+				item: "rats:rat_upgrade_tnt_survivor"
+			}]
+			rewards: [
+				{
+					id: "1946CDBD9FA90AB7"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "104350585BA132C2"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 16.5d
+			id: "02FEED88FBE7E98D"
+			tasks: [{
+				id: "1D0F53513C5BC991"
+				type: "item"
+				item: "rats:rat_upgrade_bee"
+			}]
+			rewards: [
+				{
+					id: "2D1795F8AD857D8A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "554C347DA9CD6866"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 22.5d
+			dependencies: ["421B66EE946E4DB2"]
+			id: "498BC71A550A6124"
+			tasks: [{
+				id: "17820839E6661616"
+				type: "item"
+				item: "rats:rat_upgrade_feral_bite"
+			}]
+			rewards: [
+				{
+					id: "4CC3428828D1C099"
+					type: "item"
+					item: "rats:marbled_cheese_raw"
+					count: 16
+				}
+				{
+					id: "4788CFEEC37450F0"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "7629ADAD6AB6BD2F"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 22.5d
+			dependencies: ["421B66EE946E4DB2"]
+			id: "64D70F6A25E39BAB"
+			tasks: [{
+				id: "38256A3803EB8892"
+				type: "item"
+				item: "rats:rat_upgrade_buccaneer"
+			}]
+			rewards: [
+				{
+					id: "2F5860C26A7C5A1B"
+					type: "item"
+					item: "rats:marbled_cheese_raw"
+					count: 16
+				}
+				{
+					id: "6839EBC57FF8D547"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "2583019E859FEDA8"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 23.5d
+			dependencies: ["421B66EE946E4DB2"]
+			id: "26B3CB0A128BA399"
+			tasks: [{
+				id: "4CA61756C90F9BE8"
+				type: "item"
+				item: "rats:rat_upgrade_ratinator"
+			}]
+			rewards: [
+				{
+					id: "4B16A1A8DC04C152"
+					type: "item"
+					item: "rats:marbled_cheese_raw"
+					count: 16
+				}
+				{
+					id: "401E85A2080E6EA4"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "5A53C344D831A8AF"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 23.5d
+			dependencies: ["421B66EE946E4DB2"]
+			id: "38D3A05330E2682F"
+			tasks: [{
+				id: "2854ABA5DFA50D4F"
+				type: "item"
+				item: "rats:rat_upgrade_psychic"
+			}]
+			rewards: [
+				{
+					id: "2F49B3308352A8F7"
+					type: "item"
+					item: "rats:marbled_cheese_raw"
+					count: 16
+				}
+				{
+					id: "60EED4BD1554DDA9"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "3269AA1455DF9214"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 23.0d
+			id: "421B66EE946E4DB2"
+			tasks: [{
+				id: "3D4E5A414749C8DA"
+				type: "item"
+				item: "rats:rat_upgrade_basic_ratlantean"
+			}]
+			rewards: [
+				{
+					id: "4C259195F382BA09"
+					type: "item"
+					item: "rats:marbled_cheese_raw"
+					count: 16
+				}
+				{
+					id: "0137BDAFE01E1667"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2318F821F7622047"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 21.0d
+			id: "1F2A8F36EBA07823"
+			tasks: [{
+				id: "2E504689B30C8CE8"
+				type: "item"
+				item: "rats:rat_upgrade_archeologist"
+			}]
+			rewards: [
+				{
+					id: "58173A340F505F22"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "237C75D81B7A2FE1"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 21.0d
+			id: "6EEAF1CFD3CC4DC4"
+			tasks: [{
+				id: "0C5AC13EBAD7B9B2"
+				type: "item"
+				item: "rats:rat_upgrade_gemcutter"
+			}]
+			rewards: [
+				{
+					id: "5BD18D38B107AF7D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4F6D29512EF834AF"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 21.0d
+			id: "773EA6CF08385008"
+			tasks: [{
+				id: "7B4E1E346840D8CB"
+				type: "item"
+				item: "rats:rat_upgrade_chef"
+			}]
+			rewards: [
+				{
+					id: "3C448F87F9DAA3EC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0D260B7231E7557D"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			subtitle: "Your Rat Now!"
+			optional: true
+			id: "064EA1CBD2869B3A"
+			tasks: [{
+				id: "340525E3C9FD5165"
+				type: "item"
+				item: "rats:rat_papers"
+			}]
+			rewards: [
+				{
+					id: "2E2116CF014BA79A"
+					type: "item"
+					item: "rats:cheese"
+					count: 4
+				}
+				{
+					id: "22DC06BE4CB943C6"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 8
+				}
+				{
+					id: "2486D57B3A4E217F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 6.0d
+			id: "141567CC1BD0915E"
+			tasks: [{
+				id: "087353D3AD6FFD32"
+				type: "item"
+				item: "rats:rat_upgrade_platter"
+			}]
+			rewards: [
+				{
+					id: "3D9C929C27A91BAB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "078CD84FD97DA72D"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+type = customizablemenus
+
+com.blamejared.tipthescales.client.FancyVideoSettingsScreen {
+}
+
+com.fuzs.consoleexperience.client.gui.screen.FancyWorldLoadProgressScreen {
+}
+
+betteradvancements.gui.BetterAdvancementsScreen {
+}
+
+com.fuzs.consoleexperience.client.gui.screen.FancyDirtMessageScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
+}
+
+net.coderbot.iris.gui.screen.ShaderPackScreen {
+}
+

@@ -1,0 +1,59 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "/ores/custom_crystal/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#76CEE0",
+    "primaryColor": "#ffffff",
+    "secondaryLayerTexture":"ores/gem/custom/custom_gem_bee_secondary",
+    "secondaryColor": "#76CEE0",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations": [
+      {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:logs",
+        "outputs": [
+          {
+            "outputID": "integrateddynamics:menril_log"
+          }
+        ]
+      },
+      {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "integrateddynamics:menril_log",
+        "outputs": [
+          {
+            "outputID": "integrateddynamics:menril_log_filled"
+          }
+        ]
+      },
+      {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:leaves",
+        "outputs": [
+          {
+            "outputID": "integrateddynamics:menril_leaves"
+          }
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "integrateddynamics:crystalized_menril_chunk"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

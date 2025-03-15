@@ -1,0 +1,2475 @@
+{
+	id: "0000000000000107"
+	group: "796F01D2DC56C7C2"
+	order_index: 0
+	filename: "electrical_desire"
+	title: "Sparks \\& Mechanics"
+	icon: "immersiveengineering:powerpack"
+	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 4.0d
+			y: -6.0d
+			shape: "gear"
+			subtitle: "Pififul Generation"
+			hide_dependency_lines: true
+			id: "0000000000000108"
+			tasks: [{
+				id: "0000000000000109"
+				type: "item"
+				item: "industrialforegoing:pitiful_generator"
+			}]
+			rewards: [
+				{
+					id: "0000000000000373"
+					type: "item"
+					item: "minecraft:coal_block"
+				}
+				{
+					id: "0000000000000374"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "The Mechanical Way"
+			x: -2.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "Mechanical Power"
+			size: 2.0d
+			id: "0000000000000157"
+			tasks: [{
+				id: "0000000000000158"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [
+				{
+					id: "0000000000000371"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 16
+				}
+				{
+					id: "0000000000000372"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			subtitle: "Aquatic Stress"
+			dependencies: ["0000000000000157"]
+			id: "000000000000030B"
+			tasks: [{
+				id: "000000000000030C"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [
+				{
+					id: "0000000000000376"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "22D0A84C08B02E6E"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			subtitle: "Better Than The Other Press"
+			dependencies: ["0000000000000157"]
+			id: "0000000000000311"
+			tasks: [
+				{
+					id: "0000000000000312"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "387863EB1709C622"
+					type: "item"
+					item: "create:depot"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000037E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "361DBB73F3B4E6E0"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "citadel:fancy_item"
+				Count: 1b
+				tag: {
+					DisplaySpin: 1
+					DisplayItem: "immersiveengineering:coke_oven"
+					DisplayShake: 0
+					DisplayScale: 2
+					DisplayBob: 0
+					DisplayZoom: 0
+				}
+			}
+			x: 7.5d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "Coke Fabrication"
+			dependencies: ["0000000000000699"]
+			dependency_requirement: "all_started"
+			id: "0000000000000315"
+			tasks: [
+				{
+					id: "55FECE322606AD4A"
+					type: "observation"
+					title: "&eBuild: &aCoke Oven"
+					icon: {
+						id: "citadel:fancy_item"
+						Count: 1b
+						tag: {
+							DisplaySpin: 1
+							DisplayItem: "immersiveengineering:coke_oven"
+							DisplayShake: 0
+							DisplayScale: 2
+							DisplayBob: 0
+							DisplayZoom: 0
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:coke_oven"
+				}
+				{
+					id: "7B725AD41914DF41"
+					type: "item"
+					item: "immersiveengineering:cokebrick"
+					count: 27L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000383"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "5CD60AA405631758"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "citadel:fancy_item"
+				Count: 1b
+				tag: {
+					DisplaySpin: 1
+					DisplayItem: "immersiveengineering:alloy_smelter"
+					DisplayShake: 0
+					DisplayScale: 2
+					DisplayBob: 0
+					DisplayZoom: 0
+				}
+			}
+			x: 7.5d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "Simply Alloying"
+			dependencies: ["0000000000000699"]
+			id: "0000000000000317"
+			tasks: [
+				{
+					id: "79FD73879ACF5ACC"
+					type: "observation"
+					title: "&eBuild: &aAlloy Kiln"
+					icon: {
+						id: "citadel:fancy_item"
+						Count: 1b
+						tag: {
+							DisplaySpin: 1
+							DisplayItem: "immersiveengineering:alloy_smelter"
+							DisplayShake: 0
+							DisplayScale: 2
+							DisplayBob: 0
+							DisplayZoom: 0
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:alloy_smelter"
+				}
+				{
+					id: "3E176B0D67CA3923"
+					type: "item"
+					item: "immersiveengineering:alloybrick"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000382"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "163BADAF71F82FA4"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			subtitle: "Transportation With Stress"
+			id: "000000000000031D"
+			tasks: [{
+				id: "000000000000031E"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [
+				{
+					id: "00000000000004C5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5EE9F0BD55DDED38"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			subtitle: "Not Just For Making Cake"
+			dependencies: ["0000000000000157"]
+			dependency_requirement: "one_completed"
+			id: "0000000000000321"
+			tasks: [
+				{
+					id: "0000000000000322"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "0000000000000323"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000380"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "350BA4051AE52CFD"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 6.0d
+			subtitle: "Better Than The Other Press"
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000699"
+				"4F1AB519E7B23A3F"
+			]
+			size: 2.0d
+			id: "0000000000000681"
+			tasks: [{
+				id: "0000000000000687"
+				type: "advancement"
+				title: "&eBuild: &aMetal Press"
+				icon: {
+					id: "citadel:fancy_item"
+					Count: 1b
+					tag: {
+						DisplaySpin: 0
+						DisplayItem: "immersiveengineering:metal_press"
+						DisplayShake: 0
+						DisplayScale: 2
+						DisplayBob: 0
+						DisplayZoom: 0
+					}
+				}
+				advancement: "immersiveengineering:main/mb_metalpress"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0000000000000697"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "17220CD433AAB70A"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			title: "Engineer's Hammer"
+			x: 9.0d
+			y: 0.0d
+			subtitle: "Mallet O' Multiblocks"
+			hide_dependency_lines: true
+			id: "0000000000000699"
+			tasks: [{
+				id: "000000000000069A"
+				type: "advancement"
+				title: "Craft Or Find The Hammer"
+				icon: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "immersiveengineering:main/craft_hammer"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "000000000000069C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			icon: "ironfurnaces:iron_furnace"
+			x: 0.0d
+			y: -6.0d
+			shape: "square"
+			subtitle: "Furnace Upgrade"
+			id: "6F6030B595C4C386"
+			tasks: [{
+				id: "0673CE520B4FD21E"
+				type: "item"
+				title: "Iron/Copper Furnace"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "ironfurnaces:upgrade_iron"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "ironfurnaces:upgrade_iron2"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "ironfurnaces:iron_furnace"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "ironfurnaces:upgrade_copper"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "ironfurnaces:copper_furnace"
+								Count: 1b
+							}
+						]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "238C9F370E1E87D3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			shape: "square"
+			subtitle: "Shinier Upgrade"
+			hide_dependency_lines: true
+			dependencies: ["6F6030B595C4C386"]
+			dependency_requirement: "one_completed"
+			id: "13C723836E77DE25"
+			tasks: [{
+				id: "38569D33166068E7"
+				type: "item"
+				title: "Gold/Silver Furnace"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "ironfurnaces:upgrade_gold2"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "ironfurnaces:upgrade_gold"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "ironfurnaces:gold_furnace"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "ironfurnaces:upgrade_silver2"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "ironfurnaces:upgrade_silver"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "ironfurnaces:silver_furnace"
+								Count: 1b
+							}
+						]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "67E514DF049D54A8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			icon: "ironfurnaces:diamond_furnace"
+			x: 0.0d
+			y: -8.0d
+			shape: "square"
+			subtitle: "Marvellous Upgrade"
+			dependencies: ["13C723836E77DE25"]
+			dependency_requirement: "one_completed"
+			id: "591FD5DCB6242F99"
+			tasks: [{
+				id: "00CB8075EEB995D9"
+				type: "item"
+				title: "Diamond Furnace"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironfurnaces:upgrade_diamond"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:diamond_furnace"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "4B55E1D08EF843F8"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+		}
+		{
+			icon: "ironfurnaces:obsidian_furnace"
+			x: 0.0d
+			y: -10.0d
+			shape: "square"
+			subtitle: "Blasting Furnace"
+			dependencies: ["775160776DD76B98"]
+			dependency_requirement: "one_completed"
+			id: "2A2010EEBF0B3DA3"
+			tasks: [{
+				id: "153E80A8AEBBB054"
+				type: "item"
+				title: "Obsidian Furnace"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironfurnaces:upgrade_obsidian"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:upgrade_obsidian2"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:obsidian_furnace"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "72A3772515259B3D"
+					type: "item"
+					item: "minecraft:charcoal"
+					count: 64
+				}
+				{
+					id: "47A472D8923FF57B"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			shape: "square"
+			subtitle: "Luxurious Upgrade"
+			dependencies: ["591FD5DCB6242F99"]
+			id: "775160776DD76B98"
+			tasks: [{
+				id: "20802D62BF97AB92"
+				type: "item"
+				title: "Crystal/Emerald Furnace"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "ironfurnaces:upgrade_crystal"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "ironfurnaces:upgrade_emerald"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "ironfurnaces:emerald_furnace"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "ironfurnaces:crystal_furnace"
+								Count: 1b
+							}
+						]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "708D8A732920C68A"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: -11.0d
+			shape: "square"
+			subtitle: "Racing Furnace"
+			dependencies: ["2A2010EEBF0B3DA3"]
+			id: "105E86ACDBEC05B3"
+			tasks: [{
+				id: "0CDF3DA4A76013A4"
+				type: "item"
+				item: "ironfurnaces:netherite_furnace"
+			}]
+			rewards: [
+				{
+					id: "1BA85F794556F5A6"
+					type: "item"
+					item: {
+						id: "ironfurnaces:rainbow_coal"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "31A69A525E1DD5F6"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -12.0d
+			subtitle: "Blasting, Smoking, Speed..."
+			id: "127988AC2C569C03"
+			tasks: [
+				{
+					id: "20AA1CCA0181E709"
+					type: "item"
+					item: "ironfurnaces:augment_blasting"
+				}
+				{
+					id: "738CD32106FBF376"
+					type: "item"
+					item: "ironfurnaces:augment_smoking"
+				}
+				{
+					id: "10532212DD868E07"
+					type: "item"
+					item: "ironfurnaces:augment_speed"
+				}
+				{
+					id: "60D3555609220E40"
+					type: "item"
+					item: "ironfurnaces:augment_fuel"
+				}
+			]
+			rewards: [
+				{
+					id: "6BB62D11BFDE52F7"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "10F2DD30DD4CA1D7"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear3"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			subtitle: "Photovoltaic Series, Type A"
+			id: "305257C2A0DAF673"
+			tasks: [{
+				id: "6ABBF1B24EE839BB"
+				type: "item"
+				item: "powah:solar_panel_starter"
+			}]
+			rewards: [
+				{
+					id: "7D3EB8F57BDD4046"
+					type: "item"
+					item: "powah:dielectric_casing"
+				}
+				{
+					id: "1C19957978F314FD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 19.0d
+			y: -1.0d
+			subtitle: "Beginner Energy Cube"
+			id: "264E7C4E54A5EE0B"
+			tasks: [{
+				id: "6F2B84C71EF59A1E"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+			rewards: [
+				{
+					id: "0194B9B970CD9108"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+					count: 2
+				}
+				{
+					id: "4EC632B55462FCDF"
+					type: "item"
+					item: "immersiveengineering:connector_lv_relay"
+					count: 2
+				}
+				{
+					id: "0BC32CADB5A6E501"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 19.0d
+			y: 0.0d
+			subtitle: "Advanced Energy Cube"
+			id: "4FE2BC29A3DED45B"
+			tasks: [{
+				id: "6600557E45BDF747"
+				type: "item"
+				item: "immersiveengineering:capacitor_mv"
+			}]
+			rewards: [
+				{
+					id: "306DD4FE0E8439FD"
+					type: "item"
+					item: "immersiveengineering:connector_mv"
+					count: 2
+				}
+				{
+					id: "09FBBB0B7FCA0F61"
+					type: "item"
+					item: "immersiveengineering:connector_mv_relay"
+					count: 2
+				}
+				{
+					id: "6900D817F69FEC94"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 19.0d
+			y: 1.0d
+			subtitle: "Expert Energy Cube"
+			id: "6B0A398083A6C2B3"
+			tasks: [{
+				id: "3882B44A14E32C72"
+				type: "item"
+				item: "immersiveengineering:capacitor_hv"
+			}]
+			rewards: [
+				{
+					id: "0422BEB5DC7339BB"
+					type: "item"
+					item: "immersiveengineering:connector_hv"
+					count: 2
+				}
+				{
+					id: "24EBF4A015796881"
+					type: "item"
+					item: "immersiveengineering:connector_hv_relay"
+					count: 2
+				}
+				{
+					id: "66F06EA46D8478CC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			subtitle: "Basic Speed"
+			dependencies: ["305257C2A0DAF673"]
+			id: "09706F6971A99FB5"
+			tasks: [{
+				id: "1A8D89FE59D4361B"
+				type: "item"
+				item: "powah:solar_panel_basic"
+			}]
+			rewards: [
+				{
+					id: "764DBF05EF3194B4"
+					type: "item"
+					item: "powah:solar_panel_starter"
+				}
+				{
+					id: "20FD7D586A659544"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			subtitle: "Normal Speed"
+			dependencies: ["09706F6971A99FB5"]
+			id: "4035455FDCE205C0"
+			tasks: [{
+				id: "6FF208773EFC0CBC"
+				type: "item"
+				item: "powah:solar_panel_hardened"
+			}]
+			rewards: [
+				{
+					id: "7ED7BDF4C53D2E46"
+					type: "item"
+					item: "powah:solar_panel_basic"
+				}
+				{
+					id: "0222C51A412987B9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			subtitle: "Blaze-Like Speed"
+			dependencies: ["4035455FDCE205C0"]
+			id: "5C22E6FB74A9BEBE"
+			tasks: [{
+				id: "157BB61AED461A21"
+				type: "item"
+				item: "powah:solar_panel_blazing"
+			}]
+			rewards: [
+				{
+					id: "389605A2F7FE016D"
+					type: "item"
+					item: "powah:solar_panel_hardened"
+				}
+				{
+					id: "77C1C76217029D81"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			subtitle: "Niotic Speed"
+			dependencies: ["5C22E6FB74A9BEBE"]
+			id: "226F5C1B109F5F27"
+			tasks: [{
+				id: "31FE632604AEA79B"
+				type: "item"
+				item: "powah:solar_panel_niotic"
+			}]
+			rewards: [
+				{
+					id: "37512FEA1BD4BEA3"
+					type: "item"
+					item: "powah:solar_panel_blazing"
+				}
+				{
+					id: "4D596D28BA41D210"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			subtitle: "Ghostly Speed"
+			dependencies: ["226F5C1B109F5F27"]
+			id: "6DDD92936754E3F0"
+			tasks: [{
+				id: "32179B3BF0058480"
+				type: "item"
+				item: "powah:solar_panel_spirited"
+			}]
+			rewards: [
+				{
+					id: "5AD1EB1C0F6BDB31"
+					type: "item"
+					item: "powah:solar_panel_niotic"
+				}
+				{
+					id: "024742F717D3398A"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			subtitle: "Nitro Speed"
+			hide_dependency_lines: false
+			dependencies: ["6DDD92936754E3F0"]
+			id: "38CA95685E6442C9"
+			tasks: [{
+				id: "27056FEE2A6B6C79"
+				type: "item"
+				item: "powah:solar_panel_nitro"
+			}]
+			rewards: [
+				{
+					id: "71ABAE77E570058A"
+					type: "item"
+					item: "powah:solar_panel_spirited"
+				}
+				{
+					id: "63E782D67638D811"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "49ED3632881F6719"
+					type: "item"
+					item: "kubejs:affixgear6"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			subtitle: "Manual Stress"
+			dependencies: ["0000000000000157"]
+			id: "4380F3BAC14EF46D"
+			tasks: [{
+				id: "0F064A07FF3F1877"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+			rewards: [
+				{
+					id: "22F0F81F8FF3CCB0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6500B455E4FB63D4"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -3.5d
+			subtitle: "Fuel Burner Series, Type A"
+			hide_dependency_lines: true
+			dependencies: ["0000000000000108"]
+			id: "4C4317CA337A381B"
+			tasks: [{
+				id: "0F75AD3D1AC09C3C"
+				type: "item"
+				item: "powah:furnator_starter"
+			}]
+			rewards: [
+				{
+					id: "085844735EB07F1A"
+					type: "item"
+					item: "kubejs:diorite_alloy"
+					count: 2
+				}
+				{
+					id: "497BB5D8336EDB94"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			subtitle: "Basic Speed"
+			dependencies: ["4C4317CA337A381B"]
+			id: "3B48C28B9EDEADBE"
+			tasks: [{
+				id: "0333C89A0A33E526"
+				type: "item"
+				item: "powah:furnator_basic"
+			}]
+			rewards: [
+				{
+					id: "333FC65DF9E9259F"
+					type: "item"
+					item: "kubejs:diorite_alloy"
+					count: 4
+				}
+				{
+					id: "7FDDFB35AE3A9B76"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			subtitle: "Normal Speed"
+			dependencies: ["3B48C28B9EDEADBE"]
+			id: "63C894958826F58E"
+			tasks: [{
+				id: "6C39E71DF7C9FDB9"
+				type: "item"
+				item: "powah:furnator_hardened"
+			}]
+			rewards: [
+				{
+					id: "449A3EC1A7AE3273"
+					type: "item"
+					item: "kubejs:diorite_alloy"
+					count: 6
+				}
+				{
+					id: "38259CCA80368B15"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			subtitle: "Blaze-Like Speed"
+			dependencies: ["63C894958826F58E"]
+			id: "47D37534B2B04D6E"
+			tasks: [{
+				id: "6928BFD6515255E1"
+				type: "item"
+				item: "powah:furnator_blazing"
+			}]
+			rewards: [
+				{
+					id: "4E78A93835E52652"
+					type: "item"
+					item: "kubejs:diorite_alloy"
+					count: 8
+				}
+				{
+					id: "45FA775F7042EDF6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			subtitle: "Niotic Speed"
+			dependencies: ["47D37534B2B04D6E"]
+			id: "095F1D8EA65A49E8"
+			tasks: [{
+				id: "14D593DDD534A104"
+				type: "item"
+				item: "powah:furnator_niotic"
+			}]
+			rewards: [
+				{
+					id: "3A05E7733F93D33F"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "638B075A34E1D2AC"
+					type: "item"
+					item: "kubejs:diorite_alloy"
+					count: 8
+				}
+				{
+					id: "62819DF8C03C6222"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			subtitle: "Ghostly Speed"
+			dependencies: ["095F1D8EA65A49E8"]
+			id: "0F081487CDB14F32"
+			tasks: [{
+				id: "43302BEE2FEC6EB5"
+				type: "item"
+				item: "powah:furnator_spirited"
+			}]
+			rewards: [
+				{
+					id: "462C1678EC63A752"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "5663D847E8ECEEDB"
+					type: "item"
+					item: "kubejs:diorite_alloy"
+					count: 8
+				}
+				{
+					id: "08AF38B6FD015A90"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			subtitle: "Nitro Speed"
+			description: [""]
+			dependencies: ["0F081487CDB14F32"]
+			id: "6ACF6CE0396B4293"
+			tasks: [{
+				id: "0E1F1AFC43D63650"
+				type: "item"
+				item: "powah:furnator_nitro"
+			}]
+			rewards: [
+				{
+					id: "6A9ED9D913D331EF"
+					type: "item"
+					item: "kubejs:diorite_alloy"
+					count: 16
+				}
+				{
+					id: "750C669668918D2B"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "33E983C8822C1574"
+					type: "item"
+					item: "kubejs:affixgear6"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			subtitle: "Not So Tough Crushing"
+			dependencies: ["0000000000000157"]
+			id: "7523BA28663C4063"
+			tasks: [{
+				id: "0E0513AC70D7FB58"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [
+				{
+					id: "237131A6002A623E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "7F0A53E3D29CA909"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			subtitle: "Project The Blueprint"
+			id: "20D8F1E911D85545"
+			tasks: [{
+				id: "31A93A11437403D1"
+				type: "item"
+				item: "immersivepetroleum:projector"
+			}]
+			rewards: [
+				{
+					id: "3341D5009F913EFE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3EC331D05757092D"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -7.0d
+			subtitle: "Magical Liquid Generation"
+			hide_dependency_lines: true
+			dependencies: ["0E421CFD4190E556"]
+			id: "686DF7B775F7FD93"
+			tasks: [{
+				id: "09E30B0DA4A40D34"
+				type: "item"
+				item: "forcecraft:force_engine"
+			}]
+			rewards: [
+				{
+					id: "01E0D253665D4867"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "616CB4E34B66940E"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -9.0d
+			subtitle: "Measure FE"
+			size: 2.0d
+			id: "66906F44679B92FC"
+			tasks: [{
+				id: "0CCCC6672B691249"
+				type: "item"
+				item: "energymeter:meter"
+			}]
+			rewards: [
+				{
+					id: "13849D6607DBD0DF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "01F7505C4A49B740"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "citadel:fancy_item"
+				Count: 1b
+				tag: {
+					DisplaySpin: 1
+					DisplayItem: "immersiveengineering:blast_furnace"
+					DisplayShake: 0
+					DisplayScale: 2
+					DisplayBob: 0
+					DisplayZoom: 0
+				}
+			}
+			x: 13.5d
+			y: 0.0d
+			subtitle: "Tinker's Techniques"
+			dependencies: ["0000000000000699"]
+			id: "5C0541B0209B7F45"
+			tasks: [
+				{
+					id: "50B59933D45B9879"
+					type: "advancement"
+					title: "&eBuild: &aCrude Blast Furnace"
+					icon: {
+						id: "citadel:fancy_item"
+						Count: 1b
+						tag: {
+							DisplaySpin: 1
+							DisplayItem: "immersiveengineering:blast_furnace"
+							DisplayShake: 0
+							DisplayScale: 2
+							DisplayBob: 0
+							DisplayZoom: 0
+						}
+					}
+					advancement: "immersiveengineering:main/mb_blastfurnace"
+					criterion: ""
+				}
+				{
+					id: "58ADB02F68D3AE04"
+					type: "item"
+					item: "immersiveengineering:blastbrick"
+					count: 27L
+				}
+				{
+					id: "4F1AB519E7B23A3F"
+					type: "item"
+					item: "immersiveengineering:ingot_steel"
+				}
+			]
+			rewards: [
+				{
+					id: "04B3DA95A8178DE2"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "27AC4CEAFA5CE980"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "citadel:fancy_item"
+				Count: 1b
+				tag: {
+					DisplaySpin: 0
+					DisplayItem: "immersiveengineering:excavator"
+					DisplayShake: 0
+					DisplayScale: 2
+					DisplayBob: 0
+					DisplayZoom: 0
+				}
+			}
+			x: 7.0d
+			y: -6.0d
+			subtitle: "Ores Out Of Nothing"
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000699"
+				"4F1AB519E7B23A3F"
+			]
+			size: 2.0d
+			id: "5B4CFEBDAFEDE635"
+			tasks: [
+				{
+					id: "3F71EF3D1603E033"
+					type: "advancement"
+					title: "&eBuild: &aExcavator"
+					icon: {
+						id: "citadel:fancy_item"
+						Count: 1b
+						tag: {
+							DisplaySpin: 0
+							DisplayItem: "immersiveengineering:excavator"
+							DisplayShake: 0
+							DisplayScale: 1
+							DisplayBob: 0
+							DisplayZoom: 0
+						}
+					}
+					advancement: "immersiveengineering:main/mb_excavator"
+					criterion: ""
+				}
+				{
+					id: "2809E1B211E9AF70"
+					type: "observation"
+					title: "&eBuild: &aBucket Wheel"
+					icon: {
+						id: "citadel:fancy_item"
+						Count: 1b
+						tag: {
+							DisplaySpin: 0
+							DisplayItem: "immersiveengineering:bucket_wheel"
+							DisplayShake: 0
+							DisplayScale: 1
+							DisplayBob: 0
+							DisplayZoom: 0
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:bucket_wheel"
+				}
+			]
+			rewards: [
+				{
+					id: "07B7879897D688D2"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "333613AB2320FBBF"
+					type: "item"
+					item: "kubejs:affixgear4"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -6.0d
+			subtitle: "Hearing Damage Included"
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000699"
+				"4F1AB519E7B23A3F"
+			]
+			size: 2.0d
+			id: "36848C89850E34F2"
+			tasks: [{
+				id: "1B4909A22D3D1E73"
+				type: "advancement"
+				title: "&eBuild: &aDiesel Generator"
+				icon: {
+					id: "citadel:fancy_item"
+					Count: 1b
+					tag: {
+						DisplaySpin: 0
+						DisplayItem: "immersiveengineering:diesel_generator"
+						DisplayShake: 0
+						DisplayScale: 2
+						DisplayBob: 0
+						DisplayZoom: 0
+					}
+				}
+				advancement: "immersiveengineering:main/mb_dieselgen"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2478BA4358577DD9"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "29425636343C2EC0"
+					type: "item"
+					item: "kubejs:affixgear4"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 6.0d
+			subtitle: "Be Careful With That!"
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000699"
+				"4F1AB519E7B23A3F"
+			]
+			size: 2.0d
+			id: "691A90F3E4EA4ABA"
+			tasks: [{
+				id: "696E2C4F5A7E924A"
+				type: "advancement"
+				title: "&eBuild: &aCrusher"
+				icon: {
+					id: "citadel:fancy_item"
+					Count: 1b
+					tag: {
+						DisplaySpin: 0
+						DisplayItem: "immersiveengineering:crusher"
+						DisplayShake: 0
+						DisplayScale: 2
+						DisplayBob: 0
+						DisplayZoom: 0
+					}
+				}
+				advancement: "immersiveengineering:main/mb_crusher"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3CF91D433FE7AD93"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "188FF3DDB5F84562"
+					type: "item"
+					item: "kubejs:affixgear4"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			subtitle: "Measure The Stress"
+			dependencies: ["0000000000000157"]
+			id: "6F0BDAE06555AA89"
+			tasks: [{
+				id: "055F8C947BE8945F"
+				type: "item"
+				item: "create:speedometer"
+			}]
+			rewards: [
+				{
+					id: "577D82345A11F4AE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "70878A3A709C33AD"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			subtitle: "Automated Steel"
+			dependencies: ["5C0541B0209B7F45"]
+			size: 2.0d
+			id: "454AC6C173492ED9"
+			tasks: [{
+				id: "308AF1FD99DB70CD"
+				type: "advancement"
+				title: "&eBuild: &aImproved Blast Furnace"
+				icon: {
+					id: "citadel:fancy_item"
+					Count: 1b
+					tag: {
+						DisplaySpin: 0
+						DisplayItem: "immersiveengineering:advanced_blast_furnace"
+						DisplayShake: 0
+						DisplayScale: 2
+						DisplayBob: 0
+						DisplayZoom: 0
+					}
+				}
+				advancement: "immersiveengineering:main/mb_improvedblastfurnace"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1900FCCDB746CB08"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "059091A543DE0C69"
+					type: "item"
+					item: "kubejs:affixgear4"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: 6.0d
+			subtitle: "Multi-Alloying-Machine"
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000699"
+				"4F1AB519E7B23A3F"
+			]
+			size: 2.0d
+			id: "63BB47FC26345E9A"
+			tasks: [{
+				id: "6CA21742E120A763"
+				type: "advancement"
+				title: "&eBuild: &aArc Furnace"
+				icon: {
+					id: "citadel:fancy_item"
+					Count: 1b
+					tag: {
+						DisplaySpin: 0
+						DisplayItem: "immersiveengineering:arc_furnace"
+						DisplayShake: 0
+						DisplayScale: 2
+						DisplayBob: 0
+						DisplayZoom: 0
+					}
+				}
+				advancement: "immersiveengineering:main/mb_arcfurnace"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0DCB511A2F467F15"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "6678E433B6E4D4ED"
+					type: "item"
+					item: "kubejs:affixgear5"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "citadel:fancy_item"
+				Count: 1b
+				tag: {
+					DisplaySpin: 0
+					DisplayItem: "immersiveengineering:sawmill"
+					DisplayShake: 0
+					DisplayScale: 2
+					DisplayBob: 0
+					DisplayZoom: 0
+				}
+			}
+			x: 13.0d
+			y: 6.0d
+			subtitle: "Carpenter's Value"
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000699"
+				"4F1AB519E7B23A3F"
+			]
+			size: 2.0d
+			id: "50E743AB8B4D0D02"
+			tasks: [
+				{
+					id: "1943434B998D54F1"
+					type: "observation"
+					title: "&eBuild: &aSawmill"
+					icon: {
+						id: "citadel:fancy_item"
+						Count: 1b
+						tag: {
+							DisplaySpin: 0
+							DisplayItem: "immersiveengineering:sawmill"
+							DisplayShake: 0
+							DisplayScale: 2
+							DisplayBob: 0
+							DisplayZoom: 0
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:sawmill"
+				}
+				{
+					id: "54B5C8F3F2F86B38"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 8L
+				}
+				{
+					id: "0FD022DE16124914"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 6L
+				}
+				{
+					id: "6A4D74F91A7D44A3"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 4L
+				}
+				{
+					id: "22C8DEB0E6F79A3D"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "45C82363941ED167"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "3DD2C42E4B93A87F"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "150C3F6D7DC97206"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "3622A02621DB1AB4"
+					type: "item"
+					item: "kubejs:affixgear4"
+					count: 2
+				}
+			]
+		}
+		{
+			icon: "immersiveengineering:manual"
+			x: 6.0d
+			y: 0.0d
+			subtitle: "Engineer's Knowledge"
+			id: "5C30C6617B43FCBF"
+			tasks: [{
+				id: "7EA59502F7E5F1CB"
+				type: "advancement"
+				title: "&eObtain: &aEngineer's Manual"
+				advancement: "immersiveengineering:main/root"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0AE37772A80063DB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			icon: {
+				id: "citadel:fancy_item"
+				Count: 1b
+				tag: {
+					DisplaySpin: 0
+					DisplayItem: "immersivepetroleum:cokerunit"
+					DisplayShake: 0
+					DisplayScale: 4
+					DisplayBob: 0
+					DisplayZoom: 0
+				}
+			}
+			x: 22.0d
+			y: -3.0d
+			subtitle: "Appraised \\& Approved Industry"
+			description: [""]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000699"
+				"4F1AB519E7B23A3F"
+			]
+			size: 2.0d
+			id: "6B82FE00C7447255"
+			tasks: [
+				{
+					id: "272798AC6C688249"
+					type: "observation"
+					title: "&eBuild: &aCoker"
+					icon: {
+						id: "citadel:fancy_item"
+						Count: 1b
+						tag: {
+							DisplaySpin: 0
+							DisplayItem: "immersivepetroleum:cokerunit"
+							DisplayShake: 0
+							DisplayScale: 1
+							DisplayBob: 0
+							DisplayZoom: 0
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersivepetroleum:cokerunit"
+				}
+				{
+					id: "4607514BC0C623C0"
+					type: "item"
+					item: "immersiveengineering:concrete"
+					count: 12L
+				}
+				{
+					id: "2052780699EA3C12"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 98L
+				}
+				{
+					id: "6821209B81F531AE"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 5L
+				}
+				{
+					id: "0FD4722021184E6C"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+				}
+				{
+					id: "68D4C88C489DAA55"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 5L
+				}
+				{
+					id: "19E2FF41C5D9C971"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "230649C5E7E5695E"
+					type: "item"
+					item: "immersiveengineering:concrete_tile"
+					count: 45L
+				}
+				{
+					id: "48FC430316BAFF5F"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 88L
+				}
+				{
+					id: "307064C1034C5B55"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 162L
+				}
+				{
+					id: "1C856048E07D41C9"
+					type: "item"
+					item: "immersiveengineering:slab_steel_scaffolding_standard"
+					count: 46L
+				}
+				{
+					id: "4D298CD292ABAF0B"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 47L
+				}
+				{
+					id: "41FBE1D07F9B6D79"
+					type: "item"
+					item: "immersiveengineering:steel_slope"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "1A97579EA4A4872A"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					id: "5ABA9199BB4D24E6"
+					type: "item"
+					item: "kubejs:affixgear5"
+					count: 3
+				}
+				{
+					id: "11F4C559E527C887"
+					type: "item"
+					item: "kubejs:affixgear6"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "citadel:fancy_item"
+				Count: 1b
+				tag: {
+					DisplaySpin: 0
+					DisplayItem: "immersivepetroleum:distillationtower"
+					DisplayShake: 0
+					DisplayScale: 4
+					DisplayBob: 0
+					DisplayZoom: 0
+				}
+			}
+			x: 22.0d
+			y: 3.0d
+			subtitle: "Oil Extractor"
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000699"
+				"4F1AB519E7B23A3F"
+			]
+			size: 2.0d
+			id: "2671D6BC2692730B"
+			tasks: [
+				{
+					id: "01979B8D5074D8E8"
+					type: "observation"
+					title: "&eBuild: &aDistillation Tower"
+					icon: {
+						id: "citadel:fancy_item"
+						Count: 1b
+						tag: {
+							DisplaySpin: 0
+							DisplayItem: "immersivepetroleum:distillationtower"
+							DisplayShake: 0
+							DisplayScale: 1
+							DisplayBob: 0
+							DisplayZoom: 0
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersivepetroleum:distillationtower"
+				}
+				{
+					id: "786CEE90A2E8E163"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 25L
+				}
+				{
+					id: "7A3664CCF4F9FAC9"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+				{
+					id: "7AE404DC490D3129"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "58CEF40E1544FB0E"
+					type: "item"
+					item: "immersiveengineering:slab_steel_scaffolding_standard"
+					count: 30L
+				}
+				{
+					id: "3C204C96EA5DAE85"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 60L
+				}
+				{
+					id: "142221CA4ACFAFC0"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 17L
+				}
+			]
+			rewards: [
+				{
+					id: "69FEDD6921356A3F"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					id: "28DAF05DA8656234"
+					type: "item"
+					item: "kubejs:affixgear4"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -3.0d
+			subtitle: "Handyman's Old Bench"
+			id: "0571C720616E30E4"
+			tasks: [{
+				id: "0EBFC2A5A657DD37"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+			rewards: [
+				{
+					id: "53255D861E1AA783"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "74E960BD5571F37D"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -1.5d
+			subtitle: "Electrician's Old Bench"
+			id: "40184DDB4E5D0FBF"
+			tasks: [{
+				id: "3447B91FDBAFF995"
+				type: "item"
+				item: "immersiveengineering:circuit_table"
+			}]
+			rewards: [
+				{
+					id: "6AEEDCBDAF5D913C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "6C7AFC09302403EA"
+					type: "item"
+					item: "kubejs:affixgear2"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "citadel:fancy_item"
+				Count: 1b
+				tag: {
+					DisplaySpin: 0
+					DisplayItem: "immersiveengineering:auto_workbench"
+					DisplayShake: 0
+					DisplayScale: 2
+					DisplayBob: 0
+					DisplayZoom: 0
+				}
+			}
+			x: 14.0d
+			y: -3.0d
+			subtitle: "Modifying Timelessly"
+			dependencies: ["0571C720616E30E4"]
+			size: 2.0d
+			id: "03092FF264C55F8D"
+			tasks: [
+				{
+					id: "6E47B68C812085D7"
+					type: "observation"
+					title: "&eBuild: &aAutomated Engineer's Workbench"
+					icon: {
+						id: "citadel:fancy_item"
+						Count: 1b
+						tag: {
+							DisplaySpin: 0
+							DisplayItem: "immersiveengineering:auto_workbench"
+							DisplayShake: 0
+							DisplayScale: 2
+							DisplayBob: 0
+							DisplayZoom: 0
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:auto_workbench"
+				}
+				{
+					id: "4A699D54985F05DF"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 4L
+				}
+				{
+					id: "3420B5D84BF995EA"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "7B36FCA62F2E4443"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 4L
+				}
+				{
+					id: "1D64361C5762B780"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "1F8C9FB1094F7C79"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "46447EEC3D0DA2CA"
+					type: "item"
+					item: "immersiveengineering:slab_treated_wood_horizontal"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "338E19F69E450E31"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "36B597977635A157"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "citadel:fancy_item"
+				Count: 1b
+				tag: {
+					DisplaySpin: 0
+					DisplayItem: "immersiveengineering:fermenter"
+					DisplayShake: 0
+					DisplayScale: 2
+					DisplayBob: 0
+					DisplayZoom: 0
+				}
+			}
+			x: 13.0d
+			y: -6.0d
+			subtitle: "Rotten Yield"
+			description: [""]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000699"
+				"4F1AB519E7B23A3F"
+			]
+			size: 2.0d
+			id: "09499EB9915324B5"
+			tasks: [
+				{
+					id: "476B4106653C1651"
+					type: "observation"
+					title: "&eBuild: &aFermenter"
+					icon: {
+						id: "citadel:fancy_item"
+						Count: 1b
+						tag: {
+							DisplaySpin: 0
+							DisplayItem: "immersiveengineering:fermenter"
+							DisplayShake: 0
+							DisplayScale: 2
+							DisplayBob: 0
+							DisplayZoom: 0
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:fermenter"
+				}
+				{
+					id: "224466A68F8B35B9"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "018279A8AEB024B1"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "0DFD7DB47CC14BD0"
+					type: "item"
+					item: "minecraft:cauldron"
+					count: 4L
+				}
+				{
+					id: "6B91DC7E41F2054E"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "7F051DF118E44AE9"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 4L
+				}
+				{
+					id: "768040309D4ED33C"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "6B80E57EAC587F86"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "449E8A0B28B24E00"
+					type: "item"
+					item: "kubejs:affixgear3"
+					count: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "citadel:fancy_item"
+				Count: 1b
+				tag: {
+					DisplaySpin: 0
+					DisplayItem: "immersiveengineering:squeezer"
+					DisplayShake: 0
+					DisplayScale: 2
+					DisplayBob: 0
+					DisplayZoom: 0
+				}
+			}
+			x: 17.0d
+			y: -6.0d
+			subtitle: "Sqashing Into Juice"
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000699"
+				"4F1AB519E7B23A3F"
+			]
+			size: 2.0d
+			id: "76615AE50D214BBC"
+			tasks: [
+				{
+					id: "23872E1B7196FE1D"
+					type: "observation"
+					title: "&eBuild: &aSqueezer"
+					icon: {
+						id: "citadel:fancy_item"
+						Count: 1b
+						tag: {
+							DisplaySpin: 0
+							DisplayItem: "immersiveengineering:squeezer"
+							DisplayShake: 0
+							DisplayScale: 2
+							DisplayBob: 0
+							DisplayZoom: 0
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:squeezer"
+				}
+				{
+					id: "7EBF639C8FC43BC3"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "20E6734631A6CDC6"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "045039C470ED6C6A"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "476C00A388B798DE"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "14DD08F2F6735248"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 3L
+				}
+				{
+					id: "21D665FB7F09353C"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 2L
+				}
+				{
+					id: "45A135E3CDE10C9C"
+					type: "item"
+					item: "immersiveengineering:wooden_barrel"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "36F9BE562490EC87"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "4DB73541042FF7BE"
+					type: "item"
+					item: "kubejs:affixgear3"
+					count: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "citadel:fancy_item"
+				Count: 1b
+				tag: {
+					DisplaySpin: 0
+					DisplayItem: "immersiveengineering:refinery"
+					DisplayShake: 0
+					DisplayScale: 2
+					DisplayBob: 0
+					DisplayZoom: 0
+				}
+			}
+			x: 15.0d
+			y: -10.0d
+			subtitle: "Ethanol Production"
+			dependencies: [
+				"76615AE50D214BBC"
+				"09499EB9915324B5"
+			]
+			size: 2.0d
+			id: "46F39DBAAFD4D7B8"
+			tasks: [
+				{
+					id: "2724D2B5266D01C3"
+					type: "observation"
+					title: "&eBuild: &aRefinery"
+					icon: {
+						id: "citadel:fancy_item"
+						Count: 1b
+						tag: {
+							DisplaySpin: 0
+							DisplayItem: "immersiveengineering:refinery"
+							DisplayShake: 0
+							DisplayScale: 2
+							DisplayBob: 0
+							DisplayZoom: 0
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:refinery"
+				}
+				{
+					id: "2224F3BA9AEE7106"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 8L
+				}
+				{
+					id: "6436FBB9B836C7A0"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "74D742C29EB4A94D"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "06AED4B80432AC06"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 16L
+				}
+				{
+					id: "76E2907672EB8224"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "3DF1115033933282"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "5087A6032DD5D2BF"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "53D5BD6653FFB19D"
+					type: "item"
+					item: "kubejs:affixgear4"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -7.5d
+			subtitle: "Hearing Damage Excluded"
+			optional: true
+			id: "20A9658237026738"
+			tasks: [{
+				id: "2C73EE7B8E7602F9"
+				type: "item"
+				item: "immersiveengineering:earmuffs"
+			}]
+			rewards: [
+				{
+					id: "042B9D7F03B64E6F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3A2F1B5717302CE0"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+	]
+}

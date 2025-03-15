@@ -1,0 +1,102 @@
+{
+  "default": [],
+  "mapping": {
+    "byg:aspen_clearing": [{"key": "dungeoncrawl:byg/aspen"}],
+    "byg:aspen_forest": [{"key": "dungeoncrawl:byg/aspen"}],
+	"byg:aspen_forest_hills": [{"key": "dungeoncrawl:byg/aspen"}],
+	"byg:black_forest_clearing": [{"key": "dungeoncrawl:byg/aspen"}, {"key": "dungeoncrawl:byg/pine"}, {"key": "dungeoncrawl:byg/fir"}],
+	"byg:black_forest_hills": [{"key": "dungeoncrawl:byg/aspen"}, {"key": "dungeoncrawl:byg/pine"}, {"key": "dungeoncrawl:byg/fir"}],
+	"byg:dover_mountains": [{"key": "dungeoncrawl:byg/aspen"}, {"key": "dungeoncrawl:byg/pine"}],	
+	"byg:seasonal_giant_taiga": [{"key": "dungeoncrawl:byg/aspen"}, {"key": "dungeoncrawl:byg/pine"}],
+	"byg:seasonal_taiga": [{"key": "dungeoncrawl:byg/aspen"}, {"key": "dungeoncrawl:byg/pine"}],
+	"byg:seasonal_taiga_hills": [{"key": "dungeoncrawl:byg/aspen"}, {"key": "dungeoncrawl:byg/pine"}],
+	
+	"byg:enchanted_forest": [{"key": "dungeoncrawl:byg/blue_enchanted"}, {"key": "dungeoncrawl:byg/green_enchanted"}],
+    "byg:enchanted_forest_hills": [{"key": "dungeoncrawl:byg/blue_enchanted"}, {"key": "dungeoncrawl:byg/green_enchanted"}],
+	
+	"byg:baobab_savanna": [{"key": "dungeoncrawl:byg/baobab"}],
+	
+	"byg:bulbis_gardens": [{"key": "dungeoncrawl:byg/bulbis"}],
+    "byg:bulbis_gardens_edge": [{"key": "dungeoncrawl:byg/bulbis"}],
+	
+	"byg:cherry_blossom_clearing": [{"key": "dungeoncrawl:byg/cherry"}],
+    "byg:cherry_blossom_forest": [{"key": "dungeoncrawl:byg/cherry"}],
+	
+	"byg:cika_mountains": [{"key": "dungeoncrawl:byg/cika"}],
+    "byg:cika_woods": [{"key": "dungeoncrawl:byg/cika"}],
+	
+	"byg:cypress_swamplands": [{"key": "dungeoncrawl:byg/cypress"}],
+	
+	"byg:ebony_hills": [{"key": "dungeoncrawl:byg/ebony"}],
+    "byg:ebony_woods": [{"key": "dungeoncrawl:byg/ebony"}],
+	"byg:stone_forest": [{"key": "dungeoncrawl:byg/ebony"}],
+	"byg:ancient_forest": [{"key": "dungeoncrawl:byg/ebony"}, {"key": "dungeoncrawl:byg/maple"}],
+	"byg:glowing_ancient_forest": [{"key": "dungeoncrawl:byg/ebony"}, {"key": "dungeoncrawl:byg/maple"}],
+	"byg:flowering_ancient_forest": [{"key": "dungeoncrawl:byg/ebony"}, {"key": "dungeoncrawl:byg/maple"}],
+	
+	"byg:coniferous_clearing": [{"key": "dungeoncrawl:byg/fir"}],
+    "byg:coniferous_forest": [{"key": "dungeoncrawl:byg/fir"}],
+	"byg:coniferous_forest_hills": [{"key": "dungeoncrawl:byg/fir"}],
+	"byg:bluff_peaks": [{"key": "dungeoncrawl:byg/fir"}, {"key": "dungeoncrawl:byg/pine"}],
+	"byg:bluff_steeps": [{"key": "dungeoncrawl:byg/fir"}, {"key": "dungeoncrawl:byg/pine"}],
+	"byg:alpine_foothills": [{"key": "dungeoncrawl:byg/fir"}, {"key": "dungeoncrawl:byg/pine"}],
+	
+	"byg:snowy_evergreen_clearing": [{"key": "dungeoncrawl:byg/holly"}],
+    "byg:snowy_evergreen_hills": [{"key": "dungeoncrawl:byg/holly"}],
+	"byg:snowy_evergreen_taiga": [{"key": "dungeoncrawl:byg/holly"}],
+	"byg:evergreen_clearing": [{"key": "dungeoncrawl:byg/holly"}],
+	"byg:evergreen_hills": [{"key": "dungeoncrawl:byg/holly"}],
+	"byg:evergreen_taiga": [{"key": "dungeoncrawl:byg/holly"}],
+	
+	"byg:jacaranda_clearing": [{"key": "dungeoncrawl:byg/jacaranda"}],
+    "byg:jacaranda_forest": [{"key": "dungeoncrawl:byg/jacaranda"}],
+	"byg:jacaranda_forest_hills": [{"key": "dungeoncrawl:byg/jacaranda"}],
+	
+	//"": [{"key": "dungeoncrawl:byg/lament"}],
+	
+    "byg:crag_gardens": [{"key": "dungeoncrawl:byg/mahogany"}, {"key": "dungeoncrawl:byg/rainbow"}],
+	"byg:guiana_shield": [{"key": "dungeoncrawl:byg/mahogany"}, {"key": "dungeoncrawl:byg/rainbow"}],
+	"byg:guiana_clearing": [{"key": "dungeoncrawl:byg/mahogany"}, {"key": "dungeoncrawl:byg/rainbow"}],
+	"byg:guiana_springs": [{"key": "dungeoncrawl:byg/mahogany"}, {"key": "dungeoncrawl:byg/rainbow"}],
+	"byg:tropical_fungal_forest": [{"key": "dungeoncrawl:byg/mahogany"}, {"key": "dungeoncrawl:byg/rainbow"}],
+	"byg:tropical_fungal_rainforest_hills": [{"key": "dungeoncrawl:byg/mahogany"}, {"key": "dungeoncrawl:byg/rainbow"}],
+	"byg:tropical_islands": [{"key": "dungeoncrawl:byg/mahogany"}, {"key": "dungeoncrawl:byg/rainbow"}],
+	"byg:tropical_rainforest": [{"key": "dungeoncrawl:byg/mahogany"}, {"key": "dungeoncrawl:byg/rainbow"}],
+	"byg:tropical_rainforest_hills": [{"key": "dungeoncrawl:byg/mahogany"}, {"key": "dungeoncrawl:byg/rainbow"}],
+	
+	"byg:mangrove_marshes": [{"key": "dungeoncrawl:byg/mangrove"}],
+	
+	"byg:maple_hills": [{"key": "dungeoncrawl:byg/maple"}],
+	"byg:maple_taiga": [{"key": "dungeoncrawl:byg/maple"}],
+	
+	"byg:rainbow_beach": [{"key": "dungeoncrawl:byg/palm"}],
+    "byg:white_beach": [{"key": "dungeoncrawl:byg/palm"}],
+	
+	"byg:araucaria_forest": [{"key": "dungeoncrawl:byg/pine"}],
+    "byg:araucaria_savanna": [{"key": "dungeoncrawl:byg/pine"}],
+	"byg:northern_forest": [{"key": "dungeoncrawl:byg/pine"}],
+	
+	"byg:redwood_clearing": [{"key": "dungeoncrawl:byg/redwood"}],
+    "byg:redwood_mountains": [{"key": "dungeoncrawl:byg/redwood"}],
+	"byg:redwood_tropics": [{"key": "dungeoncrawl:byg/redwood"}],
+	
+	"byg:skyris_highlands": [{"key": "dungeoncrawl:byg/skyris"}],
+    "byg:skyris_highlands_clearing": [{"key": "dungeoncrawl:byg/skyris"}],
+	"byg:skyris_peaks": [{"key": "dungeoncrawl:byg/skyris"}],
+	"byg:skyris_steeps": [{"key": "dungeoncrawl:byg/skyris"}],
+	
+	"byg:bayou": [{"key": "dungeoncrawl:byg/willow"}],
+    "byg:glowshroom_bayou": [{"key": "dungeoncrawl:byg/willow"}],
+	"byg:vibrant_swamplands": [{"key": "dungeoncrawl:byg/willow"}],
+	
+	"byg:weeping_witch_clearing": [{"key": "dungeoncrawl:byg/witch_hazel"}],
+    "byg:weeping_witch_forest": [{"key": "dungeoncrawl:byg/witch_hazel"}],
+	"byg:pumpkin_forest": [{"key": "dungeoncrawl:byg/witch_hazel"}],
+	
+	"byg:zelkova_clearing": [{"key": "dungeoncrawl:byg/zelkova"}],
+    "byg:zelkova_forest": [{"key": "dungeoncrawl:byg/zelkova"}],
+	"byg:zelkova_forest_hills": [{"key": "dungeoncrawl:byg/zelkova"}],
+	"byg:twilight_valley": [{"key": "dungeoncrawl:byg/zelkova"}],
+	"byg:twilight_valley_hills": [{"key": "dungeoncrawl:byg/zelkova"}]
+  }
+}

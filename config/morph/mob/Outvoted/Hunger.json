@@ -1,0 +1,12 @@
+{
+  "author": "natedogwooof",
+  "forEntity": "outvoted:hunger",
+  "traits": [
+    {
+      "type": "traitHostile"
+    },
+    {
+      "type": "traitUndead"
+    }
+  ]
+}

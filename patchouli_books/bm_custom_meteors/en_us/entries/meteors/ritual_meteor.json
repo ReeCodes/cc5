@@ -1,0 +1,67 @@
+{
+    "name": "Meteors",
+    "icon": "minecraft:fire_charge",
+    "category": "patchouli:additions",
+    "pages": [
+        {
+            "type": "bloodmagic:meteor",
+            "recipe": "bloodmagic:meteor/tarred",
+            "heading": "Tarred"
+        },
+		{
+            "type": "bloodmagic:meteor",
+            "recipe": "bloodmagic:meteor/arcane",
+            "heading": "Arcane"
+        },
+		{
+            "type": "bloodmagic:meteor",
+            "recipe": "bloodmagic:meteor/occultic",
+            "heading": "Occultic"
+        },
+		{
+            "type": "bloodmagic:meteor",
+            "recipe": "bloodmagic:meteor/floral",
+            "heading": "Floral"
+        },
+		{
+            "type": "bloodmagic:meteor",
+            "recipe": "bloodmagic:meteor/lustrous",
+            "heading": "Lustrous"
+        },
+		{
+            "type": "bloodmagic:meteor",
+            "recipe": "bloodmagic:meteor/metalliferous",
+            "heading": "Metalliferous"
+        },
+		{
+            "type": "bloodmagic:meteor",
+            "recipe": "bloodmagic:meteor/colossal",
+            "heading": "Colossal"
+        },
+		{
+            "type": "bloodmagic:meteor",
+            "recipe": "bloodmagic:meteor/organic",
+            "heading": "Organic"
+        },
+		{
+            "type": "bloodmagic:meteor",
+            "recipe": "bloodmagic:meteor/abominable",
+            "heading": "Abominable"
+        },
+		{
+            "type": "bloodmagic:meteor",
+            "recipe": "bloodmagic:meteor/stellar",
+            "heading": "Stellar"
+        },
+		{
+            "type": "bloodmagic:meteor",
+            "recipe": "bloodmagic:meteor/aquatic",
+            "heading": "Aquatic"
+        },
+		{
+            "type": "bloodmagic:meteor",
+            "recipe": "bloodmagic:meteor/glacial",
+            "heading": "Glacial"
+        }
+    ]
+}

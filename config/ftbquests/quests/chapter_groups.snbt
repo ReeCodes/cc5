@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "6DD815E21449A7B2", title: "Tool Essentials" }
+		{ id: "432A898843F792EA", title: "Handy Dandies" }
+		{ id: "1C0C3E7C0AAD1FC4", title: "Oh The Mobs You'll Find" }
+		{ id: "796F01D2DC56C7C2", title: "Tech X" }
+		{ id: "3B063F3DD8CE7BD5", title: "Magicalities" }
+		{ id: "1FA1FD24A4A44A92", title: "Unaccomplished Dreams" }
+		{ id: "2E16213398C36977", title: "Finalization" }
+	]
+}

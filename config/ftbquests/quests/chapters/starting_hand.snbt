@@ -1,0 +1,326 @@
+{
+	id: "425F6810E9E7678F"
+	group: "432A898843F792EA"
+	order_index: 2
+	filename: "starting_hand"
+	title: "Starting Hand"
+	icon: "buddycards:mystery_pack"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Your First Set"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Obtain Your First Set Of Cards"
+			size: 4.0d
+			id: "424DFD18A4B34227"
+			tasks: [{
+				id: "1A40DA9E7366A313"
+				type: "advancement"
+				advancement: "buddycards:main/root"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "51AEC923CD163F62"
+					type: "item"
+					item: "buddycards:pack.1"
+				}
+				{
+					id: "1A67C39FFDF3AC72"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			subtitle: "Make Buddysteel"
+			dependencies: ["424DFD18A4B34227"]
+			size: 2.0d
+			id: "6D7A77D3AD249964"
+			tasks: [{
+				id: "7239D6874017CA29"
+				type: "advancement"
+				title: "Buddysteel"
+				advancement: "buddycards:main/buddysteel"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7B7CFC716DAEC8F8"
+					type: "item"
+					item: "buddycards:pack.1"
+					count: 4
+				}
+				{
+					id: "39A2A6487E3DFD50"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Perfect Buddysteel"
+			x: 0.0d
+			y: -9.0d
+			subtitle: "Purified"
+			dependencies: ["6D7A77D3AD249964"]
+			size: 2.0d
+			id: "48936175EAD4891A"
+			tasks: [{
+				id: "128CDF8A9C8FE229"
+				type: "item"
+				item: "buddycards:perfect_buddysteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "4C88E411A76AE938"
+					type: "item"
+					item: "buddycards:mystery_pack"
+				}
+				{
+					id: "6C61894A591FE752"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			id: "519CB798C6078022"
+			tasks: [{
+				id: "3AB51CB54CAD59F6"
+				type: "item"
+				title: "Base Set"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "buddycards:set1_cards"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4E37EF36A3C1C43B"
+					type: "item"
+					item: "buddycards:pack.1"
+				}
+				{
+					id: "1B53F641032E51E5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			id: "3B7169B37F279752"
+			tasks: [{
+				id: "33E903FFDEF61641"
+				type: "item"
+				title: "Set Of Nether"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "buddycards:set2_cards"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "54525829E7A3A4FD"
+					type: "item"
+					item: "buddycards:pack.2"
+				}
+				{
+					id: "133F2D63DA32B960"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			id: "1DAAB9BF06D5E126"
+			tasks: [{
+				id: "6E25711BF5743AF7"
+				type: "item"
+				title: "Set Of End"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "buddycards:set3_cards"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "325C4685E1B5D267"
+					type: "item"
+					item: "buddycards:pack.3"
+				}
+				{
+					id: "0219E9DADFC18B36"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			id: "63EC4EB4B071154F"
+			tasks: [{
+				id: "6EF31B8E68EE6805"
+				type: "item"
+				title: "Set Of BYG"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "buddycards:set4_cards"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "22765EC70A277F4B"
+					type: "item"
+					item: "buddycards:pack.4"
+				}
+				{
+					id: "74BA9ADA2755C931"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "64D774D78774B773"
+			tasks: [{
+				id: "23CD2E65DEF0AD15"
+				type: "item"
+				title: "Set Of Create"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "buddycards:set5_cards"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "36CCF1325FABA00B"
+					type: "item"
+					item: "buddycards:pack.5"
+				}
+				{
+					id: "1811044B288B9624"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			id: "7C412B1DB2DABDAE"
+			tasks: [{
+				id: "0661F5253C4286D7"
+				type: "item"
+				title: "Set Of Aquaculture"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "buddycards:set6_cards"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "768C35A9445BB925"
+					type: "item"
+					item: "buddycards:pack.6"
+				}
+				{
+					id: "3E307CDA5365AC5F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			id: "4EEDF0F092DEC04B"
+			tasks: [{
+				id: "788F70FB19DF88AB"
+				type: "item"
+				title: "Set Of Farmer's Delight"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "buddycards:set7_cards"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "354AF4690ED78C2C"
+					type: "item"
+					item: "buddycards:pack.7"
+				}
+				{
+					id: "13768FE7C8501E72"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			subtitle: "Epic Rarity!"
+			size: 2.0d
+			id: "711751A4D5D0937A"
+			tasks: [{
+				id: "517964C94BE608AE"
+				type: "item"
+				title: "Epic Cards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "buddycards:epic_cards"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "179F8752037A0CE4"
+					type: "item"
+					item: "buddycards:mystery_pack"
+				}
+				{
+					id: "719DF64D2F47251D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+	]
+}

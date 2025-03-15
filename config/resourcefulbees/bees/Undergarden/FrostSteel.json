@@ -1,0 +1,33 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "/ores/custom/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#809FBE",
+    "primaryColor": "#2D3A29",
+    "primaryLayerTexture":"/ores/custom/custom_bee_primary",
+    "secondaryLayerTexture":"/ores/custom/custom_bee_secondary",
+    "secondaryColor": "#809FBE",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "undergarden:depthrock",
+    "mutationOutput": "undergarden:froststeel_ore",
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "undergarden:froststeel_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "undergarden:barren_abyss,undergarden:dense_forest,undergarden:forgotten_field,undergarden:frostfields,undergarden:frostfields,undergarden:gronglegrowth,undergarden:mushroom_bog,undergarden:mushroom_bog,undergarden:smog_spires,undergarden:smogstem_forest,undergarden:wigglewood_forest"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

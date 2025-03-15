@@ -1,0 +1,23 @@
+{
+  "author": "WenXin2",
+  "forClass": "twilightforest.entity.TrollEntity",
+  "modelFieldName": "field_78116_c",
+  "eyeOffset": [
+    0.0,
+    0.125,
+    0.1875
+  ],
+  "irisColour": [
+    0.078431375,
+    0.09019608,
+    0.23529412
+  ],
+  "halfInterpupillaryDistance": 0.1875,
+  "eyeScale": 0.85,
+  "headTopCenter": [
+    0.0,
+    0.5,
+    -0.125
+  ],
+  "headScale": 1.25
+}

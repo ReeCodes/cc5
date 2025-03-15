@@ -1,0 +1,38 @@
+{
+  "author": "WenXin2",
+  "forClass": "twilightforest.entity.UpperGoblinKnightEntity",
+  "modelFieldName": "field_178720_f.helmet",
+  "noFaceInfo": true,
+  "headTopCenter": [
+    0.0,
+    0.6875,
+    0.0
+  ],
+  "headScale": 1.2,
+  "hatTiltYaw": -45.0,
+  "additionalHeads": [
+    {
+      "modelFieldName": "field_178720_f.helmet",
+      "eyeOffset": [
+        -0.03125,
+        0.34375,
+        0.22
+      ],
+      "halfInterpupillaryDistance": 0.0,
+      "eyeCount": 1,
+      "noTopInfo": true
+    },
+    {
+      "modelFieldName": "field_178720_f.helmet",
+      "eyeOffset": [
+        -0.22,
+        0.34375,
+        0.03125
+      ],
+      "halfInterpupillaryDistance": 0.0,
+      "eyeYRotation": -90.0,
+      "eyeCount": 1,
+      "noTopInfo": true
+    }
+  ]
+}

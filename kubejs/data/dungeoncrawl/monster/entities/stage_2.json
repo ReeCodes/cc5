@@ -1,0 +1,93 @@
+{
+  "common": [
+    {
+      "entity": "minecraft:zombie"
+    },
+    {
+      "entity": "minecraft:skeleton"
+    },
+    {
+      "entity": "minecraft:spider"
+    },
+	{
+      "entity": "minecraft:creeper"
+    },
+    {
+      "entity": "ars_nouveau:wilden_hunter"
+    },
+    {
+      "entity": "ars_nouveau:wilden_stalker"
+    },
+	{
+      "entity": "ars_nouveau:wilden_guardian"
+    },
+    {
+      "entity": "forcecraft:creeper_tot"
+    },
+    {
+      "entity": "outvoted:glutton"
+    }
+  ],
+  "rare": [
+    {
+      "entity": "restored_earth:lobber_zombie"
+    },
+    {
+      "entity": "restored_earth:bone_spider"
+    },
+    {
+      "entity": "restored_earth:skeleton_wolf"
+    },
+    {
+      "entity": "restored_earth:bouldering_zombie"
+    },
+    {
+      "entity": "restored_earth:viler_witch"
+    },
+    {
+      "entity": "restored_earth:tropical_slime"
+    },
+    {
+      "entity": "desolation:blackened"
+    },
+    {
+      "entity": "dungeons_mobs:blastling"
+    },
+	{
+      "entity": "dungeons_mobs:frozen_zombie"
+    },
+	{
+      "entity": "dungeons_mobs:fungus_thrower"
+    },
+	{
+      "entity": "dungeons_mobs:icy_creeper"
+    },
+	{
+      "entity": "dungeons_mobs:jungle_zombie"
+    },
+	{
+      "entity": "dungeons_mobs:mossy_skeleton"
+    },
+	{
+      "entity": "dungeons_mobs:sunken_skeleton"
+    },
+	{
+      "entity": "dungeons_mobs:wraith"
+    },
+    {
+      "entity": "player_mobs:player_mob"
+    },
+    {
+      "entity": "eidolon:wraith"
+    },
+    {
+      "entity": "druidcraft:dreadfish"
+    },
+    {
+      "entity": "quark:forgotten"
+    },
+    {
+      "entity": "quark:wrapped"
+    }
+  ]
+}

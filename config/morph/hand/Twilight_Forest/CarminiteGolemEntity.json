@@ -1,0 +1,27 @@
+{
+  "author": "WenXin2",
+  "forClass": "twilightforest.entity.CarminiteGolemEntity",
+  "modelFieldName": "head",
+  "eyeOffset": [
+    0.0,
+    0.40625,
+    0.1875
+  ],
+  "irisColour": [
+    0.6901961,
+    0.0,
+    0.0
+  ],
+  "pupilColour": [
+    0.4509804,
+    0.0,
+    0.0
+  ],
+  "halfInterpupillaryDistance": 0.1125,
+  "headTopCenter": [
+    0.0,
+    0.625,
+    0.0
+  ],
+  "headScale": 0.85
+}

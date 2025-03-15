@@ -1,0 +1,33 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "/ores/custom/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#FCF085",
+    "primaryColor": "#ffffff",
+    "secondaryColor": "#FCF085",
+    "primaryLayerTexture":"/ores/custom/custom_bee_primary",
+    "secondaryLayerTexture":"/ores/custom/custom_bee_secondary",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "emendatusenigmatica:brass_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Copper",
+    "parent2": "Zinc"
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

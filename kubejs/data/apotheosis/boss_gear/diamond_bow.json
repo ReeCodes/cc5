@@ -1,0 +1,156 @@
+{
+	"weight": 8,
+	"mainhands": [
+		{
+			"weight": 25,
+			"stack": {
+				"item": "minecraft:bow"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "minecraft:diamond_pickaxe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "minecraft:diamond_axe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "mysticalworld:sapphire_axe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "mysticalworld:sapphire_pickaxe"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "mysticalworld:sapphire_sword"
+			}
+		},
+		{
+			"weight": 8,
+			"stack": {
+				"item": "wyrmroost:red_geode_sword"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "wyrmroost:red_geode_pickaxe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "wyrmroost:red_geode_axe"
+			}
+		}
+	],
+	"offhands": [
+		{
+			"weight": 3,
+			"stack": {
+				"item": "minecraft:shield"
+			}
+		}
+	],
+	"boots": [
+		{
+			"weight": 2,
+			"stack": {
+				"item": "minecraft:diamond_boots"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "mysticalworld:sapphire_boots"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "wyrmroost:red_geode_boots"
+			}
+		}
+	],
+	"leggings": [
+		{
+			"weight": 2,
+			"stack": {
+				"item": "minecraft:diamond_leggings"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "mysticalworld:sapphire_leggings"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "wyrmroost:red_geode_leggings"
+			}
+		}
+	],
+	"chestplates": [
+		{
+			"weight": 2,
+			"stack": {
+				"item": "minecraft:diamond_chestplate"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "mysticalworld:sapphire_chestplate"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "wyrmroost:red_geode_chestplate"
+			}
+		}
+	],
+	"helmets": [
+		{
+			"weight": 2,
+			"stack": {
+				"item": "minecraft:diamond_helmet"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "mysticalworld:sapphire_helmet"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "wyrmroost:red_geode_helmet"
+			}
+		}
+	],
+	"tags": [
+		"skeleton"
+	]
+}

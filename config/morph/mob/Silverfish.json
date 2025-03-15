@@ -1,0 +1,8 @@
+{
+  "forEntity": "specialmobs:silverfish",
+  "traits": [
+    {
+      "type": "traitHostile"
+    }
+  ]
+}

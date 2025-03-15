@@ -1,0 +1,11 @@
+
+#These options affect only the client that loads the mod.
+[clientOnly]
+	#Enable the explosion bubble effects when hitting mobs?
+	explosionBubble = true
+	#Replace pig render with custom render?
+	#If you have issues with invisible pigs etc, disable this.
+	replaceRender = true
+	#Do you want to invert the pitch controls?
+	invertPitch = false
+

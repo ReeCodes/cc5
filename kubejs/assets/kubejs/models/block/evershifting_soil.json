@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"side": "kubejs:block/evershifting_soil_side",
+		"top": "kubejs:block/evershifting_soil_top",
+		"particle": "block/dirt",
+		"bottom": "block/dirt"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "evershifting_soil",
+			"origin": [8, 8, 8],
+			"children": [0]
+		}
+	]
+}

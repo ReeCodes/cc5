@@ -1,0 +1,23 @@
+{
+  "author": "WenXin2",
+  "forClass": "twilightforest.entity.KoboldEntity",
+  "modelFieldName": "field_78116_c",
+  "eyeOffset": [
+    0.0,
+    0.21875,
+    0.1875
+  ],
+  "pupilColour": [
+    0.36862746,
+    0.0,
+    0.23529412
+  ],
+  "halfInterpupillaryDistance": 0.10625,
+  "eyeScale": 0.65,
+  "headTopCenter": [
+    0.0,
+    0.375,
+    0.0
+  ],
+  "headScale": 0.8
+}

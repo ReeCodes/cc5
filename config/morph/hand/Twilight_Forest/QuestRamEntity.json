@@ -1,0 +1,24 @@
+{
+  "author": "WenXin2",
+  "forClass": "twilightforest.entity.passive.QuestRamEntity",
+  "modelFieldName": "horns.head",
+  "eyeOffset": [
+    0.0,
+    0.125,
+    0.40625
+  ],
+  "irisColour": [
+    0.5686275,
+    0.84705883,
+    0.9372549
+  ],
+  "halfInterpupillaryDistance": 0.375,
+  "eyeScale": 0.95,
+  "sideEyed": true,
+  "headTopCenter": [
+    0.0,
+    0.3125,
+    0.21875
+  ],
+  "headScale": 1.45
+}

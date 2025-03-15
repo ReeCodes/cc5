@@ -1,0 +1,65 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 3,
+  "duration": 600,
+  "starlight": 3200,
+  "pattern": [
+    "_A_A_",
+    "ABCBA",
+    "_DED_",
+    "ABFBA",
+    "_A_A_"
+  ],
+  "key": {
+    "A": {
+      "item": "astralsorcery:stardust"
+    },
+    "B": {
+		"type": "forge:nbt",
+		"item": "naturesaura:effect_powder",
+		"nbt": "{effect:\"naturesaura:plant_boost\"}"
+    },
+    "C": {
+      "item": "astralsorcery:shifting_star"
+    },
+    "D": {
+      "item": "xreliquary:fertile_essence"
+    },
+	"E": {
+      "item": "botania:enchanted_soil"
+    },
+	"F": {
+      "item": "astralsorcery:liquid_starlight_bucket"
+    }
+  },
+  "output": [
+    {
+      "item": "kubejs:evershifting_soil",
+      "count": 1
+    }
+  ],
+  "focus_constellation": "astralsorcery:aevitas",
+  "relay_inputs": [
+    {
+      "item": "astralsorcery:colored_lens_growth"
+    },
+    {
+      "item": "astralsorcery:colored_lens_growth"
+    },
+    {
+      "item": "astralsorcery:colored_lens_growth"
+    },
+    {
+      "item": "astralsorcery:colored_lens_growth"
+    }
+  ],
+  "effects": [
+    "astralsorcery:built_in_effect_constellation_finish",
+    "astralsorcery:built_in_effect_trait_relay_highlight",
+    "astralsorcery:built_in_effect_discovery_central_beam",
+    "astralsorcery:built_in_effect_trait_focus_circle",
+    "astralsorcery:altar_default_sparkle",
+    "astralsorcery:built_in_effect_constellation_lines",
+    "astralsorcery:built_in_effect_attunement_sparkle"
+  ]
+}

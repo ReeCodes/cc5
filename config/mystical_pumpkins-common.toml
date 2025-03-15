@@ -1,0 +1,7 @@
+
+[General]
+	#Specifies biomes that Dragourds can spawn in.
+	Dragourd_Spawn_Biomes = ["minecraft:dark_forest", "minecraft:dark_forest_hills"]
+	#Should Dragourds spawn everywhere on full moons?
+	Dragourds_Spawn_Everywhere = false
+

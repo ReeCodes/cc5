@@ -1,0 +1,28 @@
+{
+  "author": "WenXin2",
+  "forClass": "twilightforest.entity.boss.AlphaYetiEntity",
+  "modelFieldName": "field_78115_e",
+  "eyeOffset": [
+    0.0,
+    3.125,
+    1.21875
+  ],
+  "irisColour": [
+    0.0627451,
+    0.105882354,
+    0.16470589
+  ],
+  "pupilColour": [
+    0.78431374,
+    0.05490196,
+    0.105882354
+  ],
+  "halfInterpupillaryDistance": 0.875,
+  "eyeScale": 2.95,
+  "headTopCenter": [
+    0.0,
+    3.75,
+    0.0
+  ],
+  "headScale": 5.95
+}

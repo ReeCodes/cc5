@@ -1,0 +1,753 @@
+{
+	id: "06B4E6ED3829E8D6"
+	group: "1C0C3E7C0AAD1FC4"
+	order_index: 0
+	filename: "to_do_list"
+	title: "Companionship"
+	icon: {
+		id: "alexsmobs:tab_icon"
+		Count: 1b
+		tag: {
+			DisplayEntityType: "whatareyouvotingfor:glare"
+			DisplayMobScale: 1.25d
+		}
+	}
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.0d
+			y: 1.0d
+			subtitle: "Newborn Blaze"
+			id: "7FD3440550F7BE0C"
+			tasks: [{
+				id: "4A18105D84E29D68"
+				type: "advancement"
+				title: "&eGrab: &aRodling"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "mutantmore:rodling"
+						DisplayMobScale: 2
+					}
+				}
+				advancement: "mutantmore:mutantmore/tame_a_rodling"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3EB1A1E11BA63939"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "0232AFA674A2058A"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "the_bumblezone:beehemoth"
+					DisplayMobScale: 0.75d
+				}
+			}
+			x: 0.5d
+			y: -1.0d
+			subtitle: "Befriend It"
+			id: "0F6906015465619A"
+			tasks: [
+				{
+					id: "34EA373E68C0EB75"
+					type: "advancement"
+					title: "&eTame: &aBeehemoth"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "the_bumblezone:beehemoth"
+							DisplayMobScale: 1
+						}
+					}
+					advancement: "the_bumblezone:the_bumblezone/beehemoth/tamed_beehemoth"
+					criterion: ""
+				}
+				{
+					id: "75C051352320ABB7"
+					type: "item"
+					title: "Bee Food"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "the_bumblezone:bee_feeding_items"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "510CA63D81CD947B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "505607AA81B9B43A"
+					type: "item"
+					item: "kubejs:affixgear3"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "the_bumblezone:beehemoth"
+					DisplayMobScale: 1.25d
+				}
+			}
+			x: 0.5d
+			y: 1.0d
+			subtitle: "Reach Lv. 1000"
+			dependencies: ["0F6906015465619A"]
+			id: "6C4EA8526378458B"
+			tasks: [{
+				id: "32337B285ADB7B51"
+				type: "advancement"
+				title: "&eLevel Up: &aQueen Beehemoth"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "the_bumblezone:beehemoth"
+						DisplayMobScale: 1.25d
+					}
+				}
+				advancement: "the_bumblezone:the_bumblezone/beehemoth/queen_beehemoth"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "14EE071CFF1C5475"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "1E14129F1C0334AE"
+					type: "item"
+					item: "kubejs:affixgear4"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "minecraft:wolf"
+					DisplayMobScale: 1.5d
+				}
+			}
+			x: 2.0d
+			y: -2.5d
+			id: "0B1F373E8813BA9B"
+			tasks: [
+				{
+					id: "24824D9AC554240B"
+					type: "custom"
+					title: "&eTame: &aWolf"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "minecraft:wolf"
+							DisplayMobScale: 1.5d
+						}
+					}
+				}
+				{
+					id: "395046BE4B9B7732"
+					type: "item"
+					item: "minecraft:bone"
+				}
+			]
+			rewards: [
+				{
+					id: "4CFE8B54D2724F51"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "08AFB6455F6ABCDF"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "mysticalworld:beetle"
+					DisplayMobScale: 2
+				}
+			}
+			x: 0.5d
+			y: -2.5d
+			id: "7473534A83A3A2DD"
+			tasks: [
+				{
+					id: "6A7E05EF75E17649"
+					type: "custom"
+					title: "&eTame: &aBeetle"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "mysticalworld:beetle"
+							DisplayMobScale: 2
+						}
+					}
+				}
+				{
+					id: "77B40866BF13BF1F"
+					type: "item"
+					item: "minecraft:melon_seeds"
+				}
+			]
+			rewards: [
+				{
+					id: "17B54A2B10558646"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6024BEEE5FA9BD26"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "mysticalworld:lava_cat"
+					DisplayMobScale: 1.25d
+				}
+			}
+			x: 2.0d
+			y: -1.0d
+			subtitle: "Fiercly Cute"
+			id: "5BC8B0A137128150"
+			tasks: [
+				{
+					id: "000B3B6372F658FE"
+					type: "custom"
+					title: "&eTame: &aLava Cat"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "mysticalworld:lava_cat"
+							DisplayMobScale: 1.25d
+						}
+					}
+				}
+				{
+					id: "3AF583E8FCC1AC8E"
+					type: "item"
+					item: "minecraft:blaze_rod"
+				}
+			]
+			rewards: [
+				{
+					id: "78D3F83EE3EB014E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "320988B6281A3175"
+					type: "item"
+					item: "kubejs:affixgear2"
+					count: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "mysticalworld:silver_fox"
+					DisplayMobScale: 1.25d
+				}
+			}
+			x: 3.5d
+			y: -2.5d
+			id: "4F4CAD8FDE5BD2C2"
+			tasks: [
+				{
+					id: "40519063041DCB83"
+					type: "custom"
+					title: "&eTame: &aSilver Fox"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "mysticalworld:silver_fox"
+							DisplayMobScale: 1.25d
+						}
+					}
+				}
+				{
+					id: "5BFF24840E01F332"
+					type: "item"
+					item: "minecraft:apple"
+				}
+			]
+			rewards: [
+				{
+					id: "5C0FD428FE418165"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5F01E79204C34E3C"
+					type: "item"
+					item: "kubejs:affixgear1"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "whatareyouvotingfor:glare"
+					DisplayMobScale: 1.25d
+				}
+			}
+			x: 5.0d
+			y: -1.0d
+			id: "26E6A4EE3BD43FA6"
+			tasks: [
+				{
+					id: "5DDF002023EE9ADF"
+					type: "custom"
+					title: "&eTame: &aGlare"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "whatareyouvotingfor:glare"
+							DisplayMobScale: 1.25d
+						}
+					}
+				}
+				{
+					id: "567501BDC7CEC7A5"
+					type: "item"
+					item: "minecraft:sweet_berries"
+				}
+			]
+			rewards: [
+				{
+					id: "6F28AAB39BE63C08"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4F6311155C5131B7"
+					type: "item"
+					item: "kubejs:affixgear2"
+					count: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "whatareyouvotingfor:allay"
+					DisplayMobScale: 1.25d
+				}
+			}
+			x: 6.5d
+			y: -1.0d
+			id: "593ED049CFA47D42"
+			tasks: [
+				{
+					id: "6026C3C50B561E86"
+					type: "custom"
+					title: "&eTame: &aAllay"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "whatareyouvotingfor:allay"
+							DisplayMobScale: 1.25d
+						}
+					}
+				}
+				{
+					id: "667BB4384AE0B5D7"
+					type: "item"
+					item: "minecraft:cookie"
+				}
+			]
+			rewards: [
+				{
+					id: "22B6576013A97CA6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "501788F61B96458E"
+					type: "item"
+					item: "kubejs:affixgear2"
+					count: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:elephant"
+					DisplayMobScale: 0.5d
+				}
+			}
+			x: 3.5d
+			y: -1.0d
+			id: "32A9575BEAD35D6A"
+			tasks: [
+				{
+					id: "5B5C3ABD261408F1"
+					type: "custom"
+					title: "&eTame: &aElephant"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "alexsmobs:elephant"
+							DisplayMobScale: 0.5d
+						}
+					}
+				}
+				{
+					id: "16CF92941B105906"
+					type: "item"
+					item: "alexsmobs:acacia_blossom"
+				}
+			]
+			rewards: [
+				{
+					id: "7501070296F4A98A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "4BFB067DDF3A6A77"
+					type: "item"
+					item: "kubejs:affixgear2"
+					count: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "minecraft:cat"
+					DisplayMobScale: 1.25d
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 5.0d
+			y: -2.5d
+			id: "3D6E23FFDDF42C13"
+			tasks: [
+				{
+					id: "5CABA7D64C572224"
+					type: "custom"
+					title: "&eTame: &aCat"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "minecraft:cat"
+							DisplayMobScale: 1.25d
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "718003288BC07150"
+					type: "item"
+					title: "Raw Fishes"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:raw_fishes"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6130D057EF9DC5A7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4121AE585D260342"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			subtitle: "Measuring Device"
+			optional: true
+			id: "15C2133C74E7569C"
+			tasks: [{
+				id: "59FB2CADD739B7E5"
+				type: "item"
+				item: {
+					id: "buzzier_bees:honey_wand"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "534E1F875F77F2C6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "06DDACD50604EF05"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			subtitle: "Warden Of Sand"
+			id: "42B4676C7EDEE958"
+			tasks: [{
+				id: "28B721FFA6AF563A"
+				type: "advancement"
+				title: "&eBuild: &aStoneguard"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "atum:stoneguard_friendly"
+						DisplayMobScale: 1.25d
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				advancement: "atum:core/strongsilenttype"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5C9FE7E3BA52A867"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "19D5394DFC3389E2"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			subtitle: "Golem Of Sand"
+			id: "705EFB067F75A066"
+			tasks: [{
+				id: "5EEB578CBD3C70AD"
+				type: "advancement"
+				title: "&eBuild: &aStonewarden"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "atum:stonewarden_friendly"
+						DisplayMobScale: 1.25d
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				advancement: "atum:core/strongersilentertype"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0831582D1D375C57"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "5AFCCCE1C165DFCB"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear4"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:capuchin_monkey"
+					DisplayMobScale: 1.25d
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 8.0d
+			y: -1.0d
+			id: "1F97DC384C2E5D01"
+			tasks: [
+				{
+					id: "20286C2B470499CB"
+					type: "custom"
+					title: "&eTame: &aCapuchin Monkey"
+					icon: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "alexsmobs:capuchin_monkey"
+							DisplayMobScale: 1.25d
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1AA4C35896328842"
+					type: "item"
+					title: "Banana"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "alexsmobs:bananas"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "09E334685A777223"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "05F316171DAC2FC7"
+					type: "item"
+					item: {
+						id: "kubejs:affixgear2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+	]
+}
