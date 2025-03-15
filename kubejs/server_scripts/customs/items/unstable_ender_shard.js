@@ -1,7 +1,6 @@
 onEvent('item.right_click', event => {
 	if (event.item.id == 'kubejs:unstable_endershard') {
 		event.player.addItemCooldown(Item.of('kubejs:unstable_endershard'), 900)
-		event.player.playSound('farlanders:entity.mystic_enderman.confusion');
 		event.player.playSound('minecraft:block.glass.break');
 		event.server.runCommandSilent(`effect give ${event.player.name} champions:paralysis 7 0 true`);
 		event.server.schedule(5500, cb => {

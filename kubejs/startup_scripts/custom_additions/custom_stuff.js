@@ -73,7 +73,7 @@ events.listen('block.registry', event => {
   event.create('uninspiring_rainbow_block').displayName('§dRainbow Block').material('iron').hardness(2).requiresTool(true)
   event.create('reanimated_rainbow_block').displayName('§dAnimated Rainbow Catalyst').material('iron').hardness(2).lightLevel(1).requiresTool(true)
   
-  event.create('lootblock_builder').displayName('§bBuilder\'s Supply')  .material('wood').hardness(1)
+  event.create('lootblock_builder').displayName('§bBuilder\'s Supply').material('wood').hardness(1)
   
   event.create('fossilized_remains').displayName('§8Fossilized Remains').material('stone').hardness(2).requiresTool(true)  
   event.create('evershifting_soil').displayName('§bEvershifting Stellar Soil').material('dirt').hardness(0.6)

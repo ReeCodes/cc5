@@ -198,7 +198,7 @@ onEvent('recipes', event => {
     ];
 
     let disabledIDs = [
-		'immersiveengineering:crusher/coke'
+		'immersiveengineering:crusher/coke',
 		'forbidden_arcanus:dragon_scale',
         'woot:si_dust_1',
         'woot:si_dust_2',
